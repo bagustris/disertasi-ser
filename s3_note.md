@@ -1,6 +1,8 @@
 ### S3 Note
+day.month.year
 
 ---
+to be answered:
 - what is semantic primitive?
 - what is prosodic feature?
 - what is lexicon?
@@ -12,16 +14,18 @@
 - resume: all method need to be confirmed with other datasets
 
 ---
-- to study: statistical significance test
+to study:
+- statistical significance test
 - idea: record emotional utterence freely from various speaker, find the similar words
 - reverse the idea above: provided utterence, spoke with different emotion
 
-### 
+---
 todo:
 
 - Blog about pengenalan emosi (read related reference)
 - Investigate tdnn in iban
 ---
+
 ### Semantik
 se.man.tik /sèmantik/
 n Ling ilmu tentang makna kata dan kalimat; pengetahuan mengenai seluk-beluk dan pergeseran arti kata
@@ -35,10 +39,10 @@ alternative:
 - **Multi-language emotion recognition based on acoustic and non-acoustic feature**
 - A study to construct affective speech translation
  
-fix: Speech emotion recognition from acoustic and contextual feature
+Fix: **Speech emotion recognition from acoustic and contextual feature**
 
-### 
-idea: correlation study of emotion dimension from acoustic and text feature
+---
+to study: correlation study of emotion dimension from acoustic and text feature
 
 ---
 7.11.2017
@@ -63,4 +67,9 @@ sparse matrix or sparse array is a matrix in which most of the elements are zero
 Pre-processing >> remove low part energy
 
 ---
+12.04.2017
+text processing:
+- input: sentence (from deep learning)
+- ouput: total VAD in sentence from each word
 
+---
