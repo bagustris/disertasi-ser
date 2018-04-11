@@ -49,6 +49,7 @@ to study: correlation study of emotion dimension from acoustic and text feature
 
 - It is almost impossible to develop speech recognition using matlab/gnu octave due to data size and computational load
 - Alternatives: KALDI and tensorflow, study and blog about it Gus!
+
 ---
 10.11.2017
 
@@ -64,10 +65,12 @@ sparse matrix or sparse array is a matrix in which most of the elements are zero
 
 ---
 24.11.2017
+
 Pre-processing >> remove low part energy
 
 ---
 12.04.2017
+
 text processing:
 - input: sentence (from deep learning)
 - ouput: total VAD in sentence from each word
