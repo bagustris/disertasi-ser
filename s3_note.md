@@ -73,6 +73,11 @@ Pre-processing >> remove low part energy
 
 text processing:
 - input: sentence (from deep learning)
-- ouput: total VAD in sentence from each word
+- output: total VAD in sentence from each word
 
 ---
+26.04.2017 
+Philosophy of Doctoral study: Acoustic and Text feature for SER
+1. Human recognize emotion from not only, but also word
+2. Text feature can be extracted from speech by using Speech Recognition/STT
+3. Having more information tends to improve SER performance
