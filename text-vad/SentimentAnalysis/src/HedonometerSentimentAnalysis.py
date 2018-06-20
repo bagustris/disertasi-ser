@@ -22,7 +22,7 @@ import statistics
 import time
 import argparse
 from stanfordcorenlp import StanfordCoreNLP
-nlp = StanfordCoreNLP('C:/Users/Doris/software tools/stanford-corenlp-full-2016-10-31')
+nlp = StanfordCoreNLP('../../stanford-corenlp-full-2018-02-27')
 
 from nltk import tokenize
 from nltk import word_tokenize
