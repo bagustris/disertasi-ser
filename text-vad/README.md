@@ -16,7 +16,7 @@ You also need to download nltk stopword as follow
     $ python3 AnewSentimentAnalysis.py --dir inputdir --mode mean/median --out outdir
 
 ### Directory structure
-.
+.  
 ├── data  
 ├── lib  
 ├── out  
