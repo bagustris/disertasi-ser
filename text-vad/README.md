@@ -17,10 +17,10 @@ You also need to download nltk stopword as follow
 
 ### Directory structure
 .
-├── data
-├── lib
-├── out
-└── src
+├── data  
+├── lib  
+├── out  
+└── src  
 
 ## Theoritical details
 Sentiment analysis is an automated task to automatically evaluate the overall sentiment evoked by a text – positive or negative. The value determining this sentiment is called valence.
