@@ -8,6 +8,7 @@ This script required the following packages:
 - stanfordcorelp
 
 You also need to download nltk stopword as follow
+
     >>> import nltk
     >>> nltk.dowload('stopword')
     
