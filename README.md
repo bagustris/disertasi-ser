@@ -8,10 +8,11 @@ Here are list of resources I used in my reasearch.
 
 ## Deep Learning
 - [How to buil NN from scratch in python](https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6)
+- [Deep Learning Fundamental with Keras](https://courses.edx.org/courses/course-v1:IBM+DL0101EN+3T2018/course/)
 
 ## Speech Recognition
 - [Building Japanese Speech Recognition](https://medium.com/@kouohhashi/speech-recognition-for-japanese-87a6c4fdd714)
-- [Spech recognition from Microsof](https://courses.edx.org/courses/course-v1:Microsoft+DEV287x+1T2019/course/)
+- [Spech recognition from Microsoft](https://courses.edx.org/courses/course-v1:Microsoft+DEV287x+1T2019/course/)
 - [Machine learning is fun: How to do ASR with deep learning](https://medium.com/@ageitgey/machine-learning-is-fun-part-6-how-to-do-speech-recognition-with-deep-learning-28293c162f7a)
 
 ## (Speech) emotion recognition
