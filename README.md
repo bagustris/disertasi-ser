@@ -9,6 +9,7 @@ Here are list of resources I used in my reasearch.
 ## Deep Learning
 - [How to buil NN from scratch in python](https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6)
 - [Deep Learning Fundamental with Keras](https://courses.edx.org/courses/course-v1:IBM+DL0101EN+3T2018/course/)
+- [Neural network from 11 lines of Python](https://iamtrask.github.io/2015/07/12/basic-python-network/)
 
 ## Speech Recognition
 - [Building Japanese Speech Recognition](https://medium.com/@kouohhashi/speech-recognition-for-japanese-87a6c4fdd714)
@@ -23,6 +24,8 @@ Here are list of resources I used in my reasearch.
 
 ## Acoustic signal processing
 - [Audio and Music Signal Processing Course in Coursera](https://courses.edx.org/courses/course-v1:Microsoft+DEV287x+1T2019/course/)
+- [Speech Processing for Machine Learning](https://haythamfayek.com/2016/04/21/speech-processing-for-machine-learning.html)
+- [Widowing in Signal Processing](https://flothesof.github.io/FFT-window-properties-frequency-analysis.html)
 
 ## NLP/Text processing
 - [NLTK Book - My translation to Bahasa](https://bagustris.github.io/nlp-python/)
