@@ -6,7 +6,7 @@ to be answered:
 - what is semantic primitive?
 - what is prosodic feature?
 - what is lexicon?
-- spectral feature: feautes based on/extracted from spectrum
+- spectral feature: feautures based on/extracted from spectrum
 - normalization: normalize the waveform (divided by biggest amplitude)
 - what is para and non-linguistic
 - SVM classifier (vs Fuzzy??)
@@ -24,9 +24,9 @@ todo:
 
 - Blog about pengenalan emosi (read related reference)
 - Investigate tdnn in iban
----
 
-### Semantik
+---  
+ Semantik
 se.man.tik /sèmantik/
 n Ling ilmu tentang makna kata dan kalimat; pengetahuan mengenai seluk-beluk dan pergeseran arti kata
 n Ling bagian struktur bahasa yang berhubungan dengan makna ungkapan atau struktur makna suatu wicara
@@ -41,7 +41,6 @@ alternative:
  
 Fix: **Speech emotion recognition from acoustic and contextual feature**
 
----
 to study: correlation study of emotion dimension from acoustic and text feature
 
 ---
@@ -81,3 +80,128 @@ Philosophy of Doctoral study: Acoustic and Text feature for SER
 1. Human recognize emotion from not only, but also word
 2. Text feature can be extracted from speech by using Speech Recognition/STT
 3. Having more information tends to improve SER performance
+
+---  
+04.08.2018  
+Idea for thesis book:
+1. Introduction
+2. Speech emotion recognition: Dimensional Vs Categorical Approach
+2. Deep learning based Speech emotion Recognition
+3. Emotion recognition from Text
+4. Combining acoustic and text feature 
+5. Conclusion and future works
+
+---  
+10.09.2018
+Mid-term presentation:
+1. What kind of direction this study will be proceeded in the future,
+2. How important this study is in this direction, and
+3. How much contributions can be expected
+
+---  
+13.09.2018
+Research idea to be conducted:
+Are semantics contributes to perceived emotion recognition?
+
+A listening test to test the hyphothesis
+
+Listening test:
+Speech only --> emotion recognition
+Speech + transcription --> emotion recognition
+
+---  
+11.10.2018
+Course to be take in term 2-1:
+1. Data Analytics
+2. Analysis of information science
+
+---  
+29.11.2018
+Zemi:
+Speker dependent vs speaker independent
+
+---  
+12.12.2018
+a cepstral gain c0 is the logarithm of the modeling filter gain
+loggging kaldi output:  
+~/kaldi/egs/iban/s5 $ ./local/nnet3/run_tdnn.sh 2>&1 | tee run-tdnn.log
+some solution of kaldi errors:
+Error:
+Iteration stops on run_tdnn.sh no memory
+Solution:
+You shouldn't really be running multiple jobs on a single GPU. 
+If you want to run that script on a machine that has just one GPU, one 
+way to do it is to set exclusive mode via 
+sudo nvidia-smi -c 3 
+
+and to the train.py script, change the option "--use-gpu=yes" to 
+"--use-gpu=wait" 
+which will cause it to run the GPU jobs sequentially, as each waits 
+till it can get exclusive use of the GPU. 
+
+Errror:
+Refusing to split data for number of speakers"
+Solution:
+You didn't provide enough info, but in general, you cannot split the directory in more parts than the number of speakers is.
+So if you called the decoding with -nj 30 and you have 25 speakers (you can count lines of the spk2utt file) this is the error you receive.
+y.
+
+Show how many features extracted using mfcc:
+~/kaldi-trunk/egs/start/s5/mfcc$ ../src/featbin/feat-to-dim ark:/home/k/kaldi-trunk/egs/start/s5/mfcc/raw_mfcc_train.1.ark ark,t:-
+
+GMM (gaussian mixture model): A mixture of some gaussian distribution  
+
+---
+14.12.2018
+Speech is not only HOW it is being said but also what is being said.
+low-level feature (descriptor): extracted per frame. High level feature: extracted per utterance.
+high-level feature: extracted per frame?
+
+---
+17.12.2018
+warning from python2:
+/home/bagustris/.local/lib/python2.7/site-packages/scipy/signal/_arraytools.py:45: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
+  b = a[a_slice]
+f
+18.12.2018  
+Idea: concurrent speech and emotion recognition  
+Desc: Currently speech recognition and emotion recognition is two separated research areas. Researcher build and improve performance of speech recognition and emotion recognition independently such as works done by (\cite{}, \cite{}, and \cite{}). The idea is simple, both emotion and text (output of speech recognition) can be extracted from speech by using the same features. Given two labels, transcription and emotion, two tasks can be done simulatenously: speech recognition and emotion recognition by training acoustic features to map both text and emotion label.
+
+
+idea for speech emotion recognition from acoustic and text features
+1. train speech corpus with given transcription --> output: predicted VAD (3 values)
+2. obatin VAD score from speech transcription --> output: predicted VAD (3 values)
+3. Feed all 6 variables into DNN wih actual VAD value
+
+---  
+20.12.2018
+mora (モーラ): Unit in phonology that determine syllable weight  
+Example: 日本、にほん、3 mora, but, にっぽん　is 3 mora  
+morpheme: the smallest unit of meaning of a word that can be devided to:  
+Example: like --> 1 morpheme, but unlikely is 3 morpheme (un, like, ly)  
+Find the different between dynamic feature and static feature and its 
+relation to human perception.  
+How about statistic feature?  
+notch noise = v-shaped noise...?  
+
+---  
+27.12.2018
+Loss function = objective functions  
+How to define custom loss function?  
+Here in Keras, https://github.com/keras-team/keras/issues/369  
+But I think loss="mse" is OK  
+note: in avec baseline, there is already ccc_loss  
+dense and dropout layer:  
+The dense layer is fully connected layer, so all the neurons in a layer are connected to those in a next layer. The dropout drops connections of neurons from the dense layer to prevent overfitting. A dropout layer is similar except that when the layer is used, the activations are set to zero for some random nodes  
+povey window: povey is a window I made to be similar to Hamming but to go to zero at the edges, it's pow((0.5 - 0.5*cos(n/N*2*pi)), 0.85).
+
+---
+08.02.2019
+Likelihood vs probability:  
+Likelihood is the probability that an event that has already occurred would yield a specific outcome. Probability refers to the occurrence of future events, while a likelihood refers to past events with known outcomes. Probability is used when describing a function of the outcome given a fixed parameter value.
+
+15.02.2019  
+Idea: Provided dataset with speech and linguistic information, 
+how human perceive emotion from emotional speech with and without linguistic information?
+
+
