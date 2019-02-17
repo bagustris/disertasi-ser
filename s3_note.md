@@ -92,14 +92,14 @@ Idea for thesis book:
 5. Conclusion and future works
 
 ---  
-10.09.2018
+10.09.2018  
 Mid-term presentation:
 1. What kind of direction this study will be proceeded in the future,
 2. How important this study is in this direction, and
 3. How much contributions can be expected
 
 ---  
-13.09.2018
+13.09.2018  
 Research idea to be conducted:
 Are semantics contributes to perceived emotion recognition?
 
@@ -110,13 +110,13 @@ Speech only --> emotion recognition
 Speech + transcription --> emotion recognition
 
 ---  
-11.10.2018
+11.10.2018  
 Course to be take in term 2-1:
 1. Data Analytics
 2. Analysis of information science
 
 ---  
-29.11.2018
+29.11.2018  
 Zemi:
 Speker dependent vs speaker independent
 
@@ -139,12 +139,11 @@ and to the train.py script, change the option "--use-gpu=yes" to
 which will cause it to run the GPU jobs sequentially, as each waits 
 till it can get exclusive use of the GPU. 
 
-Errror:
+Errror:  
 Refusing to split data for number of speakers"
-Solution:
+Solution:  
 You didn't provide enough info, but in general, you cannot split the directory in more parts than the number of speakers is.
 So if you called the decoding with -nj 30 and you have 25 speakers (you can count lines of the spk2utt file) this is the error you receive.
-y.
 
 Show how many features extracted using mfcc:
 ~/kaldi-trunk/egs/start/s5/mfcc$ ../src/featbin/feat-to-dim ark:/home/k/kaldi-trunk/egs/start/s5/mfcc/raw_mfcc_train.1.ark ark,t:-
@@ -152,17 +151,18 @@ Show how many features extracted using mfcc:
 GMM (gaussian mixture model): A mixture of some gaussian distribution  
 
 ---
-14.12.2018
+14.12.2018  
 Speech is not only HOW it is being said but also what is being said.
 low-level feature (descriptor): extracted per frame. High level feature: extracted per utterance.
 high-level feature: extracted per frame?
 
 ---
-17.12.2018
+17.12.2018  
 warning from python2:
 /home/bagustris/.local/lib/python2.7/site-packages/scipy/signal/_arraytools.py:45: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
   b = a[a_slice]
-f
+
+---  
 18.12.2018  
 Idea: concurrent speech and emotion recognition  
 Desc: Currently speech recognition and emotion recognition is two separated research areas. Researcher build and improve performance of speech recognition and emotion recognition independently such as works done by (\cite{}, \cite{}, and \cite{}). The idea is simple, both emotion and text (output of speech recognition) can be extracted from speech by using the same features. Given two labels, transcription and emotion, two tasks can be done simulatenously: speech recognition and emotion recognition by training acoustic features to map both text and emotion label.
@@ -174,7 +174,7 @@ idea for speech emotion recognition from acoustic and text features
 3. Feed all 6 variables into DNN wih actual VAD value
 
 ---  
-20.12.2018
+20.12.2018  
 mora (モーラ): Unit in phonology that determine syllable weight  
 Example: 日本、にほん、3 mora, but, にっぽん　is 3 mora  
 morpheme: the smallest unit of meaning of a word that can be devided to:  
@@ -191,17 +191,23 @@ How to define custom loss function?
 Here in Keras, https://github.com/keras-team/keras/issues/369  
 But I think loss="mse" is OK  
 note: in avec baseline, there is already ccc_loss  
-dense and dropout layer:  
+dense and dropout layer:    
 The dense layer is fully connected layer, so all the neurons in a layer are connected to those in a next layer. The dropout drops connections of neurons from the dense layer to prevent overfitting. A dropout layer is similar except that when the layer is used, the activations are set to zero for some random nodes  
 povey window: povey is a window I made to be similar to Hamming but to go to zero at the edges, it's pow((0.5 - 0.5*cos(n/N*2*pi)), 0.85).
 
 ---
-08.02.2019
+08.02.2019  
 Likelihood vs probability:  
 Likelihood is the probability that an event that has already occurred would yield a specific outcome. Probability refers to the occurrence of future events, while a likelihood refers to past events with known outcomes. Probability is used when describing a function of the outcome given a fixed parameter value.
 
 15.02.2019  
 Idea: Provided dataset with speech and linguistic information, 
 how human perceive emotion from emotional speech with and without linguistic information?
+
+17.02.2019 
+Idea for ICSygSis 2019: Voiced Spectrogram and CNN for SER
+idea: remove silence from speech.  
+Finding:  Many pieces of data only contains noisy or silence, but labeled as neutoral or other emotion.
+Next idea: add silence category as it is important cue for speech emotion recognition
 
 
