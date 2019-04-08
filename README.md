@@ -1,6 +1,8 @@
 # disertasi-ser
-Repository for PhD activity, JAIST 2018~2021
-`progress`: progress monthly, delivered to sensei
+Repository for PhD activity, JAIST 2017~2021
+- `README.md`: PhD resources
+- `progress`: progress monthly, delivered to sensei
+- `s3_node.md`: Daily journal of PhD life  
 
 # PhD Resources
 I pursue my PhD in theme of speech emotion recognition. I used two features: acoustic and text feature. 
