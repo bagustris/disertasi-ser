@@ -115,9 +115,9 @@ Course to be take in term 2-1:
 ---  
 2018-11-29  
 Zemi:
-Speker dependent vs speaker independent
-Speaker depandet: The same speaker used for training and dev 
-Speaker Independnet: The different speaker used for training and dev 
+Speaker dependent vs speaker independent
+Speaker dependent: The same speaker used for training and dev 
+Speaker Independent: The different speaker used for training and dev 
 
 ---  
 2018-12-12  
@@ -138,7 +138,7 @@ and to the train.py script, change the option "--use-gpu=yes" to
 which will cause it to run the GPU jobs sequentially, as each waits 
 till it can get exclusive use of the GPU. 
 
-Errror:  
+Error:  
 Refusing to split data for number of speakers"
 Solution:  
 You didn't provide enough info, but in general, you cannot split the directory in more parts than the number of speakers is.
@@ -169,7 +169,7 @@ Desc: Currently speech recognition and emotion recognition is two separated rese
 idea for speech emotion recognition from acoustic and text features
 1. train speech corpus with given transcription --> output: predicted VAD (3 values)
 2. obatin VAD score from speech transcription --> output: predicted VAD (3 values)
-3. Feed all 6 variables into DNN wih actual VAD value
+3. Feed all 6 variables into DNN with actual VAD value
 
 ---  
 2018-12-20  
