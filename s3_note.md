@@ -8,7 +8,6 @@ Content:
 - what is X, what is Y
 - what did you have done today, what is your plan for tomorrow
 
-
 ---
 2017-10-09  
 to be answered:
@@ -24,14 +23,13 @@ to be answered:
 
 ---
 2017-10-10  
-to study:
+to study:  
 - statistical significance test
 - idea: record emotional utterence freely from various speaker, find the similar words
 - reverse the idea above: provided utterence, spoke with different emotion
 
 ---
-todo:
-
+todo:  
 - Blog about pengenalan emosi (read related reference)
 - Investigate tdnn in iban
 
@@ -46,47 +44,37 @@ From wikipedia:
 Semantic primes or semantic primitives are semantic concepts that are innately understood, but cannot be expressed in simpler terms. They represent words or phrases that are learned through practice, but cannot be defined concretely. For example, although the meaning of "touching" is readily understood, a dictionary might define "touch" as "to make contact" and "contact" as "touching", providing no information if neither of these words are understood.
 
 alternative:
-
 - **Multi-language emotion recognition based on acoustic and non-acoustic feature**
 - A study to construct affective speech translation
- 
-Fix: **Speech emotion recognition from acoustic and contextual feature**
 
+Fix: **Speech emotion recognition from acoustic and contextual feature**
 to study: correlation study of emotion dimension from acoustic and text feature
 
 ---
-2017-11-7
-
+2017-11-7  
 - It is almost impossible to develop speech recognition using matlab/gnu octave due to data size and computational load
 - Alternatives: KALDI and tensorflow, study and blog about it Gus!
 
 ---
-2017-11-10
-
-prosody: the patterns of stress and intonation in a language.
-
-supresegmental: denoting a feature of an utterance other than the consonantal and vocalic components, for example (in English) stress and intonation.
-
-Segment: is "any discrete unit that can be identified, either physically or auditorily".
-
-low-rank matrix: approximation is a minimization problem, in which the cost function measures the fit between a given matrix (the data) and an approximating matrix (the optimization variable), subject to a constraint that the approximating matrix has reduced rank.--> represent music
-
+2017-11-10  
+prosody: the patterns of stress and intonation in a language.  
+supresegmental: denoting a feature of an utterance other than the consonantal and vocalic components, for example (in English) stress and intonation.  
+Segment: is "any discrete unit that can be identified, either physically or auditorily".  
+low-rank matrix: approximation is a minimization problem, in which the cost function measures the fit between a given matrix (the data) and an approximating matrix (the optimization variable), subject to a constraint that the approximating matrix has reduced rank.--> represent music  
 sparse matrix or sparse array is a matrix in which most of the elements are zero. By contrast, if most of the elements are nonzero, then the matrix is considered dense. --> represent
 
 ---
-2017-11-24
-
+2017-11-24  
 Pre-processing >> remove low part energy
 
 ---
-2017-12-04
-
+2017-12-04  
 text processing:
 - input: sentence (from deep learning)
 - output: total VAD in sentence from each word
 
 ---  
-2018-04-26 
+2018-04-26  
 Philosophy of Doctoral study: Acoustic and Text feature for SER
 1. Human recognize emotion from not only, but also word
 2. Text feature can be extracted from speech by using Speech Recognition/STT
@@ -103,7 +91,7 @@ Idea for thesis book:
 5. Conclusion and future works
 
 ---  
-2018-09-20
+2018-09-20  
 Mid-term presentation:
 1. What kind of direction this study will be proceeded in the future,
 2. How important this study is in this direction, and
@@ -113,9 +101,7 @@ Mid-term presentation:
 2018-09-13  
 Research idea to be conducted:
 Are semantics contributes to perceived emotion recognition?
-
 A listening test to test the hyphothesis
-
 Listening test:
 Speech only --> emotion recognition
 Speech + transcription --> emotion recognition
@@ -127,14 +113,14 @@ Course to be take in term 2-1:
 2. Analysis of information science
 
 ---  
-2018-11-29
+2018-11-29  
 Zemi:
 Speker dependent vs speaker independent
 Speaker depandet: The same speaker used for training and dev 
 Speaker Independnet: The different speaker used for training and dev 
 
 ---  
-2018-12-12
+2018-12-12  
 a cepstral gain c0 is the logarithm of the modeling filter gain
 loggging kaldi output:  
 ~/kaldi/egs/iban/s5 $ ./local/nnet3/run_tdnn.sh 2>&1 | tee run-tdnn.log
