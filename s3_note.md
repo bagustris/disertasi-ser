@@ -103,26 +103,14 @@ Idea for thesis book:
 5. Conclusion and future works
 
 ---  
-<<<<<<< HEAD
 2018-09-20
-||||||| merged common ancestors
-10.09.2018
-=======
-10.09.2018  
->>>>>>> 037ed05fa5f0f0b7ab0e398fe835986d64a053b5
 Mid-term presentation:
 1. What kind of direction this study will be proceeded in the future,
 2. How important this study is in this direction, and
 3. How much contributions can be expected
 
 ---  
-<<<<<<< HEAD
-2018-09-13
-||||||| merged common ancestors
-13.09.2018
-=======
-13.09.2018  
->>>>>>> 037ed05fa5f0f0b7ab0e398fe835986d64a053b5
+2018-09-13  
 Research idea to be conducted:
 Are semantics contributes to perceived emotion recognition?
 
@@ -133,25 +121,13 @@ Speech only --> emotion recognition
 Speech + transcription --> emotion recognition
 
 ---  
-<<<<<<< HEAD
-2018-10-11
-||||||| merged common ancestors
-11.10.2018
-=======
-11.10.2018  
->>>>>>> 037ed05fa5f0f0b7ab0e398fe835986d64a053b5
+2018-10-11  
 Course to be take in term 2-1:
 1. Data Analytics
 2. Analysis of information science
 
 ---  
-<<<<<<< HEAD
 2018-11-29
-||||||| merged common ancestors
-29.11.2018
-=======
-29.11.2018  
->>>>>>> 037ed05fa5f0f0b7ab0e398fe835986d64a053b5
 Zemi:
 Speker dependent vs speaker independent
 Speaker depandet: The same speaker used for training and dev 
@@ -187,48 +163,22 @@ Show how many features extracted using mfcc:
 
 GMM (gaussian mixture model): A mixture of some gaussian distribution  
 
-<<<<<<< HEAD
 ---  
-2018-12-14
-||||||| merged common ancestors
----
-14.12.2018
-=======
----
-14.12.2018  
->>>>>>> 037ed05fa5f0f0b7ab0e398fe835986d64a053b5
+2018-12-14  
 Speech is not only HOW it is being said but also what is being said.
 low-level feature (descriptor): extracted per frame. High level feature: extracted per utterance.
 high-level feature: extracted per frame?
 
 ---
-<<<<<<< HEAD
-2018-12-17
-||||||| merged common ancestors
-17.12.2018
-=======
-17.12.2018  
->>>>>>> 037ed05fa5f0f0b7ab0e398fe835986d64a053b5
+2018-12-17  
 warning from python2:
 /home/bagustris/.local/lib/python2.7/site-packages/scipy/signal/_arraytools.py:45: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
   b = a[a_slice]
-<<<<<<< HEAD
-f
-
 
 ---
-12.2018-12-18  
-||||||| merged common ancestors
-f
-18.12.2018  
-=======
-
----  
-18.12.2018  
->>>>>>> 037ed05fa5f0f0b7ab0e398fe835986d64a053b5
+2018-12-18  
 Idea: concurrent speech and emotion recognition  
 Desc: Currently speech recognition and emotion recognition is two separated research areas. Researcher build and improve performance of speech recognition and emotion recognition independently such as works done by (\cite{}, \cite{}, and \cite{}). The idea is simple, both emotion and text (output of speech recognition) can be extracted from speech by using the same features. Given two labels, transcription and emotion, two tasks can be done simulatenously: speech recognition and emotion recognition by training acoustic features to map both text and emotion label.
-
 
 idea for speech emotion recognition from acoustic and text features
 1. train speech corpus with given transcription --> output: predicted VAD (3 values)
@@ -236,13 +186,7 @@ idea for speech emotion recognition from acoustic and text features
 3. Feed all 6 variables into DNN wih actual VAD value
 
 ---  
-<<<<<<< HEAD
-2018-12-20
-||||||| merged common ancestors
-20.12.2018
-=======
-20.12.2018  
->>>>>>> 037ed05fa5f0f0b7ab0e398fe835986d64a053b5
+2018-12-20  
 mora (モーラ): Unit in phonology that determine syllable weight  
 Example: 日本、にほん、3 mora, but, にっぽん　is 3 mora  
 morpheme: the smallest unit of meaning of a word that can be devided to:  
@@ -253,7 +197,7 @@ How about statistic feature?
 notch noise = v-shaped noise...?  
 
 ---  
-2018-12-27
+2018-12-27  
 Loss function = objective functions  
 How to define custom loss function?  
 Here in Keras, https://github.com/keras-team/keras/issues/369  
@@ -263,16 +207,8 @@ dense and dropout layer:
 The dense layer is fully connected layer, so all the neurons in a layer are connected to those in a next layer. The dropout drops connections of neurons from the dense layer to prevent overfitting. A dropout layer is similar except that when the layer is used, the activations are set to zero for some random nodes  
 povey window: povey is a window I made to be similar to Hamming but to go to zero at the edges, it's pow((0.5 - 0.5*cos(n/N*2*pi)), 0.85).
 
-<<<<<<< HEAD
----  
-2019-02-08
-||||||| merged common ancestors
----
-08.02.2019
-=======
 ---
 08.02.2019  
->>>>>>> 037ed05fa5f0f0b7ab0e398fe835986d64a053b5
 Likelihood vs probability:  
 Likelihood is the probability that an event that has already occurred would yield a specific outcome. Probability refers to the occurrence of future events, while a likelihood refers to past events with known outcomes. Probability is used when describing a function of the outcome given a fixed parameter value.
 
@@ -281,7 +217,6 @@ Likelihood is the probability that an event that has already occurred would yiel
 Idea: Provided dataset with speech and linguistic information, 
 how human perceive emotion from emotional speech with and without linguistic information?
 
-<<<<<<< HEAD
 ---  
 2019-03-06  
 Idea for ASJ autumn 2019: Emotional speech recognition
@@ -295,15 +230,13 @@ One solution is by inputting emotion dimension to machine learning tool, such as
 Reda et al. tried this method and obtain very big improvement from 54% to 94% of accuracy.
 Next, try deep learning methods.
 Also, try to learn confusion matrix.
-||||||| merged common ancestors
-=======
+
+---  
 17.02.2019 
 Idea for ICSygSis 2019: Voiced Spectrogram and CNN for SER
 idea: remove silence from speech.  
 Finding:  Many pieces of data only contains noisy or silence, but labeled as neutoral or other emotion.
 Next idea: add silence category as it is important cue for speech emotion recognition
-
->>>>>>> 037ed05fa5f0f0b7ab0e398fe835986d64a053b5
 
 ---  
 2019-04-08  
@@ -311,4 +244,5 @@ The research paper below shows the evidence that music didn't improve creativity
 https://onlinelibrary.wiley.com/doi/epdf/10.1002/acp.3532
 How about if we change the experiment set-up. Listening music first, 5-10 minutes, 
 stop, give the question. Intuition: While music didnot contribute to improve creativity, but it may contribute to mood and emotion. After being calm by listening, it may improve creativity.
+
 ---  
