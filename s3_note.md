@@ -1,7 +1,16 @@
-### S3 Note
-day.month.year
+### S3 Note: Journal of PhD Life
+~~day.month.year~~  
+year-month-day (ISO 8601)  
+Content:  
+- if possible, write per day  
+- what is your idea, how to implement  
+- what is the problem, what is your proposed solution
+- what is X, what is Y
+- what did you have done today, what is your plan for tomorrow
+
 
 ---
+2017-10-09  
 to be answered:
 - what is semantic primitive?
 - what is prosodic feature?
@@ -14,6 +23,7 @@ to be answered:
 - resume: all method need to be confirmed with other datasets
 
 ---
+2017-10-10  
 to study:
 - statistical significance test
 - idea: record emotional utterence freely from various speaker, find the similar words
@@ -26,7 +36,8 @@ todo:
 - Investigate tdnn in iban
 
 ---  
- Semantik
+2017-10-11  
+Semantik
 se.man.tik /sèmantik/
 n Ling ilmu tentang makna kata dan kalimat; pengetahuan mengenai seluk-beluk dan pergeseran arti kata
 n Ling bagian struktur bahasa yang berhubungan dengan makna ungkapan atau struktur makna suatu wicara
@@ -44,13 +55,13 @@ Fix: **Speech emotion recognition from acoustic and contextual feature**
 to study: correlation study of emotion dimension from acoustic and text feature
 
 ---
-7.11.2017
+2017-11-7
 
 - It is almost impossible to develop speech recognition using matlab/gnu octave due to data size and computational load
 - Alternatives: KALDI and tensorflow, study and blog about it Gus!
 
 ---
-10.11.2017
+2017-11-10
 
 prosody: the patterns of stress and intonation in a language.
 
@@ -63,26 +74,26 @@ low-rank matrix: approximation is a minimization problem, in which the cost func
 sparse matrix or sparse array is a matrix in which most of the elements are zero. By contrast, if most of the elements are nonzero, then the matrix is considered dense. --> represent
 
 ---
-24.11.2017
+2017-11-24
 
 Pre-processing >> remove low part energy
 
 ---
-12.04.2017
+2017-12-04
 
 text processing:
 - input: sentence (from deep learning)
 - output: total VAD in sentence from each word
 
----
-26.04.2017 
+---  
+2018-04-26 
 Philosophy of Doctoral study: Acoustic and Text feature for SER
 1. Human recognize emotion from not only, but also word
 2. Text feature can be extracted from speech by using Speech Recognition/STT
 3. Having more information tends to improve SER performance
 
 ---  
-04.08.2018  
+2018-04-08  
 Idea for thesis book:
 1. Introduction
 2. Speech emotion recognition: Dimensional Vs Categorical Approach
@@ -92,14 +103,14 @@ Idea for thesis book:
 5. Conclusion and future works
 
 ---  
-10.09.2018
+2018-09-20
 Mid-term presentation:
 1. What kind of direction this study will be proceeded in the future,
 2. How important this study is in this direction, and
 3. How much contributions can be expected
 
 ---  
-13.09.2018
+2018-09-13
 Research idea to be conducted:
 Are semantics contributes to perceived emotion recognition?
 
@@ -110,18 +121,20 @@ Speech only --> emotion recognition
 Speech + transcription --> emotion recognition
 
 ---  
-11.10.2018
+2018-10-11
 Course to be take in term 2-1:
 1. Data Analytics
 2. Analysis of information science
 
 ---  
-29.11.2018
+2018-11-29
 Zemi:
 Speker dependent vs speaker independent
+Speaker depandet: The same speaker used for training and dev 
+Speaker Independnet: The different speaker used for training and dev 
 
 ---  
-12.12.2018
+2018-12-12
 a cepstral gain c0 is the logarithm of the modeling filter gain
 loggging kaldi output:  
 ~/kaldi/egs/iban/s5 $ ./local/nnet3/run_tdnn.sh 2>&1 | tee run-tdnn.log
@@ -151,19 +164,22 @@ Show how many features extracted using mfcc:
 
 GMM (gaussian mixture model): A mixture of some gaussian distribution  
 
----
-14.12.2018
+---  
+2018-12-14
 Speech is not only HOW it is being said but also what is being said.
 low-level feature (descriptor): extracted per frame. High level feature: extracted per utterance.
 high-level feature: extracted per frame?
 
 ---
-17.12.2018
+2018-12-17
 warning from python2:
 /home/bagustris/.local/lib/python2.7/site-packages/scipy/signal/_arraytools.py:45: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
   b = a[a_slice]
 f
-18.12.2018  
+
+
+---
+12.2018-12-18  
 Idea: concurrent speech and emotion recognition  
 Desc: Currently speech recognition and emotion recognition is two separated research areas. Researcher build and improve performance of speech recognition and emotion recognition independently such as works done by (\cite{}, \cite{}, and \cite{}). The idea is simple, both emotion and text (output of speech recognition) can be extracted from speech by using the same features. Given two labels, transcription and emotion, two tasks can be done simulatenously: speech recognition and emotion recognition by training acoustic features to map both text and emotion label.
 
@@ -174,7 +190,7 @@ idea for speech emotion recognition from acoustic and text features
 3. Feed all 6 variables into DNN wih actual VAD value
 
 ---  
-20.12.2018
+2018-12-20
 mora (モーラ): Unit in phonology that determine syllable weight  
 Example: 日本、にほん、3 mora, but, にっぽん　is 3 mora  
 morpheme: the smallest unit of meaning of a word that can be devided to:  
@@ -185,7 +201,7 @@ How about statistic feature?
 notch noise = v-shaped noise...?  
 
 ---  
-27.12.2018
+2018-12-27
 Loss function = objective functions  
 How to define custom loss function?  
 Here in Keras, https://github.com/keras-team/keras/issues/369  
@@ -195,13 +211,34 @@ dense and dropout layer:
 The dense layer is fully connected layer, so all the neurons in a layer are connected to those in a next layer. The dropout drops connections of neurons from the dense layer to prevent overfitting. A dropout layer is similar except that when the layer is used, the activations are set to zero for some random nodes  
 povey window: povey is a window I made to be similar to Hamming but to go to zero at the edges, it's pow((0.5 - 0.5*cos(n/N*2*pi)), 0.85).
 
----
-08.02.2019
+---  
+2019-02-08
 Likelihood vs probability:  
 Likelihood is the probability that an event that has already occurred would yield a specific outcome. Probability refers to the occurrence of future events, while a likelihood refers to past events with known outcomes. Probability is used when describing a function of the outcome given a fixed parameter value.
 
-15.02.2019  
+---  
+2019-02-15  
 Idea: Provided dataset with speech and linguistic information, 
 how human perceive emotion from emotional speech with and without linguistic information?
 
+---  
+2019-03-06  
+Idea for ASJ autumn 2019: Emotional speech recognition
+dataset: IEMOCAP
+tools: DeepSpeech
 
+---  
+2019-04-04  
+How to map emotion dimension to emotion category?
+One solution is by inputting emotion dimension to machine learning tool, such as GMM.
+Reda et al. tried this method and obtain very big improvement from 54% to 94% of accuracy.
+Next, try deep learning methods.
+Also, try to learn confusion matrix.
+
+---  
+2019-04-08  
+The research paper below shows the evidence that music didn't improve creativity.
+https://onlinelibrary.wiley.com/doi/epdf/10.1002/acp.3532
+How about if we change the experiment set-up. Listening music first, 5-10 minutes, 
+stop, give the question. Intuition: While music didnot contribute to improve creativity, but it may contribute to mood and emotion. After being calm by listening, it may improve creativity.
+---  
