@@ -4,7 +4,7 @@ Repository for PhD activity, JAIST 2018~2021
 
 # PhD Resources
 I pursue my PhD in theme of speech emotion recognition. I used two features: acoustic and text feature. 
-Here are list of resources I used in my reasearch.
+Here are list of resources I used in my research.
 
 ## Deep Learning
 - [How to buil NN from scratch in python](https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6)
