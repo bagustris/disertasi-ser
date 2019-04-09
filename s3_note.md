@@ -91,13 +91,6 @@ Idea for thesis book:
 5. Conclusion and future works
 
 ---  
-2018-09-20  
-Mid-term presentation:
-1. What kind of direction this study will be proceeded in the future,
-2. How important this study is in this direction, and
-3. How much contributions can be expected
-
----  
 2018-09-13  
 Research idea to be conducted:
 Are semantics contributes to perceived emotion recognition?
@@ -107,6 +100,14 @@ Speech only --> emotion recognition
 Speech + transcription --> emotion recognition
 
 ---  
+2018-09-20  
+Mid-term presentation:
+1. What kind of direction this study will be proceeded in the future,
+2. How important this study is in this direction, and
+3. How much contributions can be expected
+
+
+---  
 2018-10-11  
 Course to be taken in term 2-1:
 1. Data Analytics
@@ -114,9 +115,9 @@ Course to be taken in term 2-1:
 
 ---  
 2018-11-29  
-Zemi:
-Speaker dependent vs speaker independent 
-Speaker dependent: The same speaker used for training and dev  
+Zemi:   
+Speaker dependent vs speaker independent   
+Speaker dependent: The same speaker used for training and dev    
 Speaker Independent: The different speaker used for training and dev  
 
 ---  
@@ -155,7 +156,7 @@ Speech is not only HOW it is being said but also what is being said.
 low-level feature (descriptor): extracted per frame.  
 High level feature: extracted per utterance.
 
----
+---  
 2018-12-17  
 warning from python2:
 /home/bagustris/.local/lib/python2.7/site-packages/scipy/signal/_arraytools.py:45: FutureWarning: Using a non-tuple sequence for multidimensional indexing is deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this will be interpreted as an array index, `arr[np.array(seq)]`, which will result either in an error or a different result.
@@ -194,7 +195,7 @@ The dense layer is fully connected layer, so all the neurons in a layer are conn
 povey window: povey is a window I made to be similar to Hamming but to go to zero at the edges, it's pow((0.5 - 0.5*cos(n/N*2*pi)), 0.85).
 
 ---
-08.02.2019  
+2019-02-08    
 Likelihood vs probability:  
 Likelihood is the probability that an event that has already occurred would yield a specific outcome. Probability refers to the occurrence of future events, while a likelihood refers to past events with known outcomes. Probability is used when describing a function of the outcome given a fixed parameter value.
 
@@ -202,6 +203,13 @@ Likelihood is the probability that an event that has already occurred would yiel
 2019-02-15  
 Idea: Provided dataset with speech and linguistic information, 
 how human perceive emotion from emotional speech with and without linguistic information?
+
+---  
+2019-02-17
+Idea for ICSygSis 2019: Voiced Spectrogram and CNN for SER
+idea: remove silence from speech.  
+Finding:  Many pieces of data only contains noisy or silence, but labeled as neutral or other emotion.
+Next idea: add silence category as it is important cue for speech emotion recognition (??)
 
 ---  
 2019-03-06  
@@ -218,13 +226,6 @@ Next, try deep learning methods.
 Also, try to learn confusion matrix.
 
 ---  
-17.02.2019 
-Idea for ICSygSis 2019: Voiced Spectrogram and CNN for SER
-idea: remove silence from speech.  
-Finding:  Many pieces of data only contains noisy or silence, but labeled as neutral or other emotion.
-Next idea: add silence category as it is important cue for speech emotion recognition (??)
-
----  
 2019-04-08  
 The research paper below shows the evidence that music didn't improve creativity.  
 https://onlinelibrary.wiley.com/doi/epdf/10.1002/acp.3532  
@@ -232,7 +233,7 @@ How about if we change the experiment set-up. Listening music first, 5-10 minute
 Intuition: While music didnot contribute to improve creativity, but it may contributes to mood and emotion. After being calm by listening, it may improves creativity.
 
 ---  
-2019-04-09
+2019-04-09  
 Today, 
 - I implemented F0 based voiced segmentation for feature extraction using YAPT method with `amfm_decompy` package (now running in my PC). 
 - Learned how to convert data from tuple to 1D array (using np.flatten()), wrote blog post about it.
