@@ -30,7 +30,7 @@ to study:
 
 ---
 todo:  
-- Blog about pengenalan emosi (read related reference)
+- Blog about emotion recognition (indonesia:pengenalan emosi) by reading related reference.
 - Investigate tdnn in iban
 
 ---  
@@ -229,12 +229,12 @@ Next idea: add silence category as it is important cue for speech emotion recogn
 The research paper below shows the evidence that music didn't improve creativity.  
 https://onlinelibrary.wiley.com/doi/epdf/10.1002/acp.3532  
 How about if we change the experiment set-up. Listening music first, 5-10 minutes, stop, give the question.  
-Intuition: While music didnot contribute to improve creativity, but it may contribute to mood and emotion. After being calm by listening, it may improve creativity.
+Intuition: While music didnot contribute to improve creativity, but it may contributes to mood and emotion. After being calm by listening, it may improves creativity.
 
 ---  
 2019-04-09
 Today, 
 - I implemented F0 based voiced segmentation for feature extraction using YAPT method with `amfm_decompy` package (now running in my PC). 
-- Leaned how to convert data from tuple to 1D array (using np.flatten()), wrote blog post about it.
+- Learned how to convert data from tuple to 1D array (using np.flatten()), wrote blog post about it.
 - Obtained signature from Akagi-sensei for MSP-Impro database, and forward it tu TU Dallas.
 - Plan for tomorrow: run BSLTM from obtained feature today --> write result on WASPAA.
