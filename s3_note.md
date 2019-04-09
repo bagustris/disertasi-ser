@@ -14,7 +14,7 @@ to be answered:
 - what is semantic primitive?
 - what is prosodic feature?
 - what is lexicon?
-- spectral feature: feautures based on/extracted from spectrum
+- spectral feature: features based on/extracted from spectrum
 - normalization: normalize the waveform (divided by biggest amplitude)
 - what is para and non-linguistic
 - SVM classifier (vs Fuzzy??)
@@ -205,8 +205,8 @@ how human perceive emotion from emotional speech with and without linguistic inf
 
 ---  
 2019-03-06  
-Idea for ASJ autumn 2019: Emotional speech recognition
-dataset: IEMOCAP
+Idea for ASJ autumn 2019: Emotional speech recognition  
+dataset: IEMOCAP  
 tools: DeepSpeech
 
 ---  
@@ -221,14 +221,20 @@ Also, try to learn confusion matrix.
 17.02.2019 
 Idea for ICSygSis 2019: Voiced Spectrogram and CNN for SER
 idea: remove silence from speech.  
-Finding:  Many pieces of data only contains noisy or silence, but labeled as neutoral or other emotion.
-Next idea: add silence category as it is important cue for speech emotion recognition
+Finding:  Many pieces of data only contains noisy or silence, but labeled as neutral or other emotion.
+Next idea: add silence category as it is important cue for speech emotion recognition (??)
 
 ---  
 2019-04-08  
-The research paper below shows the evidence that music didn't improve creativity.
-https://onlinelibrary.wiley.com/doi/epdf/10.1002/acp.3532
-How about if we change the experiment set-up. Listening music first, 5-10 minutes, 
-stop, give the question. Intuition: While music didnot contribute to improve creativity, but it may contribute to mood and emotion. After being calm by listening, it may improve creativity.
+The research paper below shows the evidence that music didn't improve creativity.  
+https://onlinelibrary.wiley.com/doi/epdf/10.1002/acp.3532  
+How about if we change the experiment set-up. Listening music first, 5-10 minutes, stop, give the question.  
+Intuition: While music didnot contribute to improve creativity, but it may contribute to mood and emotion. After being calm by listening, it may improve creativity.
 
 ---  
+2019-04-09
+Today, 
+- I implemented F0 based voiced segmentation for feature extraction using YAPT method with `amfm_decompy` package (now running in my PC). 
+- Leaned how to convert data from tuple to 1D array (using np.flatten()), wrote blog post about it.
+- Obtained signature from Akagi-sensei for MSP-Impro database, and forward it tu TU Dallas.
+- Plan for tomorrow: run BSLTM from obtained feature today.
