@@ -36,18 +36,18 @@ todo:
 ---  
 2017-10-11  
 Semantik
-se.man.tik /sèmantik/
-n Ling ilmu tentang makna kata dan kalimat; pengetahuan mengenai seluk-beluk dan pergeseran arti kata
-n Ling bagian struktur bahasa yang berhubungan dengan makna ungkapan atau struktur makna suatu wicara
+se.man.tik /sèmantik/ 
+n Ling ilmu tentang makna kata dan kalimat; pengetahuan mengenai seluk-beluk dan pergeseran arti kata  
+n Ling bagian struktur bahasa yang berhubungan dengan makna ungkapan atau struktur makna suatu wicara  
 
 From wikipedia:
 Semantic primes or semantic primitives are semantic concepts that are innately understood, but cannot be expressed in simpler terms. They represent words or phrases that are learned through practice, but cannot be defined concretely. For example, although the meaning of "touching" is readily understood, a dictionary might define "touch" as "to make contact" and "contact" as "touching", providing no information if neither of these words are understood.
 
-alternative:
+alternative research theme:
 - **Multi-language emotion recognition based on acoustic and non-acoustic feature**
 - A study to construct affective speech translation
 
-Fix: **Speech emotion recognition from acoustic and contextual feature**
+Fix: **Speech emotion recognition from acoustic and contextual feature**  
 to study: correlation study of emotion dimension from acoustic and text feature
 
 ---
@@ -57,11 +57,11 @@ to study: correlation study of emotion dimension from acoustic and text feature
 
 ---
 2017-11-10  
-prosody: the patterns of stress and intonation in a language.  
+prosody: the patterns of stress and intonation in a language.   
 supresegmental: denoting a feature of an utterance other than the consonantal and vocalic components, for example (in English) stress and intonation.  
 Segment: is "any discrete unit that can be identified, either physically or auditorily".  
 low-rank matrix: approximation is a minimization problem, in which the cost function measures the fit between a given matrix (the data) and an approximating matrix (the optimization variable), subject to a constraint that the approximating matrix has reduced rank.--> represent music  
-sparse matrix or sparse array is a matrix in which most of the elements are zero. By contrast, if most of the elements are nonzero, then the matrix is considered dense. --> represent
+sparse matrix or sparse array is a matrix in which most of the elements are zero. By contrast, if most of the elements are nonzero, then the matrix is considered dense. --> represent what? speech?
 
 ---
 2017-11-24  
@@ -108,30 +108,30 @@ Speech + transcription --> emotion recognition
 
 ---  
 2018-10-11  
-Course to be take in term 2-1:
+Course to be taken in term 2-1:
 1. Data Analytics
 2. Analysis of information science
 
 ---  
 2018-11-29  
 Zemi:
-Speaker dependent vs speaker independent
-Speaker dependent: The same speaker used for training and dev 
-Speaker Independent: The different speaker used for training and dev 
+Speaker dependent vs speaker independent 
+Speaker dependent: The same speaker used for training and dev  
+Speaker Independent: The different speaker used for training and dev  
 
 ---  
 2018-12-12  
-a cepstral gain c0 is the logarithm of the modeling filter gain
+a cepstral gain c0 is the logarithm of the modeling filter gain  
 loggging kaldi output:  
 ~/kaldi/egs/iban/s5 $ ./local/nnet3/run_tdnn.sh 2>&1 | tee run-tdnn.log
 some solution of kaldi errors:
-Error:
-Iteration stops on run_tdnn.sh no memory
-Solution:
+Error:  
+Iteration stops on run_tdnn.sh no memory  
+Solution:  
 You shouldn't really be running multiple jobs on a single GPU. 
 If you want to run that script on a machine that has just one GPU, one 
-way to do it is to set exclusive mode via 
-sudo nvidia-smi -c 3 
+way to do it is to set exclusive mode via  
+`sudo nvidia-smi -c 3`
 
 and to the train.py script, change the option "--use-gpu=yes" to 
 "--use-gpu=wait" 
@@ -139,21 +139,21 @@ which will cause it to run the GPU jobs sequentially, as each waits
 till it can get exclusive use of the GPU. 
 
 Error:  
-Refusing to split data for number of speakers"
+"Refusing to split data for number of speakers"
 Solution:  
 You didn't provide enough info, but in general, you cannot split the directory in more parts than the number of speakers is.
-So if you called the decoding with -nj 30 and you have 25 speakers (you can count lines of the spk2utt file) this is the error you receive.
+So if you called the decoding with -nj 30 and you have 25 speakers (you can count lines of the spk2utt file) this is the error you receive.  
 
-Show how many features extracted using mfcc:
+Show how many features extracted using mfcc: 
 ~/kaldi-trunk/egs/start/s5/mfcc$ ../src/featbin/feat-to-dim ark:/home/k/kaldi-trunk/egs/start/s5/mfcc/raw_mfcc_train.1.ark ark,t:-
 
-GMM (gaussian mixture model): A mixture of some gaussian distribution  
+GMM (gaussian mixture model): A mixture of some gaussian distribution.  
 
 ---  
 2018-12-14  
-Speech is not only HOW it is being said but also what is being said.
-low-level feature (descriptor): extracted per frame. High level feature: extracted per utterance.
-high-level feature: extracted per frame?
+Speech is not only HOW it is being said but also what is being said.  
+low-level feature (descriptor): extracted per frame.  
+High level feature: extracted per utterance.
 
 ---
 2018-12-17  
@@ -166,7 +166,7 @@ warning from python2:
 Idea: concurrent speech and emotion recognition  
 Desc: Currently speech recognition and emotion recognition is two separated research areas. Researcher build and improve performance of speech recognition and emotion recognition independently such as works done by (\cite{}, \cite{}, and \cite{}). The idea is simple, both emotion and text (output of speech recognition) can be extracted from speech by using the same features. Given two labels, transcription and emotion, two tasks can be done simulatenously: speech recognition and emotion recognition by training acoustic features to map both text and emotion label.
 
-idea for speech emotion recognition from acoustic and text features
+idea for speech emotion recognition from acoustic and text features:  
 1. train speech corpus with given transcription --> output: predicted VAD (3 values)
 2. obatin VAD score from speech transcription --> output: predicted VAD (3 values)
 3. Feed all 6 variables into DNN with actual VAD value
@@ -174,9 +174,9 @@ idea for speech emotion recognition from acoustic and text features
 ---  
 2018-12-20  
 mora (モーラ): Unit in phonology that determine syllable weight  
-Example: 日本、にほん、3 mora, but, にっぽん　is 3 mora  
-morpheme: the smallest unit of meaning of a word that can be devided to:  
-Example: like --> 1 morpheme, but unlikely is 3 morpheme (un, like, ly)  
+Example: 日本、にほん、3 mora, but, にっぽん　is 4 mora  
+morpheme: the smallest unit of meaning of a word that can be devided to.
+Example: like --> 1 morpheme, but unlikely is 3 morpheme (un, like, ly)    
 Find the different between dynamic feature and static feature and its 
 relation to human perception.  
 How about statistic feature?  
@@ -237,4 +237,4 @@ Today,
 - I implemented F0 based voiced segmentation for feature extraction using YAPT method with `amfm_decompy` package (now running in my PC). 
 - Leaned how to convert data from tuple to 1D array (using np.flatten()), wrote blog post about it.
 - Obtained signature from Akagi-sensei for MSP-Impro database, and forward it tu TU Dallas.
-- Plan for tomorrow: run BSLTM from obtained feature today.
+- Plan for tomorrow: run BSLTM from obtained feature today --> write result on WASPAA.
