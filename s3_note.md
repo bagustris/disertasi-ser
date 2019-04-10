@@ -239,3 +239,10 @@ Today,
 - Learned how to convert data from tuple to 1D array (using np.flatten()), wrote blog post about it.
 - Obtained signature from Akagi-sensei for MSP-Impro database, and forward it tu TU Dallas.
 - Plan for tomorrow: run BSLTM from obtained feature today --> write result on WASPAA.
+
+---  
+2019-04-10  
+- Attended workshop: deeplearning for supercomputer cray XC40 (xc40 /work/$USER/handson/)
+- Run obtained feature (from F0) to currenty BLSTM+attention model system, got lower result. It may need to be processed per segment, not whole segment. Train each voiced segment feature, use majority voting like to decide.
+- Prepare presentation for Lab meeting on Friday.
+- Replace owncloud with nextcloud, now up to 300 GB.
