@@ -6,7 +6,7 @@ Repository for PhD activity, JAIST 2017~2021
 
 # PhD Resources
 I pursue my PhD in theme of speech emotion recognition. I used two features: acoustic and text feature. 
-Here are list of resources I used in my research.
+Here are list of resources I used in my research. I keep to make this list as simple as I can to focus on tbe most important materials only.
 
 ## Deep Learning
 - [How to buil NN from scratch in python](https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6)
@@ -17,6 +17,7 @@ Here are list of resources I used in my research.
 - [Building Japanese Speech Recognition](https://medium.com/@kouohhashi/speech-recognition-for-japanese-87a6c4fdd714)
 - [Spech recognition from Microsoft](https://courses.edx.org/courses/course-v1:Microsoft+DEV287x+1T2019/course/)
 - [Machine learning is fun: How to do ASR with deep learning](https://medium.com/@ageitgey/machine-learning-is-fun-part-6-how-to-do-speech-recognition-with-deep-learning-28293c162f7a)
+- [Mozilla deep speech tutorial](https://www.youtube.com/watch?v=NtZipf0BxKg)
 
 ## (Speech) emotion recognition
 - [Speech emotion recognition by Schuller](https://cacm.acm.org/magazines/2018/5/227191-speech-emotion-recognition/fulltext)
@@ -34,3 +35,5 @@ Here are list of resources I used in my research.
 
 ## Writing
 - [Writing academic papers for beginner](https://academic.oup.com/intqhc/article/16/3/191/1814554)
+- [Tenses in scientific writing](http://insights.cactusglobal.com/sites/default/files/The%20secret%20to%20using%20tenses%20in%20scientific%20writing.png)
+- [Tenses](http://grammar.ccc.commnet.edu/grammar/tenses/simple_present.htm)
