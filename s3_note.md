@@ -246,3 +246,12 @@ Today,
 - Run obtained feature (from F0) to currenty BLSTM+attention model system, got lower result. It may need to be processed per segment, not whole segment. Train each voiced segment feature, use majority voting like to decide.
 - Prepare presentation for Lab meeting on Friday.
 - Replace owncloud with nextcloud, now up to 300 GB.
+
+---
+2019-04-11  
+- made slide for tomorrow lab meeting presentation.
+- run obtained feature on BLSTM+attention model, the higher accuracy was 52%, still lower than previous.
+- change window size from 20 ms to 0.1 s, 0.04, 0.08, etc. Find the best result.
+- Email Prof. Busso, asking for the speech transcription.
+
+
