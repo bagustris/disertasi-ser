@@ -260,6 +260,8 @@ Today's lab meeting:
 - Compared voiced and voiced+unvoiced part --> done?
 - You study at the school of information science? what is science in your PhD?
   Human perceive emotion from speech. The speech constain some information, mainly : vocal tone information and lexical/linguistic information. Human can perceive emotion from speech only. In some cases it is difficult, like in noisy environment. Given another information, lexical information, it will be useful for human to recognize emotion of speaker. Can computer do that?
+- Information science is a field primarily concerned with the analysis, collection, classification, manipulation, storage, retrieval, movement, dissemination, and protection of information.
+- recognition of human emotion by computer is one area of information science, right Sensei?
 - Text feature is feature from text data
   
 
