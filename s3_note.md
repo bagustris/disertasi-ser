@@ -254,4 +254,12 @@ Today,
 - change window size from 20 ms to 0.1 s, 0.04, 0.08, etc. Find the best result.
 - Email Prof. Busso, asking for the speech transcription.
 
+---  
+2019-04-12  
+Today's lab meeting:
+- Compared voiced and voiced+unvoiced part --> done?
+- You study at the school of information science? what is science in your PhD?
+  Human perceive emotion from speech. The speech constain some information, mainly : vocal tone information and lexical/linguistic information. Human can perceive emotion from speech only. In some cases it is difficult, like in noisy environment. Given another information, lexical information, it will be useful for human to recognize emotion of speaker. Can computer do that?
+- Text feature is feature from text data
+  
 
