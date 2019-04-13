@@ -264,4 +264,9 @@ Today's lab meeting:
 - recognition of human emotion by computer is one area of information science, right Sensei?
 - Text feature is feature from text data
   
+---  
+2019-04-13  
+- In linguistics, prosody is concerned with those elements of speech that are not individual phonetic segments but are properties of syllables and larger units of speech. These are linguistic functions such as intonation, tone, stress, and rhythm.
+- Extract F0 from IEMOCAP, padded with other 34 features, run it on PC.
+
 
