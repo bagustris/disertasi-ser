@@ -272,5 +272,6 @@ Today's lab meeting:
 
 
 2019-04-15  
-- A voiced sound is category of consonant sounds made while the vocal cords vibrate. All vowels in English are voiced, to feel this voicing, touch your throat and say AAAAH. ... That is voicing. Consonants can be either voiced or voiceless.
--
+- A voiced sound is category of consonant sounds made while the vocal cords vibrate. All vowels in English are voiced, to feel this voicing, touch your throat and say AAAAH. ... That is voicing. Consonants can be either [voice/unvoice](/fig/460.png)
+.
+- 
