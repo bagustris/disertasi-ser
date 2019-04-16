@@ -278,6 +278,8 @@ Today's lab meeting:
 2019-04-16 
 - Running experiment using feature from trimmed voice, still got lowe performance, 47%
 - Extract egemamps feature set from IEMOCAP data, expecting improvement on SER system as egemaps is tailored for speech emotion recognition
-- Running extracted egemaps feature on the system, 447,672,324 parameters, the largest so far...
+- Running extracted egemaps feature on the system, 447,672,324 parameters, it breaks the GPU capability
 - Next: extract egemaps feature from trimmed speeech: 10, 15, 20 dB  
+- GPU error (out of mems): ResourceExhaustedError (see above for traceback): OOM when allocating tensor with shape[872704,512] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+
 
