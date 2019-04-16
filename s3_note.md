@@ -269,9 +269,11 @@ Today's lab meeting:
 - In linguistics, prosody is concerned with those elements of speech that are not individual phonetic segments but are properties of syllables and larger units of speech. These are linguistic functions such as intonation, tone, stress, and rhythm.
 - Extract F0 from IEMOCAP, padded with other 34 features, run it on PC, still got lower result.
 
-
-
+--- 
 2019-04-15  
 - A voiced sound is category of consonant sounds made while the vocal cords vibrate. All vowels in English are voiced, to feel this voicing, touch your throat and say AAAAH. ... That is voicing. Consonants can be either [voice/unvoice](/fig/460.png)
-.
-- 
+- Perform start-end silence removal on 5331 IEMOCAP utterances
+
+--- 
+2019-04-16 
+- Running experiment using feature from trimmed voice, still got lowe performance, 47%
