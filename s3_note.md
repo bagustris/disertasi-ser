@@ -277,3 +277,5 @@ Today's lab meeting:
 --- 
 2019-04-16 
 - Running experiment using feature from trimmed voice, still got lowe performance, 47%
+- Extract egemamps feature set from IEMOCAP data, expecting improvement on SER system as egemaps is tailored for speech emotion recognition
+
