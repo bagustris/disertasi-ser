@@ -278,4 +278,6 @@ Today's lab meeting:
 2019-04-16 
 - Running experiment using feature from trimmed voice, still got lowe performance, 47%
 - Extract egemamps feature set from IEMOCAP data, expecting improvement on SER system as egemaps is tailored for speech emotion recognition
+- Running extracted egemaps feature on the system, 447,672,324 parameters, the largest so far...
+- Next: extract egemaps feature from trimmed speeech: 10, 15, 20 dB  
 
