@@ -287,4 +287,5 @@ Today's lab meeting:
 - run trimmed data with start-end silence removal, got lower accuracry (???)
 - Pickle all data in iemocap dataset except for speech
 - New dataset: [meld](https://github.com/SenticNet/MELD) ??
-
+- __CONCEPT__: (acoustic) features are extracted from speech, i.e. wav file when offline, it
+ is not make sense to extract feature from .npy or .pickle, that is just for simplification method. But, if we can avoid it (converting wav to pickle/npy for to save feature), do it. Pickle and npy still haold big memory (MB/GB).
