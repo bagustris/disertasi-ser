@@ -282,4 +282,9 @@ Today's lab meeting:
 - Next: extract egemaps feature from trimmed speeech: 10, 15, 20 dB  
 - GPU error (out of mems): ResourceExhaustedError (see above for traceback): OOM when allocating tensor with shape[872704,512] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
 
+2019-04-17
+- Computation crash on yesterday run using egemaps feature, need to reduce size of feature
+- run trimmed data with start-end silence removal, got lower accuracry (???)
+- Pickle all data in iemocap dataset except for speech
+- New dataset: [meld](https://github.com/SenticNet/MELD) ??
 
