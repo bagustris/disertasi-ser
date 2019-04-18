@@ -289,3 +289,10 @@ Today's lab meeting:
 - New dataset: [meld](https://github.com/SenticNet/MELD) ??
 - __CONCEPT__: (acoustic) features are extracted from speech, i.e. wav file when offline, it
  is not make sense to extract feature from .npy or .pickle, that is just for simplification method. But, if we can avoid it (converting wav to pickle/npy for to save feature), do it. Pickle and npy still haold big memory (MB/GB).
+ 
+ 2019-04-18  
+ - Getting improvement of accuracy from baseline IEMOCAP with 5531 utterances without start-end trim by adding more features (40 and 44), i.e pitch(1) and formants (5). Reduce number of neuron on BLSTMwA (Bidirectional LSTM with Attention) system.
+ - Doing start-end silence removal with `[10, 20, 30, 40, 50]` dB. For 10 dB, need to change window size (due to shorten length of signal), compensate it with extending max length of feature sequence to 150 (original: 100).
+ - Finding that running on GPU for this sequence data **SLOWER** than in CPU.
+ - Add dropout 0.2 and 0.5 to the system, get higher accuracy. One simple way to detect overfitting is by checking val_loss vs loss, if it's higher, then overvitting (should be close each other). The cause usually is the number of trainable parameters is exceedingly greater than number of samples.
+ - Find a paper about "tensor fusion", a method to unite multimodal data. Read it!
