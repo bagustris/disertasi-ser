@@ -302,3 +302,10 @@ Today's lab meeting:
 2019-04-19  
 - Found the better number of features: 40 (+1 F0, +5 Formants)
 - With dropout of 0.5, feature with 50 dB start-end silence removal perform better (55%)
+
+2019-04-22
+- Start-end silence removal can't give significant improvement on SER accuracy, move to add more features.
+- replace LSTM with CuDNNLSTM to take advante of using GPU
+- Use early stopping before model.fit to shortent computation
+- Now evaluating on 39, 40 and 44 features
+
