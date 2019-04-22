@@ -308,4 +308,6 @@ Today's lab meeting:
 - replace LSTM with CuDNNLSTM to take advante of using GPU
 - Use early stopping before model.fit to shortent computation
 - Now evaluating on 39, 40 and 44 features
+- __**concept**__: Overfitting occurs when number of trainable parameters greatly larger than number of samples, it is indicated with score of validation losss much higher than train loss.
+- When to to stop iteration/epoch? when validation loss didn't decrease any more.
 
