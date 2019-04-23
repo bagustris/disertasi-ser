@@ -311,3 +311,7 @@ Today's lab meeting:
 - __**concept**__: Overfitting occurs when number of trainable parameters greatly larger than number of samples, it is indicated with score of validation losss much higher than train loss.
 - When to to stop iteration/epoch? when validation loss didn't decrease any more.
 
+2019-04-23  
+- Need to model new feature that capture dynamics of speech sound if we want to improve SER performance
+- Features to be tried: covarep, speechpy, with delta and delta-delta.
+
