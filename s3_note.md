@@ -315,3 +315,5 @@ Today's lab meeting:
 - Need to model new feature that capture dynamics of speech sound if we want to improve SER performance
 - Features to be tried: covarep, speechpy, with delta and delta-delta.
 
+2019-04-26  
+- Building model for dimensional text emotion recognition. Currently using one output only (valence) and the obtained performance is still low. In term of MSE (mean squared error), the lowest mse was 0.522
