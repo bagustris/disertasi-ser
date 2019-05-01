@@ -28,7 +28,7 @@ Here are list of resources I used in my research. I keep to make this list as si
 ## Acoustic signal processing
 - [Audio and Music Signal Processing Course in Coursera](https://courses.edx.org/courses/course-v1:Microsoft+DEV287x+1T2019/course/)
 - [Speech Processing for Machine Learning](https://haythamfayek.com/2016/04/21/speech-processing-for-machine-learning.html)
-- [Widowing in Signal Processing](https://flothesof.github.io/FFT-window-properties-frequency-analysis.html)
+- [Windowing in Signal Processing](https://flothesof.github.io/FFT-window-properties-frequency-analysis.html)
 
 ## NLP/Text processing
 - [NLTK Book - My translation to Bahasa](https://bagustris.github.io/nlp-python/)
