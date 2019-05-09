@@ -320,5 +320,11 @@ Today's lab meeting:
 
 2019-05-01  
 - Multiple output VAD prediction workd on iemocap text, change the metric to mape (mean absolute percentage error), the lowest score is about 19%.
-- Current result shows float number of VAD dimension, **need** to be cut only for .0 or .5.
+- Current result shows float number of VAD dimension, **need** to be cut only for .0 or .5. <-- no need
+
+2019-05-09  
+Today's meeting with Shirai-sensei:  
+- Use input from affective dictionary for LSTM
+- Concatenate output from sentiment with current word vector
+- Try different affective dictionaries
 
