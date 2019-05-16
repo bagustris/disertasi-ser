@@ -332,3 +332,6 @@ Today's meeting with Shirai-sensei:
 - Regression must use `linear` activation function
 - Dimensonal SER works wit all 10039 utterances data, current best mape: 21.86%
 - Prepare (presentation training) for lab meeting tomorrow
+- The output of an LSTM is:
+  - (Batch size, units) - with return_sequences=False
+  - (Batch size, time steps, units) - with return_sequences=True
