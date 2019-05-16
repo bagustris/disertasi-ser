@@ -328,3 +328,7 @@ Today's meeting with Shirai-sensei:
 - Concatenate output from sentiment with current word vector
 - Try different affective dictionaries
 
+2019-05-16  
+- Regression must use `linear` activation function
+- Dimensonal SER works wit all 10039 utterances data, current best mape: 21.86%
+- Prepare (presentation training) for lab meeting tomorrow
