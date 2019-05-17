@@ -335,3 +335,8 @@ Today's meeting with Shirai-sensei:
 - The output of an LSTM is:
   - (Batch size, units) - with return_sequences=False
   - (Batch size, time steps, units) - with return_sequences=True
+
+2019-05-17  
+- in math, logit function is simply the logarithm of the odds: logit(x) = log(x / (1 – x)).
+- in tensorflow, tt's a name that it is thought to imply that this Tensor is the quantity that is being mapped to probabilities by the Softmax (input to softmax).
+- end-to-end loss, minimize D1 (intra-personal) and maximize D2 (inter-personal), D1 and D2 is distant between (audio) embedding (in spekaker verification, need to be confirmed)
