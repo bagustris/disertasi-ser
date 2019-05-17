@@ -340,3 +340,6 @@ Today's meeting with Shirai-sensei:
 - in math, logit function is simply the logarithm of the odds: logit(x) = log(x / (1 – x)).
 - in tensorflow, tt's a name that it is thought to imply that this Tensor is the quantity that is being mapped to probabilities by the Softmax (input to softmax).
 - end-to-end loss, minimize D1 (intra-personal) and maximize D2 (inter-personal), D1 and D2 is distant between (audio) embedding (in spekaker verification, need to be confirmed)
+- Most MFCC uses 30 ms of window, this result spectral shape will the same for smaller. This is maybe why removing silence gives better performance.
+- To capture the dynamics of emotion, maybe the use of delta and delta-delta will be better.
+- Why removing will improve SER performance? Intuition. Silence is small noise, it may come from hardware, electrical of ambient noise. If it is included in speech emotion processing, the extracted feature may be not relevant because it extracts feature from small noise, not the speech. By removing this part, the extracted feature will only comes from speech not silence. Therefore, this is why the result better.
