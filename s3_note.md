@@ -348,3 +348,5 @@ Today's meeting with Shirai-sensei:
 - **GRU** perform better and faster than LSTM. 
 - Hence, CNN vs RNN --> RNN, LSTM vs GRU --> GRU. Global attention vs local attention --> ...?
 - idea: Obtain local attention from waveform directly, only extract feature on two or more highest attentions.
+- what's different between written text and spoken language (speech transcription)...?
+- **Modern chat like twitter and facebook status is more similar to spoken language (as the concept of "twit") rather than written text, so it will be useful to analyze speech transcription than (formal) writtent text to analyse affect within that context. **
