@@ -343,3 +343,8 @@ Today's meeting with Shirai-sensei:
 - Most MFCC uses 30 ms of window, this result spectral shape will the same for smaller. This is maybe why removing silence gives better performance.
 - To capture the dynamics of emotion, maybe the use of delta and delta-delta will be better.
 - Why removing will improve SER performance? Intuition. Silence is small noise, it may come from hardware, electrical of ambient noise. If it is included in speech emotion processing, the extracted feature may be not relevant because it extracts feature from small noise, not the speech. By removing this part, the extracted feature will only comes from speech not silence. Therefore, this is why the result better.
+
+2019-05-19  
+- **GRU** perform better and faster than LSTM. 
+- Hence, CNN vs RNN --> RNN, LSTM vs GRU --> GRU. Global attention vs local attention --> ...?
+- idea: Obtain local attention from waveform directly, only extract feature on two or more highest attentions.
