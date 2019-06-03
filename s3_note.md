@@ -353,4 +353,9 @@ Today's meeting with Shirai-sensei:
 
 2019-05-25  
 - evaluate word embodding method on iemocap text emotion recognition (word2vec, glove, fasstext), so far glove gives the best.
-- In phonetics, rhythm is the sense of movement in speech, marked by the stress, timing, and quantity of syllables.
+- In phonetics, rhythm is the sense of movement in speech, marked by the stress, timing, and quantity of syllables.   
+
+2019-06-03  
+- Progress research delivered
+- Text emotion recognition works well on dimensional, it is interpretable and easiler to be understood. Continue works on it.
+- Combine acoustic and text feature for dimensional emotion recognition
