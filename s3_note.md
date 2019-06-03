@@ -352,10 +352,16 @@ Today's meeting with Shirai-sensei:
 - **Modern SNS and chat like twitter and facebook status is more similar to spoken language (as the concept of "twit") rather than written text, so it will be useful to analyze speech transcription than (formal) writtent text to analyse affect within that context.**
 
 2019-05-25  
-- evaluate word embodding method on iemocap text emotion recognition (word2vec, glove, fasstext), so far glove gives the best.
+- evaluate word embedding method on iemocap text emotion recognition (word2vec, glove, fasstext), so far glove gives the best.
 - In phonetics, rhythm is the sense of movement in speech, marked by the stress, timing, and quantity of syllables.   
 
 2019-06-03  
-- Progress research delivered
+- Progress research delivered (text emotion recognition, categorical & dimensional, written & spoken text)
 - Text emotion recognition works well on dimensional, it is interpretable and easiler to be understood. Continue works on it.
 - Combine acoustic and text feature for dimensional emotion recognition
+
+
+2019-06-04  
+- re-run experiment on voice speech emotion recognition (ICSigsys 2019) for 0.1 threshold (using updated audiosegment)
+- idea: how human brain process multimodal signal, implement it on computation
+- 
