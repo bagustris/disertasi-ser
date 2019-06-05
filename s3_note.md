@@ -364,4 +364,16 @@ Today's meeting with Shirai-sensei:
 2019-06-04  
 - re-run experiment on voice speech emotion recognition (ICSigsys 2019) for 0.1 threshold (using updated audiosegment)
 - idea: how human brain process multimodal signal, implement it on computation
-- 
+
+2019-06-05  
+RNN best practice:  
+- Most important parameters: units and n layers
+- Units (size): depend on data:
+  - text data < 1 Mb --> < 300 units
+  - text data 2 - 6 Mb --> 300-600 units
+  - text data > 7 Mb --> > 700 units
+- Units: 2 or 3 (source: Karpathy)
+- Monitoring loss:  
+  - Overfitting if: training loss << validation loss  
+  - Underfitting if: training loss >> validation loss
+  - Just right if training loss ~ validation loss
