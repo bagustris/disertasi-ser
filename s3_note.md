@@ -377,3 +377,6 @@ RNN best practice:
   - Overfitting if: training loss << validation loss  
   - Underfitting if: training loss >> validation loss
   - Just right if training loss ~ validation loss
+Problem with categorical emotion:
+- Need balanced data
+- To make balanced data, some context will disappear
