@@ -379,4 +379,9 @@ RNN best practice:
   - Just right if training loss ~ validation loss
 Problem with categorical emotion:
 - Need balanced data
-- To make balanced data, some context will disappear
+- To make balanced data, some context between utterances will gone/disappear
+
+2019-06-04:  
+- Audiotory based attention model for fusion of acoustic and text feature for speech emotion recognition. Attention is the main mechanism how to human auditory system perceive sound. By attention mechanism, human focus on what he interest to listen and collect the information from the sound, including emotion. In case speech emotion, human might focus on both tonal and verbal information. If the tonal information match the verbal information, than he believe the information he obtained is correct.
+- To combine those information (verbal and tonal), two networks can be trained on the same label, separately. The acoustic network is the main (master/primary) and the text network is slave/secondary. The acoustic sytem acts as main system while the secondary system is supporting system which give weights to primary system. For categorical, If the weight above the thareshold (say 0.5 in the range 0-1), then both sytems agree for the same output/category. If no, the output of the system is the main system weighted by secondary system.
+- For categorical (which is easier to devise), the output of the system is the main system weighted by secondary system (multiplication) ---> multiplicative attention?
