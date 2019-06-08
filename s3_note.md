@@ -386,3 +386,14 @@ Problem with categorical emotion:
 - To combine those information (verbal and tonal), two networks can be trained on the same label, separately. The acoustic network is the main (master/primary) and the text network is slave/secondary. The acoustic sytem acts as main system while the secondary system is supporting system which give weights to primary system. For categorical, If the weight above the thareshold (say 0.5 in the range 0-1), then both sytems agree for the same output/category. If no, the output of the system is the main system weighted by secondary system.
 - For categorical (which is easier to devise), the output of the system is the main system weighted by secondary system (multiplication) ---> multiplicative attention?
 - Whether it is additive or multiplication, beside via attention, it also can be implemented directly when combining two modalities. Instead of concatenate, we can use add() or multiply(). But, how to shape/reshape input feature?
+
+
+2019-06-08:  
+- As of 2016, a rough rule of thumb
+is that a supervised deep learning algorithm will generally achieve acceptable
+performance with around 5,000 labeled examples per category, and will match or
+exceed human performance when trained with a dataset containing at least 10
+million labeled examples. Working successfully with datasets smaller than this is
+an important research area, focusing in particular on how we can take advantage
+of large quantities of unlabeled examples, with unsupervised or semi-supervised
+learning.
