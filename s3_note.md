@@ -382,7 +382,7 @@ Problem with categorical emotion:
 - To make balanced data, some context between utterances will gone/disappear
 
 2019-06-04:  
-- Audiotory based attention model for fusion of acoustic and text feature for speech emotion recognition. Attention is the main mechanism how to human auditory system perceive sound. By attention mechanism, human focus on what he interest to listen and collect the information from the sound, including emotion. In case speech emotion, human might focus on both tonal and verbal information. If the tonal information match the verbal information, than he believe the information he obtained is correct.
+- Idea: auditory based attention model for fusion of acoustic and text feature for speech emotion recognition. Attention is the main mechanism how to human auditory system perceive sound. By attention mechanism, human focus on what he interest to listen and collect the information from the sound, including emotion. In case speech emotion, human might focus on both tonal and verbal information. If the tonal information match the verbal information, than he believe the information he obtained is correct.
 - To combine those information (verbal and tonal), two networks can be trained on the same label, separately. The acoustic network is the main (master/primary) and the text network is slave/secondary. The acoustic sytem acts as main system while the secondary system is supporting system which give weights to primary system. For categorical, If the weight above the thareshold (say 0.5 in the range 0-1), then both sytems agree for the same output/category. If no, the output of the system is the main system weighted by secondary system.
 - For categorical (which is easier to devise), the output of the system is the main system weighted by secondary system (multiplication) ---> multiplicative attention?
 - Whether it is additive or multiplication, beside via attention, it also can be implemented directly when combining two modalities. Instead of concatenate, we can use add() or multiply(). But, how to shape/reshape input feature?
@@ -397,3 +397,14 @@ million labeled examples. Working successfully with datasets smaller than this i
 an important research area, focusing in particular on how we can take advantage
 of large quantities of unlabeled examples, with unsupervised or semi-supervised
 learning.
+
+2019-06-12:  
+- Working on dimensional emotion recognition (for cocosda?), the result from acoustic and text feature only shows a little improvement compared to acoustic only for text only.
+- Current architecture:
+  - Acoustic: 2 stack BLSTM
+  - Text: 2 stack LSTM
+  - Combination: 2 Dense layers
+- Current (best result): 
+  - [mse: 0.4523394735235917, mape: 19.156075267531484, mae: 0.5276844193596124]
+- Need advance strategy for combination: hfusion, attention, tensor fusion???
+  
