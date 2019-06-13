@@ -408,3 +408,8 @@ learning.
   - [mse: 0.4523394735235917, mape: 19.156075267531484, mae: 0.5276844193596124]
 - Need advance strategy for combination: hfusion, attention, tensor fusion???
   
+2019-06-14  
+- Current result (train/val loss plot) shows that system is overfitting regardles complexity of architecture (even with smalles number of hyperparameter). Needs to re-design.
+- As obtained previously, the more data the better data. How if the data is limited?
+- If can't increase the number/size of data, maybe the solution is to increase the number of input features.
+- Let's implement it, and see if it works.
