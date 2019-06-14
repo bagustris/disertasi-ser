@@ -413,3 +413,4 @@ learning.
 - As obtained previously, the more data the better data. How if the data is limited?
 - If can't increase the number/size of data, maybe the solution is to increase the number of input features.
 - Let's implement it, and see if it works.
+- to do: implement CCC (concordance coeff.) on current sytem
