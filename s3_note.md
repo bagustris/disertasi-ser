@@ -414,3 +414,13 @@ learning.
 - If can't increase the number/size of data, maybe the solution is to increase the number of input features.
 - Let's implement it, and see if it works.
 - to do: implement CCC (concordance coeff.) on current sytem
+
+2019-06-17:  
+- Interspeech2019 --> rejected
+- Usually people use 16-25ms for window size, especially when modeled with recursive structures.
+- to study (a must): WA vs UA, weighted accuracy vs unweighted accuracy; WAR vs UAR (unweighted average recall)
+- Accuracies by themselves are useless measure of goodness unless combined with precision values or averaged over Type I and II errors. What is those?
+- Answer: see this: [https://en.wikipedia.org/wiki/Type_I_and_type_II_errors](https://en.wikipedia.org/wiki/Type_I_and_type_II_errors)
+- it must never be concluded that, for example, 65.69% is "better" than 65.18%, or even that 68.83% is "better" that 63.86%, without providing a measure of significance for that statement
+
+
