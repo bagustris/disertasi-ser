@@ -8,6 +8,11 @@ Content:
 - what is X, what is Y
 - what did you have done today, what is your plan for tomorrow
 
+---  
+2019-06-18:  
+- Overall accuracy – where each sentence across the dataset has an equal weight, AKA weighted accuracy. In implementation this is the default accuracy in Keras metrics.
+- Class accuracy – the accuracy is first evaluated for each emotion and then averaged, AKA unweighted accuracy. In implementaion, this class accuracy can be obtained by plotting normalized confustion matrix and get the average value along diagonal line.
+
 ---
 2017-10-09  
 to be answered:
@@ -284,6 +289,7 @@ Today's lab meeting:
 - Next: extract egemaps feature from trimmed speeech: 10, 15, 20 dB  
 - GPU error (out of mems): ResourceExhaustedError (see above for traceback): OOM when allocating tensor with shape[872704,512] and type float on /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
 
+---  
 2019-04-17
 - Computation crash on yesterday run using egemaps feature, need to reduce size of feature
 - run trimmed data with start-end silence removal, got lower accuracry (???)
@@ -292,6 +298,7 @@ Today's lab meeting:
 - __CONCEPT__: (acoustic) features are extracted from speech, i.e. wav file when offline, it
  is not make sense to extract feature from .npy or .pickle, that is just for simplification method. But, if we can avoid it (converting wav to pickle/npy for to save feature), do it. Pickle and npy still haold big memory (MB/GB).
  
+ ---  
  2019-04-18  
  - Getting improvement of accuracy from baseline IEMOCAP with 5531 utterances without start-end trim by adding more features (40 and 44), i.e pitch(1) and formants (5). Reduce number of neuron on BLSTMwA (Bidirectional LSTM with Attention) system.
  - Doing start-end silence removal with `[10, 20, 30, 40, 50]` dB. ~~For 10 dB, need to change window size (due to shorten length of signal), compensate it with extending max length of feature sequence to 150 (original: 100).~~
@@ -299,10 +306,12 @@ Today's lab meeting:
  - Add dropout 0.2 and 0.5 to the system, get higher accuracy. One simple way to detect overfitting is by checking val_loss vs loss, if it's higher, then overvitting (should be close each other). The cause usually is the number of trainable parameters is exceedingly greater than number of samples.
  - Found a paper about "tensor fusion", a method to unite multimodal data. Read it!
 
+---  
 2019-04-19  
 - Found the better number of features: 40 (+1 F0, +5 Formants)
 - With dropout of 0.5, feature with 50 dB start-end silence removal perform better (55%)
 
+---  
 2019-04-22
 - Start-end silence removal can't give significant improvement on SER accuracy, move to add more features.
 - replace LSTM with CuDNNLSTM to take advante of using GPU
@@ -311,23 +320,28 @@ Today's lab meeting:
 - __**concept**__: Overfitting occurs when number of trainable parameters greatly larger than number of samples, it is indicated with score of validation losss much higher than train loss.
 - When to to stop iteration/epoch? when validation loss didn't decrease any more.
 
+---  
 2019-04-23  
 - Need to model new feature that capture dynamics of speech sound if we want to improve SER performance
 - Features to be tried: covarep, speechpy, with delta and delta-delta.
 
+---  
 2019-04-26  
 - Building model for dimensional text emotion recognition. Currently using one output only (valence) and the obtained performance is still low. In term of MSE (mean squared error), the lowest mse was 0.522
 
+---
 2019-05-01  
 - Multiple output VAD prediction workd on iemocap text, change the metric to mape (mean absolute percentage error), the lowest score is about 19%.
 - Current result shows float number of VAD dimension, **need** to be cut only for .0 or .5. <-- no need
 
+--- 
 2019-05-09  
 Today's meeting with Shirai-sensei:  
 - Use input from affective dictionary for LSTM
 - Concatenate output from sentiment with current word vector
 - Try different affective dictionaries
 
+---  
 2019-05-16  
 - Regression must use `linear` activation function
 - Dimensonal SER works wit all 10039 utterances data, current best mape: 21.86%
@@ -336,6 +350,7 @@ Today's meeting with Shirai-sensei:
   - (Batch size, units) - with return_sequences=False
   - (Batch size, time steps, units) - with return_sequences=True
 
+---  
 2019-05-17  
 - in math, logit function is simply the logarithm of the odds: logit(x) = log(x / (1 – x)).
 - in tensorflow, logits is a name that it is thought to imply that this Tensor is the quantity that is being mapped to probabilities by the Softmax (input to softmax).
@@ -344,6 +359,7 @@ Today's meeting with Shirai-sensei:
 - To capture the dynamics of emotion, maybe the use of delta and delta-delta will be better.
 - Why removing will improve SER performance? Intuition. Silence is small noise, it may come from hardware, electrical of ambient noise. If it is included in speech emotion processing, the extracted feature may be not relevant because it extracts feature from small noise, not the speech. By removing this part, the extracted feature will only comes from speech not silence. Therefore, this is why the result better.
 
+---
 2019-05-19  
 - **GRU** perform better and faster than LSTM. 
 - Hence, CNN vs RNN --> RNN, LSTM vs GRU --> GRU. Global attention vs local attention --> ...?
@@ -351,20 +367,23 @@ Today's meeting with Shirai-sensei:
 - what's different between written text and spoken language (speech transcription)...?
 - **Modern SNS and chat like twitter and facebook status is more similar to spoken language (as the concept of "twit") rather than written text, so it will be useful to analyze speech transcription than (formal) writtent text to analyse affect within that context.**
 
+---
 2019-05-25  
 - evaluate word embedding method on iemocap text emotion recognition (word2vec, glove, fasstext), so far glove gives the best.
 - In phonetics, rhythm is the sense of movement in speech, marked by the stress, timing, and quantity of syllables.   
 
+---
 2019-06-03  
 - Progress research delivered (text emotion recognition, categorical & dimensional, written & spoken text)
 - Text emotion recognition works well on dimensional, it is interpretable and easiler to be understood. Continue works on it.
 - Combine acoustic and text feature for dimensional emotion recognition
 
-
+---  
 2019-06-04  
 - re-run experiment on voice speech emotion recognition (ICSigsys 2019) for 0.1 threshold (using updated audiosegment)
 - idea: how human brain process multimodal signal, implement it on computation
 
+---  
 2019-06-05  
 RNN best practice:  
 - Most important parameters: units and n layers
@@ -381,13 +400,14 @@ Problem with categorical emotion:
 - Need balanced data
 - To make balanced data, some context between utterances will gone/disappear
 
+---
 2019-06-04:  
 - Idea: auditory based attention model for fusion of acoustic and text feature for speech emotion recognition. Attention is the main mechanism how to human auditory system perceive sound. By attention mechanism, human focus on what he interest to listen and collect the information from the sound, including emotion. In case speech emotion, human might focus on both tonal and verbal information. If the tonal information match the verbal information, than he believe the information he obtained is correct.
 - To combine those information (verbal and tonal), two networks can be trained on the same label, separately. The acoustic network is the main (master/primary) and the text network is slave/secondary. The acoustic sytem acts as main system while the secondary system is supporting system which give weights to primary system. For categorical, If the weight above the thareshold (say 0.5 in the range 0-1), then both sytems agree for the same output/category. If no, the output of the system is the main system weighted by secondary system.
 - For categorical (which is easier to devise), the output of the system is the main system weighted by secondary system (multiplication) ---> multiplicative attention?
 - Whether it is additive or multiplication, beside via attention, it also can be implemented directly when combining two modalities. Instead of concatenate, we can use add() or multiply(). But, how to shape/reshape input feature?
 
-
+---
 2019-06-08:  
 - As of 2016, a rough rule of thumb
 is that a supervised deep learning algorithm will generally achieve acceptable
@@ -398,6 +418,7 @@ an important research area, focusing in particular on how we can take advantage
 of large quantities of unlabeled examples, with unsupervised or semi-supervised
 learning.
 
+---  
 2019-06-12:  
 - Working on dimensional emotion recognition (for cocosda?), the result from acoustic and text feature only shows a little improvement compared to acoustic only for text only.
 - Current architecture:
@@ -408,6 +429,7 @@ learning.
   - [mse: 0.4523394735235917, mape: 19.156075267531484, mae: 0.5276844193596124]
 - Need advance strategy for combination: hfusion, attention, tensor fusion???
   
+---
 2019-06-14  
 - Current result (train/val loss plot) shows that system is overfitting regardles complexity of architecture (even with smalles number of hyperparameter). Needs to re-design.
 - As obtained previously, the more data the better data. How if the data is limited?
@@ -415,6 +437,7 @@ learning.
 - Let's implement it, and see if it works.
 - to do: implement CCC (concordance coeff.) on current sytem
 
+---
 2019-06-17:  
 - Interspeech2019 --> rejected
 - Usually people use 16-25ms for window size, especially when modeled with recursive structures.
