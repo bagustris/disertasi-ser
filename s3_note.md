@@ -8,6 +8,11 @@ Content:
 - what is X, what is Y
 - what did you have done today, what is your plan for tomorrow
 ---
+
+2019-06-21:  
+- philosophy: the ability to interrupt argumnent.
+
+---
 2019-06-19:  
 - Feature-Level (FL) fusion (also known as “early fusion”) combines features from different modalities before performing recognition.
 - Decision-Level (DL) fusion (also known as “late fusion”) combines the predictions and their probabilities given by each unimodal model for the multimodal model to make the final decision.
