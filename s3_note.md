@@ -9,6 +9,10 @@ Content:
 - what did you have done today, what is your plan for tomorrow
 ---
 
+2019-07-01:  
+- dimensional ser on iemocap using Keras functional api works, it shows fairl good on MSE, but not on CCC.
+- The current ccc for valence, arousal and dominance on test data is 0.03, 0.1, 0.05
+
 2019-06-21:  
 - philosophy: the ability to interrupt argumnent.
 
