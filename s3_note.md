@@ -8,6 +8,11 @@ Content:
 - what is X, what is Y
 - what did you have done today, what is your plan for tomorrow
 ---
+2019-07-12:  
+- Writing draft for ASJ Autumn 2019
+- Dimensional speech emotion recognition works with comparable CCC score [0.306, 0.4, 0.11].
+
+---
 2019-07-02:  
 - working on multi-loss, multi-task learning, and multi modal fusion emotion recognition for AVEC2019.
 - Flow: multi-loss+multi-task --> unimodal (early) --> bimodal (early) --> late --> combination of both.
