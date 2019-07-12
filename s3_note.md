@@ -8,9 +8,13 @@ Content:
 - what is X, what is Y
 - what did you have done today, what is your plan for tomorrow
 ---
+---
 2019-07-12:  
 - Writing draft for ASJ Autumn 2019
 - Dimensional speech emotion recognition works with comparable CCC score [0.306, 0.4, 0.11].
+- If you have been asked with simple question, answer with simple answer.
+- Change presentation style on lab meeting: purpose it to investigate, analyze/discuss result. Not 
+just to show.
 
 ---
 2019-07-02:  
