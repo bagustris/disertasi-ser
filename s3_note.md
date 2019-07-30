@@ -90,11 +90,11 @@ to study: correlation study of emotion dimension from acoustic and text feature
 
 ---
 2017-11-10  
-- prosody: the patterns of stress and intonation in a language.   
+- prosody (suprasegmental phonology): the patterns of stress and intonation in a language.   
 - supresegmental: denoting a feature of an utterance other than the consonantal and vocalic components, for example (in English) stress and intonation.  
 - Segment: is "any discrete unit that can be identified, either physically or auditorily".  
-- low-rank matrix: approximation is a minimization problem, in which the cost function measures the fit between a given matrix (the data) and an approximating matrix (the optimization variable), subject to a constraint that the approximating matrix has reduced rank.--> represent music  
-- sparse matrix or sparse array is a matrix in which most of the elements are zero. By contrast, if most of the elements are nonzero, then the matrix is considered dense. --> represent what? speech?
+- low-rank matrix (e.g. rank-1: only one row independent): approximation is a minimization problem, in which the cost function measures the fit between a given matrix (the data) and an approximating matrix (the optimization variable), subject to a constraint that the approximating matrix has reduced rank.--> represent music  
+- sparse matrix or sparse array is a matrix in which most of the elements are zero. By contrast, if most of the elements are nonzero, then the matrix is considered dense. --> represent what? speech? Yes, speech. (2019/07/30).
 
 ---
 2017-11-24  
