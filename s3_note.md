@@ -8,6 +8,15 @@ Content:
 - what is X, what is Y
 - what did you have done today, what is your plan for tomorrow
 ---
+2019-08-06:  
+- weekly meeting report: as presented (see in progress dir)
+- weekly meeting note: what do you want to write for journal?
+  - dimensional SER (speech + text) using recursive SVR
+  - SER based on selected region (using attentional?)
+- today's accomplishment: MAE and MSE from emobank using affective dictionary (ANEW).
+- Q: What's different between lemmatization and stemming?
+- A: Stemming and Lemmatization both generate the root form of the inflected words. The difference is that stem might not be an actual word whereas, lemma is an actual language word. Example: (connected, connection) --> connect, (am,is, are) --> be.
+
 ---
 2019-07-12:  
 - Writing draft for ASJ Autumn 2019
