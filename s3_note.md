@@ -41,7 +41,7 @@ just to show.
 
 ---
 2019-06-21:  
-- philosophy: the ability to interrupt argumnent.
+- philosophy: the ability to interrupt argument.
 
 ---
 2019-06-19:  
