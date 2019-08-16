@@ -8,6 +8,10 @@ Content:
 - what is X, what is Y
 - what did you have done today, what is your plan for tomorrow
 ---
+2019-08-16:  
+- writing minor research report 3 (ANEW, Sentiwordnet, VADER)
+- things to do: implement median and Mika Method (Mining valence, arousal....) for ANEW and Sentiwordnet.
+
 2019-08-09:  
 - Linear vs Logistic regression: The outcome (dependent variable) has only a limited number of possible values. Logistic regression is used when the response variable is categorical in nature.
 - Accomplishment: Affect-based text emotion recognition using ANEW, VADER and Sentitowordnet. Current results shows VADER give best in term of CCC (for Valence). It is interesting that text give better score on valence while speech resulting worst score on valence compared to (CCC) score on arousal and dominance.
