@@ -8,6 +8,10 @@ Content:
 - what is X, what is Y
 - what did you have done today, what is your plan for tomorrow
 ---
+2019-08-26:  
+- Minor reserch report accepted by advisor
+- Forget lesson learned from ASJ autumn compautation: stack 2 RNNs with return sequences true, no dense layer after it, instead, use Flatten.
+
 2019-08-16:  
 - writing minor research report 3 (ANEW, Sentiwordnet, VADER)
 - things to do: implement median and Mika Method (Mining valence, arousal....) for ANEW and Sentiwordnet.
