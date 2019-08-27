@@ -8,9 +8,14 @@ Content:
 - what is X, what is Y
 - what did you have done today, what is your plan for tomorrow
 ---
+2019-08-27:  
+- Working on APSIPA draft, re running the experiment, found that longer window size (200ms) yield better result. Why? I don't know (need to be asked to Sensei?). But it is interesting to investigate: the impact of window size on feature extraction for speech emotion recognition.
+
+
 2019-08-26:  
 - Minor reserch report accepted by advisor
 - Forget lesson learned from ASJ autumn compautation: stack 2 RNNs with return sequences true, no dense layer after it, instead, use Flatten.
+---
 
 2019-08-16:  
 - writing minor research report 3 (ANEW, Sentiwordnet, VADER)
