@@ -12,8 +12,9 @@ Content:
 - Working on APSIPA draft, re running the experiment, found that longer window size (200ms) yield better result. Why? I don't know (need to be asked to Sensei?). But it is interesting to investigate: the impact of window size on feature extraction for speech emotion recognition.
 - From book by Eyben; Using larger window to capture mid and longer dynamics, use short window to capture short dynamics context.
 - TODO: extract feature using 200ms window on IEMOCAP mono speech file (currently from stereo)
+- text processing using attention runs very slow, about 34 million learnable parameters, only iterate 10 times in 1 hour. No accuracy improvement so fat (compared to LSTM).
 
-
+---
 2019-08-26:  
 - Minor reserch report accepted by advisor
 - Forget lesson learned from ASJ autumn compautation: stack 2 RNNs with return sequences true, no dense layer after it, instead, use Flatten.
