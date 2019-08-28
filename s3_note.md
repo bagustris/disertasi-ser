@@ -2,11 +2,17 @@
 ~~day.month.year~~  
 year-month-day (ISO 8601)  
 Content:  
-- if possible, write per day  
+- What is thw question (Q), and what is the answer (A)  
 - what is your idea, how to implement  
 - what is the problem, what is your proposed solution
 - what is X, what is Y
 - what did you have done today, what is your plan for tomorrow
+
+--- 
+2019-08-28:  
+- Q: What is the different with word tokens and word type?
+- A: In sentence "Do in Rome as the Romans do", there is 7 tokens and 8 word types.
+
 ---
 2019-08-27:  
 - Working on APSIPA draft, re running the experiment, found that longer window size (200ms) yield better result. Why? I don't know (need to be asked to Sensei?). But it is interesting to investigate: the impact of window size on feature extraction for speech emotion recognition.
@@ -18,15 +24,17 @@ Content:
 2019-08-26:  
 - Minor reserch report accepted by advisor
 - Forget lesson learned from ASJ autumn compautation: stack 2 RNNs with return sequences true, no dense layer after it, instead, use Flatten.
----
 
+---
 2019-08-16:  
 - writing minor research report 3 (ANEW, Sentiwordnet, VADER)
 - things to do: implement median and Mika Method (Mining valence, arousal....) for ANEW and Sentiwordnet.
 
+---
 2019-08-09:  
 - Linear vs Logistic regression: The outcome (dependent variable) has only a limited number of possible values. Logistic regression is used when the response variable is categorical in nature.
 - Accomplishment: Affect-based text emotion recognition using ANEW, VADER and Sentitowordnet. Current results shows VADER give best in term of CCC (for Valence). It is interesting that text give better score on valence while speech resulting worst score on valence compared to (CCC) score on arousal and dominance.
+---
 
 2019-08-06:  
 - weekly meeting report: as presented (see in progress dir)
