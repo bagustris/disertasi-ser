@@ -2,7 +2,7 @@
 ~~day.month.year~~  
 year-month-day (ISO 8601)  
 Content:  
-- What is thw question (Q), and what is the answer (A)  
+- What is the question (Q), and what is the answer (A)  
 - what is your idea, how to implement  
 - what is the problem, what is your proposed solution
 - what is X, what is Y
