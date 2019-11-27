@@ -7,6 +7,10 @@ Content:
 - what is the problem, what is your proposed solution
 - what is X, what is Y
 - what did you have done today, what is your plan for tomorrow
+---
+2019-11-27:  
+- Run speech + text for ASJ spring 2020 based on ococosda (failed) code
+- Non MTL run, but MTL with different weight gives 0 CCC
 
 --- 
 2019-08-28:  
