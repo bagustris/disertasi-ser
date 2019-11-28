@@ -7,10 +7,18 @@ Content:
 - what is the problem, what is your proposed solution
 - what is X, what is Y
 - what did you have done today, what is your plan for tomorrow
+
 ---
+2019-11-28:  
+- Converation: a balance between speaking and listening.
+- Pay attention on conversation!
+- 10 tips on conversation: don't multitask, don't pontificate, use open-ended question, go with the flow, 
+if you don't know say you don't know, don't equate your experience with theirs, try not to repeat, stay out the weeds (focus), listen, be brief.
+
 2019-11-27:  
 - Run speech + text for ASJ spring 2020 based on ococosda (failed) code
 - Non MTL run, but MTL with different weight gives 0 CCC
+- Move to github again after some months writing logs on notebook
 
 --- 
 2019-08-28:  
