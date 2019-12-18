@@ -9,6 +9,12 @@ Content:
 - what did you have done today, what is your plan for tomorrow
 
 ---
+2019-12-18:  
+- This may the last note in this file
+- making journal with markdown file is very heavy, especially by direct editing in Github
+- I moved to journal in plain text (~/Dropbox/journal/) using text editor only.
+
+---
 2019-11-28:  
 - Converation: a balance between speaking and listening.
 - Pay attention on conversation!
