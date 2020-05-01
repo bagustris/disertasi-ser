@@ -8,6 +8,94 @@ Content:
 - what is X, what is Y
 - what did you have done today, what is your plan for tomorrow
 
+2020-05-02:  
+- Back to markdown note in github
+- Use VScode since 2020
+
+2019-12-18:   
+This is the first journal which purely in text format.  
+Some convention:  
+- on the top is YYYY-MM-DD  
+- Use vim or gedit, either of both, no other editorexcept in public PC.  
+- max lengh:80 lines  
+- file name YYYY-MM-DD  
+- save on journal dir: ~/Dropbox/journal  
+- turn on spell check,  
+- make the last line blank  
+    
+2019-12-20  
+Fri Dec 20 14:38:17 JST 2019  
+- relearn VIM  
+- relearn numpy and matplotlib
+- basic numpy= array, arange, linspace, zeros, ones, full, empty, identity
+
+2019-12-21  
+- There is a different between the convey of logic and emotion.
+- Grice argued that logic in conversation is based only what it said, 
+  not other factors (intention, etc). For example, if someone said, 
+  "I am angry", hence he is transmitting (or expressing) an angry, although, 
+  he looks happy.
+- Emotion is different. A study by Busso et. al. (in IEMOCAP, 2008), reveals 
+  that there is a different between expression emotion and perceived emotion. 
+  This evidence is found when building emotional database and asking the 
+  emotion of actor and raters.
+- Progress on research:
+    - change data splitting for CSL paper:
+    - DNN training 6000:2000:2039 (train:dev:test)
+    - the output/prediction of DNN only dev sets
+    - Those dev sets are input for SVM
+    - SVM predict the remain 2039 data
+- To-do: Split data into LOSO (Leave One Session Out)
+- Never use dashes for (python) file naming (only for date?). Underscore is OK.
+- The current result using SVM (RBF Kernel) shows promising result.
+
+2019-12-23:  
+- contribution of CSL paper: 
+    - A multi-stage approach to exploit the advantage of each emotion 
+      recognition modality, i.e., acoustic and text, by combining 
+      each result from DNN to SVM.
+- Proposed CSL title: 
+    "Dimensional speech emotion recognition based on late fusion of 
+     acoustic and text information: A two-stage process by using DNN and SVM" 
+- idea: "Recognizing Emotion and Naturalness in Speech using 
+        DNN with Multitask Learning"
+
+2019-12-24:  
+- The current architecture (data processing) of two-stage SER make it impossible 
+  to perform multi-stage, todo (next): adapt avec approach to make it able 
+  to process on multi-stages technique.
+- Got initial result on two-stage SER:
+    1. Generally good performance
+    2. TER on MSP-I+N, shows low result. This can be caused by:
+        a. The transcription is made by ASR (suffer from error)
+        b. MSP is designed by controlling lexical content. Although improvisation 
+           and natural interaction recording is chosen, there is possibility 
+           that those actors are still influenced by target sentences.
+           
+2012-12-25:  
+- Finish initial experiment on IEMOCAP and MSP-I+N for CSL Journal
+- Result shows good!
+- CSL use HARVARD references/citation styles!
+- Lessons learned from who wants to be millionaire:
+    - Ask the Audience: the audience takes voting pads attached to their seats 
+      and votes for the answer that they believe is correct. The computer tallies 
+      the results and displays them as percentages to the contestant.
+    - 50:50: the game's computer eliminates two wrong answers from the current 
+      question, leaving behind the correct answer and one incorrect answer. 
+      From 2000, the selection of two incorrect answers were random.
+    - Phone a Friend: the contestant is connected with a friend over a phone line 
+      and is given 30 seconds to read the question and answers and 
+      solicit assistance. The time begins as soon as the contestant starts reading the question.
+
+2012-12-26:
+- I have two sets a = [a, b, c] and b = ['1', '2', '3']. I want to find how many 
+  pairs I can choose from a and b, i.e., 9 (a1, a2, a3, b1, ..., c3). 
+  The number of 9 I got from by multiplying 3 by 3. 
+  So if I have three sets (say C = [x, y, z]), I will have 27 pairs (3 x 3 x 3). 
+
+- Answer: 3C2 x 3C2 = 9
+add bahasa to this https://github.com/cptangry/wahy
+
 ---
 2019-12-18:  
 - This may the last note in this file
@@ -16,7 +104,7 @@ Content:
 
 ---
 2019-11-28:  
-- Converation: a balance between speaking and listening.
+- Conversation: a balance between speaking and listening.
 - Pay attention on conversation!
 - 10 tips on conversation: don't multitask, don't pontificate, use open-ended question, go with the flow, 
 if you don't know say you don't know, don't equate your experience with theirs, try not to repeat, stay out the weeds (focus), listen, be brief.
