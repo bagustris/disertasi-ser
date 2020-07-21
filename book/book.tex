@@ -1,0 +1,44 @@
+\documentclass[12pt, a4paper]{report}
+
+\usepackage{jaist-e-doctor}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{url}
+\usepackage{pdfpages}   % for using pdf as image
+
+\usepackage[hidelinks]{hyperref}
+% \usepackage{biblatex}
+
+\title{% Write title of your thesis 
+Dimensional Speech Emotion Recognition by Fusing Acoustic and Linguistic Information}
+\author{Bagus Tris Atmaja}
+\school{Graduate School of Advanced Science and Technology}
+\adviser{Professor Masato Akagi}
+\date{\textit{Information Science} \\ \today}
+
+\begin{document}
+\maketitle
+
+\pagenumbering{roman}  % Show page number in ROMAN 
+\setcounter{page}{1}
+
+\include{eabs}
+\include{eack}
+
+\tableofcontents
+\listoffigures
+\listoftables
+\newpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\include{1ec}
+\include{2ec}
+\include{3ec}
+\include{4ec}
+\include{5ec}
+\include{6ec}
+\include{7ec}
+\include{eref}
+\include{epub}
+
+\end{document}

@@ -1,0 +1,59 @@
+\strut
+\vspace{20pt}
+
+\begin{center}
+{\LARGE\bf Abstract}
+\end{center}
+\vspace{20pt}
+\addcontentsline{toc}{chapter}{Abstract}
+
+Humans perceive information in multimodal ways. Among many modalities, hearing
+is an important modality to perceive emotion from speech. Within speech, not
+only acoustic information can be extracted but also linguistic information.
+This linguistic information is commonly extracted via speech-to-text
+application. While the conventional paradigm in  speech emotion recognition
+(SER) is performed by using acoustic information only, a new paradigm involves
+multimodal processing from multi-channel information. This research aims to
+propose methods for dimensional SER by combining acoustic and linguistic
+information. The problem thus exists on how to fuse both information. The
+following strategies are studied to solve this problem: SER by using acoustic
+features only, combining acoustic and linguistic information at the feature
+level, and combining acoustic and linguistic information at the decision level.
+
+
+The first strategy aims to maximize the potency
+of recognizing dimensional emotion from acoustic information only. In this
+study, several acoustic features sets have been evaluated on both low-level and
+high-level features. Although high statistical functions might be limited in
+feature size, this kind of feature might be more informative than a local
+feature since it represents information within an utterance (by mean values)
+and captures the dynamic between frames (by standard deviation). This study
+reveals the effectiveness of means and standard
+deviations from a specific feature set for dimensional SER.  Although several
+approaches has been carried out, acoustic-based SER has a limitation on low
+score of valence prediction.
+
+A method to improve acoustic-based SER is by fusing acoustic and linguistic
+information. Linguistic information has been reported more predictive than
+acoustic information in predicting valence. Two fusing methods for
+acoustic-linguistic information fusion are studied: early-fusion approach and
+late-fusion approach. In the feature level (FL) early-fusion approach, two fusion methods are evaluated -- feature concatenation and
+network concatenation. The FL methods show
+significant performance improvement over unimodal dimensional SER. In the
+second method using decision level (DL) late-fusion approach, acoustic and
+linguistic information are trained independently, and the results are fused by
+SVM to make the final predictions. Although this proposal is more complex than
+the previous FL fusion, the results show improvements over previous DL
+approach.
+
+This research links the current problem in dimensional SER with its potential
+solution. The combination of acoustic and linguistic information fills the gap
+in dimensional SER. The FL approach improves the performance of unimodal SER
+significantly. The DL approach improves the FL approach's performance by
+mimicking human multimodal information fusion. The results devote insights for
+future strategy in implementing SER, whether to use acoustic-only features
+(less complex, less accurate), an early-fusion method (more complex, more
+accurate), or a late-fusion method (most complex, most accurate).
+
+\noindent \textbf{Keywords} Dimensional emotion, speech emotion recognition, information
+fusion, affective computing.

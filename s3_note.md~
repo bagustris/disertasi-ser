@@ -2,21 +2,11 @@
 ~~day.month.year~~  
 year-month-day (ISO 8601)  
 Content:  
-- What is the question (Q), and what is the answer (A)
+- What is the question (Q), and what is the answer (A)  
 - what is your idea, how to implement  
 - what is the problem, what is your proposed solution
 - what is X, what is Y
 - what did you have done today, what is your plan for tomorrow
-
-
-2020-07-17:  
-- Which region of analysis to extract acoustic features in SER
-- Understanding why HSFs are better than LLDs
-- Optimizing SER from HSF
-- Contribution of silent pause features
-- Aggregating acoustic features
-- Summary of Chapter
-- counting computation time: sudo chrt -f 99 /usr/bin/time --verbose #code
 
 2020-07-15:  
 - Extracting information from data
