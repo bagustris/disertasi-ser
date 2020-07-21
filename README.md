@@ -2,14 +2,15 @@
 Repository for PhD activity, JAIST 2017~2021
 - `README.md`: PhD resources
 - `progress`: progress monthly, delivered to sensei
-- `s3_node.md`: Daily journal of PhD life  
+- `s3_node.md`: Daily journal of PhD life 
+- `code` : (python) codes to obtain results and plots
 
 # PhD Resources
-I pursue my PhD in theme of speech emotion recognition. I used two features: acoustic and text feature. 
+I pursue my PhD in theme of speech emotion recognition. I used two information/features: acoustic and text feature. 
 Here are list of resources I used in my research. I keep to make this list as simple as I can to focus on tbe most important materials only.
 
 ## Deep Learning
-- [How to buil NN from scratch in python](https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6)
+- [How to build NN from scratch in python](https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6)
 - [Deep Learning Fundamental with Keras](https://courses.edx.org/courses/course-v1:IBM+DL0101EN+3T2018/course/)
 - [Neural network from 11 lines of Python](https://iamtrask.github.io/2015/07/12/basic-python-network/)
 
@@ -37,3 +38,5 @@ Here are list of resources I used in my research. I keep to make this list as si
 - [Writing academic papers for beginner](https://academic.oup.com/intqhc/article/16/3/191/1814554)
 - [Tenses in scientific writing](http://insights.cactusglobal.com/sites/default/files/The%20secret%20to%20using%20tenses%20in%20scientific%20writing.png)
 - [Tenses](http://grammar.ccc.commnet.edu/grammar/tenses/simple_present.htm)
+- [How To Write A Dissertation](https://www.cs.purdue.edu/homes/dec/essay.dissertation.html)
+- [MOOC: Academic Writing Made Easy](https://courses.edx.org/courses/course-v1:TUMx+AWMEx+1T2020/course/)
