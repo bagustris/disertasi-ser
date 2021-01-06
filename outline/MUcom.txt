@@ -1,0 +1,17 @@
+Dear Unoki-sensei,
+
+Thanks for your feedback on terminology. I see this problem is caused by the
+same terminology used in different area, i.e., phisiology vs information
+science/processing. In physiology, the defition of multimodality is only limited
+to (five) sensory modalities, but in information science/processing the
+definition of multimodality is the presence of more than one information's
+channel [1]. Hence, the definition of "modality" here is closer to represent
+channel (in brain processing) rather than sensory organs. 
+
+I also added new chapter 3 "Research Methodology" to address 
+why and how should I tackle the problems in my research.
+Thank you for finding this gap.
+
+I attached the revised version of my outline.
+
+[1] S. Poria, E. Cambria, R. Bajpai, and A. Hussain, “A review of affective computing: From unimodal analysis to multimodal fusion,” Inf. Fusion, 2017.

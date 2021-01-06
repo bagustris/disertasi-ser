@@ -1,0 +1,141 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Speech Emotion Recognition Using Acoustic Features}{29}{chapter.4}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Which region of analysis to extract acoustic features in SER}{29}{section.4.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}SER using low-level acoustic features}{29}{subsection.4.1.1}}
+\citation{Herrera1999}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Hann window and its spectrum}}{30}{figure.4.1}}
+\newlabel{fig:window_hann}{{4.1}{30}{Hann window and its spectrum}{figure.4.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces An example of Hamming window (middle) applied to sinusoid signal (left); the resulted windowed signal (right) is multiplication of both.}}{30}{figure.4.2}}
+\newlabel{fig:windowing_demo}{{4.2}{30}{An example of Hamming window (middle) applied to sinusoid signal (left); the resulted windowed signal (right) is multiplication of both}{figure.4.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Frame-based processing for extracting low-level descriptors of an acoustic signal; the signal is an excerpt of IEMOCAP utterance with 400 samples frame length and 160 samples hop length; sampling frequency is 16 kHz.}}{31}{figure.4.3}}
+\newlabel{fig:frame-processing}{{4.3}{31}{Frame-based processing for extracting low-level descriptors of an acoustic signal; the signal is an excerpt of IEMOCAP utterance with 400 samples frame length and 160 samples hop length; sampling frequency is 16 kHz}{figure.4.3}{}}
+\citation{Mohamed2014}
+\citation{fayek2016}
+\citation{Eyben}
+\citation{Giannakopoulos2015}
+\newlabel{eq:log-mel}{{4.2}{32}{SER using low-level acoustic features}{equation.4.1.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Visualization of MFCC features with 13 coefficients (top), mel-spectrogram (middle), and log mel-spectrogram with 64 mels (bottom)}}{33}{figure.4.4}}
+\newlabel{fig:mfcc-mel}{{4.4}{33}{Visualization of MFCC features with 13 coefficients (top), mel-spectrogram (middle), and log mel-spectrogram with 64 mels (bottom)}{figure.4.4}{}}
+\citation{Eyben}
+\citation{Giannakopoulos2015}
+\citation{Eyben}
+\citation{Giannakopoulos2015}
+\citation{Busso2008}
+\citation{Eyben}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Acoustic feature sets: GeMAPS \cite  {Eyben} and pyAudioAnalysis \cite  {Giannakopoulos2015}. The numbers in parentheses indicate the total numbers of features (LLDs).}}{34}{table.4.1}}
+\newlabel{tab:gemaps_paa}{{4.1}{34}{Acoustic feature sets: GeMAPS \cite {Eyben} and pyAudioAnalysis \cite {Giannakopoulos2015}. The numbers in parentheses indicate the total numbers of features (LLDs)}{table.4.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}SER using high-level acoustic features}{34}{subsection.4.1.2}}
+\citation{Sebastian2019}
+\citation{Morales2016}
+\citation{Tomas2019}
+\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Results of frame-based LLDs for dimensional SER in IEMOCAP dataset}}{35}{table.4.2}}
+\newlabel{tab:iemocap-lld}{{4.2}{35}{Results of frame-based LLDs for dimensional SER in IEMOCAP dataset}{table.4.2}{}}
+\citation{Atmaja2020d}
+\citation{Schmitt2018}
+\citation{Atmaja2019}
+\citation{Hinton1989}
+\citation{chollet2015keras}
+\citation{scikit-learn}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Illustration of Mean+Std extraction from LLDs (e.g., MFCCs)}}{36}{figure.4.5}}
+\newlabel{fig:mean_std}{{4.5}{36}{Illustration of Mean+Std extraction from LLDs (e.g., MFCCs)}{figure.4.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces Results of utterance-based HSF for dimensional SER in IEMOCAP dataset}}{36}{table.4.3}}
+\newlabel{tab:iemocap-hsf}{{4.3}{36}{Results of utterance-based HSF for dimensional SER in IEMOCAP dataset}{table.4.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.3}Optimizing dimensional SER using different classifiers}{36}{subsection.4.1.3}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.4}{\ignorespaces Number of layer and corresponding units on each layer}}{37}{table.4.4}}
+\newlabel{tab:layer}{{4.4}{37}{Number of layer and corresponding units on each layer}{table.4.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.5}{\ignorespaces Average CCC score on IEMOCAP dataset using different classifiers and number of layers (features: pAA\_D)}}{37}{table.4.5}}
+\newlabel{tab:iemocap-optim}{{4.5}{37}{Average CCC score on IEMOCAP dataset using different classifiers and number of layers (features: pAA\_D)}{table.4.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.6}{\ignorespaces Average CCC score on MSP-IMPROV dataset using different classifiers and number of layers (features: pAA\_D)}}{37}{table.4.6}}
+\newlabel{tab:improv-optim}{{4.6}{37}{Average CCC score on MSP-IMPROV dataset using different classifiers and number of layers (features: pAA\_D)}{table.4.6}{}}
+\citation{Aguilar2020}
+\citation{Atmaja2019}
+\citation{Campione2002}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Effect of silent pause features in dimensional SER}{38}{section.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Dimensional SER on silence-removed region}{38}{subsection.4.2.1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Calculation of silent region in speech}}{39}{figure.4.6}}
+\newlabel{fig:silence}{{4.6}{39}{Calculation of silent region in speech}{figure.4.6}{}}
+\citation{Atmaja2019}
+\citation{Tian2015a}
+\citation{Aguilar2020}
+\citation{Fayek2017}
+\citation{Tian2015a}
+\citation{Fayek2017}
+\citation{Tisljar-Szabo2014}
+\@writefile{lot}{\contentsline {table}{\numberline {4.7}{\ignorespaces Result of using different duration and threshold factor for removing silence on IEMOCAP dataset; bold-typed scores indicate a higher value than baseline.}}{40}{table.4.7}}
+\newlabel{tab:sil_remove_ie}{{4.7}{40}{Result of using different duration and threshold factor for removing silence on IEMOCAP dataset; bold-typed scores indicate a higher value than baseline}{table.4.7}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.8}{\ignorespaces Result of using different duration and threshold factor for removing silence on MSP-IMPROV dataset; bold-typed scores indicate a higher value than baseline.}}{40}{table.4.8}}
+\newlabel{tab:sil_remove_msp}{{4.8}{40}{Result of using different duration and threshold factor for removing silence on MSP-IMPROV dataset; bold-typed scores indicate a higher value than baseline}{table.4.8}{}}
+\citation{Atmaja2020f}
+\citation{moore2014word}
+\citation{Atmaja2020f}
+\citation{Campione2002}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Dimensional SER with silent pause features}{41}{subsection.4.2.2}}
+\newlabel{eq:sil_ratio}{{4.7}{41}{Dimensional SER with silent pause features}{equation.4.2.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Silent pause features calculation}}{42}{figure.4.7}}
+\newlabel{fig:silence_fig}{{4.7}{42}{Silent pause features calculation}{figure.4.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Different silent threshold factors on normalized RMS with trimmed leading and trailing silences}}{42}{figure.4.8}}
+\newlabel{fig:msp_threshold}{{4.8}{42}{Different silent threshold factors on normalized RMS with trimmed leading and trailing silences}{figure.4.8}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.9}{\ignorespaces Result of using silence as an additional feature on pAA feature set on IEMOCAP dataset; bold-typed scores indicate a higher mean value than baseline.}}{43}{table.4.9}}
+\newlabel{tab:ie_saf}{{4.9}{43}{Result of using silence as an additional feature on pAA feature set on IEMOCAP dataset; bold-typed scores indicate a higher mean value than baseline}{table.4.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.10}{\ignorespaces Result of using silence as an additional feature on pAA feature set on MSP-IMPROV dataset; bold-typed scores indicate a higher mean value than baseline.}}{43}{table.4.10}}
+\newlabel{tab:msp_saf}{{4.10}{43}{Result of using silence as an additional feature on pAA feature set on MSP-IMPROV dataset; bold-typed scores indicate a higher mean value than baseline}{table.4.10}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Acoustic feature aggregation}{43}{section.4.3}}
+\citation{McFee2020}
+\citation{Atmaja2020j}
+\citation{Sezgin2012}
+\citation{Elbarougy2019}
+\@writefile{lot}{\contentsline {table}{\numberline {4.11}{\ignorespaces Comparison of three conditions for investigating the effect of silence in dimensional SER}}{44}{table.4.11}}
+\newlabel{tab:saf_recap}{{4.11}{44}{Comparison of three conditions for investigating the effect of silence in dimensional SER}{table.4.11}{}}
+\citation{Schuller}
+\citation{Schuller}
+\citation{Schuller}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces Flow diagram of acoustic input feature aggregation}}{45}{figure.4.9}}
+\newlabel{fig:input_aggregation}{{4.9}{45}{Flow diagram of acoustic input feature aggregation}{figure.4.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces Flow diagram of acoustic output aggregation (majority voting)}}{45}{figure.4.10}}
+\newlabel{fig:output_aggregation}{{4.10}{45}{Flow diagram of acoustic output aggregation (majority voting)}{figure.4.10}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.12}{\ignorespaces UAR results on development set: unimodal acoustic feature aggregation vs. baseline \cite  {Schuller} (INTERSPEECH 2020 ComParE Elderly Emotion Sub-Challenge dataset)}}{46}{table.4.12}}
+\newlabel{tab:acoustic_aggregation}{{4.12}{46}{UAR results on development set: unimodal acoustic feature aggregation vs. baseline \cite {Schuller} (INTERSPEECH 2020 ComParE Elderly Emotion Sub-Challenge dataset)}{table.4.12}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Summary}{46}{section.4.4}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.13}{\ignorespaces Summary of study on dimensional SER using acoustic features}}{47}{table.4.13}}
+\newlabel{tab:sum_ch4}{{4.13}{47}{Summary of study on dimensional SER using acoustic features}{table.4.13}{}}
+\@setckpt{4ec}{
+\setcounter{page}{49}
+\setcounter{equation}{8}
+\setcounter{enumi}{3}
+\setcounter{enumii}{0}
+\setcounter{enumiii}{0}
+\setcounter{enumiv}{0}
+\setcounter{footnote}{0}
+\setcounter{mpfootnote}{0}
+\setcounter{part}{0}
+\setcounter{chapter}{4}
+\setcounter{section}{4}
+\setcounter{subsection}{0}
+\setcounter{subsubsection}{0}
+\setcounter{paragraph}{0}
+\setcounter{subparagraph}{0}
+\setcounter{figure}{10}
+\setcounter{table}{13}
+\setcounter{AM@survey}{0}
+\setcounter{tcbbreakpart}{1}
+\setcounter{tcblayer}{0}
+\setcounter{tcbrastercolumn}{0}
+\setcounter{tcbrasterrow}{0}
+\setcounter{tcbraster}{0}
+\setcounter{parentequation}{0}
+\setcounter{lstnumber}{1}
+\setcounter{tcblisting}{0}
+\setcounter{Item}{6}
+\setcounter{Hfootnote}{0}
+\setcounter{bookmark@seq@number}{48}
+\setcounter{lstlisting}{0}
+\setcounter{section@level}{1}
+\setcounter{theo}{0}
+\setcounter{lemma}{0}
+\setcounter{col}{0}
+\setcounter{defini}{0}
+\setcounter{pro}{0}
+}

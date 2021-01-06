@@ -1,0 +1,57 @@
+
+\strut
+\vspace{20pt}
+
+\renewcommand{\nomname}{List of Abbreviations}
+\markboth{\nomname}{\nomname}
+\noindent{\LARGE\bf List of Abbreviations}
+
+\vspace{20pt}
+\addcontentsline{toc}{chapter}{List of Abbreviations}
+
+\newcommand{\abbrlabel}[1]{\makebox[3cm][l]{\textbf{#1}}}
+\newenvironment{abbreviations}{\begin{list}{}{\renewcommand{\makelabel}{\abbrlabel}}}{\end{list}}
+
+\begin{abbreviations}
+\item[ASR]  Automatic Speech Recognition
+\item[BoW]  Bag-of-Words 
+\item[CCC]  Concordance Correlation Coefficient 
+\item[CNN]  Convolutional Neural Networks
+\item[DAL]  Dictionary of Affect in Language 
+\item[DNN]  Deep (learning) Neural Networks 
+\item[FFT]  Fast Fourier Transform 
+\item[FC]   Fully Connected (Networks) 
+\item[GeMAPS] Geneva Minimalistic Acoustic Parameter Set
+\item[HCI]  Human-Computer Interaction 
+\item[HSF]  High-level Statistical Function
+\item[LSF]  Latent Semantic Analysis  
+\item[LLD]  Low-level Descriptor
+\item[LSTM] Long Short-Term Memory
+\item[LOSO/SI] Leave One Session Out/Speaker Independent   
+\item[MFCC] Mel Frequency Cepstral Coefficients 
+\item[MLP]  Multilayer Perceptron
+\item[MTL]  Multitask Learning 
+\item[(P)CC]    (Pearson) Correlation Coefficient 
+\item[pAA] pyAudioAnalysis
+\item[pAA\_D] pyAudioAnalysis with their deltas
+\item[RBF]  Radial Basis Function 
+\item[RMS]  Root Mean Square
+\item[RMSE] Root Mean Square Energy
+\item[RNN]  Recurrent Neural Networks  
+\item[SER]  Speech Emotion Recognition
+\item[SD]   Speaker Dependent 
+\item[Std/std]  Standard deviation
+\item[STL]  Single-task Learning  
+\item[SVM/SVR] Support Vector Machine/Support Vector Regression
+\item[sil]  Silence 
+\item[STFT] Short Time Fourier Transform 
+\item[ZCR]  Zero Crossing Rate
+\item[TF-IDF]   Term Frequency - Inverse Document Frequency
+\item[UAR]  Unweighted Average Recall  
+\item[VAD]  Valence, Arousal, Dominance 
+
+\end{abbreviations}
+
+% \newpage
+% \thispagestyle{empty}
+% \mbox{}

@@ -1,0 +1,10 @@
+tensorflow-gpu==1.14
+keras==2.3.0
+librosa==0.7.2
+numpy==1.19.0
+scikit-learn==0.20.2
+matplotlib==3.3.0
+pyaudioanalysis==0.3.5
+audiosegment==0.22.2                 
+
+
