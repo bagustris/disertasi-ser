@@ -1,0 +1,84 @@
+Sentence ID,Sentence,Valence,Arousal,Dominance,Sentiment Label,# Words Found,Found Words,All Words
+1,"Ses03F_impro04_F000 [005.5614-011.2375]: I don't know, Brian, if they uh--it's been three years.",4.786666666666666,4.49,5.16,neutral,3 out of 5,"['neg-know', 'three', 'year']","['know', 'brian', 'uh', 'three', 'year']"
+2,"Ses03F_impro04_M000 [010.6961-013.4928]: Hey, you just got to keep on going.",6.243333333333333,3.986666666666667,5.5633333333333335,positive,3 out of 4,"['get', 'keep', 'go']","['hey', 'get', 'keep', 'go']"
+3,"Ses03F_impro04_F001 [012.2942-018.8317]: No, I don't know, I--maybe this isn't for me.",3.1799999999999997,6.76,4.22,negative,1 out of 2,['neg-know'],"['know', 'maybe']"
+4,"You know, maybe this isn't the right business for me.",4.673333333333333,4.843333333333334,4.423333333333334,neutral,3 out of 4,"['know', 'neg-right', 'neg-business']","['know', 'maybe', 'right', 'business']"
+5,"Ses03F_impro04_M001 [017.8330-020.6114]: No, don't think like that.",2.94,5.925,3.61,negative,2 out of 2,"['neg-think', 'neg-like']","['think', 'like']"
+6,"Ses03F_impro04_F002 [020.1025-027.2761]: I just, I see all these other people getting commercials and work and it's like I'm not getting anything.",5.51,4.404285714285714,5.45,neutral,7 out of 8,"['see', 'people', 'get', 'commercial', 'work', 'like', 'neg-get']","['see', 'people', 'get', 'commercial', 'work', 'like', 'get', 'anything']"
+7,Ses03F_impro04_F003 [027.3124-031.5255]: I have no money behind me.,2.9000000000000004,3.1399999999999997,3.6799999999999997,negative,1 out of 2,['neg-money'],"['money', 'behind']"
+8,Nothing.,N/A,N/A,N/A,N/A,0,N/A,['nothing']
+9,"I'm twenty five and--
+Ses03F_impro04_M002 [031.1078-034.9395]: Russel Crowe wasn't forty until he got his big stuff.",5.706666666666667,4.236666666666666,5.165,neutral,6 out of 8,"['twenty', 'five', 'neg-forty', 'get', 'big', 'stuff']","['twenty', 'five', 'russel', 'crowe', 'forty', 'get', 'big', 'stuff']"
+10,"M: We're in--
+M:
+Ses03F_impro04_M003 [039.5521-042.7846]: If you really want to do it-I mean,
+Ses03F_impro04_F004 [034.6673-036.7918]: So I'll have to wait twenty five years-
+Ses03F_impro04_M004 [042.8209-045.0182]: you got to do.",5.21,3.9914285714285715,5.3028571428571425,neutral,7 out of 8,"['want', 'mean', 'wait', 'twenty', 'five', 'year', 'get']","['really', 'want', 'mean', 'wait', 'twenty', 'five', 'year', 'get']"
+11,"Ses03F_impro04_F005 [036.8281-041.4952]: -just going and auditioning and auditioning and rejection after refection, it's like--
+Ses03F_impro04_M005 [054.8427-057.4032]: You could.",5.352,4.558,5.5040000000000004,neutral,5 out of 7,"['go', 'audition', 'audition', 'rejection', 'like']","['go', 'audition', 'audition', 'rejection', 'refection', 'like', 'could']"
+12,You could.,N/A,N/A,N/A,N/A,0,N/A,['could']
+13,"We just--
+Ses03F_impro04_M006 [057.4577-060.2362]: we're just pooling our funds together.",6.665,4.12,6.22,positive,2 out of 3,"['pool', 'fund']","['pool', 'fund', 'together']"
+14,"Ses03F_impro04_F006 [044.5475-055.3075]: I know, I just don't know if I can handle it.",5.243333333333333,4.493333333333333,5.333333333333333,neutral,3 out of 3,"['know', 'neg-know', 'handle']","['know', 'know', 'handle']"
+15,"I mean, you're helping me so much financially it's like I can't survive on my own without you.",4.98,4.7425,5.2825,neutral,4 out of 8,"['mean', 'help', 'like', 'neg-survive']","['mean', 'help', 'much', 'financially', 'like', 'ca', 'survive', 'without']"
+16,I don't like that.,2.5599999999999996,5.6,3.7199999999999998,negative,1 out of 1,['neg-like'],['like']
+17,Ses03F_impro04_M007 [060.2906-062.6151]: You don't owe me anything.,6.4399999999999995,5.33,6.83,positive,1 out of 2,['neg-owe'],"['owe', 'anything']"
+18,Ses03F_impro04_F007 [061.6575-066.0300]: I feel like I'm not doing anything.,6.855,4.225,5.890000000000001,positive,2 out of 3,"['feel', 'like']","['feel', 'like', 'anything']"
+19,Like I'm not giving anything into this world.,5.39,4.793333333333333,5.226666666666667,neutral,3 out of 4,"['like', 'neg-give', 'world']","['like', 'give', 'anything', 'world']"
+20,"Ses03F_impro04_M008 [064.8850-071.7132]: You are, you're going to class, you're learning, you're getting better.",6.2475000000000005,4.4399999999999995,5.805,positive,4 out of 5,"['go', 'class', 'learn', 'get']","['go', 'class', 'learn', 'get', 'better']"
+21,When you finally get that role you're going to be prepared.,5.7075,4.2700000000000005,5.9,neutral,4 out of 5,"['get', 'role', 'go', 'prepare']","['finally', 'get', 'role', 'go', 'prepare']"
+22,"Ses03F_impro04_F008 [070.9323-080.5207]: Yeah, but what if I never make it?",6.09,3.67,6.22,positive,1 out of 3,['make'],"['yeah', 'never', 'make']"
+23,"What if I studied all my life, this theatre, this acting, and I'm never going to get anywhere.",6.102,4.172,5.662,positive,5 out of 8,"['study', 'life', 'act', 'go', 'get']","['study', 'life', 'theatre', 'act', 'never', 'go', 'get', 'anywhere']"
+24,I'm never going to be able to have a job.,6.2,4.08,5.3133333333333335,positive,3 out of 4,"['go', 'able', 'job']","['never', 'go', 'able', 'job']"
+25,"Ses03F_impro04_M009 [078.0650-082.6675]: Oh my God, Anna, you're still young.",6.105,4.824999999999999,5.3,positive,2 out of 5,"['god', 'young']","['oh', 'god', 'anna', 'still', 'young']"
+26,Don't even think about that.,3.3200000000000003,6.25,3.5,negative,1 out of 2,['neg-think'],"['even', 'think']"
+27,Ses03F_impro04_F009 [082.0098-084.7519]: Time is passing by.,5.665,3.895,4.57,neutral,2 out of 2,"['time', 'pass']","['time', 'pass']"
+28,"Every year it's
+Ses03F_impro04_F010 [084.8246-087.5485]: a part left than I can do.",5.066666666666666,3.7233333333333336,5.496666666666666,neutral,3 out of 4,"['year', 'part', 'leave']","['every', 'year', 'part', 'leave']"
+29,"Ses03F_impro04_M010 [085.1514-090.4525]: You're only twenty five, okay?",5.825,3.61,5.395,neutral,2 out of 3,"['twenty', 'five']","['twenty', 'five', 'okay']"
+30,Some people don't start until they're thirty five.,4.8575,4.02,5.3125,neutral,4 out of 4,"['people', 'neg-start', 'thirty', 'five']","['people', 'start', 'thirty', 'five']"
+31,Ses03F_impro04_F011 [089.7277-091.3258]: Really?,N/A,N/A,N/A,N/A,0,N/A,['really']
+32,Ses03F_impro04_M011 [090.6176-091.9795]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+33,"Ses03F_impro04_F012 [091.9450-096.4650]: I don't know, I just [BREATHING] I get frustrated
+Ses03F_impro04_M012 [094.1587-100.4420]: What would you do- What would you do if you didn't?",4.728,4.69,5.12,neutral,5 out of 6,"['neg-know', 'get', 'frustrated', 'would', 'would']","['know', 'breathing', 'get', 'frustrated', 'would', 'would']"
+34,You can go to law school.,5.426666666666667,4.326666666666667,5.346666666666667,neutral,3 out of 3,"['go', 'law', 'school']","['go', 'law', 'school']"
+35,Ses03F_impro04_F013 [098.0960-100.8415]: That's the thing.,5.55,3.43,5.41,neutral,1 out of 1,['thing'],['thing']
+36,I don't know.,3.1799999999999997,6.76,4.22,negative,1 out of 1,['neg-know'],['know']
+37,I don't know anything.,3.1799999999999997,6.76,4.22,negative,1 out of 2,['neg-know'],"['know', 'anything']"
+38,Ses03F_impro04_F014 [100.9142-103.4825]: Law school?,4.98,4.0600000000000005,5.355,neutral,2 out of 2,"['law', 'school']","['law', 'school']"
+39,Maybe.,N/A,N/A,N/A,N/A,0,N/A,['maybe']
+40,Ses03F_impro04_F015 [103.6745-111.3016]: I don't know.,3.1799999999999997,6.76,4.22,negative,1 out of 1,['neg-know'],['know']
+41,"I don't know anything other than this, though, is the problem.",3.3499999999999996,5.785,4.58,negative,2 out of 4,"['neg-know', 'problem']","['know', 'anything', 'though', 'problem']"
+42,This is my life.,6.68,5.59,5.89,positive,1 out of 1,['life'],['life']
+43,"This is what I built everything about, you know.",6.575,3.31,6.140000000000001,positive,2 out of 3,"['build', 'know']","['build', 'everything', 'know']"
+44,Ses03F_impro04_M013 [110.4662-113.8985]: See?,6.27,3.9,6.0,positive,1 out of 1,['see'],['see']
+45,So you can't just quit now.,6.279999999999999,5.95,5.61,positive,1 out of 2,['neg-quit'],"['ca', 'quit']"
+46,"Ses03F_impro04_F016 [113.4808-122.8694]: I mean, I could go to law school, but I'm just not passionate about it, you know?",4.726666666666667,4.116666666666667,4.895,neutral,6 out of 7,"['mean', 'go', 'law', 'school', 'neg-passionate', 'know']","['mean', 'could', 'go', 'law', 'school', 'passionate', 'know']"
+47,"Like I'm not--it doesn't drive me, it doesn't motivate me.",4.963333333333334,5.04,4.463333333333334,neutral,3 out of 3,"['like', 'neg-drive', 'neg-motivate']","['like', 'drive', 'motivate']"
+48,"I--
+Ses03F_impro04_M014 [122.2157-125.1925]: Have you been going to auditions and stuff?",5.793333333333334,4.206666666666667,5.386666666666667,neutral,3 out of 3,"['go', 'audition', 'stuff']","['go', 'audition', 'stuff']"
+49,Ses03F_impro04_F017 [124.0498-128.0550]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+50,"I mean, I get a call-back and stuff, but-
+Ses03F_impro04_F018 [128.4808-134.0525]: I just, I need a break.",4.986,4.076,4.842,neutral,5 out of 5,"['mean', 'get', 'stuff', 'need', 'break']","['mean', 'get', 'stuff', 'need', 'break']"
+51,I need something to break me out.,5.275,4.1899999999999995,4.779999999999999,neutral,2 out of 3,"['need', 'break']","['need', 'something', 'break']"
+52,Ses03F_impro04_M015 [133.5575-137.9057]: How's the job?,5.64,4.0,4.44,neutral,1 out of 1,['job'],['job']
+53,Still waiting tables at Denny's?,5.02,3.31,5.574999999999999,neutral,2 out of 4,"['wait', 'table']","['still', 'wait', 'table', 'denny']"
+54,Ses03F_impro04_F019 [137.7423-141.0575]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+55,Unfortunately.,N/A,N/A,N/A,N/A,0,N/A,['unfortunately']
+56,"Ses03F_impro04_F020 [141.1375-147.0583]: Yeah, so I go to--get an education for four years and I'm waiting tables at Denny's.",5.72,3.7871428571428574,5.772857142857143,neutral,7 out of 9,"['go', 'get', 'education', 'four', 'year', 'wait', 'table']","['yeah', 'go', 'get', 'education', 'four', 'year', 'wait', 'table', 'denny']"
+57,"Ses03F_impro04_M016 [146.6588-149.3464]: Well, they tip well.",6.77,4.05,5.84,positive,1 out of 3,['tip'],"['well', 'tip', 'well']"
+58,"Ses03F_impro04_F021 [148.5575-151.4167]: [BREATHING] Brian-
+Ses03F_impro04_F022 [151.5619-156.9736]: it's not funny.",2.41,4.62,3.67,negative,1 out of 3,['neg-funny'],"['breathing', 'brian', 'funny']"
+59,I just don't know what I'm going to do.,4.75,5.8100000000000005,4.775,neutral,2 out of 2,"['neg-know', 'go']","['know', 'go']"
+60,Ses03F_impro04_M017 [157.3912-161.0958]: Maybe you could start teaching.,6.41,4.81,5.5,positive,1 out of 4,['start'],"['maybe', 'could', 'start', 'teaching']"
+61,I don't know.,3.1799999999999997,6.76,4.22,negative,1 out of 1,['neg-know'],['know']
+62,"Ses03F_impro04_F023 [160.5300-162.8800]: Yeah, I guess I could.",5.18,3.86,4.89,neutral,1 out of 3,['guess'],"['yeah', 'guess', 'could']"
+63,Ses03F_impro04_M018 [162.2100-166.6050]: Go back to school.,5.496666666666667,4.006666666666667,5.476666666666667,neutral,3 out of 3,"['go', 'back', 'school']","['go', 'back', 'school']"
+64,You know?,6.82,3.24,5.78,positive,1 out of 1,['know'],['know']
+65,"Another three more years, get your master's.",5.7475,3.6950000000000003,5.27,neutral,4 out of 5,"['three', 'year', 'get', 'master']","['another', 'three', 'year', 'get', 'master']"
+66,"Ses03F_impro04_F024 [166.1100-167.7325]: Yeah
+Ses03F_impro04_M019 [167.2375-170.5875]: Close to thirty.",4.985,3.69,5.82,neutral,2 out of 3,"['close', 'thirty']","['yeah', 'close', 'thirty']"
+67,"Oof, it's going to be tough.",5.385,4.550000000000001,5.665,neutral,2 out of 3,"['go', 'tough']","['oof', 'go', 'tough']"
+68,Ses03F_impro04_F025 [170.3029-172.3368]: Thanks.,7.73,4.05,6.72,positive,1 out of 1,['thanks'],['thanks']
+69,"Ses03F_impro04_M020 [171.9191-173.4800]: [LAUGHTER]
+Ses03F_impro04_F026 [173.1325-174.2525]: [BREATHING]",8.05,5.39,7.02,positive,1 out of 2,['laughter'],"['laughter', 'breathing']"

@@ -1,0 +1,88 @@
+Sentence ID,Sentence,Valence,Arousal,Dominance,Sentiment Label,# Words Found,Found Words,All Words
+1,Ses02M_impro05_M000 [002.6966-003.9776]: Hi.,N/A,N/A,N/A,N/A,0,N/A,['hi']
+2,"Um-
+Ses02M_impro05_F000 [003.6155-004.8484]: Hi, can I help you?",6.95,4.29,6.89,positive,1 out of 3,['help'],"['um', 'hi', 'help']"
+3,Ses02M_impro05_M001 [004.9295-009.4790]: It seems that uh- my-my bag didn't make it out on the carousel.,5.2775,4.3575,4.9625,neutral,4 out of 5,"['seem', 'bag', 'neg-make', 'carousel']","['seem', 'uh', 'bag', 'make', 'carousel']"
+4,"Ses02M_impro05_F001 [009.2950-013.2588]: Oh, did you check?",6.55,3.38,4.67,positive,1 out of 2,['check'],"['oh', 'check']"
+5,"Did you make sure as it went around the second time that it-
+Ses02M_impro05_M002 [011.4800-016.5042]: Yes, yes, it's gone around like you know twenty times.",6.231,3.8480000000000003,5.497,positive,10 out of 14,"['make', 'sure', 'go', 'second', 'time', 'go', 'like', 'know', 'twenty', 'time']","['make', 'sure', 'go', 'around', 'second', 'time', 'yes', 'yes', 'go', 'around', 'like', 'know', 'twenty', 'time']"
+6,It's been about a half hour.,5.05,3.38,6.25,neutral,1 out of 2,['hour'],"['half', 'hour']"
+7,Ses02M_impro05_F002 [014.7400-016.4900]: Okay.,N/A,N/A,N/A,N/A,0,N/A,['okay']
+8,"Well, um- the f.
+Ses02M_impro05_F003 [016.4900-027.9028]: Actually I'm looking here at the information, the flight that you were on we had some trouble with some of the baggage, it looks like a few peoples' bags didn't make it through.",5.381,4.154,5.386,neutral,10 out of 13,"['look', 'information', 'flight', 'trouble', 'baggage', 'look', 'like', 'people', 'bag', 'neg-make']","['well', 'um', 'actually', 'look', 'information', 'flight', 'trouble', 'baggage', 'look', 'like', 'people', 'bag', 'make']"
+9,"Um, so-
+Ses02M_impro05_M003 [027.2271-031.5242]: Okay.",N/A,N/A,N/A,N/A,0,N/A,"['um', 'okay']"
+10,"So what-what do I have to get you know
+Ses02M_impro05_F004 [030.4700-036.5507]: Well, you can fill out this paperwork um- and if for some reason it shows up, we can bring it to you, but-
+Ses02M_impro05_M004 [035.3200-038.1932]: For some reason, so you think it won't show up?",5.762,3.906,5.788,neutral,10 out of 13,"['get', 'know', 'fill', 'paperwork', 'reason', 'show', 'bring', 'reason', 'think', 'neg-show']","['get', 'know', 'well', 'fill', 'paperwork', 'um', 'reason', 'show', 'bring', 'reason', 'think', 'wo', 'show']"
+11,"Ses02M_impro05_F005 [038.1619-046.2674]: Well, sometimes it's just late baggage or misplaced baggage and it comes out but it seems to be here and just I'm reading off of this that
+Ses02M_impro05_F006 [046.2872-053.6683]: Uh- it didn't make it into the second plane so it looks like there - they don't actually know what happened to it.",5.015714285714286,4.427142857142857,5.210714285714285,neutral,14 out of 18,"['late', 'baggage', 'misplace', 'baggage', 'come', 'seem', 'read', 'neg-make', 'second', 'plane', 'look', 'like', 'neg-know', 'happen']","['well', 'sometimes', 'late', 'baggage', 'misplace', 'baggage', 'come', 'seem', 'read', 'uh', 'make', 'second', 'plane', 'look', 'like', 'actually', 'know', 'happen']"
+12,Ses02M_impro05_M005 [053.6501-056.5535]: What?,N/A,N/A,N/A,N/A,0,N/A,[]
+13,What?,N/A,N/A,N/A,N/A,0,N/A,[]
+14,How does that happen?,5.5,3.43,5.53,neutral,1 out of 1,['happen'],['happen']
+15,"Ses02M_impro05_F007 [056.6475-069.8700]: Um, well, sometimes there is just difficulties with loading on to the plane.",4.24,4.556666666666667,5.463333333333333,neutral,3 out of 6,"['difficulty', 'load', 'plane']","['um', 'well', 'sometimes', 'difficulty', 'load', 'plane']"
+16,Uh- There can be a theft or uh- some sort of you know mishap with a cart or something.,4.5725,4.05,4.7,neutral,4 out of 8,"['theft', 'know', 'mishap', 'cart']","['uh', 'theft', 'uh', 'sort', 'know', 'mishap', 'cart', 'something']"
+17,Ses02M_impro05_M006 [067.2635-069.8172]: I really - I really need that bag.,5.25,3.55,5.34,neutral,2 out of 4,"['need', 'bag']","['really', 'really', 'need', 'bag']"
+18,"Ses02M_impro05_F008 [069.8800-072.1149]: I- I- I understand, but um.",6.68,3.52,6.71,positive,1 out of 2,['understand'],"['understand', 'um']"
+19,Ses02M_impro05_M007 [071.6500-074.4400]: there are- I have important things in that bag.,5.806666666666667,3.856666666666667,5.806666666666667,neutral,3 out of 3,"['important', 'thing', 'bag']","['important', 'thing', 'bag']"
+20,"I've got
+Ses02M_impro05_F009 [074.3085-075.0407]: Okay
+Ses02M_impro05_M008 [074.4500-081.9200]: I mean -- I've been away for a while and- and now I've- I've gifts for- for you know friends and family I mean, I got stuff in the there
+Ses02M_impro05_F010 [081.3600-082.5900]: Right.",5.835,4.2,5.602,neutral,10 out of 12,"['get', 'mean', 'gift', 'know', 'friend', 'family', 'mean', 'get', 'stuff', 'right']","['get', 'okay', 'mean', 'away', 'gift', 'know', 'friend', 'family', 'mean', 'get', 'stuff', 'right']"
+21,Ses02M_impro05_M009 [081.9300-083.1741]: It's worth a lot.,N/A,N/A,N/A,N/A,0,N/A,"['worth', 'lot']"
+22,Ses02M_impro05_F011 [083.1331-094.2758]: I understand that.,6.68,3.52,6.71,positive,1 out of 1,['understand'],['understand']
+23,"Um- So I'm going to put down here that you looking for your baggage, but we actually can't, uh this bag is likely not going to show up so what we're going to do-
+Ses02M_impro05_M010 [094.0921-100.4500]: Not going to show - well isn't like - wouldn't it just be at the airport, that, like, if it didn't get on the other plane
+Ses02M_impro05_M011 [100.4500-102.1519]: can they check there?",5.107777777777778,4.865555555555556,5.100555555555555,neutral,18 out of 23,"['go', 'put', 'look', 'baggage', 'bag', 'likely', 'neg-go', 'neg-show', 'go', 'neg-go', 'neg-show', 'neg-like', 'neg-would', 'airport', 'like', 'neg-get', 'plane', 'check']","['um', 'go', 'put', 'look', 'baggage', 'actually', 'ca', 'uh', 'bag', 'likely', 'go', 'show', 'go', 'go', 'show', 'well', 'like', 'would', 'airport', 'like', 'get', 'plane', 'check']"
+24,"Ses02M_impro05_F012 [100.2715-104.9224]: Sometimes it gets stolen, sometimes it gets misplaced on another plane and
+Ses02M_impro05_M012 [104.6651-105.4765]: on another-
+Ses02M_impro05_F013 [105.3994-111.5716]: they - they, it gets shipped to somewhere else and then it's stuck somewhere and then we have no way of tracking that.",4.9425,4.6362499999999995,5.02125,neutral,8 out of 17,"['get', 'steal', 'get', 'misplace', 'plane', 'get', 'ship', 'neg-way']","['sometimes', 'get', 'steal', 'sometimes', 'get', 'misplace', 'another', 'plane', 'another', 'get', 'ship', 'somewhere', 'else', 'stuck', 'somewhere', 'way', 'tracking']"
+25,"Ses02M_impro05_F014 [111.7101-113.5505]: So we'll- what we'll do
+Ses02M_impro05_M013 [112.1652-119.1800]: But we have the tags on.",4.79,3.29,5.88,neutral,1 out of 1,['tag'],['tag']
+26,"I mean like it wouldn't you know, if it got stuck somewhere it's like well this is nobodies bag I mean maybe you know look on the tag and
+Ses02M_impro05_M014 [119.1900-121.8700]: see where it came from originally.",5.336428571428572,4.118571428571428,5.545,neutral,14 out of 19,"['mean', 'like', 'would', 'neg-know', 'get', 'stick', 'like', 'bag', 'mean', 'know', 'look', 'tag', 'see', 'come']","['mean', 'like', 'would', 'know', 'get', 'stick', 'somewhere', 'like', 'well', 'nobodies', 'bag', 'mean', 'maybe', 'know', 'look', 'tag', 'see', 'come', 'originally']"
+27,"I mean it seems like-
+Ses02M_impro05_F015 [119.3685-125.5600]: Right.",5.66,4.3625,5.535,neutral,4 out of 4,"['mean', 'seem', 'like', 'right']","['mean', 'seem', 'like', 'right']"
+28,Like I said sometimes a theft and things happen like that but we are willing to reim-reimburse you.,5.895714285714286,4.002857142857143,5.83,neutral,7 out of 8,"['like', 'say', 'theft', 'thing', 'happen', 'like', 'willing']","['like', 'say', 'sometimes', 'theft', 'thing', 'happen', 'like', 'willing']"
+29,Ses02M_impro05_M015 [123.6628-124.5533]: Theft?,2.6,5.17,3.93,negative,1 out of 1,['theft'],['theft']
+30,"Ses02M_impro05_F016 [125.5900-127.1500]: Um, so.",N/A,N/A,N/A,N/A,0,N/A,['um']
+31,Ses02M_impro05_M016 [126.7989-133.6168]: Theft?,2.6,5.17,3.93,negative,1 out of 1,['theft'],['theft']
+32,"Don't you know like all these people that are work - you keep like an eye on them, how can they get away with-
+Ses02M_impro05_F017 [133.4189-141.7900]: We have very tight security but we -uh- there are times when we just can't uh make sure there aren't absolutely no human error, you know
+Ses02M_impro05_F018 [141.8000-145.1500]: I'm sorry there is no guarantee on baggage.",5.163888888888889,4.916666666666667,4.985,neutral,18 out of 24,"['neg-know', 'neg-like', 'people', 'work', 'keep', 'like', 'eye', 'get', 'security', 'time', 'neg-make', 'neg-sure', 'neg-human', 'neg-error', 'know', 'sorry', 'neg-guarantee', 'neg-baggage']","['know', 'like', 'people', 'work', 'keep', 'like', 'eye', 'get', 'away', 'tight', 'security', 'uh', 'time', 'ca', 'uh', 'make', 'sure', 'absolutely', 'human', 'error', 'know', 'sorry', 'guarantee', 'baggage']"
+33,Ses02M_impro05_M017 [144.8700-148.0300]: This is unbelievable.,5.57,5.4,5.37,neutral,1 out of 1,['unbelievable'],['unbelievable']
+34,"I've got
+Ses02M_impro05_M018 [148.0400-153.3268]: you don't realize the stuff that I've got in that - I really need to get the suitcase okay
+Ses02M_impro05_F019 [152.8519-154.4152]: I understand, so-
+Ses02M_impro05_M019 [153.3268-157.4725]: so if it's back there or something, if there is something you can do
+Ses02M_impro05_M020 [157.5352-161.3054]: I need you to tell me because I really need to get the bag, okay?",5.387142857142857,3.9692857142857143,5.285714285714286,neutral,14 out of 20,"['get', 'neg-realize', 'neg-stuff', 'get', 'need', 'get', 'suitcase', 'understand', 'back', 'need', 'tell', 'need', 'get', 'bag']","['get', 'realize', 'stuff', 'get', 'really', 'need', 'get', 'suitcase', 'okay', 'understand', 'back', 'something', 'something', 'need', 'tell', 'really', 'need', 'get', 'bag', 'okay']"
+35,"Ses02M_impro05_F020 [159.9100-162.6900]: all right, We've already checked back here for your baggage
+Ses02M_impro05_F021 [162.7000-165.6400]: and we will continue to look for it and because your paper-
+Ses02M_impro05_M021 [165.1608-167.6344]: You've already checked?",5.8325,3.56625,5.67,neutral,8 out of 10,"['right', 'check', 'back', 'baggage', 'continue', 'look', 'paper', 'check']","['right', 'already', 'check', 'back', 'baggage', 'continue', 'look', 'paper', 'already', 'check']"
+36,Can you check again?,6.55,3.38,4.67,positive,1 out of 1,['check'],['check']
+37,"[garbage]
+Ses02M_impro05_F022 [167.5717-176.8958]: I've already looked, thank you very much and because we've filled out paperwork if it shows up we will send it to you but otherwise what we can do is reimburse you for fifty dollar.",5.687,4.022,5.852,neutral,10 out of 13,"['garbage', 'look', 'thank', 'fill', 'paperwork', 'show', 'send', 'reimburse', 'fifty', 'dollar']","['garbage', 'already', 'look', 'thank', 'much', 'fill', 'paperwork', 'show', 'send', 'otherwise', 'reimburse', 'fifty', 'dollar']"
+38,Ses02M_impro05_M022 [176.6979-180.9525]: Fifty- fifty dollars?,5.623333333333333,4.156666666666667,5.623333333333334,neutral,3 out of 3,"['fifty', 'fifty', 'dollar']","['fifty', 'fifty', 'dollar']"
+39,Come on you have got to be joking.,5.865,3.62,5.795,neutral,2 out of 3,"['come', 'get']","['come', 'get', 'joking']"
+40,"Ses02M_impro05_F023 [180.8041-187.9777]: Well, it's- it's just sort of help with the fact uh that you lost some of your possessions and we rather do that than-
+Ses02M_impro05_M023 [186.8406-196.4079]: Uh huh, yea, lost some of my possessions, yes, so if I lost maybe a shoe that was in the suitcase and like a carry-on
+Ses02M_impro05_M024 [196.4177-204.0663]: that might be like fifty dollars okay, but this - I- [garbage] I had like thousands of dollars worth of stuff in that suitcase.",5.659473684210527,4.183157894736842,5.489473684210527,neutral,19 out of 31,"['help', 'fact', 'lose', 'possession', 'lose', 'possession', 'lose', 'shoe', 'suitcase', 'like', 'like', 'fifty', 'dollar', 'garbage', 'like', 'thousand', 'dollar', 'stuff', 'suitcase']","['well', 'sort', 'help', 'fact', 'uh', 'lose', 'possession', 'rather', 'uh', 'huh', 'yea', 'lose', 'possession', 'yes', 'lose', 'maybe', 'shoe', 'suitcase', 'like', 'might', 'like', 'fifty', 'dollar', 'okay', 'garbage', 'like', 'thousand', 'dollar', 'worth', 'stuff', 'suitcase']"
+41,Ses02M_impro05_F024 [203.0600-209.3303]: The airline can't afford to give you everything that is in that suitcase.,4.08,4.615,4.5649999999999995,neutral,4 out of 6,"['airline', 'neg-afford', 'neg-give', 'suitcase']","['airline', 'ca', 'afford', 'give', 'everything', 'suitcase']"
+42,"and so-
+Ses02M_impro05_M025 [207.0300-211.9163]: The a- what?",N/A,N/A,N/A,N/A,0,N/A,[]
+43,Talking about a core they can't afford it?,5.423333333333334,4.096666666666667,5.296666666666667,neutral,3 out of 4,"['talk', 'core', 'neg-afford']","['talk', 'core', 'ca', 'afford']"
+44,"I mean-
+Ses02M_impro05_F025 [211.7643-217.8594]: Well because lots of people get their baggage lost and we don't want to have false claims or anything like that so we have
+Ses02M_impro05_F026 [217.8694-226.3700]: we can give you fifty dollar to sort of make up for it, to compensate, and we can definitely let you know if it shows up but likely, more than likely-
+Ses02M_impro05_M026 [225.3600-230.8900]: I mean you're not helping me here.",5.354285714285714,4.383809523809524,5.4071428571428575,neutral,21 out of 26,"['mean', 'people', 'get', 'baggage', 'lose', 'neg-want', 'false', 'claim', 'like', 'give', 'fifty', 'dollar', 'make', 'compensate', 'let', 'know', 'show', 'likely', 'likely', 'mean', 'neg-help']","['mean', 'well', 'lot', 'people', 'get', 'baggage', 'lose', 'want', 'false', 'claim', 'anything', 'like', 'give', 'fifty', 'dollar', 'sort', 'make', 'compensate', 'definitely', 'let', 'know', 'show', 'likely', 'likely', 'mean', 'help']"
+45,What do I have to do here?,N/A,N/A,N/A,N/A,0,N/A,[]
+46,"Do I need to sue the airline company is that what I should do
+Ses02M_impro05_M027 [230.9000-233.3100]: because this is ridiculous?",4.46,4.5760000000000005,4.868,neutral,5 out of 5,"['need', 'sue', 'airline', 'company', 'ridiculous']","['need', 'sue', 'airline', 'company', 'ridiculous']"
+47,Ses02M_impro05_F027 [230.9033-232.5628]: I'm sorry.,4.81,4.62,5.65,neutral,1 out of 1,['sorry'],['sorry']
+48,"I don't- I-
+Ses02M_impro05_F028 [232.6200-241.2503]: I don't believe you should sue the airline company but we do have a policy uh- in which we can reimburse you and that's all we can do and I'm sorry I've done everything I can-
+Ses02M_impro05_M028 [241.0860-245.8809]: All right.",4.8533333333333335,4.678888888888889,5.562222222222222,neutral,9 out of 11,"['neg-believe', 'sue', 'airline', 'company', 'policy', 'reimburse', 'sorry', 'do', 'right']","['believe', 'sue', 'airline', 'company', 'policy', 'uh', 'reimburse', 'sorry', 'do', 'everything', 'right']"
+49,I'm sick- I'm sick of this all right.,3.966666666666667,4.78,4.28,negative,3 out of 3,"['sick', 'sick', 'right']","['sick', 'sick', 'right']"
+50,I'm sick of you and keep your fifty dollar.,5.1850000000000005,4.28,4.88,neutral,4 out of 4,"['sick', 'keep', 'fifty', 'dollar']","['sick', 'keep', 'fifty', 'dollar']"
+51,"Ses02M_impro05_F029 [242.5959-244.2978]: There's other people waiting-
+Ses02M_impro05_F030 [246.1900-247.1636]: Fine.",5.583333333333333,3.75,5.496666666666667,neutral,3 out of 3,"['people', 'wait', 'fine']","['people', 'wait', 'fine']"

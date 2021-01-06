@@ -1,0 +1,104 @@
+Sentence ID,Sentence,Valence,Arousal,Dominance,Sentiment Label,# Words Found,Found Words,All Words
+1,Ses04M_impro08_M000 [006.0200-012.6500]: Thank you for calling Sprint.,6.54,4.173333333333334,6.073333333333333,positive,3 out of 3,"['thank', 'call', 'sprint']","['thank', 'call', 'sprint']"
+2,We care about everybody.,7.64,2.67,6.56,positive,1 out of 2,['care'],"['care', 'everybody']"
+3,How can I help you?,6.95,4.29,6.89,positive,1 out of 1,['help'],['help']
+4,Ses04M_impro08_F000 [012.1100-025.2700]: Hi.,N/A,N/A,N/A,N/A,0,N/A,['hi']
+5,I've been on the phone for an hour trying to get a little discrepancy on my bill fixed.,5.17875,3.75375,5.2387500000000005,neutral,8 out of 8,"['phone', 'hour', 'try', 'get', 'little', 'discrepancy', 'bill', 'fix']","['phone', 'hour', 'try', 'get', 'little', 'discrepancy', 'bill', 'fix']"
+6,I was charged for two hundred dollars worth of calls that I didn't make.,5.8149999999999995,4.411666666666667,5.058333333333334,neutral,6 out of 7,"['charge', 'two', 'hundred', 'dollar', 'call', 'neg-make']","['charge', 'two', 'hundred', 'dollar', 'worth', 'call', 'make']"
+7,Ses04M_impro08_M001 [025.3500-028.2200]: Are you sure you didn't make them?,5.275,4.905,5.300000000000001,neutral,2 out of 2,"['sure', 'neg-make']","['sure', 'make']"
+8,Ses04M_impro08_F001 [027.4200-032.1700]: I'm positive.,7.57,5.5,7.26,positive,1 out of 1,['positive'],['positive']
+9,They came from like another state.,6.2700000000000005,3.7533333333333334,5.956666666666667,positive,3 out of 4,"['come', 'like', 'state']","['come', 'like', 'another', 'state']"
+10,"Ses04M_impro08_M002 [031.6032-034.8142]: Can I get your phone number, please?",5.923333333333333,3.533333333333333,5.406666666666667,neutral,3 out of 4,"['get', 'phone', 'number']","['get', 'phone', 'number', 'please']"
+11,Ses04M_impro08_F002 [034.0959-039.7300]: Uh.,N/A,N/A,N/A,N/A,0,N/A,['uh']
+12,"Yeah, I just gave it to the automated thing like five times.",6.076666666666667,3.901666666666667,5.32,positive,6 out of 7,"['give', 'automated', 'thing', 'like', 'five', 'time']","['yeah', 'give', 'automated', 'thing', 'like', 'five', 'time']"
+13,Ses04M_impro08_M003 [038.0800-043.6400]: I'm going to need it again.,5.885,4.265000000000001,5.195,neutral,2 out of 2,"['go', 'need']","['go', 'need']"
+14,I need to look at your file.,5.613333333333333,3.61,5.183333333333334,neutral,3 out of 3,"['need', 'look', 'file']","['need', 'look', 'file']"
+15,"If you want me to look at your file--
+Ses04M_impro08_F003 [041.6100-045.5300]: Okay.",5.796666666666667,4.15,5.293333333333333,neutral,3 out of 4,"['want', 'look', 'file']","['want', 'look', 'file', 'okay']"
+16,three two three six nine seven five zero six six.,5.234444444444445,3.4233333333333333,5.4655555555555555,neutral,9 out of 10,"['three', 'two', 'three', 'six', 'nine', 'seven', 'five', 'six', 'six']","['three', 'two', 'three', 'six', 'nine', 'seven', 'five', 'zero', 'six', 'six']"
+17,Can we move on?,4.95,4.24,5.12,neutral,1 out of 1,['move'],['move']
+18,Ses04M_impro08_M004 [044.9400-046.1000]: Okay.,N/A,N/A,N/A,N/A,0,N/A,['okay']
+19,"Ses04M_impro08_F004 [045.6700-047.5000]: Okay, cool.",6.82,3.43,6.44,positive,1 out of 2,['cool'],"['okay', 'cool']"
+20,"Ses04M_impro08_M005 [046.1300-050.0300]: Umm, Miss Aruckman
+Ses04M_impro08_F005 [049.1100-051.1228]: Yes.",4.1,3.9,5.12,neutral,1 out of 4,['miss'],"['umm', 'miss', 'aruckman', 'yes']"
+21,Ses04M_impro08_M006 [050.5313-055.7900]: I am seeing the two hundred dollar charge.,6.2139999999999995,4.15,5.392,positive,5 out of 5,"['see', 'two', 'hundred', 'dollar', 'charge']","['see', 'two', 'hundred', 'dollar', 'charge']"
+22,"Ses04M_impro08_F006 [054.5500-063.8900]: Yes, and I've been through all of the menus, pushed one and star and pound and all of that stuff and I'm just trying to get through to a person who can
+Ses04M_impro08_M007 [068.9900-073.4300]: Well I'm looking at these.",5.951,3.966,5.614,neutral,10 out of 12,"['menu', 'push', 'one', 'star', 'pound', 'stuff', 'try', 'get', 'person', 'look']","['yes', 'menu', 'push', 'one', 'star', 'pound', 'stuff', 'try', 'get', 'person', 'well', 'look']"
+23,"Ses04M_impro08_F007 [063.9300-070.3600]: take off the charges that came from like Nebraska or wherever because, obviously, I didn't make those.",5.284,4.614,5.2,neutral,5 out of 8,"['take', 'charge', 'come', 'like', 'neg-make']","['take', 'charge', 'come', 'like', 'nebraska', 'wherever', 'obviously', 'make']"
+24,"Ses04M_impro08_F008 [070.5300-075.6300]: So can you please refund the mischarged charges
+Ses04M_impro08_M008 [074.7300-078.0600]: So you're saying that you didn't make these calls.",5.05,5.336,5.334,neutral,5 out of 7,"['refund', 'charge', 'say', 'neg-make', 'neg-call']","['please', 'refund', 'mischarged', 'charge', 'say', 'make', 'call']"
+25,Ses04M_impro08_F009 [076.4700-081.4900]: I did not make the calls from B.F.E.,3.865,6.52,4.085,negative,2 out of 2,"['neg-make', 'neg-call']","['make', 'call']"
+26,Nebraska.,N/A,N/A,N/A,N/A,0,N/A,['nebraska']
+27,"Ses04M_impro08_M009 [080.9300-086.9000]: Well I mean, I'm supposed to use discretion in the situation and, um--
+Ses04M_impro08_F010 [085.6500-088.5300]: So could you discretion it back?",4.824285714285715,3.73,5.0842857142857145,neutral,7 out of 10,"['mean', 'suppose', 'use', 'discretion', 'situation', 'discretion', 'back']","['well', 'mean', 'suppose', 'use', 'discretion', 'situation', 'um', 'could', 'discretion', 'back']"
+28,Ses04M_impro08_M010 [088.0300-093.4100]: All I can do for you right now is give you a hundred dollars.,7.235,4.71,5.905,positive,4 out of 4,"['right', 'give', 'hundred', 'dollar']","['right', 'give', 'hundred', 'dollar']"
+29,"Ses04M_impro08_F011 [093.2200-095.8300]: Okay, but that's like half
+Ses04M_impro08_M011 [097.6900-099.3800]: What I can
+Ses04M_impro08_F012 [095.8300-100.7668]: of the money that I was charged that I didn't make those calls.",5.376,5.71,5.188,neutral,5 out of 7,"['like', 'money', 'charge', 'neg-make', 'neg-call']","['okay', 'like', 'half', 'money', 'charge', 'make', 'call']"
+30,"Ses04M_impro08_M012 [100.4200-109.0700]: What I can do for you is give you a hundred dollars right now and fill out complaint form
+Ses04M_impro08_M013 [109.0954-114.4400]: which you- which you'll have to go into a local Verizon dealer--  or Sprint.",6.026363636363636,4.573636363636364,5.759090909090909,positive,11 out of 12,"['give', 'hundred', 'dollar', 'right', 'fill', 'complaint', 'form', 'go', 'local', 'dealer', 'sprint']","['give', 'hundred', 'dollar', 'right', 'fill', 'complaint', 'form', 'go', 'local', 'verizon', 'dealer', 'sprint']"
+31,"Ses04M_impro08_F013 [111.1800-118.4000]: Okay, no, look, I- I- I- I'm really -- I'm trying to be patient.",5.466666666666667,4.336666666666667,4.963333333333334,neutral,3 out of 5,"['neg-look', 'try', 'patient']","['okay', 'look', 'really', 'try', 'patient']"
+32,I know this isn't your fault.,6.6450000000000005,4.61,5.880000000000001,positive,2 out of 2,"['know', 'neg-fault']","['know', 'fault']"
+33,"I know that you didn't do it
+Ses04M_impro08_F014 [118.4100-125.2300]: but, at the same time, I have been through an hour of little robot voices telling me what I needed to do.",5.8475,3.68,5.36625,neutral,8 out of 8,"['know', 'time', 'hour', 'little', 'robot', 'voice', 'tell', 'need']","['know', 'time', 'hour', 'little', 'robot', 'voice', 'tell', 'need']"
+34,"Ses04M_impro08_M014 [125.7300-128.0000]: Ma'am, I understand that.",6.68,3.52,6.71,positive,1 out of 1,['understand'],['understand']
+35,Ses04M_impro08_F015 [125.2300-135.2900]: And I did everything they said.,5.91,4.43,6.88,neutral,1 out of 2,['say'],"['everything', 'say']"
+36,"And now i'm talking to you and you're supposed to put the money back on my account because I didn't make the calls and I'm really tired of dealing with this because I didn't even
+Ses04M_impro08_M015 [130.8000-147.7700]: Ma'am, I - I - I understand that.",5.3954545454545455,4.302727272727273,5.51,neutral,11 out of 13,"['talk', 'suppose', 'put', 'money', 'back', 'account', 'neg-make', 'neg-call', 'tire', 'deal', 'understand']","['talk', 'suppose', 'put', 'money', 'back', 'account', 'make', 'call', 'really', 'tire', 'deal', 'even', 'understand']"
+37,I understand that.,6.68,3.52,6.71,positive,1 out of 1,['understand'],['understand']
+38,What I can do for you right now is what I'm telling you is that I can do- I can give you a hundred dollars back and then you'll have to fill out a complaint form and then you'll get -- there'll be some investigation.,5.802727272727273,4.195454545454545,5.6854545454545455,neutral,11 out of 11,"['right', 'tell', 'give', 'hundred', 'dollar', 'back', 'fill', 'complaint', 'form', 'get', 'investigation']","['right', 'tell', 'give', 'hundred', 'dollar', 'back', 'fill', 'complaint', 'form', 'get', 'investigation']"
+39,Some men will show up at your house and go through your things.,6.2425,4.085,5.745,positive,4 out of 5,"['show', 'house', 'go', 'thing']","['men', 'show', 'house', 'go', 'thing']"
+40,Ses04M_impro08_F016 [147.6700-149.7900]: Excuse me?,4.52,3.61,4.72,neutral,1 out of 1,['excuse'],['excuse']
+41,Ses04M_impro08_M016 [147.7900-151.0300]: And then then you'll get some money back.,5.983333333333333,4.373333333333333,5.73,neutral,3 out of 3,"['get', 'money', 'back']","['get', 'money', 'back']"
+42,Ses04M_impro08_F017 [150.5900-152.8600]: How long does that take?,4.82,4.52,4.83,neutral,1 out of 2,['take'],"['long', 'take']"
+43,Ses04M_impro08_M017 [152.9700-157.9313]: A few weeks.,5.27,3.33,5.28,neutral,1 out of 1,['week'],['week']
+44,You won't even know that they were there.,3.1799999999999997,6.76,4.22,negative,1 out of 3,['neg-know'],"['wo', 'even', 'know']"
+45,Ses04M_impro08_F018 [157.4243-163.4661]: I have to wait a few weeks for people come go through my things to get the money back that I didn't spend?,5.507,4.122,5.398,neutral,10 out of 10,"['wait', 'week', 'people', 'come', 'go', 'thing', 'get', 'money', 'back', 'neg-spend']","['wait', 'week', 'people', 'come', 'go', 'thing', 'get', 'money', 'back', 'spend']"
+46,Ses04M_impro08_M018 [162.8746-169.7300]: Okay.,N/A,N/A,N/A,N/A,0,N/A,['okay']
+47,You know what?,6.82,3.24,5.78,positive,1 out of 1,['know'],['know']
+48,I just don't feel like doing this anymore.,3.145,5.775,4.109999999999999,negative,2 out of 3,"['neg-feel', 'neg-like']","['feel', 'like', 'anymore']"
+49,"Um, you can have all the money back, two hundred dollar, right now.",6.5616666666666665,4.508333333333334,5.748333333333333,positive,6 out of 7,"['money', 'back', 'two', 'hundred', 'dollar', 'right']","['um', 'money', 'back', 'two', 'hundred', 'dollar', 'right']"
+50,Ses04M_impro08_F019 [169.6000-170.9700]: Really?,N/A,N/A,N/A,N/A,0,N/A,['really']
+51,Ses04M_impro08_M019 [170.5400-177.4600]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+52,That's fine.,6.5,3.86,5.78,positive,1 out of 1,['fine'],['fine']
+53,I just -- that's fine.,6.5,3.86,5.78,positive,1 out of 1,['fine'],['fine']
+54,"Yeah, I mean, it doesn't make any difference to me.",3.816666666666667,5.996666666666666,4.17,negative,3 out of 4,"['mean', 'neg-make', 'neg-difference']","['yeah', 'mean', 'make', 'difference']"
+55,"I mean, it's not like it's going to cost my job or anything.",4.212,4.834,4.266,neutral,5 out of 6,"['mean', 'neg-like', 'go', 'cost', 'job']","['mean', 'like', 'go', 'cost', 'job', 'anything']"
+56,Ses04M_impro08_F020 [172.4800-174.8600]: You're just going to put it back on my account.,5.39,3.7675,5.3875,neutral,4 out of 4,"['go', 'put', 'back', 'account']","['go', 'put', 'back', 'account']"
+57,"Ses04M_impro08_M020 [177.4600-183.7900]: I mean, technically, that's policy.",3.1,4.055,5.140000000000001,negative,2 out of 3,"['mean', 'policy']","['mean', 'technically', 'policy']"
+58,"But, like, I mean, I don't really care about -- nobody really cares about policy here.",4.728,4.502,5.312,neutral,5 out of 8,"['like', 'mean', 'neg-care', 'care', 'policy']","['like', 'mean', 'really', 'care', 'nobody', 'really', 'care', 'policy']"
+59,Ses04M_impro08_F021 [183.1300-185.3500]: So you're just going to take care of this for me?,6.26,4.016666666666667,5.573333333333333,positive,3 out of 3,"['go', 'take', 'care']","['go', 'take', 'care']"
+60,Ses04M_impro08_M021 [184.8400-186.2900]: Sure.,6.64,3.48,6.82,positive,1 out of 1,['sure'],['sure']
+61,"Ses04M_impro08_F022 [185.6000-187.7700]: Oh, my God, thank you so much.",6.835,4.445,5.945,positive,2 out of 4,"['god', 'thank']","['oh', 'god', 'thank', 'much']"
+62,Ses04M_impro08_M022 [187.4800-188.7100]: You're welcome.,7.27,3.76,6.24,positive,1 out of 1,['welcome'],['welcome']
+63,Ses04M_impro08_F023 [187.7800-192.7400]: I really appreciate this.,7.33,3.1,7.0,positive,1 out of 2,['appreciate'],"['really', 'appreciate']"
+64,"I know it's not policy or whatever but, seriously
+M: Of course, of course.",6.525,4.970000000000001,4.835,positive,2 out of 6,"['know', 'neg-policy']","['know', 'policy', 'whatever', 'seriously', 'course', 'course']"
+65,"Ses04M_impro08_M023 [191.5700-194.5300]: No, no, no, it's cool.",6.82,3.43,6.44,positive,1 out of 1,['cool'],['cool']
+66,It's cool.,6.82,3.43,6.44,positive,1 out of 1,['cool'],['cool']
+67,It's cool.,6.82,3.43,6.44,positive,1 out of 1,['cool'],['cool']
+68,"So, um
+Ses04M_impro08_F024 [193.1700-195.6600]: make my life a lot easier.",6.385,4.63,6.055,positive,2 out of 5,"['make', 'life']","['um', 'make', 'life', 'lot', 'easier']"
+69,"Ses04M_impro08_M024 [194.7200-198.3000]: You know, so- I mean, are you doing anything later?",4.625,4.025,4.975,neutral,2 out of 4,"['know', 'mean']","['know', 'mean', 'anything', 'later']"
+70,"Or um
+Ses04M_impro08_F025 [197.4600-200.5700]: Really?",N/A,N/A,N/A,N/A,0,N/A,"['um', 'really']"
+71,"Ses04M_impro08_M025 [199.8300-209.8200]: Oh, I don't know.",3.1799999999999997,6.76,4.22,negative,1 out of 2,['neg-know'],"['oh', 'know']"
+72,"I mean, I don't know.",2.8049999999999997,5.785,4.195,negative,2 out of 2,"['mean', 'neg-know']","['mean', 'know']"
+73,"I just thought, you know, maybe you want to get some co--I mean, I'm actually -- wait, where do you live?",5.788571428571428,4.155714285714286,5.614285714285714,neutral,7 out of 10,"['think', 'know', 'want', 'get', 'mean', 'wait', 'live']","['think', 'know', 'maybe', 'want', 'get', 'co', 'mean', 'actually', 'wait', 'live']"
+74,"Oh, you're in Los Angeles, I see.",6.27,3.9,6.0,positive,1 out of 4,['see'],"['oh', 'los', 'angeles', 'see']"
+75,"Oh, no, that sucks 'cause I'm in, actually in Alabama.",6.29,4.4,4.53,positive,1 out of 4,['neg-suck'],"['oh', 'suck', 'actually', 'alabama']"
+76,Ses04M_impro08_F026 [209.4200-215.6400]: Right.,7.32,5.0,7.16,positive,1 out of 1,['right'],['right']
+77,"Um, Thanks for asking, though.",6.84,3.7649999999999997,6.505,positive,2 out of 4,"['thanks', 'ask']","['um', 'thanks', 'ask', 'though']"
+78,"I mean, you sound nice, you know.",5.6625000000000005,3.9299999999999997,5.48,neutral,4 out of 4,"['mean', 'sound', 'nice', 'know']","['mean', 'sound', 'nice', 'know']"
+79,"Ses04M_impro08_M026 [210.1800-214.3200]: God, that's like a whole problem with like-- But, no, I mean, hey-- if you ever
+Ses04M_impro08_M027 [214.3353-223.2800]: if you ever come out to Montgomery, I mean, you know, just -- just call up, you know, call up the operator and I'll-- I'll be here.",5.8961538461538465,3.996153846153846,5.553846153846154,neutral,13 out of 17,"['god', 'like', 'whole', 'problem', 'like', 'neg-mean', 'come', 'mean', 'know', 'call', 'know', 'call', 'operator']","['god', 'like', 'whole', 'problem', 'like', 'mean', 'hey', 'ever', 'ever', 'come', 'montgomery', 'mean', 'know', 'call', 'know', 'call', 'operator']"
+80,"So, um.",N/A,N/A,N/A,N/A,0,N/A,['um']
+81,"Ses04M_impro08_F027 [217.2506-218.8700]: I'll
+Ses04M_impro08_F028 [219.0000-223.2100]: call up the Sprint call center and, uh, you know.",6.082,3.668,5.688,positive,5 out of 6,"['call', 'sprint', 'call', 'center', 'know']","['call', 'sprint', 'call', 'center', 'uh', 'know']"
+82,"cool
+Ses04M_impro08_F029 [223.2200-227.5200]: Wow, alright.",6.82,3.43,6.44,positive,1 out of 3,['cool'],"['cool', 'wow', 'alright']"
+83,"Well, thanks.",7.73,4.05,6.72,positive,1 out of 2,['thanks'],"['well', 'thanks']"
+84,"And, uh, you- you have a good one.",6.99,3.165,5.984999999999999,positive,2 out of 3,"['good', 'one']","['uh', 'good', 'one']"
+85,Ses04M_impro08_M028 [227.2200-228.5400]: Alright.,N/A,N/A,N/A,N/A,0,N/A,['alright']
+86,Take Care.,6.23,3.5949999999999998,5.695,positive,2 out of 2,"['take', 'care']","['take', 'care']"
+87,Ses04M_impro08_F030 [228.2400-229.1073]: You too.,N/A,N/A,N/A,N/A,0,N/A,[]

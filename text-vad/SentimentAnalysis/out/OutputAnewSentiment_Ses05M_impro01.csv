@@ -1,0 +1,88 @@
+Sentence ID,Sentence,Valence,Arousal,Dominance,Sentiment Label,# Words Found,Found Words,All Words
+1,Ses05M_impro01_F000 [003.9419-005.5500]: Can I help you?,6.95,4.29,6.89,positive,1 out of 1,['help'],['help']
+2,"Ses05M_impro01_M000 [005.1900-009.7600]: Yes, I'm um- just getting my I.D.",6.09,3.67,5.65,positive,1 out of 3,['get'],"['yes', 'um', 'get']"
+3,I need a new I.D.,6.5649999999999995,4.404999999999999,5.14,positive,2 out of 2,"['need', 'new']","['need', 'new']"
+4,"Ses05M_impro01_F001 [009.7900-019.0800]: Oh, this- this form that you have is the wrong form.",4.84,4.33,5.443333333333333,neutral,3 out of 4,"['form', 'wrong', 'form']","['oh', 'form', 'wrong', 'form']"
+5,"You need to go over to the other line on the other side of the D.M.V..
+Ses05M_impro01_M001 [018.8700-023.2300]: What do you mean?",4.868,3.944,5.054,neutral,5 out of 5,"['need', 'go', 'line', 'side', 'mean']","['need', 'go', 'line', 'side', 'mean']"
+6,I filled out my forms and I rushed to get my I.D.,5.335,4.355,6.4225,neutral,4 out of 4,"['fill', 'form', 'rush', 'get']","['fill', 'form', 'rush', 'get']"
+7,"Ses05M_impro01_F002 [021.8200-025.7400]: Right, but this is the wrong form.",5.4,4.713333333333333,5.673333333333334,neutral,3 out of 3,"['right', 'wrong', 'form']","['right', 'wrong', 'form']"
+8,Somebody gave you the wrong form.,5.536666666666667,4.57,5.193333333333333,neutral,3 out of 4,"['give', 'wrong', 'form']","['somebody', 'give', 'wrong', 'form']"
+9,Ses05M_impro01_M002 [025.4600-026.9700]: The wrong form?,4.4399999999999995,4.57,4.93,neutral,2 out of 2,"['wrong', 'form']","['wrong', 'form']"
+10,Ses05M_impro01_F003 [025.9700-028.7700]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+11,"So, I can't -- I can't do anything-
+Ses05M_impro01_M003 [027.5100-031.2200]: What's wrong about this form?",4.4399999999999995,4.57,4.93,neutral,2 out of 5,"['wrong', 'form']","['ca', 'ca', 'anything', 'wrong', 'form']"
+12,It says new I.D.,6.795,4.785,6.05,positive,2 out of 2,"['say', 'new']","['say', 'new']"
+13,on it.,N/A,N/A,N/A,N/A,0,N/A,[]
+14,"Ses05M_impro01_F004 [030.5800-037.7100]: No, but this is for um- replacements and you need a new -- whole new license as a California --
+Ses05M_impro01_M004 [036.6600-040.1800]: What's the difference?",6.131428571428572,4.217142857142857,5.5442857142857145,positive,7 out of 9,"['replacement', 'need', 'new', 'whole', 'new', 'license', 'difference']","['um', 'replacement', 'need', 'new', 'whole', 'new', 'license', 'california', 'difference']"
+15,What's the difference between that form and this form?,5.39,3.6166666666666667,6.126666666666667,neutral,3 out of 3,"['difference', 'form', 'form']","['difference', 'form', 'form']"
+16,"Ses05M_impro01_F005 [039.6500-042.4300]: Sir, don't get an attitude with me.",4.88,5.3,4.526666666666666,neutral,3 out of 3,"['sir', 'neg-get', 'neg-attitude']","['sir', 'get', 'attitude']"
+17,"Ses05M_impro01_M005 [042.0100-045.6200]: I'm not getting a -- well, you wait in this line and not get an attitude.",4.494,4.952,4.604,neutral,5 out of 6,"['neg-get', 'wait', 'line', 'neg-get', 'neg-attitude']","['get', 'well', 'wait', 'line', 'get', 'attitude']"
+18,"Ses05M_impro01_F006 [045.1800-055.9300]: No, I understand and there are a lot of people here.",4.51,5.125,4.345000000000001,neutral,2 out of 3,"['neg-understand', 'people']","['understand', 'lot', 'people']"
+19,But what I'm telling you is that it's different for different states and since your getting a new license in the state of California -- You have to fill out a different form than you did.,5.94,3.909090909090909,6.050909090909091,neutral,11 out of 13,"['tell', 'different', 'different', 'state', 'get', 'new', 'license', 'state', 'fill', 'different', 'form']","['tell', 'different', 'different', 'state', 'since', 'get', 'new', 'license', 'state', 'california', 'fill', 'different', 'form']"
+20,Ses05M_impro01_M006 [051.9500-052.9600]: yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+21,Ses05M_impro01_M007 [053.0100-054.0700]: right.,7.32,5.0,7.16,positive,1 out of 1,['right'],['right']
+22,"Ses05M_impro01_M008 [055.5000-061.3400]: Well then, when I showed them my I.D.",5.91,4.1,5.83,neutral,1 out of 2,['show'],"['well', 'show']"
+23,"before and I said I had to get a new I.D, why didn't they tell me to fill out the right form?",6.132857142857143,4.511428571428572,6.174285714285714,positive,7 out of 7,"['say', 'get', 'new', 'neg-tell', 'fill', 'right', 'form']","['say', 'get', 'new', 'tell', 'fill', 'right', 'form']"
+24,Ses05M_impro01_F007 [060.2600-063.4300]: I don't know.,3.1799999999999997,6.76,4.22,negative,1 out of 1,['neg-know'],['know']
+25,I don't know who told you.,3.955,6.45,4.64,negative,2 out of 2,"['neg-know', 'neg-tell']","['know', 'tell']"
+26,It wasn't me.,N/A,N/A,N/A,N/A,0,N/A,[]
+27,"Ses05M_impro01_M009 [062.9300-068.2100]: Well, it was this girl standing right next to you.",7.235,5.115,6.215,positive,2 out of 5,"['girl', 'right']","['well', 'girl', 'standing', 'right', 'next']"
+28,Can we ask her why she didn't let me fill out the right form?,5.48,5.2540000000000004,5.416,neutral,5 out of 5,"['ask', 'neg-let', 'neg-fill', 'right', 'form']","['ask', 'let', 'fill', 'right', 'form']"
+29,"Ses05M_impro01_F008 [066.1000-070.3800]: You- You can ask her if you want, but she's busy and she probably won't answer you.",5.315,4.8225,5.0425,neutral,4 out of 6,"['ask', 'want', 'busy', 'neg-answer']","['ask', 'want', 'busy', 'probably', 'wo', 'answer']"
+30,Ses05M_impro01_M010 [070.0300-077.8600]: This is ridiculous.,3.67,5.65,3.78,negative,1 out of 1,['ridiculous'],['ridiculous']
+31,I've been here for forty five minutes.,5.3,3.543333333333333,5.236666666666666,neutral,3 out of 3,"['forty', 'five', 'minute']","['forty', 'five', 'minute']"
+32,Just standing in this one line.,5.3933333333333335,3.0033333333333334,5.446666666666666,neutral,3 out of 3,"['stand', 'one', 'line']","['stand', 'one', 'line']"
+33,I took fifteen minutes to fill out that form.,5.292,3.826,5.402,neutral,5 out of 5,"['take', 'fifteen', 'minute', 'fill', 'form']","['take', 'fifteen', 'minute', 'fill', 'form']"
+34,Ses05M_impro01_F009 [073.0300-074.4200]: I know.,6.82,3.24,5.78,positive,1 out of 1,['know'],['know']
+35,"Ses05M_impro01_F010 [074.4300-076.7300]: Sir, you- I mean
+Ses05M_impro01_M011 [077.8700-080.9800]: Do you know how long it's gonna take me to start all over and fill out the new form?",5.60125,4.25625,5.4825,neutral,8 out of 11,"['sir', 'mean', 'know', 'take', 'start', 'fill', 'new', 'form']","['sir', 'mean', 'know', 'long', 'gon', 'na', 'take', 'start', 'fill', 'new', 'form']"
+36,"Ses05M_impro01_F011 [077.8100-080.1400]: You can waist as much as you want
+Ses05M_impro01_F012 [080.1500-083.7500]: Yeah.",5.66,4.645,5.72,neutral,2 out of 4,"['waist', 'want']","['waist', 'much', 'want', 'yeah']"
+37,I know it's gonna take a minute.,5.713333333333334,3.84,4.926666666666667,neutral,3 out of 5,"['know', 'take', 'minute']","['know', 'gon', 'na', 'take', 'minute']"
+38,But you-- so you might as well get started now.,6.25,4.24,5.575,positive,2 out of 4,"['get', 'start']","['might', 'well', 'get', 'start']"
+39,Ses05M_impro01_M012 [083.5200-086.3200]: Might as well get started now?,6.25,4.24,5.575,positive,2 out of 4,"['get', 'start']","['might', 'well', 'get', 'start']"
+40,but Just take this one.,5.455,3.5949999999999998,5.195,neutral,2 out of 2,"['take', 'one']","['take', 'one']"
+41,"Ses05M_impro01_F013 [085.8300-089.2300]: I can't take this one, sir.",4.846666666666667,5.713333333333334,4.906666666666667,neutral,3 out of 4,"['neg-take', 'neg-one', 'sir']","['ca', 'take', 'one', 'sir']"
+42,this is the wrong form.,4.4399999999999995,4.57,4.93,neutral,2 out of 2,"['wrong', 'form']","['wrong', 'form']"
+43,Ses05M_impro01_M013 [087.4100-098.7300]: Why can't we just -- you know what?,6.82,3.24,5.78,positive,1 out of 2,['know'],"['ca', 'know']"
+44,How about if we just pretend that I'm getting a -- renewing my California I.D.,5.57,4.036666666666666,5.890000000000001,neutral,3 out of 4,"['pretend', 'get', 'renew']","['pretend', 'get', 'renew', 'california']"
+45,and we just don't tell anybody -- That I'm getting a new one from a different state?,6.038333333333333,4.1433333333333335,5.601666666666667,positive,6 out of 7,"['neg-tell', 'get', 'new', 'one', 'different', 'state']","['tell', 'anybody', 'get', 'new', 'one', 'different', 'state']"
+46,"Ses05M_impro01_F014 [094.4000-097.0300]: Sir, please don't waste my time.",5.746666666666667,5.626666666666667,5.39,neutral,3 out of 4,"['sir', 'neg-waste', 'neg-time']","['sir', 'please', 'waste', 'time']"
+47,Ses05M_impro01_F015 [097.6000-103.3300]: There is nothing I can do about it.,N/A,N/A,N/A,N/A,0,N/A,['nothing']
+48,You need to take this other form and fill it out and go stand in the other line.,5.411428571428571,3.7985714285714285,5.607142857142857,neutral,7 out of 7,"['need', 'take', 'form', 'fill', 'go', 'stand', 'line']","['need', 'take', 'form', 'fill', 'go', 'stand', 'line']"
+49,Ses05M_impro01_M014 [102.6700-114.3100]: Come on!,5.64,3.57,5.94,neutral,1 out of 1,['come'],['come']
+50,You know -- you can't just take -- make a little exception to the rule?,5.625,4.101666666666667,5.013333333333334,neutral,6 out of 7,"['know', 'neg-take', 'make', 'little', 'exception', 'rule']","['know', 'ca', 'take', 'make', 'little', 'exception', 'rule']"
+51,I know that you guys make exceptions.,6.1775,3.9924999999999997,5.3100000000000005,positive,4 out of 4,"['know', 'guy', 'make', 'exception']","['know', 'guy', 'make', 'exception']"
+52,"I see -- you know, if I was-if I was your friend and you knew me, or something like that, you'd probably make a little exception for me wouldn't you?",6.366666666666667,3.9,5.734444444444445,positive,9 out of 11,"['see', 'know', 'friend', 'know', 'like', 'make', 'little', 'exception', 'would']","['see', 'know', 'friend', 'know', 'something', 'like', 'probably', 'make', 'little', 'exception', 'would']"
+53,"Ses05M_impro01_F016 [106.9700-110.5800]: They're different forms, we process them all different-
+Ses05M_impro01_M015 [114.3200-119.0300]: Wouldn't you?",5.798,3.892,6.292,neutral,5 out of 5,"['different', 'form', 'process', 'different', 'would']","['different', 'form', 'process', 'different', 'would']"
+54,"Oh, come on.",5.64,3.57,5.94,neutral,1 out of 2,['come'],"['oh', 'come']"
+55,you just tell me.,5.27,3.86,4.94,neutral,1 out of 1,['tell'],['tell']
+56,You would make an exception for me.,5.75,3.9433333333333334,5.426666666666667,neutral,3 out of 3,"['would', 'make', 'exception']","['would', 'make', 'exception']"
+57,Ses05M_impro01_F017 [114.5400-117.3100]: I -- there's no way I'd make an exception.,5.1433333333333335,5.04,5.17,neutral,3 out of 3,"['neg-way', 'make', 'exception']","['way', 'make', 'exception']"
+58,"Ses05M_impro01_F018 [117.6100-123.9600]: Sir, don't patronize me.",5.984999999999999,5.59,4.6899999999999995,neutral,2 out of 2,"['sir', 'neg-patronize']","['sir', 'patronize']"
+59,I can't make an exception.,4.33,5.99,4.83,neutral,2 out of 3,"['neg-make', 'neg-exception']","['ca', 'make', 'exception']"
+60,I don't- I don't have the power to do that.,4.03,4.59,3.83,neutral,1 out of 1,['neg-power'],['power']
+61,It's a different form.,5.775,3.9000000000000004,6.47,neutral,2 out of 2,"['different', 'form']","['different', 'form']"
+62,Ses05M_impro01_M016 [122.3700-125.0800]: Shh...I know you've got the power to do that.,6.293333333333333,4.1066666666666665,5.866666666666667,positive,3 out of 4,"['know', 'get', 'power']","['shh', 'know', 'get', 'power']"
+63,Ses05M_impro01_F019 [124.0000-126.8700]: They're processed differently.,5.62,3.9,6.11,neutral,1 out of 2,['process'],"['process', 'differently']"
+64,Ses05M_impro01_M017 [125.0900-127.9500]: That's crap- You're crap.,3.44,4.62,4.11,negative,2 out of 2,"['crap', 'crap']","['crap', 'crap']"
+65,I don't buy it.,3.1799999999999997,5.71,3.2199999999999998,negative,1 out of 1,['neg-buy'],['buy']
+66,"Ses05M_impro01_F020 [127.4900-130.6000]: Sir, you're gonna have to go stand in the other line.",5.465,3.8825000000000003,5.305,neutral,4 out of 6,"['sir', 'go', 'stand', 'line']","['sir', 'gon', 'na', 'go', 'stand', 'line']"
+67,Ses05M_impro01_M018 [129.6400-135.3100]: I'm not leaving this line until I get my new I.D.,6.0675,5.2725,5.1275,positive,4 out of 4,"['neg-leave', 'neg-line', 'get', 'new']","['leave', 'line', 'get', 'new']"
+68,That's as simple as it is.,7.17,2.71,6.5,positive,1 out of 1,['simple'],['simple']
+69,I'm not leaving this line until I get my new I.D.,6.0675,5.2725,5.1275,positive,4 out of 4,"['neg-leave', 'neg-line', 'get', 'new']","['leave', 'line', 'get', 'new']"
+70,Ses05M_impro01_F021 [132.8200-137.3100]: I'm gonna- I'm gonna bring security over and have them escort you out.,5.8133333333333335,4.6000000000000005,5.783333333333333,neutral,3 out of 7,"['bring', 'security', 'escort']","['gon', 'na', 'gon', 'na', 'bring', 'security', 'escort']"
+71,"Ses05M_impro01_M019 [136.6900-143.2400]: Well, then you're just gonna look stupid because I'm just waiting for an I.D.",4.446666666666666,3.9066666666666667,5.073333333333333,neutral,3 out of 6,"['look', 'stupid', 'wait']","['well', 'gon', 'na', 'look', 'stupid', 'wait']"
+72,and you're gonna make security take me out because I want my I.D.,5.83,4.4175,5.609999999999999,neutral,4 out of 6,"['make', 'security', 'take', 'want']","['gon', 'na', 'make', 'security', 'take', 'want']"
+73,Ses05M_impro01_M020 [143.2500-144.9700]: That's just dumb.,2.44,5.3,4.39,negative,1 out of 1,['dumb'],['dumb']
+74,Ses05M_impro01_F022 [142.9300-147.7700]: But you filled out the wrong form and you're in the wrong line and you're wasting both of our times.,4.387142857142857,4.067142857142858,4.837142857142857,neutral,7 out of 7,"['fill', 'wrong', 'form', 'wrong', 'line', 'waste', 'time']","['fill', 'wrong', 'form', 'wrong', 'line', 'waste', 'time']"
+75,Ses05M_impro01_M021 [145.7700-148.7900]: I filled out the wrong form because they made me fill out the wrong form!,4.9957142857142856,4.0928571428571425,5.642857142857143,neutral,7 out of 7,"['fill', 'wrong', 'form', 'make', 'fill', 'wrong', 'form']","['fill', 'wrong', 'form', 'make', 'fill', 'wrong', 'form']"
+76,"Ses05M_impro01_F023 [148.4300-152.7500]: Well, that's unfortunate, sir.",4.390000000000001,3.925,4.66,neutral,2 out of 3,"['unfortunate', 'sir']","['well', 'unfortunate', 'sir']"
+77,You're gonna have to go stand in the other line now.,5.47,3.7333333333333334,5.37,neutral,3 out of 5,"['go', 'stand', 'line']","['gon', 'na', 'go', 'stand', 'line']"
+78,Ses05M_impro01_M022 [152.3100-160.3200]: This is crap.,3.44,4.62,4.11,negative,1 out of 1,['crap'],['crap']
+79,"You know, I don't even know why I'm in this state.",5.243333333333333,4.43,5.216666666666667,neutral,3 out of 4,"['know', 'neg-know', 'state']","['know', 'even', 'know', 'state']"
+80,Screw California.,5.24,5.4,5.16,neutral,1 out of 2,['screw'],"['screw', 'california']"
+81,I'm out of here.,N/A,N/A,N/A,N/A,0,N/A,[]

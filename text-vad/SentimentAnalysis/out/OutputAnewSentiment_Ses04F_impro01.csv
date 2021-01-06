@@ -1,0 +1,106 @@
+Sentence ID,Sentence,Valence,Arousal,Dominance,Sentiment Label,# Words Found,Found Words,All Words
+1,Ses04F_impro01_F000 [004.2700-016.1500]: Hi.,N/A,N/A,N/A,N/A,0,N/A,['hi']
+2,"Um, excuse me I've been to, like, five of the desks here and nobody seems to be able to tell me what it is I need to do.",5.71625,3.52,5.38375,neutral,8 out of 10,"['excuse', 'like', 'five', 'desk', 'seem', 'able', 'tell', 'need']","['um', 'excuse', 'like', 'five', 'desk', 'nobody', 'seem', 'able', 'tell', 'need']"
+3,I've been here for over an hour.,5.05,3.38,6.25,neutral,1 out of 1,['hour'],['hour']
+4,Can you possibly help me?,6.95,4.29,6.89,positive,1 out of 2,['help'],"['possibly', 'help']"
+5,"Ses04F_impro01_M000 [015.6600-020.5500]: Uh, lets- What do you need exactly?",5.7,3.19,5.56,neutral,2 out of 4,"['let', 'need']","['uh', 'let', 'need', 'exactly']"
+6,Ses04F_impro01_F001 [019.7800-025.7000]: Well I filled out all the forms and I've given them to everyone and they keep sending me to someone else.,6.286,3.726,6.124,positive,5 out of 9,"['fill', 'form', 'give', 'keep', 'send']","['well', 'fill', 'form', 'give', 'everyone', 'keep', 'send', 'someone', 'else']"
+7,"Ses04F_impro01_M001 [025.2800-027.6600]: You need a new license, is that what you're telling me?",6.0775,4.3425,5.5024999999999995,positive,4 out of 4,"['need', 'new', 'license', 'tell']","['need', 'new', 'license', 'tell']"
+8,Ses04F_impro01_F002 [026.8900-029.8200]: Yes.,N/A,N/A,N/A,N/A,0,N/A,['yes']
+9,I'm just trying to get a new license.,6.33,4.3774999999999995,5.9,positive,4 out of 4,"['try', 'get', 'new', 'license']","['try', 'get', 'new', 'license']"
+10,Ses04F_impro01_M002 [028.1300-035.8400]: Let me see the form.,5.953333333333333,3.486666666666667,6.176666666666667,neutral,3 out of 3,"['let', 'see', 'form']","['let', 'see', 'form']"
+11,Just let me see the form.,5.953333333333333,3.486666666666667,6.176666666666667,neutral,3 out of 3,"['let', 'see', 'form']","['let', 'see', 'form']"
+12,Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+13,You filled this out wrong.,4.4,4.32,5.085,neutral,2 out of 2,"['fill', 'wrong']","['fill', 'wrong']"
+14,I can't - I can't - I can't do anything with this.,N/A,N/A,N/A,N/A,0,N/A,"['ca', 'ca', 'ca', 'anything']"
+15,F :Here you go.,6.32,4.86,5.33,positive,1 out of 2,['go'],"['f', 'go']"
+16,Ses04F_impro01_F003 [035.9800-039.3500]: Okay.,N/A,N/A,N/A,N/A,0,N/A,['okay']
+17,"I did-
+Ses04F_impro01_M003 [037.9000-042.9400]: Ma'am I cannot help you.",3.05,5.71,3.1100000000000003,negative,1 out of 1,['neg-help'],['help']
+18,You need to fill out a new form and you need to get in the back of the line.,5.68125,3.6475,5.54375,neutral,8 out of 8,"['need', 'fill', 'new', 'form', 'need', 'get', 'back', 'line']","['need', 'fill', 'new', 'form', 'need', 'get', 'back', 'line']"
+19,Ses04F_impro01_F004 [040.2700-043.2800]: I did exactly what they told me to do.,5.27,3.86,4.94,neutral,1 out of 2,['tell'],"['exactly', 'tell']"
+20,Ses04F_impro01_F005 [043.2800-050.7000]: I have done everything everyone in this entire place has told me to do.,5.5525,3.475,5.72,neutral,4 out of 6,"['do', 'entire', 'place', 'tell']","['do', 'everything', 'everyone', 'entire', 'place', 'tell']"
+21,I've been here for over an hour.,5.05,3.38,6.25,neutral,1 out of 1,['hour'],['hour']
+22,They make me wait in line.,5.153333333333333,3.5100000000000002,5.473333333333333,neutral,3 out of 3,"['make', 'wait', 'line']","['make', 'wait', 'line']"
+23,Every single time I start over again.,5.8,4.023333333333333,4.8966666666666665,neutral,3 out of 4,"['single', 'time', 'start']","['every', 'single', 'time', 'start']"
+24,Ses04F_impro01_M004 [050.3300-052.9600]: Ma'am I can't help you.,3.05,5.71,3.1100000000000003,negative,1 out of 2,['neg-help'],"['ca', 'help']"
+25,Do you understand?,6.68,3.52,6.71,positive,1 out of 1,['understand'],['understand']
+26,Ses04F_impro01_F006 [051.1000-056.8300]: I have a life.,6.68,5.59,5.89,positive,1 out of 1,['life'],['life']
+27,I have things to do.,5.55,3.43,5.41,neutral,1 out of 1,['thing'],['thing']
+28,I have places to go.,6.09,4.19,5.93,positive,2 out of 2,"['place', 'go']","['place', 'go']"
+29,Can you not just put this through please?,4.91,6.140000000000001,4.06,neutral,1 out of 2,['neg-put'],"['put', 'please']"
+30,"Ses04F_impro01_M005 [054.4600-056.1700]: I've got a life too ma'am
+Ses04F_impro01_M006 [056.1881-060.0200]: and I got to - i got to work here all day long.",6.06,4.091666666666667,5.758333333333334,positive,6 out of 7,"['get', 'life', 'get', 'get', 'work', 'day']","['get', 'life', 'get', 'get', 'work', 'day', 'long']"
+31,Okay.,N/A,N/A,N/A,N/A,0,N/A,['okay']
+32,I've got to deal with you people all day.,6.0725,3.74,5.69,positive,4 out of 4,"['get', 'deal', 'people', 'day']","['get', 'deal', 'people', 'day']"
+33,Ses04F_impro01_M007 [060.0400-065.6400]: So what I need you to do is I need you to fill out this form correctly and go to the back of the line.,5.428571428571429,3.6042857142857145,5.5442857142857145,neutral,7 out of 8,"['need', 'need', 'fill', 'form', 'go', 'back', 'line']","['need', 'need', 'fill', 'form', 'correctly', 'go', 'back', 'line']"
+34,"Ses04F_impro01_F007 [059.7500-070.7600]: Okay, that's nice.",6.95,3.53,6.47,positive,1 out of 2,['nice'],"['okay', 'nice']"
+35,That's nice but I have done everything you people have told me to do.,5.8325,3.7075,5.79,neutral,4 out of 5,"['nice', 'do', 'people', 'tell']","['nice', 'do', 'everything', 'people', 'tell']"
+36,I don't understand why you can't just help me get this done.,4.4675,4.8825,4.6,neutral,4 out of 5,"['neg-understand', 'neg-help', 'get', 'do']","['understand', 'ca', 'help', 'get', 'do']"
+37,"It's simple, right?",7.245,3.855,6.83,positive,2 out of 2,"['simple', 'right']","['simple', 'right']"
+38,License.,5.91,4.7,6.79,neutral,1 out of 1,['license'],['license']
+39,I need it.,5.45,3.67,5.06,neutral,1 out of 1,['need'],['need']
+40,Can we just do this please?,N/A,N/A,N/A,N/A,0,N/A,['please']
+41,Ses04F_impro01_M008 [068.0300-071.4300]: There's nothing I can do for you.,N/A,N/A,N/A,N/A,0,N/A,['nothing']
+42,Do you understand that?,6.68,3.52,6.71,positive,1 out of 1,['understand'],['understand']
+43,Nothing.,N/A,N/A,N/A,N/A,0,N/A,['nothing']
+44,"Ses04F_impro01_M009 [071.4500-074.7000]: What I need you to do is go to the back of the line,
+Ses04F_impro01_F008 [074.6200-078.7200]: I've been to the back of the line five times.",5.24125,3.39375,5.0775,neutral,8 out of 8,"['need', 'go', 'back', 'line', 'back', 'line', 'five', 'time']","['need', 'go', 'back', 'line', 'back', 'line', 'five', 'time']"
+45,"Ses04F_impro01_M010 [074.7000-076.4900]: fill out this form and wait
+Ses04F_impro01_M011 [076.5200-079.0800]: You're going to have to go back again.",5.525,3.855,5.74,neutral,6 out of 6,"['fill', 'form', 'wait', 'go', 'go', 'back']","['fill', 'form', 'wait', 'go', 'go', 'back']"
+46,Ses04F_impro01_F009 [080.0666-087.0800]: Okay.,N/A,N/A,N/A,N/A,0,N/A,['okay']
+47,What is it that I did wrong on the form that I have to start all over again?,5.096666666666667,4.65,5.12,neutral,3 out of 3,"['wrong', 'form', 'start']","['wrong', 'form', 'start']"
+48,"Ses04F_impro01_M012 [087.0300-089.8900]: This whole area here you didn't initial
+Ses04F_impro01_M013 [089.8900-091.2800]: and you filled out-
+Ses04F_impro01_F010 [089.8700-096.6500]: Okay.",5.4,3.7325,5.702500000000001,neutral,4 out of 5,"['whole', 'area', 'neg-initial', 'fill']","['whole', 'area', 'initial', 'fill', 'okay']"
+49,"Well, I can do that right here right now without going to the back of the line again.",6.1080000000000005,4.138,5.952,positive,5 out of 7,"['right', 'right', 'go', 'back', 'line']","['well', 'right', 'right', 'without', 'go', 'back', 'line']"
+50,See look initialed.,5.866666666666666,3.9166666666666665,5.716666666666667,neutral,3 out of 3,"['see', 'look', 'initial']","['see', 'look', 'initial']"
+51,All done.,5.41,3.67,6.35,neutral,1 out of 1,['do'],['do']
+52,Ready to go.,6.48,4.38,5.695,positive,2 out of 2,"['ready', 'go']","['ready', 'go']"
+53,Ses04F_impro01_M014 [093.3200-098.3000]: Ma'am I have other people waiting in line right now.,5.5975,3.9075,5.6899999999999995,neutral,4 out of 4,"['people', 'wait', 'line', 'right']","['people', 'wait', 'line', 'right']"
+54,I have other people waiting in line right now.,5.5975,3.9075,5.6899999999999995,neutral,4 out of 4,"['people', 'wait', 'line', 'right']","['people', 'wait', 'line', 'right']"
+55,Ses04F_impro01_F011 [097.9700-100.3500]: I have been waiting for over an hour.,4.8,3.5,5.779999999999999,neutral,2 out of 2,"['wait', 'hour']","['wait', 'hour']"
+56,"Ses04F_impro01_M015 [100.0600-106.5300]: This whole area of the form was not supposed to be filled out and you put the address in the wrong place
+Ses04F_impro01_M016 [106.5500-111.4800]: Uhh, and you spelled your own name wrong.",5.224166666666667,3.9783333333333335,5.441666666666666,neutral,12 out of 13,"['whole', 'area', 'form', 'neg-suppose', 'fill', 'put', 'address', 'wrong', 'place', 'spell', 'name', 'wrong']","['whole', 'area', 'form', 'suppose', 'fill', 'put', 'address', 'wrong', 'place', 'uhh', 'spell', 'name', 'wrong']"
+57,"So I need you to take that
+Ses04F_impro01_F012 [112.9100-118.6900]: I'm not starting over again.",4.62,4.46,4.796666666666667,neutral,3 out of 3,"['need', 'take', 'neg-start']","['need', 'take', 'start']"
+58,No I have done this five times.,5.196666666666666,4.43,4.553333333333334,neutral,3 out of 3,"['neg-do', 'five', 'time']","['do', 'five', 'time']"
+59,I am not starting over again.,3.59,5.19,4.5,negative,1 out of 1,['neg-start'],['start']
+60,"Ses04F_impro01_M017 [111.5000-115.6200]: and, uh, throw it away.",5.55,4.52,6.12,neutral,1 out of 3,['throw'],"['uh', 'throw', 'away']"
+61,I need you to fill out a new form.,6.0825,4.0024999999999995,5.8825,positive,4 out of 4,"['need', 'fill', 'new', 'form']","['need', 'fill', 'new', 'form']"
+62,Ses04F_impro01_M018 [118.3100-121.8900]: Ma'am you're going to have- you- look.,6.135,4.3100000000000005,5.605,positive,2 out of 2,"['go', 'look']","['go', 'look']"
+63,"You really- you really
+Ses04F_impro01_F013 [119.9500-122.0200]: Look can you not just help me?",4.5,4.734999999999999,4.495,neutral,2 out of 4,"['look', 'neg-help']","['really', 'really', 'look', 'help']"
+64,Ses04F_impro01_M019 [123.8300-126.4000]: I can't help you right now.,2.8649999999999998,5.355,2.975,negative,2 out of 3,"['neg-help', 'neg-right']","['ca', 'help', 'right']"
+65,Do you understand that?,6.68,3.52,6.71,positive,1 out of 1,['understand'],['understand']
+66,Ses04F_impro01_F014 [122.0400-132.0700]: I mean look she's -she's perfectly nice.,5.11,4.033333333333333,5.506666666666667,neutral,3 out of 4,"['mean', 'look', 'nice']","['mean', 'look', 'perfectly', 'nice']"
+67,She doesn't mind waiting for a couple of minutes because I've been here all day.,5.5440000000000005,4.732,4.7940000000000005,neutral,5 out of 5,"['neg-mind', 'neg-wait', 'couple', 'minute', 'day']","['mind', 'wait', 'couple', 'minute', 'day']"
+68,I have a job to get back to.,5.496666666666666,3.42,5.1033333333333335,neutral,3 out of 3,"['job', 'get', 'back']","['job', 'get', 'back']"
+69,I have kids to pick up from school.,6.183333333333334,4.3,5.55,positive,3 out of 3,"['kid', 'pick', 'school']","['kid', 'pick', 'school']"
+70,I can't just stay here.,3.8600000000000003,6.859999999999999,4.29,negative,1 out of 2,['neg-stay'],"['ca', 'stay']"
+71,Ses04F_impro01_M020 [131.2800-139.0593]: Look I'm going on my lunch break right now.,6.266,4.38,5.862,positive,5 out of 5,"['look', 'go', 'lunch', 'break', 'right']","['look', 'go', 'lunch', 'break', 'right']"
+72,So you're just going to have to take this form and go to the back of the line.,5.446666666666667,3.986666666666667,5.345,neutral,6 out of 6,"['go', 'take', 'form', 'go', 'back', 'line']","['go', 'take', 'form', 'go', 'back', 'line']"
+73,Ses04F_impro01_F015 [134.7600-139.0100]: No.,N/A,N/A,N/A,N/A,0,N/A,[]
+74,No.,N/A,N/A,N/A,N/A,0,N/A,[]
+75,No.,N/A,N/A,N/A,N/A,0,N/A,[]
+76,No.,N/A,N/A,N/A,N/A,0,N/A,[]
+77,You have to help me.,6.95,4.29,6.89,positive,1 out of 1,['help'],['help']
+78,Ses04F_impro01_M021 [139.0800-141.8000]: like I said before right now.,6.890000000000001,4.61,6.773333333333333,positive,3 out of 3,"['like', 'say', 'right']","['like', 'say', 'right']"
+79,Ses04F_impro01_F016 [139.0300-143.4800]: This is your job is to help people like me who need to get a new license.,6.3575,4.205,5.7162500000000005,positive,8 out of 8,"['job', 'help', 'people', 'like', 'need', 'get', 'new', 'license']","['job', 'help', 'people', 'like', 'need', 'get', 'new', 'license']"
+80,Ses04F_impro01_F017 [143.4800-146.0900]: That's like the whole purpose of you being here.,6.656666666666667,4.3100000000000005,6.6466666666666665,positive,3 out of 3,"['like', 'whole', 'purpose']","['like', 'whole', 'purpose']"
+81,Ses04F_impro01_M022 [145.2600-148.5700]: Ma'am you are testing my patience.,5.53,3.73,5.619999999999999,neutral,2 out of 2,"['test', 'patience']","['test', 'patience']"
+82,Do you understand me?,6.68,3.52,6.71,positive,1 out of 1,['understand'],['understand']
+83,Ses04F_impro01_F018 [147.7000-150.4800]: I- I- I'm testing your patience?,5.53,3.73,5.619999999999999,neutral,2 out of 2,"['test', 'patience']","['test', 'patience']"
+84,Ses04F_impro01_M023 [148.6900-151.2100]: You're testing my goddamn patience.,4.956666666666667,4.423333333333333,5.276666666666666,neutral,3 out of 3,"['test', 'goddamn', 'patience']","['test', 'goddamn', 'patience']"
+85,Ses04F_impro01_F019 [150.5000-152.5400]: I'm testing your patience?,5.53,3.73,5.619999999999999,neutral,2 out of 2,"['test', 'patience']","['test', 'patience']"
+86,Ses04F_impro01_M024 [151.2200-155.4700]: I work in this fucking building all day.,5.4925,4.54,5.6625,neutral,4 out of 4,"['work', 'fucking', 'building', 'day']","['work', 'fucking', 'building', 'day']"
+87,"And I'm sick of it, okay?",2.29,4.67,2.84,negative,1 out of 2,['sick'],"['sick', 'okay']"
+88,Ses04F_impro01_F020 [152.5600-154.5400]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+89,You have to be here all day.,6.36,3.62,5.59,positive,1 out of 1,['day'],['day']
+90,Ses04F_impro01_F021 [154.5400-158.1400]: I don't need to be.,4.55,6.33,4.94,neutral,1 out of 1,['neg-need'],['need']
+91,I need to go and do other things with my time.,5.73,3.8425000000000002,5.04,neutral,4 out of 4,"['need', 'go', 'thing', 'time']","['need', 'go', 'thing', 'time']"
+92,Okay.,N/A,N/A,N/A,N/A,0,N/A,['okay']
+93,"Ses04F_impro01_F022 [158.1600-165.1300]: Please just put the form in, take the picture, let me get my license and get the hell out of here.",5.43,4.058888888888889,5.664444444444444,neutral,9 out of 10,"['put', 'form', 'take', 'picture', 'let', 'get', 'license', 'get', 'hell']","['please', 'put', 'form', 'take', 'picture', 'let', 'get', 'license', 'get', 'hell']"
+94,Please.,N/A,N/A,N/A,N/A,0,N/A,['please']
+95,Ses04F_impro01_M025 [165.4300-168.5100]: I've walked away already.,6.77,3.24,5.83,positive,1 out of 3,['walk'],"['walk', 'away', 'already']"
+96,I'm not here anymore.,N/A,N/A,N/A,N/A,0,N/A,['anymore']

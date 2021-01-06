@@ -1,0 +1,88 @@
+Sentence ID,Sentence,Valence,Arousal,Dominance,Sentiment Label,# Words Found,Found Words,All Words
+1,Ses04F_impro02_M000 [007.3037-011.5900]: So you're leaving tomorrow.,4.68,4.48,5.47,neutral,1 out of 2,['leave'],"['leave', 'tomorrow']"
+2,Ses04F_impro02_F000 [011.9500-015.5600]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+3,They just called.,6.18,3.29,5.61,positive,1 out of 1,['call'],['call']
+4,Ses04F_impro02_M001 [018.2300-022.3500]: This is really-this is unfair.,3.15,3.75,4.0,negative,1 out of 1,['unfair'],['unfair']
+5,Ses04F_impro02_F001 [022.1600-024.9200]: I know.,6.82,3.24,5.78,positive,1 out of 1,['know'],['know']
+6,"Ses04F_impro02_M002 [025.8000-029.9400]: I don't see [BREATHING]
+Ses04F_impro02_F002 [031.8500-042.0800]: I don't know what to say.",4.273333333333333,5.763333333333333,5.033333333333333,neutral,3 out of 4,"['neg-see', 'neg-know', 'say']","['see', 'breathing', 'know', 'say']"
+7,I don't want to go but I don't have a lot of choice.,4.68,4.456666666666667,5.28,neutral,3 out of 4,"['neg-want', 'neg-go', 'choice']","['want', 'go', 'lot', 'choice']"
+8,Ses04F_impro02_M003 [041.6400-056.1200]: I mean we both knew that this was going to happen.,5.2675,4.085,5.202500000000001,neutral,4 out of 4,"['mean', 'know', 'go', 'happen']","['mean', 'know', 'go', 'happen']"
+9,"It's just that I feel that, you know, I don't want Susie growing up without a mother.",5.668,4.8260000000000005,5.3,neutral,5 out of 7,"['feel', 'know', 'neg-want', 'neg-grow', 'mother']","['feel', 'know', 'want', 'susie', 'grow', 'without', 'mother']"
+10,"Ses04F_impro02_M004 [057.1400-065.7929]: And, uh, I'm afraid that if you, you know, when you leave, you won't come back.",4.67,5.336,4.56,neutral,5 out of 7,"['afraid', 'know', 'leave', 'neg-come', 'neg-back']","['uh', 'afraid', 'know', 'leave', 'wo', 'come', 'back']"
+11,Ses04F_impro02_F003 [067.0300-072.5100]: I'm going to come back.,5.573333333333333,3.6733333333333333,5.496666666666667,neutral,3 out of 3,"['go', 'come', 'back']","['go', 'come', 'back']"
+12,I need you to believe that.,6.25,3.5,5.81,positive,2 out of 2,"['need', 'believe']","['need', 'believe']"
+13,Ses04F_impro02_M005 [070.7500-072.4035]: You don't know that.,3.1799999999999997,6.76,4.22,negative,1 out of 1,['neg-know'],['know']
+14,Ses04F_impro02_F004 [073.1200-078.6600]: I need you to believe that too.,6.25,3.5,5.81,positive,2 out of 2,"['need', 'believe']","['need', 'believe']"
+15,How am I supposed to believe everything's going to be okay if you don't?,6.213333333333333,3.8400000000000003,5.666666666666667,positive,3 out of 5,"['suppose', 'believe', 'go']","['suppose', 'believe', 'everything', 'go', 'okay']"
+16,"Ses04F_impro02_M006 [076.6200-082.3900]: I'll believe it, but- I'll believe it but it- I don't know that that's going to happen.",5.82,4.3420000000000005,5.64,neutral,5 out of 5,"['believe', 'believe', 'neg-know', 'go', 'happen']","['believe', 'believe', 'know', 'go', 'happen']"
+17,Ses04F_impro02_F005 [084.4800-088.4500]: Well you have to have faith because I don't have a choice and I have to go.,5.466666666666667,4.913333333333334,4.756666666666667,neutral,3 out of 4,"['faith', 'neg-choice', 'go']","['well', 'faith', 'choice', 'go']"
+18,Ses04F_impro02_M007 [088.1000-090.7700]: You do have a choice.,6.36,3.52,6.56,positive,1 out of 1,['choice'],['choice']
+19,You don't have to go.,3.6799999999999997,5.14,4.67,negative,1 out of 1,['neg-go'],['go']
+20,Ses04F_impro02_F006 [091.0400-094.1700]: Do you think I want to leave you?,5.786666666666666,4.506666666666667,5.786666666666666,neutral,3 out of 3,"['think', 'want', 'leave']","['think', 'want', 'leave']"
+21,Ses04F_impro02_M008 [093.9300-096.2100]: You have a choice.,6.36,3.52,6.56,positive,1 out of 1,['choice'],['choice']
+22,Ses04F_impro02_F007 [097.0497-104.3400]: I have to do this.,N/A,N/A,N/A,N/A,0,N/A,[]
+23,I don't want to leave.,4.66,5.115,4.57,neutral,2 out of 2,"['neg-want', 'neg-leave']","['want', 'leave']"
+24,Do you think I want to miss seeing her grow up?,5.866,3.888,5.702,neutral,5 out of 5,"['think', 'want', 'miss', 'see', 'grow']","['think', 'want', 'miss', 'see', 'grow']"
+25,Ses04F_impro02_M009 [105.1700-111.7000]: I know.,6.82,3.24,5.78,positive,1 out of 1,['know'],['know']
+26,It's just you don't have to do this for a living you know.,6.82,3.24,5.78,positive,1 out of 2,['know'],"['living', 'know']"
+27,Ses04F_impro02_M010 [112.8200-116.8300]: You're a smart person.,6.915,3.76,6.404999999999999,positive,2 out of 2,"['smart', 'person']","['smart', 'person']"
+28,There are other things you can do.,5.55,3.43,5.41,neutral,1 out of 1,['thing'],['thing']
+29,"Ses04F_impro02_F008 [117.9363-122.2900]: Look we both knew what this meant when I signed on
+Ses04F_impro02_F009 [123.0600-132.5883]: And now- and now it's really shitty timing but now I have to go.",4.965714285714286,4.101428571428571,5.142857142857143,neutral,7 out of 8,"['look', 'know', 'mean', 'sign', 'shitty', 'timing', 'go']","['look', 'know', 'mean', 'sign', 'really', 'shitty', 'timing', 'go']"
+30,Ses04F_impro02_F010 [133.3402-140.2000]: I mean I'm the one who has to leave here.,4.4,3.986666666666667,5.066666666666666,neutral,3 out of 3,"['mean', 'one', 'leave']","['mean', 'one', 'leave']"
+31,I'm the one who has to leave the two of you.,5.6899999999999995,3.4933333333333336,5.359999999999999,neutral,3 out of 3,"['one', 'leave', 'two']","['one', 'leave', 'two']"
+32,At least you get to be together.,6.09,3.67,5.65,positive,1 out of 3,['get'],"['least', 'get', 'together']"
+33,Ses04F_impro02_M011 [140.8500-145.3500]: It's just not going to work out without you here.,4.3149999999999995,5.404999999999999,4.275,neutral,2 out of 3,"['neg-go', 'neg-work']","['go', 'work', 'without']"
+34,Ses04F_impro02_F011 [146.8100-149.3700]: What's that supposed to mean?,3.8499999999999996,4.07,4.640000000000001,negative,2 out of 2,"['suppose', 'mean']","['suppose', 'mean']"
+35,Ses04F_impro02_M012 [149.3200-156.2600]: I mean we can't-we're not a complete family without you here.,2.8933333333333335,5.963333333333333,3.6733333333333333,negative,3 out of 5,"['mean', 'neg-complete', 'neg-family']","['mean', 'ca', 'complete', 'family', 'without']"
+36,Ses04F_impro02_F012 [156.4304-161.4000]: Well I'll come back.,5.199999999999999,3.08,5.58,neutral,2 out of 3,"['come', 'back']","['well', 'come', 'back']"
+37,What is that supposed to mean?,3.8499999999999996,4.07,4.640000000000001,negative,2 out of 2,"['suppose', 'mean']","['suppose', 'mean']"
+38,You're not willing to wait for me to come back?,4.755,4.945,4.8375,neutral,4 out of 4,"['neg-willing', 'neg-wait', 'come', 'back']","['willing', 'wait', 'come', 'back']"
+39,Ses04F_impro02_M013 [161.0000-174.8400]: Of course I'm going to wait.,5.4350000000000005,4.24,5.32,neutral,2 out of 3,"['go', 'wait']","['course', 'go', 'wait']"
+40,I just- I just don't like the idea of this happening because this isn't the last time this is going to happen.,4.538333333333333,4.875,4.9399999999999995,neutral,6 out of 7,"['neg-like', 'neg-idea', 'happen', 'neg-time', 'go', 'happen']","['like', 'idea', 'happen', 'last', 'time', 'go', 'happen']"
+41,You're going to go on more tours and stuff.,6.125,4.51,5.6225000000000005,positive,4 out of 4,"['go', 'go', 'tour', 'stuff']","['go', 'go', 'tour', 'stuff']"
+42,"I just- I can't-
+Ses04F_impro02_M014 [174.8700-177.9600]: I can't deal with this emotionally.",3.8600000000000003,6.1,3.88,negative,1 out of 4,['neg-deal'],"['ca', 'ca', 'deal', 'emotionally']"
+43,Ses04F_impro02_F013 [177.5300-179.6800]: What do you want me to do?,6.0,5.29,5.39,neutral,1 out of 1,['want'],['want']
+44,Ses04F_impro02_M015 [180.2100-186.4500]: I want you to leave.,5.34,4.885,5.43,neutral,2 out of 2,"['want', 'leave']","['want', 'leave']"
+45,I want you to leave the service.,5.836666666666667,4.24,5.3966666666666665,neutral,3 out of 3,"['want', 'leave', 'service']","['want', 'leave', 'service']"
+46,Ses04F_impro02_F014 [187.1500-191.7500]: Well I can't very well do it today.,N/A,N/A,N/A,N/A,0,N/A,"['well', 'ca', 'well', 'today']"
+47,I still have to leave tomorrow.,4.68,4.48,5.47,neutral,1 out of 3,['leave'],"['still', 'leave', 'tomorrow']"
+48,Ses04F_impro02_M016 [190.8000-196.1800]: You can do it today.,N/A,N/A,N/A,N/A,0,N/A,['today']
+49,You don't have to do anything.,N/A,N/A,N/A,N/A,0,N/A,['anything']
+50,You don't have to do anything you don't want to do.,4.0,4.71,4.61,neutral,1 out of 2,['neg-want'],"['anything', 'want']"
+51,"Ses04F_impro02_F015 [195.7800-201.4800]: You're not making this any easier for me, you know.",5.365,4.785,4.78,neutral,2 out of 3,"['neg-make', 'know']","['make', 'easier', 'know']"
+52,I'm the one who has to go and you're really not helping.,5.153333333333333,4.413333333333333,4.666666666666667,neutral,3 out of 4,"['one', 'go', 'neg-help']","['one', 'go', 'really', 'help']"
+53,Ses04F_impro02_M017 [201.3700-204.5900]: Look I'm just telling you that you don't have to go.,4.966666666666667,4.253333333333333,5.163333333333333,neutral,3 out of 3,"['look', 'tell', 'neg-go']","['look', 'tell', 'go']"
+54,Ses04F_impro02_F016 [205.0900-211.2800]: I do have to go.,6.32,4.86,5.33,positive,1 out of 1,['go'],['go']
+55,And I need to know that you're here waiting for me and that you believe that I'm coming back.,5.711666666666667,3.336666666666667,5.645,neutral,6 out of 6,"['need', 'know', 'wait', 'believe', 'come', 'back']","['need', 'know', 'wait', 'believe', 'come', 'back']"
+56,Ses04F_impro02_M018 [204.6200-207.5400]: That's all I'm saying... No you don't.,5.91,4.43,6.88,neutral,1 out of 1,['say'],['say']
+57,Ses04F_impro02_F017 [216.6700-219.3700]: Thanks that helps.,7.34,4.17,6.805,positive,2 out of 2,"['thanks', 'help']","['thanks', 'help']"
+58,Ses04F_impro02_M019 [211.1600-216.3100]: It's just really unfair.,3.15,3.75,4.0,negative,1 out of 2,['unfair'],"['really', 'unfair']"
+59,This is- this is bullshit.,2.33,7.0,3.0,negative,1 out of 1,['bullshit'],['bullshit']
+60,Ses04F_impro02_F018 [219.5000-221.8700]: I feel much better now.,6.27,4.05,5.5,positive,1 out of 3,['feel'],"['feel', 'much', 'better']"
+61,"Ses04F_impro02_M020 [221.4700-230.2800]: You're acting like, you know, you're the one who's going all through, you know, all this shit and it's really- it's really not.",6.148571428571429,4.038571428571429,5.632857142857143,positive,7 out of 9,"['act', 'like', 'know', 'one', 'go', 'know', 'shit']","['act', 'like', 'know', 'one', 'go', 'know', 'shit', 'really', 'really']"
+62,Ses04F_impro02_F019 [228.3100-233.8900]: I know I'm leaving you here with all the responsibility but at least you get to be with her.,5.5675,4.1725,5.9225,neutral,4 out of 5,"['know', 'leave', 'responsibility', 'get']","['know', 'leave', 'responsibility', 'least', 'get']"
+63,Ses04F_impro02_M021 [233.7800-240.4900]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+64,Of course I do because I didn't enlist in this stupid thing.,4.656666666666666,4.6866666666666665,4.62,neutral,3 out of 4,"['neg-enlist', 'stupid', 'thing']","['course', 'enlist', 'stupid', 'thing']"
+65,"Why don't you just get out now and then-
+Ses04F_impro02_F020 [240.0100-242.9900]: I will but I can't right now.",3.295,5.665,3.5949999999999998,negative,2 out of 3,"['neg-get', 'neg-right']","['get', 'ca', 'right']"
+66,Ses04F_impro02_M022 [242.2200-247.4900]: Yes- You don't have to go.,3.6799999999999997,5.14,4.67,negative,1 out of 2,['neg-go'],"['yes', 'go']"
+67,What are they going to do?,6.32,4.86,5.33,positive,1 out of 1,['go'],['go']
+68,Huh?,N/A,N/A,N/A,N/A,0,N/A,['huh']
+69,Put a gun to your head?,4.87,5.35,5.403333333333333,neutral,3 out of 3,"['put', 'gun', 'head']","['put', 'gun', 'head']"
+70,Ses04F_impro02_F021 [247.0600-254.4400]: You know- you know how this works.,6.23,3.6033333333333335,5.8933333333333335,positive,3 out of 3,"['know', 'know', 'work']","['know', 'know', 'work']"
+71,I have to go.,6.32,4.86,5.33,positive,1 out of 1,['go'],['go']
+72,Ses04F_impro02_M023 [257.3300-263.6800]: Then go.,6.32,4.86,5.33,positive,1 out of 1,['go'],['go']
+73,We'll be here when you get back.,5.425,3.13,5.4350000000000005,neutral,2 out of 2,"['get', 'back']","['get', 'back']"
+74,F: That's it?,N/A,N/A,N/A,N/A,0,N/A,['f']
+75,Ses04F_impro02_F022 [263.3900-266.0330]: That's how you want to leave it?,5.34,4.885,5.43,neutral,2 out of 2,"['want', 'leave']","['want', 'leave']"
+76,Ses04F_impro02_M024 [267.3500-274.1900]: I don't know how else to leave it.,3.9299999999999997,5.62,4.845,negative,2 out of 3,"['neg-know', 'leave']","['know', 'else', 'leave']"
+77,"What, do you want me to lie to you?",4.195,5.05,5.055,neutral,2 out of 2,"['want', 'lie']","['want', 'lie']"
+78,Ses04F_impro02_M025 [275.1187-278.9096]: You want me tell you that I'm okay with it?,5.635,4.575,5.165,neutral,2 out of 3,"['want', 'tell']","['want', 'tell', 'okay']"
+79,Ses04F_impro02_F023 [278.6200-288.1200]: I want you to be okay with it as much as you can be.,6.0,5.29,5.39,neutral,1 out of 3,['want'],"['want', 'okay', 'much']"
+80,I mean it's not a great situation but we don't have an option here.,3.3075,5.8575,4.2075,negative,4 out of 4,"['mean', 'neg-great', 'neg-situation', 'neg-option']","['mean', 'great', 'situation', 'option']"
+81,Ses04F_impro02_M026 [289.8700-299.6000]: Well I can't be okay with it the same way you can't not go.,4.795,4.02,4.75,neutral,2 out of 6,"['way', 'neg-go']","['well', 'ca', 'okay', 'way', 'ca', 'go']"
+82,It just doesn't work that way.,4.52,6.385,4.525,neutral,2 out of 2,"['neg-work', 'neg-way']","['work', 'way']"
+83,Ses04F_impro02_F024 [299.1400-300.6700]: Fine.,6.5,3.86,5.78,positive,1 out of 1,['fine'],['fine']

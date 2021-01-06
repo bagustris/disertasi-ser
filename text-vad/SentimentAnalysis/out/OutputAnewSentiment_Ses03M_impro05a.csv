@@ -1,0 +1,99 @@
+Sentence ID,Sentence,Valence,Arousal,Dominance,Sentiment Label,# Words Found,Found Words,All Words
+1,Ses03M_impro05a_F000 [005.7300-007.5300]: Can I help you sir?,6.2,4.3100000000000005,6.0,positive,2 out of 2,"['help', 'sir']","['help', 'sir']"
+2,Ses03M_impro05a_M000 [007.1700-011.7200]: Yes you can help me.,6.95,4.29,6.89,positive,1 out of 2,['help'],"['yes', 'help']"
+3,Where is my luggage?,5.19,3.75,5.42,neutral,1 out of 1,['luggage'],['luggage']
+4,"Ses03M_impro05a_F001 [011.2200-014.5900]: Well, let me just check on that for you.",6.25,3.045,5.365,positive,2 out of 3,"['let', 'check']","['well', 'let', 'check']"
+5,Where are you coming--?,5.64,3.57,5.94,neutral,1 out of 1,['come'],['come']
+6,Ses03M_impro05a_M001 [013.8300-017.7800]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+7,You do that.,N/A,N/A,N/A,N/A,0,N/A,[]
+8,I'm coming from Baltimore.,5.64,3.57,5.94,neutral,1 out of 2,['come'],"['come', 'baltimore']"
+9,You know where that is?,6.82,3.24,5.78,positive,1 out of 1,['know'],['know']
+10,"Ses03M_impro05a_F002 [017.3200-022.2000]: Sir, yes it's in Maryland.",5.45,4.33,5.11,neutral,1 out of 3,['sir'],"['sir', 'yes', 'maryland']"
+11,"It's okay...well, I'm...just let me check here.",6.25,3.045,5.365,positive,2 out of 4,"['let', 'check']","['okay', 'well', 'let', 'check']"
+12,Ses03M_impro05a_M002 [021.7600-025.0200]: I had eight hundred pounds of luggage.,5.42,3.7975,5.615,neutral,4 out of 4,"['eight', 'hundred', 'pound', 'luggage']","['eight', 'hundred', 'pound', 'luggage']"
+13,Ses03M_impro05a_F003 [024.0900-027.7600]: Okay.,N/A,N/A,N/A,N/A,0,N/A,['okay']
+14,Sir?,5.45,4.33,5.11,neutral,1 out of 1,['sir'],['sir']
+15,Can you...if you just give me one moment and let me just check okay?,6.484,3.476,5.601999999999999,positive,5 out of 6,"['give', 'one', 'moment', 'let', 'check']","['give', 'one', 'moment', 'let', 'check', 'okay']"
+16,Ses03M_impro05a_M003 [026.9500-028.6507]: Okay.,N/A,N/A,N/A,N/A,0,N/A,['okay']
+17,Check.,6.55,3.38,4.67,positive,1 out of 1,['check'],['check']
+18,Ses03M_impro05a_F004 [028.1100-033.9325]: Alright.,N/A,N/A,N/A,N/A,0,N/A,['alright']
+19,"And you're coming-- Wait, hold on sir.",5.422499999999999,4.095,5.5075,neutral,4 out of 4,"['come', 'wait', 'hold', 'sir']","['come', 'wait', 'hold', 'sir']"
+20,You're coming from Baltimore into LAX right?,5.796666666666667,3.8966666666666665,6.1433333333333335,neutral,3 out of 4,"['come', 'lax', 'right']","['come', 'baltimore', 'lax', 'right']"
+21,Ses03M_impro05a_M004 [029.4400-030.5000]: Is it there?,N/A,N/A,N/A,N/A,0,N/A,[]
+22,Ses03M_impro05a_M005 [033.5300-034.5900]: Yes.,N/A,N/A,N/A,N/A,0,N/A,['yes']
+23,Ses03M_impro05a_F005 [034.1600-035.8500]: Okay and this is direct flight?,5.93,4.245,5.855,neutral,2 out of 3,"['direct', 'flight']","['okay', 'direct', 'flight']"
+24,Ses03M_impro05a_M006 [034.9400-037.0500]: You don't know where we're at?,3.1799999999999997,6.76,4.22,negative,1 out of 1,['neg-know'],['know']
+25,Ses03M_impro05a_M007 [037.0975-038.9800]: God.,5.9,5.56,5.0,neutral,1 out of 1,['god'],['god']
+26,"Ses03M_impro05a_F006 [038.1750-042.2700]: I'm asking you if this is direct flight from Baltimore to LAX or if you have to stop--
+Ses03M_impro05a_M008 [041.1900-045.3650]: You know I've been waiting here for four hours for my luggage
+Ses03M_impro05a_M009 [045.4125-050.2400]: and it's not here, they told me to go to this person, go to this person.",5.596666666666667,3.840666666666667,5.626666666666667,neutral,15 out of 16,"['ask', 'direct', 'flight', 'lax', 'stop', 'know', 'wait', 'four', 'hour', 'luggage', 'tell', 'go', 'person', 'go', 'person']","['ask', 'direct', 'flight', 'baltimore', 'lax', 'stop', 'know', 'wait', 'four', 'hour', 'luggage', 'tell', 'go', 'person', 'go', 'person']"
+27,Now I'm at this person.,6.1,3.71,6.0,positive,1 out of 1,['person'],['person']
+28,"Ses03M_impro05a_F007 [049.4000-053.8900]: You're at me and I'm going to try to help you out sir but you just have to cooperate with me--
+Ses03M_impro05a_M010 [053.1100-055.0700]: Okay.",6.15,4.2620000000000005,5.89,positive,5 out of 6,"['go', 'try', 'help', 'sir', 'cooperate']","['go', 'try', 'help', 'sir', 'cooperate', 'okay']"
+29,What do you want?,6.0,5.29,5.39,neutral,1 out of 1,['want'],['want']
+30,Ses03M_impro05a_F008 [054.4900-057.0200]: How many pieces of luggage do you have checked in?,5.656666666666667,3.5666666666666664,5.066666666666666,neutral,3 out of 4,"['piece', 'luggage', 'check']","['many', 'piece', 'luggage', 'check']"
+31,Ses03M_impro05a_M011 [056.5500-059.7400]: Eight.,5.37,3.48,5.26,neutral,1 out of 1,['eight'],['eight']
+32,And they're all gone.,6.32,4.86,5.33,positive,1 out of 1,['go'],['go']
+33,Ses03M_impro05a_F009 [059.0100-061.8200]: Eight pieces of luggage.,5.263333333333334,3.6,5.263333333333334,neutral,3 out of 3,"['eight', 'piece', 'luggage']","['eight', 'piece', 'luggage']"
+34,Okay.,N/A,N/A,N/A,N/A,0,N/A,['okay']
+35,Ses03M_impro05a_M012 [060.9500-066.4300]: And what are you going to do about it?,6.32,4.86,5.33,positive,1 out of 1,['go'],['go']
+36,You going to call someone?,6.25,4.075,5.470000000000001,positive,2 out of 3,"['go', 'call']","['go', 'call', 'someone']"
+37,You going to send me somewhere else?,6.25,4.1450000000000005,5.635,positive,2 out of 4,"['go', 'send']","['go', 'send', 'somewhere', 'else']"
+38,Ses03M_impro05a_F010 [065.7700-067.7200]: No.,N/A,N/A,N/A,N/A,0,N/A,[]
+39,"I'm just going to check--
+Ses03M_impro05a_M013 [067.1000-072.1900]: It's my mother's funeral tomorrow and the urn is in the suitcase.",5.181666666666667,3.868333333333333,4.803333333333334,neutral,6 out of 7,"['go', 'check', 'mother', 'funeral', 'urn', 'suitcase']","['go', 'check', 'mother', 'funeral', 'tomorrow', 'urn', 'suitcase']"
+40,Ses03M_impro05a_F011 [071.5400-073.3300]: I'm sorry sir.,5.13,4.475,5.380000000000001,neutral,2 out of 2,"['sorry', 'sir']","['sorry', 'sir']"
+41,Ses03M_impro05a_M014 [072.6400-074.1625]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+42,Ses03M_impro05a_F012 [074.2500-080.8900]: I'm very sorry but let's check on this immediately.,5.77,3.57,5.46,neutral,3 out of 4,"['sorry', 'let', 'check']","['sorry', 'let', 'check', 'immediately']"
+43,This is definitely an emergency.,2.72,6.43,2.72,negative,1 out of 2,['emergency'],"['definitely', 'emergency']"
+44,"It seems--
+Ses03M_impro05a_M015 [079.4200-083.5100]: What am I going to do tomorrow without the urn?",5.046666666666667,3.666666666666667,4.67,neutral,3 out of 5,"['seem', 'go', 'urn']","['seem', 'go', 'tomorrow', 'without', 'urn']"
+45,"Ses03M_impro05a_F013 [082.7700-087.6800]: Sir it seems to me that your luggage is um- is not here
+Ses03M_impro05a_M016 [087.1900-091.3275]: Oh, oh, that's a good deduction.",5.824,3.642,5.338,neutral,5 out of 8,"['sir', 'seem', 'luggage', 'good', 'deduction']","['sir', 'seem', 'luggage', 'um', 'oh', 'oh', 'good', 'deduction']"
+46,"Ses03M_impro05a_F014 [090.9925-092.2100]: Yes--it is
+Ses03M_impro05a_M017 [091.3600-094.4700]: Sherlock Holmes.",N/A,N/A,N/A,N/A,0,N/A,"['yes', 'sherlock', 'holmes']"
+47,"God, where's my luggage?",5.545,4.654999999999999,5.21,neutral,2 out of 2,"['god', 'luggage']","['god', 'luggage']"
+48,"Ses03M_impro05a_F015 [093.1800-096.7100]: Sir, Please please, I would ask you to just calm down for a second--
+Ses03M_impro05a_M018 [096.2400-102.3200]: Calm down?",6.053333333333334,3.0733333333333333,6.261666666666667,positive,6 out of 8,"['sir', 'would', 'ask', 'calm', 'second', 'calm']","['sir', 'please', 'please', 'would', 'ask', 'calm', 'second', 'calm']"
+49,It's my mother's funeral tomorrow.,4.8,4.415,4.585,neutral,2 out of 3,"['mother', 'funeral']","['mother', 'funeral', 'tomorrow']"
+50,I'm the one responsible for this.,6.1850000000000005,2.835,6.475,positive,2 out of 2,"['one', 'responsible']","['one', 'responsible']"
+51,Ses03M_impro05a_F016 [101.6900-107.7600]: Okay.,N/A,N/A,N/A,N/A,0,N/A,['okay']
+52,We will find your luggage.,5.82,3.635,5.83,neutral,2 out of 2,"['find', 'luggage']","['find', 'luggage']"
+53,"Apparently because it somehow...what flight you were taking, you were on Delta?",5.41,4.013333333333334,5.4366666666666665,neutral,3 out of 5,"['flight', 'take', 'delta']","['apparently', 'somehow', 'flight', 'take', 'delta']"
+54,Ses03M_impro05a_M019 [107.2000-111.2100]: Yes.,N/A,N/A,N/A,N/A,0,N/A,['yes']
+55,You are a Delta representative.,4.96,3.7600000000000002,5.626666666666667,neutral,3 out of 2,"['delta', 'representative', 'representative']","['delta', 'representative']"
+56,"Ses03M_impro05a_F017 [111.2100-113.5100]: Yes, I am.",N/A,N/A,N/A,N/A,0,N/A,['yes']
+57,Ses03M_impro05a_M020 [113.5900-116.3000]: What is the matter with you?,5.82,4.05,6.12,neutral,1 out of 1,['matter'],['matter']
+58,"Ses03M_impro05a_F018 [115.8800-119.7400]: Sir, I just...you need to calm down is what needs to happen right now.",6.01,3.6283333333333334,5.8933333333333335,positive,6 out of 6,"['sir', 'need', 'calm', 'need', 'happen', 'right']","['sir', 'need', 'calm', 'need', 'happen', 'right']"
+59,Ses03M_impro05a_M021 [119.0100-120.8800]: Don't yell at me.,6.42,5.06,5.71,positive,1 out of 1,['neg-yell'],['yell']
+60,Ses03M_impro05a_F019 [120.3400-122.9400]: Okay.,N/A,N/A,N/A,N/A,0,N/A,['okay']
+61,I'm not.,N/A,N/A,N/A,N/A,0,N/A,[]
+62,"I'm sorry, I am being--
+Ses03M_impro05a_F020 [122.9800-129.5500]: calm.",5.85,3.145,6.545,neutral,2 out of 2,"['sorry', 'calm']","['sorry', 'calm']"
+63,"Sir, okay basically what- what's going to happen here is you're going to give me your contact information and we will contact you--
+Ses03M_impro05a_M022 [126.7900-130.5800]: Oh my God.",6.21,4.0633333333333335,5.441111111111111,positive,9 out of 12,"['sir', 'go', 'happen', 'go', 'give', 'contact', 'information', 'contact', 'god']","['sir', 'okay', 'basically', 'go', 'happen', 'go', 'give', 'contact', 'information', 'contact', 'oh', 'god']"
+64,I think a blood vessel burst in my head.,5.33,4.534,4.946,neutral,5 out of 5,"['think', 'blood', 'vessel', 'burst', 'head']","['think', 'blood', 'vessel', 'burst', 'head']"
+65,"Ses03M_impro05a_F021 [130.1300-131.3900]: Please, please
+Ses03M_impro05a_F022 [131.4100-134.2950]: sir, listen to me.",6.18,4.045,5.335,positive,2 out of 4,"['sir', 'listen']","['please', 'please', 'sir', 'listen']"
+66,Your luggage is still in Baltimore.,5.19,3.75,5.42,neutral,1 out of 3,['luggage'],"['luggage', 'still', 'baltimore']"
+67,Ses03M_impro05a_M023 [133.9000-135.2100]: What?,N/A,N/A,N/A,N/A,0,N/A,[]
+68,Ses03M_impro05a_F023 [134.6200-139.0600]: Okay.,N/A,N/A,N/A,N/A,0,N/A,['okay']
+69,We can get it here in about seven to ten business days.,5.598,3.58,5.406,neutral,5 out of 5,"['get', 'seven', 'ten', 'business', 'day']","['get', 'seven', 'ten', 'business', 'day']"
+70,Ses03M_impro05a_M024 [138.5675-140.9900]: What?,N/A,N/A,N/A,N/A,0,N/A,[]
+71,Are you kidding me?,7.23,4.71,4.83,positive,1 out of 1,['kid'],['kid']
+72,Ses03M_impro05a_F024 [140.4900-141.8700]: Yes.,N/A,N/A,N/A,N/A,0,N/A,['yes']
+73,"Well, because--
+Ses03M_impro05a_M025 [141.2000-143.7100]: Give- Give me your manager right now.",6.9,4.5725,6.4399999999999995,positive,4 out of 5,"['give', 'give', 'manager', 'right']","['well', 'give', 'give', 'manager', 'right']"
+74,Ses03M_impro05a_F025 [143.2900-145.7700]: I am the manager sir.,5.135,4.24,6.135,neutral,2 out of 2,"['manager', 'sir']","['manager', 'sir']"
+75,Ses03M_impro05a_M026 [145.0500-151.1900]: You're the manager?,4.82,4.15,7.16,neutral,1 out of 1,['manager'],['manager']
+76,"You don't know where you work for, you don't know where you're at and you're the manager?",4.0575,5.5,5.43,neutral,4 out of 4,"['neg-know', 'work', 'neg-know', 'manager']","['know', 'work', 'know', 'manager']"
+77,"Ses03M_impro05a_F026 [149.5100-152.8700]: Sir I know where I work for but I was checking because you cannot--
+Ses03M_impro05a_M027 [152.2900-154.6100]: Whose daughter are you?",6.12,4.056,5.348,positive,5 out of 6,"['sir', 'know', 'work', 'check', 'daughter']","['sir', 'know', 'work', 'check', 'whose', 'daughter']"
+78,Ses03M_impro05a_F027 [153.8900-155.7100]: Sir?,5.45,4.33,5.11,neutral,1 out of 1,['sir'],['sir']
+79,Ses03M_impro05a_M028 [156.0450-159.4850]: Sir.,5.45,4.33,5.11,neutral,1 out of 1,['sir'],['sir']
+80,Sir.,5.45,4.33,5.11,neutral,1 out of 1,['sir'],['sir']
+81,Sir.,5.45,4.33,5.11,neutral,1 out of 1,['sir'],['sir']
+82,"Sir
+Ses03M_impro05a_F028 [156.6900-157.9800]: What is your name?",5.535,3.685,5.125,neutral,2 out of 2,"['sir', 'name']","['sir', 'name']"
+83,Ses03M_impro05a_M029 [160.0500-162.5300]: My name is Brent Caption.,5.62,3.04,5.14,neutral,1 out of 3,['name'],"['name', 'brent', 'caption']"
+84,Ses03M_impro05a_M030 [162.7600-167.4425]: Now what are you going to do about it?,6.32,4.86,5.33,positive,1 out of 1,['go'],['go']

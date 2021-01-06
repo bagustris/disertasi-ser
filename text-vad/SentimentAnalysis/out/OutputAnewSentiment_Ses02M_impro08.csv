@@ -1,0 +1,110 @@
+Sentence ID,Sentence,Valence,Arousal,Dominance,Sentiment Label,# Words Found,Found Words,All Words
+1,Ses02M_impro08_M000 [003.6166-006.0102]: All right.,7.32,5.0,7.16,positive,1 out of 1,['right'],['right']
+2,Customer service this is Steve.,6.345000000000001,3.175,5.745,positive,2 out of 3,"['customer', 'service']","['customer', 'service', 'steve']"
+3,Ses02M_impro08_F000 [005.8326-011.4941]: Hi.,N/A,N/A,N/A,N/A,0,N/A,['hi']
+4,"Thank you so much, you're a real person, right, you're not like a recording?",5.9366666666666665,4.693333333333333,5.678333333333333,neutral,6 out of 7,"['thank', 'real', 'person', 'right', 'neg-like', 'neg-recording']","['thank', 'much', 'real', 'person', 'right', 'like', 'recording']"
+5,"M: Heh, yeah.",N/A,N/A,N/A,N/A,0,N/A,"['heh', 'yeah']"
+6,"No I-
+Ses02M_impro08_M001 [010.9934-013.1234]: I'm a real person, yes.",6.595,3.88,5.945,positive,2 out of 3,"['real', 'person']","['real', 'person', 'yes']"
+7,Ses02M_impro08_F001 [011.5765-017.4979]: Okay.,N/A,N/A,N/A,N/A,0,N/A,['okay']
+8,"Before I get into it, um your menu or whatever like where you choose the different thing depending on the-
+Ses02M_impro08_F002 [017.5233-023.6412]: it leads you around in circles, you can't, there is no way to like get to a real person if you don't already know how to get to there.",5.550625,4.344375,5.6275,neutral,16 out of 21,"['get', 'menu', 'like', 'choose', 'different', 'thing', 'depend', 'lead', 'circle', 'neg-way', 'neg-like', 'get', 'real', 'person', 'neg-know', 'get']","['get', 'um', 'menu', 'whatever', 'like', 'choose', 'different', 'thing', 'depend', 'lead', 'around', 'circle', 'ca', 'way', 'like', 'get', 'real', 'person', 'already', 'know', 'get']"
+9,Ses02M_impro08_M002 [022.6205-027.3120]: Right.,7.32,5.0,7.16,positive,1 out of 1,['right'],['right']
+10,"No, yes I know.",6.82,3.24,5.78,positive,1 out of 2,['know'],"['yes', 'know']"
+11,It is-It is a little frustrating.,4.24,4.84,4.45,neutral,2 out of 2,"['little', 'frustrating']","['little', 'frustrating']"
+12,"Ses02M_impro08_F003 [026.2317-031.2805]: So is there any way to like bypass that because that is so, like I've been going around in circles
+Ses02M_impro08_F004 [031.3039-037.8395]: like press nine, press zero, press back to the menu, like I can't get through to what I'm supposed to get through to.",5.841176470588235,3.7894117647058825,5.436470588235294,neutral,17 out of 20,"['way', 'like', 'bypass', 'like', 'go', 'circle', 'like', 'press', 'nine', 'press', 'press', 'back', 'menu', 'like', 'neg-get', 'suppose', 'get']","['way', 'like', 'bypass', 'like', 'go', 'around', 'circle', 'like', 'press', 'nine', 'press', 'zero', 'press', 'back', 'menu', 'like', 'ca', 'get', 'suppose', 'get']"
+13,"Ses02M_impro08_M003 [037.9230-048.3927]: I- I'll give you a little hint, next time if it asks if you're on a rotary phone you know, just stay on the line instead of - instead of hitting one or two to say if you're like on a touch tone
+F: It's so frustrating.",5.7877777777777775,3.9622222222222225,5.4222222222222225,neutral,18 out of 22,"['give', 'little', 'hint', 'time', 'ask', 'rotary', 'phone', 'know', 'stay', 'line', 'hit', 'one', 'two', 'say', 'like', 'touch', 'tone', 'frustrating']","['give', 'little', 'hint', 'next', 'time', 'ask', 'rotary', 'phone', 'know', 'stay', 'line', 'instead', 'instead', 'hit', 'one', 'two', 'say', 'like', 'touch', 'tone', 'f', 'frustrating']"
+14,"Ses02M_impro08_M004 [048.4404-051.3750]: pretend like your on a rotary phone, goes straight through to a person.",5.878333333333334,4.033333333333333,5.458333333333334,neutral,6 out of 7,"['pretend', 'like', 'rotary', 'phone', 'go', 'person']","['pretend', 'like', 'rotary', 'phone', 'go', 'straight', 'person']"
+15,Ses02M_impro08_F005 [051.1141-060.9752]: Okay.,N/A,N/A,N/A,N/A,0,N/A,['okay']
+16,"Oh, that would just make it so much better, 'cause I cannot handle it's just like oh, my God I can't sit here any longer and talk to this lady with this pleasant voice.",6.108,4.436,5.6610000000000005,positive,10 out of 16,"['would', 'make', 'neg-handle', 'like', 'god', 'neg-sit', 'talk', 'lady', 'pleasant', 'voice']","['oh', 'would', 'make', 'much', 'better', 'handle', 'like', 'oh', 'god', 'ca', 'sit', 'longer', 'talk', 'lady', 'pleasant', 'voice']"
+17,Ses02M_impro08_M005 [055.1628-057.5574]: I know they don't tell you that kind of thing.,6.220000000000001,4.0,5.9675,positive,4 out of 4,"['know', 'neg-tell', 'kind', 'thing']","['know', 'tell', 'kind', 'thing']"
+18,M: Right.,7.32,5.0,7.16,positive,1 out of 1,['right'],['right']
+19,Ses02M_impro08_F006 [061.0932-063.8674]: Sorry.,4.81,4.62,5.65,neutral,1 out of 1,['sorry'],['sorry']
+20,Okay.,N/A,N/A,N/A,N/A,0,N/A,['okay']
+21,"Um-, yes
+Ses02M_impro08_M006 [062.0289-063.8421]: Alright.",N/A,N/A,N/A,N/A,0,N/A,"['um', 'yes', 'alright']"
+22,Well you got me now.,6.09,3.67,5.65,positive,1 out of 2,['get'],"['well', 'get']"
+23,Ses02M_impro08_F007 [063.8928-069.3915]: Thank you very much.,7.77,3.33,6.89,positive,1 out of 2,['thank'],"['thank', 'much']"
+24,"Um  So I have a charge on my credit card that, um, isn't mine.",5.036666666666667,3.7666666666666666,5.076666666666666,neutral,3 out of 6,"['charge', 'credit', 'card']","['um', 'charge', 'credit', 'card', 'um', 'mine']"
+25,"Ses02M_impro08_F008 [069.5168-073.9495]: Uh, I don't know where it came from and it's actually quite large, and I don't have the money for it so
+M: Oh, alright.",4.3725,4.705,4.7225,neutral,4 out of 9,"['neg-know', 'come', 'large', 'neg-money']","['uh', 'know', 'come', 'actually', 'quite', 'large', 'money', 'oh', 'alright']"
+26,Ses02M_impro08_F009 [073.9713-079.1524]: it really freaks me out when I got my bill because it was like I don't -- I didn't spend this.,4.892,4.778,5.032,neutral,5 out of 6,"['freak', 'get', 'bill', 'like', 'neg-spend']","['really', 'freak', 'get', 'bill', 'like', 'spend']"
+27,This is not my charge.,5.39,5.75,4.83,neutral,1 out of 1,['neg-charge'],['charge']
+28,Ses02M_impro08_M007 [078.1955-082.6714]: Yea.,N/A,N/A,N/A,N/A,0,N/A,['yea']
+29,All right.,7.32,5.0,7.16,positive,1 out of 1,['right'],['right']
+30,"Well, let me-let me look it up here for a second.",5.71,3.3166666666666664,5.763333333333333,neutral,3 out of 4,"['let', 'look', 'second']","['well', 'let', 'look', 'second']"
+31,"Uh, so i think
+Ses02M_impro08_F010 [080.9592-088.8614]: Okay, it was um- at the [GARBAGE] sorry, it was at a department store, I think it was Macy's or something
+Ses02M_impro08_M008 [087.5150-090.9077]: Okay, Alright, yeah.",5.386666666666667,3.6483333333333334,5.678333333333334,neutral,6 out of 14,"['think', 'garbage', 'sorry', 'department', 'store', 'think']","['uh', 'think', 'okay', 'um', 'garbage', 'sorry', 'department', 'store', 'think', 'macy', 'something', 'okay', 'alright', 'yeah']"
+32,I- I see it on here.,6.27,3.9,6.0,positive,1 out of 1,['see'],['see']
+33,Ses02M_impro08_F011 [088.8844-095.1091]: and it was like something like eight hundred dollars.,6.828,4.3100000000000005,5.712,positive,5 out of 6,"['like', 'like', 'eight', 'hundred', 'dollar']","['like', 'something', 'like', 'eight', 'hundred', 'dollar']"
+34,I don't remember.,3.5,6.859999999999999,3.6900000000000004,negative,1 out of 1,['neg-remember'],['remember']
+35,"It was just a lot and I have thing in front of me right now, but-
+Ses02M_impro08_M009 [094.4263-100.1059]: All right.",6.73,4.476666666666667,6.576666666666667,positive,3 out of 5,"['thing', 'right', 'right']","['lot', 'thing', 'front', 'right', 'right']"
+36,"Well, you know that's, that's what we have all of our protection plans for and everything like that so I mean it's
+Ses02M_impro08_F012 [098.9404-103.3519]: Okay.",5.912,4.126,5.844,neutral,5 out of 8,"['know', 'protection', 'plan', 'like', 'mean']","['well', 'know', 'protection', 'plan', 'everything', 'like', 'mean', 'okay']"
+37,So is there something I can do to get rid of it?,4.88,4.025,5.355,neutral,2 out of 3,"['get', 'rid']","['something', 'get', 'rid']"
+38,Ses02M_impro08_M010 [100.1566-102.0586]: it- it'll work out fine.,5.775,4.095,5.95,neutral,2 out of 2,"['work', 'fine']","['work', 'fine']"
+39,"Ses02M_impro08_M011 [103.2505-112.7768]: Yes, we'll get- we'll get rid of it right now.",5.7925,4.18,5.88,neutral,4 out of 5,"['get', 'get', 'rid', 'right']","['yes', 'get', 'get', 'rid', 'right']"
+40,"I mean just we're going to have to have you, um, submit something you know, we're going to have to have you mail something in for us, okay.",5.345000000000001,4.248333333333333,5.05,neutral,6 out of 11,"['mean', 'go', 'submit', 'know', 'go', 'mail']","['mean', 'go', 'um', 'submit', 'something', 'know', 'go', 'mail', 'something', 'us', 'okay']"
+41,F: Okay.,N/A,N/A,N/A,N/A,0,N/A,"['f', 'okay']"
+42,Okay.,N/A,N/A,N/A,N/A,0,N/A,['okay']
+43,Ses02M_impro08_M012 [112.8186-118.1843]: So- So you can um find that application.,5.75,4.02,5.27,neutral,2 out of 3,"['find', 'application']","['um', 'find', 'application']"
+44,"You have the Internet, you can go to our website.",6.586666666666667,4.626666666666667,5.75,positive,3 out of 3,"['internet', 'go', 'website']","['internet', 'go', 'website']"
+45,Ses02M_impro08_F013 [117.4010-121.6994]: Oh I can get the form right now?,6.35,4.173333333333334,6.426666666666667,positive,3 out of 4,"['get', 'form', 'right']","['oh', 'get', 'form', 'right']"
+46,"Oh, that'll be so much better.",N/A,N/A,N/A,N/A,0,N/A,"['oh', 'much', 'better']"
+47,Okay.,N/A,N/A,N/A,N/A,0,N/A,['okay']
+48,Ses02M_impro08_M013 [118.8972-121.6360]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+49,Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+50,You get the form right now.,6.35,4.173333333333334,6.426666666666667,positive,3 out of 3,"['get', 'form', 'right']","['get', 'form', 'right']"
+51,"and- yeah
+Ses02M_impro08_M014 [121.6487-124.0197]: We could mail it to you as well, but-
+Ses02M_impro08_F014 [123.0606-125.2593]: -But online is faster I can do that.",6.28,3.81,5.26,positive,1 out of 6,['mail'],"['yeah', 'could', 'mail', 'well', 'online', 'faster']"
+52,Ses02M_impro08_M015 [124.3367-132.5278]: Right.,7.32,5.0,7.16,positive,1 out of 1,['right'],['right']
+53,"You can go online, print it out, and just fill out the form and um- send it to us um- you know,  regarding the grievance and-
+Ses02M_impro08_M016 [132.5405-135.3819]: and it'll get taken off um- no problem you know
+Ses02M_impro08_F015 [133.6816-134.6960]: Okay.",5.490833333333334,4.0616666666666665,5.62,neutral,12 out of 18,"['go', 'print', 'fill', 'form', 'send', 'know', 'regard', 'grievance', 'get', 'take', 'neg-problem', 'neg-know']","['go', 'online', 'print', 'fill', 'form', 'um', 'send', 'us', 'um', 'know', 'regard', 'grievance', 'get', 'take', 'um', 'problem', 'know', 'okay']"
+54,"Ses02M_impro08_F016 [134.7087-138.8649]: 'Cause I-I just don't know how someone could have gotten my charge information
+Ses02M_impro08_F017 [138.8649-140.6043]: I mean I still have my card.",4.69,4.076666666666666,4.943333333333333,neutral,6 out of 9,"['neg-know', 'get', 'charge', 'information', 'mean', 'card']","['know', 'someone', 'could', 'get', 'charge', 'information', 'mean', 'still', 'card']"
+55,Ses02M_impro08_M017 [138.8867-140.1928]: Right.,7.32,5.0,7.16,positive,1 out of 1,['right'],['right']
+56,"I mean we might
+Ses02M_impro08_M018 [140.7806-141.9234]: Okay.",2.43,4.81,4.17,negative,1 out of 3,['mean'],"['mean', 'might', 'okay']"
+57,Ses02M_impro08_F018 [141.4772-144.8732]: So is there any- I mean what if they spend something again?,4.17,4.645,5.025,neutral,2 out of 3,"['mean', 'spend']","['mean', 'spend', 'something']"
+58,"Ses02M_impro08_M019 [144.3452-148.4281]: Uh, I mean have you been shopping around on the Internet and stuff?",5.215,4.6325,5.24,neutral,4 out of 6,"['mean', 'shop', 'internet', 'stuff']","['uh', 'mean', 'shop', 'around', 'internet', 'stuff']"
+59,"I mean that you gave-
+Ses02M_impro08_F019 [147.8773-151.8393]: I did buy one thing on ebay I don't know that might-
+Ses02M_impro08_M020 [149.9623-157.3799]: Uh-ha, I mean usually sites are pretty well protected but sometimes I mean information gets out, so
+Ses02M_impro08_M021 [157.3926-164.5089]: so it is a little a little hard in that situation if you want -- you know you can -um- we can- we can issue another credit card.",5.3554545454545455,4.184545454545455,5.291818181818182,neutral,22 out of 29,"['mean', 'give', 'buy', 'one', 'thing', 'neg-know', 'mean', 'site', 'pretty', 'protected', 'mean', 'information', 'get', 'little', 'little', 'hard', 'situation', 'want', 'know', 'issue', 'credit', 'card']","['mean', 'give', 'buy', 'one', 'thing', 'ebay', 'know', 'might', 'mean', 'usually', 'site', 'pretty', 'well', 'protected', 'sometimes', 'mean', 'information', 'get', 'little', 'little', 'hard', 'situation', 'want', 'know', 'um', 'issue', 'another', 'credit', 'card']"
+60,"Ses02M_impro08_F020 [164.0735-165.2490]: Oh, really?",N/A,N/A,N/A,N/A,0,N/A,"['oh', 'really']"
+61,"Ses02M_impro08_M022 [164.5313-166.1633]: Yeah, yeah.",N/A,N/A,N/A,N/A,0,N/A,"['yeah', 'yeah']"
+62,"Maybe we'll, uh-
+Ses02M_impro08_F021 [165.9457-173.0192]: Oh that'll be great 'cause I could just get a new number, would that be okay because that way I don't have to worry about it happening again?",6.51,3.7824999999999998,5.8475,positive,8 out of 13,"['great', 'get', 'new', 'number', 'would', 'way', 'neg-worry', 'happen']","['maybe', 'uh', 'oh', 'great', 'could', 'get', 'new', 'number', 'would', 'okay', 'way', 'worry', 'happen']"
+63,"Ses02M_impro08_M023 [167.4856-169.3876]: it's a different number and everything
+Ses02M_impro08_M024 [170.5161-172.3926]: Yeah.",5.75,3.725,6.3,neutral,2 out of 4,"['different', 'number']","['different', 'number', 'everything', 'yeah']"
+64,yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+65,"Ses02M_impro08_M025 [172.9118-183.6004]: Yes, um but  for- for that- for that charge we will need you to send something in but we can get you processed immediately for this, for this, for this new card.",5.8757142857142854,3.8185714285714285,5.458571428571428,neutral,7 out of 11,"['charge', 'need', 'send', 'get', 'process', 'new', 'card']","['yes', 'um', 'charge', 'need', 'send', 'something', 'get', 'process', 'immediately', 'new', 'card']"
+66,"It still goes to the same address, right?",6.583333333333334,4.303333333333334,5.793333333333333,positive,3 out of 4,"['go', 'address', 'right']","['still', 'go', 'address', 'right']"
+67,"Ses02M_impro08_F022 [183.2845-185.0723]: Yes, absolutely.",N/A,N/A,N/A,N/A,0,N/A,"['yes', 'absolutely']"
+68,Ses02M_impro08_M026 [183.9704-187.7147]: Okay.,N/A,N/A,N/A,N/A,0,N/A,['okay']
+69,All right.,7.32,5.0,7.16,positive,1 out of 1,['right'],['right']
+70,Then we'll get it sent out there.,6.135,3.55,5.795,positive,2 out of 2,"['get', 'send']","['get', 'send']"
+71,"And
+Ses02M_impro08_F023 [187.3229-188.6099]: Great.",7.5,4.14,6.65,positive,1 out of 1,['great'],['great']
+72,"Ses02M_impro08_M027 [187.7365-191.1325]: And you know just I mean be careful in the future if um
+Ses02M_impro08_F024 [190.8923-191.8940]: Yeah.",5.5625,4.0825,5.327500000000001,neutral,4 out of 6,"['know', 'mean', 'careful', 'future']","['know', 'mean', 'careful', 'future', 'um', 'yeah']"
+73,"Ses02M_impro08_M028 [191.4882-197.1767]: if you're ever online or anything like that I mean just make sure it's a secure site and
+Ses02M_impro08_M029 [197.3020-208.1746]: and never you know, give it to anyone out, never even give out your number to any like unreliable company that you haven't heard of or anything like that, all right?",6.041875,4.196875,5.76,positive,16 out of 24,"['like', 'mean', 'make', 'sure', 'secure', 'site', 'know', 'give', 'give', 'number', 'like', 'unreliable', 'company', 'neg-hear', 'like', 'right']","['ever', 'online', 'anything', 'like', 'mean', 'make', 'sure', 'secure', 'site', 'never', 'know', 'give', 'anyone', 'never', 'even', 'give', 'number', 'like', 'unreliable', 'company', 'hear', 'anything', 'like', 'right']"
+74,"Because, um, we want to- we definitely want to help you out, but-
+Ses02M_impro08_F025 [199.9925-201.4292]: Right, right.",6.718,4.974,6.398,positive,5 out of 7,"['want', 'want', 'help', 'right', 'right']","['um', 'want', 'definitely', 'want', 'help', 'right', 'right']"
+75,"Ses02M_impro08_F026 [204.8688-206.1096]: Okay, great.",7.5,4.14,6.65,positive,1 out of 2,['great'],"['okay', 'great']"
+76,"Ses02M_impro08_F027 [208.1123-209.3096]: Yeah, totally.",N/A,N/A,N/A,N/A,0,N/A,"['yeah', 'totally']"
+77,Ses02M_impro08_M030 [208.2000-212.2955]: you know it gets- it gets difficult you know so Alright.,5.92,3.654,5.328,neutral,5 out of 6,"['know', 'get', 'get', 'difficult', 'know']","['know', 'get', 'get', 'difficult', 'know', 'alright']"
+78,Ses02M_impro08_F028 [210.1273-213.7030]: Well thank you so much.,7.77,3.33,6.89,positive,1 out of 3,['thank'],"['well', 'thank', 'much']"
+79,You've been very helpful.,7.43,3.88,6.79,positive,1 out of 1,['helpful'],['helpful']
+80,I really appreciate it.,7.33,3.1,7.0,positive,1 out of 2,['appreciate'],"['really', 'appreciate']"
+81,"Ses02M_impro08_M031 [212.7393-216.2770]: Alright Yes, I'm sorry for all the inconvenience but we'll get it taken care of.",5.282,4.348,5.258,neutral,5 out of 7,"['sorry', 'inconvenience', 'get', 'take', 'care']","['alright', 'yes', 'sorry', 'inconvenience', 'get', 'take', 'care']"
+82,Ses02M_impro08_F029 [214.6648-216.1669]: [BREATHING] Thank you.,7.77,3.33,6.89,positive,1 out of 2,['thank'],"['breathing', 'thank']"
+83,Ses02M_impro08_F030 [216.1796-218.7792]: Thank you very much bye.,7.77,3.33,6.89,positive,1 out of 3,['thank'],"['thank', 'much', 'bye']"
+84,M: Alright.,N/A,N/A,N/A,N/A,0,N/A,['alright']

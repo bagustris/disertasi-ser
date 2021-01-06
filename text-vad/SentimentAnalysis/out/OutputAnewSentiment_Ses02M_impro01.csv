@@ -1,0 +1,68 @@
+Sentence ID,Sentence,Valence,Arousal,Dominance,Sentiment Label,# Words Found,Found Words,All Words
+1,Ses02M_impro01_M000 [003.5000-006.4410]: All right.,7.32,5.0,7.16,positive,1 out of 1,['right'],['right']
+2,Finally.,N/A,N/A,N/A,N/A,0,N/A,['finally']
+3,Here you go.,6.32,4.86,5.33,positive,1 out of 1,['go'],['go']
+4,"Ses02M_impro01_F000 [005.3200-007.3580]: Hi, How can I help you?",6.95,4.29,6.89,positive,1 out of 2,['help'],"['hi', 'help']"
+5,Ses02M_impro01_M001 [007.3400-010.0000]: Yea.,N/A,N/A,N/A,N/A,0,N/A,['yea']
+6,"I just want to get this done,
+Ses02M_impro01_F001 [010.3710-011.6114]: Sure, um
+Ses02M_impro01_M002 [010.0100-012.2924]: get my new license.",6.26,4.231428571428571,5.981428571428571,positive,7 out of 8,"['want', 'get', 'do', 'sure', 'get', 'new', 'license']","['want', 'get', 'do', 'sure', 'um', 'get', 'new', 'license']"
+7,Ses02M_impro01_F002 [011.6114-014.6855]: do you have two forms of ID with you?,5.8133333333333335,3.3733333333333335,5.626666666666667,neutral,3 out of 3,"['two', 'form', 'id']","['two', 'form', 'id']"
+8,"Ses02M_impro01_M003 [014.3252-017.6205]: Um, no, I got my driver's license though.",5.403333333333333,4.726666666666667,5.566666666666666,neutral,3 out of 5,"['neg-get', 'driver', 'license']","['um', 'get', 'driver', 'license', 'though']"
+9,Ses02M_impro01_F003 [017.8190-024.7376]: I actually need two forms of ID.,5.7225,3.4475,5.484999999999999,neutral,4 out of 5,"['need', 'two', 'form', 'id']","['actually', 'need', 'two', 'form', 'id']"
+10,"I need either a passport or a birth certificate, or social security card.",5.994285714285715,4.2,5.297142857142857,neutral,7 out of 8,"['need', 'passport', 'birth', 'certificate', 'social', 'security', 'card']","['need', 'either', 'passport', 'birth', 'certificate', 'social', 'security', 'card']"
+11,I'm sorry.,4.81,4.62,5.65,neutral,1 out of 1,['sorry'],['sorry']
+12,"Ses02M_impro01_M004 [024.5138-028.1500]: Uh, sorry, I forgot them.",4.27,4.525,4.575,neutral,2 out of 3,"['sorry', 'forget']","['uh', 'sorry', 'forget']"
+13,"I mean I've got to -
+Ses02M_impro01_F004 [027.9800-029.6220]: Well
+Ses02M_impro01_M005 [028.2300-031.2973]: well is the dri-driver's license going to work?",5.16,4.474,5.612,neutral,5 out of 7,"['mean', 'get', 'license', 'go', 'work']","['mean', 'get', 'well', 'well', 'license', 'go', 'work']"
+14,Ses02M_impro01_F005 [030.0939-036.9427]: I- I can take your driver's license but I need another form of ID in order to process this paper work.,5.562,3.777,5.85,neutral,10 out of 11,"['take', 'driver', 'license', 'need', 'form', 'id', 'order', 'process', 'paper', 'work']","['take', 'driver', 'license', 'need', 'another', 'form', 'id', 'order', 'process', 'paper', 'work']"
+15,"Ses02M_impro01_M006 [036.8679-039.1999]: Okay, so what are you saying?",5.91,4.43,6.88,neutral,1 out of 2,['say'],"['okay', 'say']"
+16,"What-
+Ses02M_impro01_F006 [038.8667-044.0823]: Um, that you would need to go home and get another form of ID and come back.",5.865555555555556,3.6377777777777776,5.748888888888889,neutral,9 out of 11,"['would', 'need', 'go', 'home', 'get', 'form', 'id', 'come', 'back']","['um', 'would', 'need', 'go', 'home', 'get', 'another', 'form', 'id', 'come', 'back']"
+17,Ses02M_impro01_M007 [044.2341-052.4300]: What?,N/A,N/A,N/A,N/A,0,N/A,[]
+18,"I- You telling me I waited in that huge line to go and sit down and get my number called, like after
+Ses02M_impro01_F007 [053.1100-054.9300]: Well, I'm sorry sir but
+Ses02M_impro01_M008 [052.4400-054.5300]: three hours and
+Ses02M_impro01_F008 [054.9400-058.3100]: you need to bring two forms of ID there is nothing we can do about it.",5.637368421052631,3.771578947368421,5.537368421052632,neutral,19 out of 21,"['tell', 'wait', 'huge', 'line', 'go', 'sit', 'get', 'number', 'call', 'like', 'sorry', 'sir', 'three', 'hour', 'need', 'bring', 'two', 'form', 'id']","['tell', 'wait', 'huge', 'line', 'go', 'sit', 'get', 'number', 'call', 'like', 'well', 'sorry', 'sir', 'three', 'hour', 'need', 'bring', 'two', 'form', 'id', 'nothing']"
+19,Ses02M_impro01_M009 [057.3791-064.1421]: Shouldn't they have like told us about that?,3.9149999999999996,4.7299999999999995,4.33,negative,2 out of 3,"['neg-like', 'tell']","['like', 'tell', 'us']"
+20,I mean why - why would they make me go and wait three hours if I have got to go and do it again?,5.354444444444445,4.006666666666667,5.516666666666667,neutral,9 out of 9,"['mean', 'would', 'make', 'go', 'wait', 'three', 'hour', 'get', 'go']","['mean', 'would', 'make', 'go', 'wait', 'three', 'hour', 'get', 'go']"
+21,"Ses02M_impro01_F009 [060.0864-061.5056]: Well, it's actually-
+Ses02M_impro01_F010 [063.2229-068.4976]: It's standard that you bring a couple of forms of ID, I'm sorry.",5.583333333333333,4.043333333333333,5.658333333333333,neutral,6 out of 8,"['standard', 'bring', 'couple', 'form', 'id', 'sorry']","['well', 'actually', 'standard', 'bring', 'couple', 'form', 'id', 'sorry']"
+22,Ses02M_impro01_M010 [066.9831-073.6261]: It's standard?,4.76,3.61,5.14,neutral,1 out of 1,['standard'],['standard']
+23,I mean I don't work at the D.M.V.,3.6900000000000004,5.24,4.025,negative,2 out of 2,"['mean', 'neg-work']","['mean', 'work']"
+24,"how am I supposed to know that, like, I stand in line, I get my
+Ses02M_impro01_F011 [071.2864-074.6495]: Well, I'm sorry, sir, but we're not responsible.",5.521111111111111,4.1033333333333335,5.218888888888889,neutral,9 out of 10,"['suppose', 'know', 'like', 'stand', 'line', 'get', 'sorry', 'sir', 'neg-responsible']","['suppose', 'know', 'like', 'stand', 'line', 'get', 'well', 'sorry', 'sir', 'responsible']"
+25,"Ses02M_impro01_M011 [074.2423-076.2871]: I filled out the application right, didn't I?",5.976666666666667,4.29,6.08,neutral,3 out of 3,"['fill', 'application', 'right']","['fill', 'application', 'right']"
+26,"Ses02M_impro01_F012 [076.0075-082.1167]: Yes, you did, thank you very much, but we're not responsible if you've forgotten something, and we need to have two forms of ID.",5.444285714285714,4.078571428571428,4.991428571428571,neutral,7 out of 10,"['thank', 'neg-responsible', 'forget', 'need', 'two', 'form', 'id']","['yes', 'thank', 'much', 'responsible', 'forget', 'something', 'need', 'two', 'form', 'id']"
+27,Ses02M_impro01_M012 [081.5927-088.7760]: Okay.,N/A,N/A,N/A,N/A,0,N/A,['okay']
+28,"What about - no -- how about you hold that and I'll - I'll go and I can come back-
+Ses02M_impro01_F013 [087.4655-091.6580]: I'm sorry, but there is a lot of people waiting so you're just going to have to get in line again.",5.506,3.966,5.439,neutral,10 out of 11,"['hold', 'go', 'come', 'back', 'sorry', 'people', 'wait', 'go', 'get', 'line']","['hold', 'go', 'come', 'back', 'sorry', 'lot', 'people', 'wait', 'go', 'get', 'line']"
+29,Ses02M_impro01_M013 [091.1995-093.9287]: I've been waiting for three hours.,5.01,3.46,5.67,neutral,3 out of 3,"['wait', 'three', 'hour']","['wait', 'three', 'hour']"
+30,"Ses02M_impro01_F014 [093.4266-097.4221]: It just happens to people all the time, I'm sorry sir, but I can't make an exception for you.",5.102857142857143,4.505714285714286,5.101428571428571,neutral,7 out of 8,"['happen', 'people', 'time', 'sorry', 'sir', 'neg-make', 'neg-exception']","['happen', 'people', 'time', 'sorry', 'sir', 'ca', 'make', 'exception']"
+31,Ses02M_impro01_M014 [097.1601-099.5400]: This is ridiculous.,3.67,5.65,3.78,negative,1 out of 1,['ridiculous'],['ridiculous']
+32,"Come on
+Ses02M_impro01_F015 [098.7147-100.1295]: I'm sorry, sir.",5.3,4.173333333333334,5.566666666666667,neutral,3 out of 3,"['come', 'sorry', 'sir']","['come', 'sorry', 'sir']"
+33,Ses02M_impro01_M015 [099.9890-104.6996]: I cannot go back in that line.,4.58,5.263333333333334,4.78,neutral,3 out of 3,"['neg-go', 'neg-back', 'line']","['go', 'back', 'line']"
+34,"I've got stuff I need to do, I mean-
+Ses02M_impro01_F016 [104.7414-106.0901]: there is nothing I can do.",4.9575000000000005,3.9175,4.9275,neutral,4 out of 5,"['get', 'stuff', 'need', 'mean']","['get', 'stuff', 'need', 'mean', 'nothing']"
+35,"Ses02M_impro01_M016 [105.4351-112.2472]: But my driver's license - I had to have my birth certificate to get my driver's license in the first place right, I mean this - here is my driver's license so
+Ses02M_impro01_F017 [111.7499-115.9590]: I know sir, but we have to have two forms.",6.038823529411765,4.091764705882353,5.871764705882353,positive,17 out of 17,"['driver', 'license', 'birth', 'certificate', 'get', 'driver', 'license', 'first', 'place', 'right', 'mean', 'driver', 'license', 'know', 'sir', 'two', 'form']","['driver', 'license', 'birth', 'certificate', 'get', 'driver', 'license', 'first', 'place', 'right', 'mean', 'driver', 'license', 'know', 'sir', 'two', 'form']"
+36,"There is nothing I can do about it, I'm sorry.",4.81,4.62,5.65,neutral,1 out of 2,['sorry'],"['nothing', 'sorry']"
+37,Ses02M_impro01_M017 [115.4350-118.7100]: That doesn't make any sense.,3.91,6.3149999999999995,3.745,negative,2 out of 2,"['neg-make', 'neg-sense']","['make', 'sense']"
+38,Why?,N/A,N/A,N/A,N/A,0,N/A,[]
+39,"Ses02M_impro01_F018 [118.3825-120.5877]: I'm sorry, sir.",5.13,4.475,5.380000000000001,neutral,2 out of 2,"['sorry', 'sir']","['sorry', 'sir']"
+40,There is nothing I can do.,N/A,N/A,N/A,N/A,0,N/A,['nothing']
+41,"Ses02M_impro01_M018 [119.1904-126.0898]: You- shouldn't you have like a sign or something maybe like up on the counter when you get the applica- maybe on the application
+Ses02M_impro01_F019 [122.8148-125.8060]: Well, if you had checked the web site it would have said.",5.536363636363636,3.9236363636363634,5.275454545454545,neutral,11 out of 16,"['neg-like', 'sign', 'like', 'counter', 'get', 'application', 'check', 'web', 'site', 'would', 'say']","['like', 'sign', 'something', 'maybe', 'like', 'counter', 'get', 'applica', 'maybe', 'application', 'well', 'check', 'web', 'site', 'would', 'say']"
+42,Ses02M_impro01_F020 [126.2997-130.8496]: If you had checked the website it would have said that you needed two forms of identification.,6.035,3.8125,5.71125,positive,8 out of 8,"['check', 'website', 'would', 'say', 'need', 'two', 'form', 'identification']","['check', 'website', 'would', 'say', 'need', 'two', 'form', 'identification']"
+43,"Ses02M_impro01_M019 [129.4304-137.7264]: What web- I didn't go to a website - why would I need to - it's the D.M.V.. You come to the D.M.V., you wait in line for three hours, and then you go home.",5.564166666666667,3.8475,5.4375,neutral,12 out of 12,"['web', 'neg-go', 'website', 'would', 'need', 'come', 'wait', 'line', 'three', 'hour', 'go', 'home']","['web', 'go', 'website', 'would', 'need', 'come', 'wait', 'line', 'three', 'hour', 'go', 'home']"
+44,"Ses02M_impro01_F021 [137.2469-138.7534]: Well, maybe you should
+Ses02M_impro01_M020 [138.3822-141.7665]: I waited in line now I'm ready to get my stuff and then go home.",5.965714285714286,3.7985714285714285,5.548571428571428,neutral,7 out of 9,"['wait', 'line', 'ready', 'get', 'stuff', 'go', 'home']","['well', 'maybe', 'wait', 'line', 'ready', 'get', 'stuff', 'go', 'home']"
+45,Ses02M_impro01_F022 [141.3516-146.0022]: Right.,7.32,5.0,7.16,positive,1 out of 1,['right'],['right']
+46,So maybe you should go home now and get your paperwork and come back.,5.756666666666667,3.7616666666666667,5.69,neutral,6 out of 7,"['go', 'home', 'get', 'paperwork', 'come', 'back']","['maybe', 'go', 'home', 'get', 'paperwork', 'come', 'back']"
+47,Ses02M_impro01_F023 [148.0459-153.3206]: I'm sorry sir but there's a lot of people waiting.,5.1274999999999995,4.085,5.3675,neutral,4 out of 5,"['sorry', 'sir', 'people', 'wait']","['sorry', 'sir', 'lot', 'people', 'wait']"
+48,"So if you won't move out of the way, then I'm going to have to call security.",5.974,4.2,5.33,neutral,5 out of 6,"['neg-move', 'way', 'go', 'call', 'security']","['wo', 'move', 'way', 'go', 'call', 'security']"
+49,"Ses02M_impro01_M021 [149.4956-151.5261]: God, oh my-
+Ses02M_impro01_M022 [153.3165-155.0414]: This is ridiculous.",4.785,5.605,4.39,neutral,2 out of 3,"['god', 'ridiculous']","['god', 'oh', 'ridiculous']"
+50,"Ses02M_impro01_F024 [154.5392-157.0808]: I'm sorry, sir, it's not my choice.",4.633333333333333,5.1433333333333335,4.733333333333333,neutral,3 out of 3,"['sorry', 'sir', 'neg-choice']","['sorry', 'sir', 'choice']"

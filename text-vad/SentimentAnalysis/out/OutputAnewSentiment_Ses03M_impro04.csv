@@ -1,0 +1,147 @@
+Sentence ID,Sentence,Valence,Arousal,Dominance,Sentiment Label,# Words Found,Found Words,All Words
+1,Ses03M_impro04_F000 [006.3200-008.5200]: What's going on man?,5.87,4.61,5.385,neutral,2 out of 2,"['go', 'man']","['go', 'man']"
+2,What's wrong?,3.24,5.29,3.39,negative,1 out of 1,['wrong'],['wrong']
+3,Ses03M_impro04_M000 [008.1300-011.2900]: I'm just so tired all the time.,4.945,3.54,4.71,neutral,2 out of 2,"['tired', 'time']","['tired', 'time']"
+4,"Ses03M_impro04_F001 [013.8500-017.3375]: Well have you been trying to get a job, look for a job or...?",5.792,3.886,5.2700000000000005,neutral,5 out of 6,"['try', 'get', 'job', 'look', 'job']","['well', 'try', 'get', 'job', 'look', 'job']"
+5,Ses03M_impro04_M001 [016.9100-020.4300]: I've been looking for like eight months.,6.135,3.8200000000000003,5.6175,positive,4 out of 4,"['look', 'like', 'eight', 'month']","['look', 'like', 'eight', 'month']"
+6,Ses03M_impro04_F002 [019.8900-024.6600]: I know.,6.82,3.24,5.78,positive,1 out of 1,['know'],['know']
+7,It- It's really tough out there.,4.45,4.24,6.0,neutral,1 out of 2,['tough'],"['really', 'tough']"
+8,It's really hard to find a job.,5.4799999999999995,4.006666666666667,5.213333333333334,neutral,3 out of 4,"['hard', 'find', 'job']","['really', 'hard', 'find', 'job']"
+9,Ses03M_impro04_M002 [024.0100-030.0745]: I'm tired of the same excuses.,4.404999999999999,3.6399999999999997,4.89,neutral,2 out of 2,"['tired', 'excuse']","['tired', 'excuse']"
+10,"No, no you're not qualified enough, wish you had more education.",5.65,3.9899999999999998,5.613333333333333,neutral,3 out of 4,"['neg-qualify', 'wish', 'education']","['qualify', 'enough', 'wish', 'education']"
+11,Ses03M_impro04_F003 [029.6500-031.3600]: Well what are you looking for?,5.95,3.76,5.88,neutral,1 out of 2,['look'],"['well', 'look']"
+12,"I mean--
+Ses03M_impro04_M003 [030.4600-033.7800]: Last time someone told me I was too qualified.",5.0175,4.5325,4.987500000000001,neutral,4 out of 6,"['mean', 'time', 'tell', 'qualify']","['mean', 'last', 'time', 'someone', 'tell', 'qualify']"
+13,"Ses03M_impro04_F004 [033.4400-035.7200]: Well, okay.",N/A,N/A,N/A,N/A,0,N/A,"['well', 'okay']"
+14,"Well that's--
+Ses03M_impro04_M004 [034.5700-036.3100]: Cause I went to Harvard.",5.73,4.17,5.25,neutral,2 out of 4,"['cause', 'go']","['well', 'cause', 'go', 'harvard']"
+15,"Ses03M_impro04_F005 [038.6500-043.0800]: Well, that's what?",N/A,N/A,N/A,N/A,0,N/A,['well']
+16,For what job?,5.64,4.0,4.44,neutral,1 out of 1,['job'],['job']
+17,Who...what jobs are you looking for?,5.795,3.88,5.16,neutral,2 out of 2,"['job', 'look']","['job', 'look']"
+18,Ses03M_impro04_M005 [043.2300-057.0300]: I applied as restaurant manager at P.F.,5.6433333333333335,3.8600000000000003,6.3933333333333335,neutral,3 out of 3,"['apply', 'restaurant', 'manager']","['apply', 'restaurant', 'manager']"
+19,Chang.,N/A,N/A,N/A,N/A,0,N/A,['chang']
+20,I applied at----Macy's store manager.,5.306666666666667,3.606666666666667,6.266666666666667,neutral,3 out of 4,"['apply', 'store', 'manager']","['apply', 'macy', 'store', 'manager']"
+21,Tried to get investment banking job with Deloitte and Touche.,5.596,4.128,5.192,neutral,5 out of 7,"['try', 'get', 'investment', 'banking', 'job']","['try', 'get', 'investment', 'banking', 'job', 'deloitte', 'touche']"
+22,I'm trying everywhere.,5.64,4.0,5.94,neutral,1 out of 2,['try'],"['try', 'everywhere']"
+23,"Ses03M_impro04_FXX0 [047.9041-049.3319]: But, Listen--
+Ses03M_impro04_F006 [057.0200-067.5900]: Yeah.",6.91,3.76,5.56,positive,1 out of 2,['listen'],"['listen', 'yeah']"
+24,"Well it seems to me, you know, you just got to keep going out there, you know, pushing through.",6.172857142857143,3.725714285714286,5.262857142857143,positive,7 out of 8,"['seem', 'know', 'get', 'keep', 'go', 'know', 'push']","['well', 'seem', 'know', 'get', 'keep', 'go', 'know', 'push']"
+25,You got a Harvard degree.,5.859999999999999,3.885,5.325,neutral,2 out of 3,"['get', 'degree']","['get', 'harvard', 'degree']"
+26,"I mean, you can get a job anywhere.",4.72,4.16,4.753333333333334,neutral,3 out of 4,"['mean', 'get', 'job']","['mean', 'get', 'job', 'anywhere']"
+27,Ses03M_impro04_M006 [065.9500-074.6200]: You know what?,6.82,3.24,5.78,positive,1 out of 1,['know'],['know']
+28,I've been working at temp jobs for the past six months.,5.173333333333333,3.9133333333333336,5.211666666666667,neutral,6 out of 6,"['work', 'temp', 'job', 'past', 'six', 'month']","['work', 'temp', 'job', 'past', 'six', 'month']"
+29,You know how degrading it is?,6.82,3.24,5.78,positive,1 out of 2,['know'],"['know', 'degrading']"
+30,Ses03M_impro04_F007 [074.0600-075.6500]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+31,Ses03M_impro04_M007 [075.6800-082.0700]: To be a receptionist?,5.37,3.09,5.58,neutral,1 out of 1,['receptionist'],['receptionist']
+32,Oh I spent forty thousand dollar a year for my college degree and I'm a receptionist.,5.99125,3.92375,5.64,neutral,8 out of 9,"['spend', 'forty', 'thousand', 'dollar', 'year', 'college', 'degree', 'receptionist']","['oh', 'spend', 'forty', 'thousand', 'dollar', 'year', 'college', 'degree', 'receptionist']"
+33,God.,5.9,5.56,5.0,neutral,1 out of 1,['god'],['god']
+34,Ses03M_impro04_F008 [081.5400-082.7900]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+35,Ses03M_impro04_M008 [082.1100-085.0500]: I'm smarter than half the people I work for.,5.375,4.05,5.76,neutral,2 out of 4,"['people', 'work']","['smarter', 'half', 'people', 'work']"
+36,"Ses03M_impro04_F009 [084.5500-088.4000]: Well, what do you...what would ideally like to do, you know?",6.723333333333334,3.816666666666667,6.0,positive,3 out of 5,"['would', 'like', 'know']","['well', 'would', 'ideally', 'like', 'know']"
+37,Ses03M_impro04_M009 [088.3600-092.1400]: I don't know astronaut?,3.2249999999999996,6.18,4.449999999999999,negative,2 out of 2,"['neg-know', 'neg-astronaut']","['know', 'astronaut']"
+38,I don't know something crazy like that.,5.16,5.086666666666667,5.4366666666666665,neutral,3 out of 4,"['neg-know', 'neg-crazy', 'like']","['know', 'something', 'crazy', 'like']"
+39,Ses03M_impro04_F010 [091.2600-093.4500]: Well what'd you major in?,5.52,4.24,5.28,neutral,1 out of 2,['major'],"['well', 'major']"
+40,Ses03M_impro04_M010 [093.6800-096.4100]: Biomedical Engineering.,6.0,3.14,5.61,neutral,1 out of 2,['engineering'],"['biomedical', 'engineering']"
+41,"Ses03M_impro04_F011 [096.3300-100.2200]: You-You can't be working as a restaurant manager, I mean, come on.",4.958,4.478,5.394,neutral,5 out of 6,"['neg-work', 'restaurant', 'manager', 'mean', 'come']","['ca', 'work', 'restaurant', 'manager', 'mean', 'come']"
+42,Ses03M_impro04_M011 [099.3000-105.3400]: I don't want to do engineering though.,5.0,3.925,5.11,neutral,2 out of 3,"['neg-want', 'engineering']","['want', 'engineering', 'though']"
+43,"It's so...I had the internship what, last summer,
+Ses03M_impro04_M012 [105.3575-116.2900]: and I was pulling my hair out and it was like, oh my God.",6.418333333333333,4.916666666666667,5.948333333333333,positive,6 out of 8,"['internship', 'summer', 'pull', 'hair', 'like', 'god']","['internship', 'last', 'summer', 'pull', 'hair', 'like', 'oh', 'god']"
+44,"So I just had to finish the major so now they're like, why are you an engineering major, and why are you working, trying to work at a restaurant.",5.953333333333333,4.075555555555556,5.876666666666667,neutral,9 out of 9,"['finish', 'major', 'like', 'engineering', 'major', 'work', 'try', 'work', 'restaurant']","['finish', 'major', 'like', 'engineering', 'major', 'work', 'try', 'work', 'restaurant']"
+45,And it's like I don't know just give me the damn job.,4.57,5.138,4.722,neutral,5 out of 5,"['like', 'neg-know', 'neg-give', 'damn', 'job']","['like', 'know', 'give', 'damn', 'job']"
+46,"Ses03M_impro04_F012 [117.7900-119.7500]: Look I'm sorry-
+Ses03M_impro04_M013 [117.7700-119.9900]: Why all these questions?",5.706666666666667,4.016666666666667,5.803333333333334,neutral,3 out of 3,"['look', 'sorry', 'question']","['look', 'sorry', 'question']"
+47,"Ses03M_impro04_F013 [120.0400-128.4900]: You know if you need any help finding a place I can, I can talk to my work you know I work at that law firm downtown and I can ask if they're looking for anybody.",5.915384615384616,3.7392307692307694,6.041538461538462,neutral,13 out of 15,"['know', 'need', 'help', 'find', 'place', 'talk', 'work', 'know', 'work', 'law', 'firm', 'ask', 'look']","['know', 'need', 'help', 'find', 'place', 'talk', 'work', 'know', 'work', 'law', 'firm', 'downtown', 'ask', 'look', 'anybody']"
+48,Ses03M_impro04_M014 [127.5700-129.4900]: Oh yeah?,N/A,N/A,N/A,N/A,0,N/A,"['oh', 'yeah']"
+49,What kind of jobs they got?,6.503333333333333,3.62,5.903333333333333,positive,3 out of 3,"['kind', 'job', 'get']","['kind', 'job', 'get']"
+50,Ses03M_impro04_F014 [129.0200-131.8000]: I am...just like a law clerk.,5.583333333333333,3.9333333333333336,5.45,neutral,3 out of 3,"['like', 'law', 'clerk']","['like', 'law', 'clerk']"
+51,Ses03M_impro04_M015 [131.9100-134.0000]: I don't want to be a law clerk.,4.4366666666666665,4.036666666666667,4.8933333333333335,neutral,3 out of 3,"['neg-want', 'law', 'clerk']","['want', 'law', 'clerk']"
+52,Ses03M_impro04_FXX1 [132.1891-132.8924]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+53,"Ses03M_impro04_F015 [133.6000-136.9575]: Well, I'm moving up.",4.95,4.24,5.12,neutral,1 out of 2,['move'],"['well', 'move']"
+54,"I mean it could be...
+Ses03M_impro04_M016 [136.6475-142.7300]: To be a lawyer?",3.185,4.38,3.865,negative,2 out of 3,"['mean', 'lawyer']","['mean', 'could', 'lawyer']"
+55,You go to law school now?,5.426666666666667,4.326666666666667,5.346666666666667,neutral,3 out of 3,"['go', 'law', 'school']","['go', 'law', 'school']"
+56,"God this is, all these dead ends.",4.216666666666667,4.473333333333334,4.023333333333333,neutral,3 out of 3,"['god', 'dead', 'end']","['god', 'dead', 'end']"
+57,"Ses03M_impro04_M017 [142.7650-146.0300]: And plus my car is breaking down-
+Ses03M_impro04_M018 [146.0525-148.7425]: -they're evicting me from my apartment.",5.02,4.32,5.05,neutral,4 out of 5,"['car', 'break', 'evict', 'apartment']","['plus', 'car', 'break', 'evict', 'apartment']"
+58,Ses03M_impro04_F016 [148.4000-153.2400]: Well it doesn't make any sense though.,3.91,6.3149999999999995,3.745,negative,2 out of 4,"['neg-make', 'neg-sense']","['well', 'make', 'sense', 'though']"
+59,"Like, with a Harvard degree you should be able to--
+Ses03M_impro04_M019 [152.7400-157.4800]: Yeah.",6.57,3.96,5.816666666666666,positive,3 out of 5,"['like', 'degree', 'able']","['like', 'harvard', 'degree', 'able', 'yeah']"
+60,I know.,6.82,3.24,5.78,positive,1 out of 1,['know'],['know']
+61,You'd think I would be able to be C.E.O.,6.41,3.6466666666666665,6.203333333333333,positive,3 out of 3,"['think', 'would', 'able']","['think', 'would', 'able']"
+62,of a company right?,6.48,4.145,6.08,positive,2 out of 2,"['company', 'right']","['company', 'right']"
+63,"Ses03M_impro04_F017 [157.6100-162.2700]: Just, you got to hang in there.",4.595,4.265000000000001,5.130000000000001,neutral,2 out of 2,"['get', 'hang']","['get', 'hang']"
+64,Can you ask your parents for help or anybody?,6.543333333333334,3.9699999999999998,6.06,positive,3 out of 4,"['ask', 'parent', 'help']","['ask', 'parent', 'help', 'anybody']"
+65,Ses03M_impro04_M020 [161.3800-165.0700]: No.,N/A,N/A,N/A,N/A,0,N/A,[]
+66,"I'm not going to...yeah, they'd laugh in my face.",5.866666666666666,5.45,6.006666666666667,neutral,3 out of 4,"['neg-go', 'laugh', 'face']","['go', 'yeah', 'laugh', 'face']"
+67,"Ses03M_impro04_F018 [165.0300-172.1300]: Just for a little bit, you know?",5.926666666666667,3.7666666666666666,5.496666666666667,neutral,3 out of 3,"['little', 'bit', 'know']","['little', 'bit', 'know']"
+68,Cause I-I guarantee you're going to find something.,6.02,3.8825000000000003,5.6850000000000005,positive,4 out of 5,"['cause', 'guarantee', 'go', 'find']","['cause', 'guarantee', 'go', 'find', 'something']"
+69,When you find something it's just going to be huge and you're going to get money.,6.333333333333333,4.668333333333334,5.626666666666667,positive,6 out of 7,"['find', 'go', 'huge', 'go', 'get', 'money']","['find', 'something', 'go', 'huge', 'go', 'get', 'money']"
+70,Ses03M_impro04_M021 [170.6000-174.5200]: No.,N/A,N/A,N/A,N/A,0,N/A,[]
+71,"I got a sixteen hundred on my S.A.T..
+Ses03M_impro04_F019 [177.7100-180.5200]: Something-- How are you going...?",6.3025,4.1075,5.2525,positive,4 out of 5,"['get', 'sixteen', 'hundred', 'go']","['get', 'sixteen', 'hundred', 'something', 'go']"
+72,Ses03M_impro04_M022 [177.7400-181.8400]: I'm freaking----typing sixty words a minute.,4.925,4.49,5.0675,neutral,4 out of 5,"['freak', 'sixty', 'word', 'minute']","['freak', 'typing', 'sixty', 'word', 'minute']"
+73,Ses03M_impro04_F020 [181.4900-183.6100]: How many words a minute?,5.635,3.88,5.195,neutral,2 out of 3,"['word', 'minute']","['many', 'word', 'minute']"
+74,Ses03M_impro04_M023 [183.1200-190.5500]: Sixty words.,5.234999999999999,3.95,5.494999999999999,neutral,2 out of 2,"['sixty', 'word']","['sixty', 'word']"
+75,Sixty words a minute.,5.323333333333333,3.8866666666666667,5.053333333333333,neutral,3 out of 3,"['sixty', 'word', 'minute']","['sixty', 'word', 'minute']"
+76,Hey how are you doing Mr. Smith?,N/A,N/A,N/A,N/A,0,N/A,"['hey', 'smith']"
+77,"Oh, you know, it's just like God, I just want to shoot you Mr. Smith.",5.932,4.898,5.424,neutral,5 out of 7,"['know', 'like', 'god', 'want', 'shoot']","['oh', 'know', 'like', 'god', 'want', 'shoot', 'smith']"
+78,Ses03M_impro04_F021 [190.1400-193.7400]: Sixty words a minute.,5.323333333333333,3.8866666666666667,5.053333333333333,neutral,3 out of 3,"['sixty', 'word', 'minute']","['sixty', 'word', 'minute']"
+79,That's a min...a word per min uh second.,5.5,3.74,5.785,neutral,2 out of 6,"['word', 'second']","['min', 'word', 'per', 'min', 'uh', 'second']"
+80,Ses03M_impro04_M024 [193.5200-196.4800]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+81,It's alright.,N/A,N/A,N/A,N/A,0,N/A,['alright']
+82,"But--
+Ses03M_impro04_F022 [196.5700-199.9075]: You could be an amazing receptionist.",6.545,4.57,6.205,positive,2 out of 3,"['amazing', 'receptionist']","['could', 'amazing', 'receptionist']"
+83,Ses03M_impro04_M025 [196.6600-198.7700]: I'm not cut to be a receptionist.,5.734999999999999,4.01,5.515000000000001,neutral,2 out of 2,"['neg-cut', 'receptionist']","['cut', 'receptionist']"
+84,Ses03M_impro04_M026 [199.7500-201.2700]: No.,N/A,N/A,N/A,N/A,0,N/A,[]
+85,Ses03M_impro04_M027 [201.5200-205.9000]: Oh yeah.,N/A,N/A,N/A,N/A,0,N/A,"['oh', 'yeah']"
+86,I will be a full time receptionist.,5.656666666666666,3.3266666666666667,5.333333333333333,neutral,3 out of 3,"['full', 'time', 'receptionist']","['full', 'time', 'receptionist']"
+87,"Harvard degree, sixteen hundred on my S.A.T.--
+Ses03M_impro04_F023 [205.5900-212.1100]: Well...",6.1433333333333335,4.0,5.01,positive,3 out of 5,"['degree', 'sixteen', 'hundred']","['harvard', 'degree', 'sixteen', 'hundred', 'well']"
+88,"If you need something, I mean, you're just going to---can get a temporary thing right now and then look for something--
+Ses03M_impro04_M028 [206.4975-209.7700]: --you know?",5.584444444444444,3.9766666666666666,5.414444444444444,neutral,9 out of 11,"['need', 'mean', 'go', 'get', 'temporary', 'thing', 'right', 'look', 'know']","['need', 'something', 'mean', 'go', 'get', 'temporary', 'thing', 'right', 'look', 'something', 'know']"
+89,Head of the Science Club.,6.226666666666667,4.486666666666666,5.803333333333334,positive,3 out of 3,"['head', 'science', 'club']","['head', 'science', 'club']"
+90,"Ses03M_impro04_M029 [211.2400-214.0800]: That's what I've been doing, temporary things
+Ses03M_impro04_F024 [212.5500-215.0300]: Oh I know.",5.566666666666666,3.3400000000000003,5.16,neutral,3 out of 4,"['temporary', 'thing', 'know']","['temporary', 'thing', 'oh', 'know']"
+91,"But--
+Ses03M_impro04_F025 [215.3400-221.3000]: -it's going to get better I promise you.",6.35,4.1433333333333335,5.816666666666666,positive,3 out of 4,"['go', 'get', 'promise']","['go', 'get', 'better', 'promise']"
+92,You just got to hang in there.,4.595,4.265000000000001,5.130000000000001,neutral,2 out of 2,"['get', 'hang']","['get', 'hang']"
+93,"Everyone, I mean, you know?",4.625,4.025,4.975,neutral,2 out of 3,"['mean', 'know']","['everyone', 'mean', 'know']"
+94,Ses03M_impro04_MXX0 [218.5401-219.4137]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+95,Ses03M_impro04_M030 [220.3800-221.9175]: Maybe I'll just kill myself.,1.81,6.81,3.61,negative,1 out of 2,['kill'],"['maybe', 'kill']"
+96,Ses03M_impro04_F026 [221.5400-227.5000]: What?,N/A,N/A,N/A,N/A,0,N/A,[]
+97,You can't...what?,N/A,N/A,N/A,N/A,0,N/A,['ca']
+98,Now come on.,5.64,3.57,5.94,neutral,1 out of 1,['come'],['come']
+99,Stop it.,4.73,4.14,5.06,neutral,1 out of 1,['stop'],['stop']
+100,Don't be talking like that.,2.96,6.109999999999999,3.6399999999999997,negative,2 out of 2,"['neg-talk', 'neg-like']","['talk', 'like']"
+101,"Ses03M_impro04_M031 [225.4000-227.0600]: I was just joking...
+Ses03M_impro04_M032 [227.6800-230.3700]: I don't know.",5.529999999999999,6.245,5.005,neutral,2 out of 2,"['joke', 'neg-know']","['joke', 'know']"
+102,"Ses03M_impro04_F027 [231.2600-241.9400]: My, what I would do was just, you know, what about can you call Harvard and see...don't they have connections?",5.836,3.958,5.224,neutral,5 out of 6,"['would', 'know', 'call', 'see', 'neg-connection']","['would', 'know', 'call', 'harvard', 'see', 'connection']"
+103,Don't they have like career center and you can find some stuff that's going on?,5.476666666666667,4.0600000000000005,5.335,neutral,6 out of 6,"['neg-like', 'career', 'center', 'find', 'stuff', 'go']","['like', 'career', 'center', 'find', 'stuff', 'go']"
+104,Ses03M_impro04_M033 [241.6200-246.4800]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+105,I--they said Brian you're too smart.,6.82,4.12,6.845,positive,2 out of 3,"['say', 'smart']","['say', 'brian', 'smart']"
+106,You don't need us.,4.55,6.33,4.94,neutral,1 out of 2,['neg-need'],"['need', 'us']"
+107,Ses03M_impro04_M034 [246.5050-249.7000]: Go out and take over the world by yourself and I'm like what?,6.26,4.5825,5.390000000000001,positive,4 out of 4,"['go', 'take', 'world', 'like']","['go', 'take', 'world', 'like']"
+108,Ses03M_impro04_F028 [248.8300-256.3000]: Well obviously it's not working.,4.95,5.67,3.88,neutral,1 out of 3,['neg-work'],"['well', 'obviously', 'work']"
+109,Just cause you got sixteen hundred on your S.A.T.,6.0075,3.7625,5.2125,positive,4 out of 4,"['cause', 'get', 'sixteen', 'hundred']","['cause', 'get', 'sixteen', 'hundred']"
+110,doesn't guarantee you a job.,4.734999999999999,5.165,4.220000000000001,neutral,2 out of 2,"['neg-guarantee', 'job']","['guarantee', 'job']"
+111,"I mean it should really but--
+Ses03M_impro04_M035 [255.7700-262.5700]: I don't know.",2.8049999999999997,5.785,4.195,negative,2 out of 3,"['mean', 'neg-know']","['mean', 'really', 'know']"
+112,I don't know.,3.1799999999999997,6.76,4.22,negative,1 out of 1,['neg-know'],['know']
+113,"I know I'm just going to have to keep on looking, keep on searching-
+Ses03M_impro04_M036 [263.3000-271.5700]: and I'm never going to find anything probably but I'll just keep working hard at it-- Yeah.",5.98,3.928181818181818,5.615454545454545,neutral,11 out of 15,"['know', 'go', 'keep', 'look', 'keep', 'search', 'go', 'find', 'keep', 'work', 'hard']","['know', 'go', 'keep', 'look', 'keep', 'search', 'never', 'go', 'find', 'anything', 'probably', 'keep', 'work', 'hard', 'yeah']"
+114,Okay.,N/A,N/A,N/A,N/A,0,N/A,['okay']
+115,"Positive, I'm going to do good, find that job.",6.774,4.308,5.936,positive,5 out of 5,"['positive', 'go', 'good', 'find', 'job']","['positive', 'go', 'good', 'find', 'job']"
+116,Ses03M_impro04_F029 [265.8400-268.8800]: You got to be positive man.,6.36,4.51,6.116666666666667,positive,3 out of 3,"['get', 'positive', 'man']","['get', 'positive', 'man']"
+117,"You got to try to just--
+Ses03M_impro04_F030 [270.7300-273.8100]: But you got to be real about it.",6.2275,3.8475,5.782500000000001,positive,4 out of 4,"['get', 'try', 'get', 'real']","['get', 'try', 'get', 'real']"
+118,"You have to...
+Ses03M_impro04_M037 [274.6000-277.7800]: Yeah.",N/A,N/A,N/A,N/A,0,N/A,['yeah']
+119,"I got eighteen hundred on my S.A.T..
+Ses03M_impro04_F031 [277.5000-279.9900]: Sixteen hundred.",6.2219999999999995,3.8200000000000003,5.412,positive,5 out of 5,"['get', 'eighteen', 'hundred', 'sixteen', 'hundred']","['get', 'eighteen', 'hundred', 'sixteen', 'hundred']"
+120,Ses03M_impro04_M038 [279.8800-282.2100]: Same difference.,4.89,3.15,5.44,neutral,1 out of 1,['difference'],['difference']
+121,"Ses03M_impro04_M039 [282.8400-285.5800]: Twenty-one hundred on my S.A.T..
+Ses03M_impro04_F032 [285.4700-287.8400]: Twenty-one hundred?",6.5,3.7,5.67,positive,2 out of 2,"['hundred', 'hundred']","['hundred', 'hundred']"
+122,Ses03M_impro04_M040 [287.8100-292.9000]: But I'm doomed.,3.0,6.17,2.42,negative,1 out of 1,['doom'],['doom']
+123,Yeah I got so good I was over twenty one hundred.,6.564,3.474,5.686,positive,5 out of 6,"['get', 'good', 'twenty', 'one', 'hundred']","['yeah', 'get', 'good', 'twenty', 'one', 'hundred']"
+124,Now what am I doing?,N/A,N/A,N/A,N/A,0,N/A,[]
+125,"Ses03M_impro04_M041 [292.9900-298.5500]: Like, wow you're really smart we're going to give you an extra [GARBAGE].",6.415,4.0633333333333335,5.835,positive,6 out of 8,"['like', 'smart', 'go', 'give', 'extra', 'garbage']","['like', 'wow', 'really', 'smart', 'go', 'give', 'extra', 'garbage']"

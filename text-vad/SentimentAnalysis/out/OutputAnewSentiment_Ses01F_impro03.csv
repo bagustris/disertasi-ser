@@ -1,0 +1,88 @@
+Sentence ID,Sentence,Valence,Arousal,Dominance,Sentiment Label,# Words Found,Found Words,All Words
+1,Ses01F_impro03_M000 [003.2400-005.4600]: So what's up?,N/A,N/A,N/A,N/A,0,N/A,[]
+2,What's new?,7.68,5.14,5.22,positive,1 out of 1,['new'],['new']
+3,Ses01F_impro03_F000 [004.8800-007.7400]: Well Vegas was awesome.,7.86,6.05,7.11,positive,1 out of 3,['awesome'],"['well', 'vega', 'awesome']"
+4,Ses01F_impro03_M001 [006.6000-008.6600]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+5,I heard.,6.68,3.62,6.71,positive,1 out of 1,['hear'],['hear']
+6,"Ses01F_impro03_F001 [007.9300-011.3700]: And, um, I got married.",6.59,4.595,5.66,positive,2 out of 3,"['get', 'marry']","['um', 'get', 'marry']"
+7,Ses01F_impro03_M002 [010.5300-013.8400]: Shut up.,4.5,4.05,5.61,neutral,1 out of 1,['shut'],['shut']
+8,No- in Vegas?,N/A,N/A,N/A,N/A,0,N/A,['vega']
+9,Ses01F_impro03_F002 [012.8000-015.3700]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+10,In the old town part.,4.516666666666667,3.8833333333333333,4.966666666666667,neutral,3 out of 3,"['old', 'town', 'part']","['old', 'town', 'part']"
+11,Ses01F_impro03_M003 [014.9300-018.9075]: Who did you marry?,7.09,5.52,5.67,positive,1 out of 1,['marry'],['marry']
+12,Ses01F_impro03_F003 [015.8700-020.4867]: Chuck.,5.06,3.95,5.04,neutral,1 out of 1,['chuck'],['chuck']
+13,"[LAUGHTER]
+Ses01F_impro03_M004 [020.2532-022.8300]: Did you propose to you?",7.155,5.08,6.395,positive,2 out of 2,"['laughter', 'propose']","['laughter', 'propose']"
+14,Ses01F_impro03_F004 [021.7500-025.5200]: Um- Yes.,N/A,N/A,N/A,N/A,0,N/A,"['um', 'yes']"
+15,It was very romantic.,7.61,5.12,6.45,positive,1 out of 1,['romantic'],['romantic']
+16,Ses01F_impro03_F005 [025.5584-028.1400]: It was at the slot machines.,5.1,4.244999999999999,4.96,neutral,2 out of 2,"['slot', 'machine']","['slot', 'machine']"
+17,Ses01F_impro03_M005 [027.2800-029.6500]: Oh.,N/A,N/A,N/A,N/A,0,N/A,['oh']
+18,The Wheel of Fortune slots?,6.113333333333333,4.633333333333333,5.986666666666666,positive,3 out of 3,"['wheel', 'fortune', 'slot']","['wheel', 'fortune', 'slot']"
+19,"Ses01F_impro03_F006 [028.3700-034.7100]: Uhuh, uhuh.",N/A,N/A,N/A,N/A,0,N/A,"['uhuh', 'uhuh']"
+20,He won big and he-and he realized that the only thing that would make it better was me as his bride.,6.071666666666666,3.83,6.033333333333333,positive,6 out of 7,"['big', 'realize', 'thing', 'would', 'make', 'bride']","['big', 'realize', 'thing', 'would', 'make', 'better', 'bride']"
+21,"Ses01F_impro03_M006 [034.2500-036.3400]: He turned to you and was like...
+Ses01F_impro03_F007 [035.6349-040.1000]: Hey.",6.445,3.9400000000000004,6.08,positive,2 out of 3,"['turn', 'like']","['turn', 'like', 'hey']"
+22,Let's get married and I said okay.,6.26,4.0825,6.0649999999999995,positive,4 out of 5,"['let', 'get', 'marry', 'say']","['let', 'get', 'marry', 'say', 'okay']"
+23,Ses01F_impro03_M007 [037.7175-040.4700]: [LAUGHTER] That's really romantic.,7.83,5.255,6.734999999999999,positive,2 out of 3,"['laughter', 'romantic']","['laughter', 'really', 'romantic']"
+24,Ses01F_impro03_F008 [040.1200-042.7900]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+25,Well.,N/A,N/A,N/A,N/A,0,N/A,['well']
+26,"You know, because he's leaving the next day.",5.953333333333333,3.7800000000000002,5.613333333333333,neutral,3 out of 4,"['know', 'leave', 'day']","['know', 'leave', 'next', 'day']"
+27,Ses01F_impro03_M008 [042.0900-043.4100]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+28,Ses01F_impro03_F009 [042.8400-044.5400]: But we're going to have a honeymoon cruise.,6.773333333333333,5.03,6.113333333333333,positive,3 out of 3,"['go', 'honeymoon', 'cruise']","['go', 'honeymoon', 'cruise']"
+29,"Ses01F_impro03_M009 [044.1600-049.0700]: Does that mean that you're going to get citizenship, too, in- in England or whatever?",5.5200000000000005,4.73,5.26,neutral,4 out of 6,"['mean', 'go', 'get', 'citizenship']","['mean', 'go', 'get', 'citizenship', 'england', 'whatever']"
+30,Ses01F_impro03_F010 [047.8700-051.0750]: Oh.,N/A,N/A,N/A,N/A,0,N/A,['oh']
+31,I hadn't even thought about that.,3.3200000000000003,6.25,3.5,negative,1 out of 2,['neg-think'],"['even', 'think']"
+32,Ses01F_impro03_M010 [049.6100-052.4300]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+33,Think about that.,6.68,3.75,6.5,positive,1 out of 1,['think'],['think']
+34,"Ses01F_impro03_F011 [051.3600-053.4925]: He's not going to be a citizen, though.",5.055,3.885,5.3100000000000005,neutral,2 out of 3,"['neg-go', 'citizen']","['go', 'citizen', 'though']"
+35,Ses01F_impro03_M011 [052.9200-056.8500]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+36,But he'll have like a long visa.,6.59,4.365,5.865,positive,2 out of 3,"['like', 'visa']","['like', 'long', 'visa']"
+37,Can you go visit then for a long time?,6.16,4.056666666666667,4.916666666666667,positive,3 out of 4,"['go', 'visit', 'time']","['go', 'visit', 'long', 'time']"
+38,M: I think you can.,6.68,3.75,6.5,positive,1 out of 1,['think'],['think']
+39,Ses01F_impro03_F012 [055.8650-058.1500]: Oh.,N/A,N/A,N/A,N/A,0,N/A,['oh']
+40,Totally.,N/A,N/A,N/A,N/A,0,N/A,['totally']
+41,M: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+42,"Ses01F_impro03_M012 [057.4600-061.3750]: Oh, how are you going to do the long distance thing?",5.253333333333334,4.033333333333333,4.996666666666667,neutral,3 out of 5,"['go', 'distance', 'thing']","['oh', 'go', 'long', 'distance', 'thing']"
+43,"So wait, are you going to move there?",5.273333333333333,4.24,5.253333333333333,neutral,3 out of 3,"['wait', 'go', 'move']","['wait', 'go', 'move']"
+44,Ses01F_impro03_F013 [060.7300-065.8600]: I guess I'll-  I guess I'll have an internet husband.,6.1125,4.385,5.435,positive,4 out of 4,"['guess', 'guess', 'internet', 'husband']","['guess', 'guess', 'internet', 'husband']"
+45,"[LAUGHTER]
+Ses01F_impro03_M013 [065.6425-068.4400]: Like you need another one of those.",6.7575,4.0325,5.9799999999999995,positive,4 out of 5,"['laughter', 'like', 'need', 'one']","['laughter', 'like', 'need', 'another', 'one']"
+46,"[LAUGHTER]
+Ses01F_impro03_F014 [068.0100-073.7500]: I have an internet boyfriend.",7.263333333333334,5.243333333333333,6.1433333333333335,positive,3 out of 3,"['laughter', 'internet', 'boyfriend']","['laughter', 'internet', 'boyfriend']"
+47,I guess I'll have to juggle the two.,5.773333333333333,4.109999999999999,4.88,neutral,3 out of 3,"['guess', 'juggle', 'two']","['guess', 'juggle', 'two']"
+48,Is that cheating?,N/A,N/A,N/A,N/A,0,N/A,['cheating']
+49,I don't know.,3.1799999999999997,6.76,4.22,negative,1 out of 1,['neg-know'],['know']
+50,Hmm.,N/A,N/A,N/A,N/A,0,N/A,['hmm']
+51,Ses01F_impro03_M014 [073.4100-076.9975]: Is that your phone?,6.09,3.43,4.44,positive,1 out of 1,['phone'],['phone']
+52,"Ses01F_impro03_F015 [074.2675-078.8425]: Yeah, so [LAUGHTER] He's calling me now
+Ses01F_impro03_M015 [078.3200-080.5000]: He loves you.",7.41,4.68,6.183333333333334,positive,3 out of 4,"['laughter', 'call', 'love']","['yeah', 'laughter', 'call', 'love']"
+53,"Ses01F_impro03_F016 [079.0350-081.0875]: He likes to keep tabs, you know.",6.4175,3.8725,5.87,positive,4 out of 4,"['like', 'keep', 'tab', 'know']","['like', 'keep', 'tab', 'know']"
+54,Ses01F_impro03_M016 [080.7175-082.5225]: How much did he win at the slot?,6.085,4.855,6.49,positive,2 out of 3,"['win', 'slot']","['much', 'win', 'slot']"
+55,"Ses01F_impro03_F017 [082.0975-085.0800]: Uh, I think seven hundred and fifty dollars.",6.042,4.054,5.756,positive,5 out of 6,"['think', 'seven', 'hundred', 'fifty', 'dollar']","['uh', 'think', 'seven', 'hundred', 'fifty', 'dollar']"
+56,Ses01F_impro03_M017 [084.6925-087.3600]: Really?,N/A,N/A,N/A,N/A,0,N/A,['really']
+57,Penny slots?,5.745,4.824999999999999,5.26,neutral,2 out of 2,"['penny', 'slot']","['penny', 'slot']"
+58,Ses01F_impro03_F018 [085.1000-088.0225]: Penny slots.,5.745,4.824999999999999,5.26,neutral,2 out of 2,"['penny', 'slot']","['penny', 'slot']"
+59,That's what he plays.,7.55,3.81,6.29,positive,1 out of 1,['play'],['play']
+60,Ses01F_impro03_M018 [087.6425-089.0800]: Wow.,N/A,N/A,N/A,N/A,0,N/A,['wow']
+61,Ses01F_impro03_F019 [088.0800-089.5000]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+62,Ses01F_impro03_M019 [089.1200-093.9100]: I'm a big fan of the Wheel of Fortune quarters.,6.24,4.336,6.108,positive,5 out of 5,"['big', 'fan', 'wheel', 'fortune', 'quarter']","['big', 'fan', 'wheel', 'fortune', 'quarter']"
+63,But it just costs so much.,4.11,4.9,3.67,neutral,1 out of 2,['cost'],"['cost', 'much']"
+64,I don't know.,3.1799999999999997,6.76,4.22,negative,1 out of 1,['neg-know'],['know']
+65,Ses01F_impro03_F020 [091.2350-092.6150]: Oh.,N/A,N/A,N/A,N/A,0,N/A,['oh']
+66,Ses01F_impro03_F021 [092.7500-098.2100]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+67,We played Wheel of Fortune pennies.,6.745,4.79,6.1325,positive,4 out of 4,"['play', 'wheel', 'fortune', 'penny']","['play', 'wheel', 'fortune', 'penny']"
+68,"It's like a giant thing with like-
+Ses01F_impro03_M020 [097.0300-101.6500]: But the pennies always get you because you end up spending like, you know, fifty bucks.",6.222727272727273,4.208181818181818,5.7690909090909095,positive,11 out of 13,"['like', 'giant', 'thing', 'like', 'penny', 'get', 'end', 'like', 'know', 'fifty', 'buck']","['like', 'giant', 'thing', 'like', 'penny', 'always', 'get', 'end', 'spending', 'like', 'know', 'fifty', 'buck']"
+69,Ses01F_impro03_F022 [099.7775-102.0300]: Fifty bucks.,5.62,4.075,5.645,neutral,2 out of 2,"['fifty', 'buck']","['fifty', 'buck']"
+70,Mmhmm.,N/A,N/A,N/A,N/A,0,N/A,['mmhmm']
+71,"Ses01F_impro03_M021 [101.6700-104.3500]: like, wait, but it's just pennies.",6.093333333333334,4.523333333333333,5.663333333333333,positive,3 out of 3,"['like', 'wait', 'penny']","['like', 'wait', 'penny']"
+72,"You're like, wait a minute I'm on to you.",5.83,3.9266666666666667,5.253333333333333,neutral,3 out of 3,"['like', 'wait', 'minute']","['like', 'wait', 'minute']"
+73,Ses01F_impro03_F023 [102.6200-103.4625]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+74,Ses01F_impro03_F024 [103.7800-108.1825]: Well so now we're married.,7.09,5.52,5.67,positive,1 out of 2,['marry'],"['well', 'marry']"
+75,We have cat children.,7.075,4.915,5.34,positive,2 out of 2,"['cat', 'child']","['cat', 'child']"
+76,Ses01F_impro03_M022 [105.2900-106.9500]: Awesome.,7.86,6.05,7.11,positive,1 out of 1,['awesome'],['awesome']
+77,Ses01F_impro03_M023 [107.7100-111.4000]: [LAUGHTER] Cat babies.,7.223333333333334,4.953333333333333,5.8133333333333335,positive,3 out of 3,"['laughter', 'cat', 'baby']","['laughter', 'cat', 'baby']"
+78,"Ses01F_impro03_F025 [110.2300-114.1600]: We renamed Brenda, Lumber Janet.",5.65,3.32,5.96,neutral,1 out of 4,['lumber'],"['rename', 'brenda', 'lumber', 'janet']"
+79,Ses01F_impro03_M024 [117.3600-119.5800]: That's fair enough.,7.14,3.29,6.12,positive,1 out of 2,['fair'],"['fair', 'enough']"
+80,Ses01F_impro03_F026 [114.1900-120.2000]: She needs a new name each state that we go into.,6.16,4.0,5.28,positive,5 out of 5,"['need', 'new', 'name', 'state', 'go']","['need', 'new', 'name', 'state', 'go']"
+81,[LAUGHTER],8.05,5.39,7.02,positive,1 out of 1,['laughter'],['laughter']

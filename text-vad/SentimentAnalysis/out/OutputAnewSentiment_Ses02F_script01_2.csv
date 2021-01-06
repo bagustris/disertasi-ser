@@ -1,0 +1,65 @@
+Sentence ID,Sentence,Valence,Arousal,Dominance,Sentiment Label,# Words Found,Found Words,All Words
+1,Ses02F_script01_2_F000 [005.8400-008.1200]: Why did he invite her here?,5.68,5.1,6.95,neutral,1 out of 1,['invite'],['invite']
+2,Ses02F_script01_2_M000 [008.0800-009.7200]: Why does that bother you?,4.44,4.2,4.22,neutral,1 out of 1,['bother'],['bother']
+3,Ses02F_script01_2_F001 [009.3000-013.5100]: She's been in New York for three and half years.,6.286666666666666,3.9499999999999997,5.493333333333333,positive,3 out of 5,"['new', 'three', 'year']","['new', 'york', 'three', 'half', 'year']"
+4,Why all of a sudden?,N/A,N/A,N/A,N/A,0,N/A,['sudden']
+5,"Ses02F_script01_2_M001 [012.5300-015.6600]: Well, maybe he just wanted to see her again.",6.135,4.595,5.695,positive,2 out of 4,"['want', 'see']","['well', 'maybe', 'want', 'see']"
+6,Ses02F_script01_2_F002 [014.9600-018.7600]: Nobody comes seven hundred miles just to see.,5.618,3.68,5.716,neutral,5 out of 6,"['come', 'seven', 'hundred', 'mile', 'see']","['nobody', 'come', 'seven', 'hundred', 'mile', 'see']"
+7,Ses02F_script01_2_M002 [018.6200-024.2000]: What do you mean?,2.43,4.81,4.17,negative,1 out of 1,['mean'],['mean']
+8,He lived next door to the girl all his life.,6.8025,4.68,5.9399999999999995,positive,4 out of 5,"['live', 'door', 'girl', 'life']","['live', 'next', 'door', 'girl', 'life']"
+9,Why wouldn't he want to see her again?,5.3933333333333335,4.14,5.516666666666667,neutral,3 out of 3,"['would', 'neg-want', 'see']","['would', 'want', 'see']"
+10,Ses02F_script01_2_M003 [024.5100-028.2000]: Don't look at me like that.,5.745,5.32,5.2,neutral,2 out of 2,"['neg-look', 'like']","['look', 'like']"
+11,He didn't tell me anymore than he told you.,5.0,5.0,5.0,neutral,2 out of 3,"['neg-tell', 'tell']","['tell', 'anymore', 'tell']"
+12,"Ses02F_script01_2_F003 [027.7700-028.9000]: She's not-
+Ses02F_script01_2_M004 [030.2300-032.5100]: How do you know he's even thinking of it?",6.75,3.495,6.140000000000001,positive,2 out of 3,"['know', 'think']","['know', 'even', 'think']"
+13,Ses02F_script01_2_F004 [028.9200-030.7500]: -he's not gonna marry her.,2.91,4.48,4.33,negative,1 out of 3,['neg-marry'],"['gon', 'na', 'marry']"
+14,Ses02F_script01_2_F005 [032.3100-034.4600]: It's got that all about it.,6.09,3.67,5.65,positive,1 out of 1,['get'],['get']
+15,"Ses02F_script01_2_M005 [035.8900-037.6100]: Well, so what?",N/A,N/A,N/A,N/A,0,N/A,['well']
+16,"Ses02F_script01_2_F006 [037.6000-039.7200]: What's going on here, Joe?",6.32,4.86,5.33,positive,1 out of 2,['go'],"['go', 'joe']"
+17,"Ses02F_script01_2_M006 [039.0100-040.9000]: Now, listen Kate.",6.91,3.76,5.56,positive,1 out of 2,['listen'],"['listen', 'kate']"
+18,"Ses02F_script01_2_F007 [039.7500-042.8400]: She's not his girl, Joe.",2.8499999999999996,4.77,4.73,negative,1 out of 2,['neg-girl'],"['girl', 'joe']"
+19,She knows she's not.,6.82,3.24,5.78,positive,1 out of 1,['know'],['know']
+20,Ses02F_script01_2_M007 [042.9200-044.8600]: You can't read her mind.,3.2849999999999997,5.625,3.9,negative,2 out of 3,"['neg-read', 'neg-mind']","['ca', 'read', 'mind']"
+21,Ses02F_script01_2_F008 [044.5200-053.5100]: Well then why is she still single?,5.39,3.85,4.83,neutral,1 out of 3,['single'],"['well', 'still', 'single']"
+22,"I mean, New York is full of men.",5.37,4.476666666666667,5.1499999999999995,neutral,3 out of 5,"['mean', 'new', 'full']","['mean', 'new', 'york', 'full', 'men']"
+23,Why isn't she married?,2.91,4.48,4.33,negative,1 out of 1,['neg-marry'],['marry']
+24,"Probably a hundred people told her she's crazy, but she's waited.",5.4319999999999995,4.17,5.102,neutral,5 out of 6,"['hundred', 'people', 'tell', 'crazy', 'wait']","['probably', 'hundred', 'people', 'tell', 'crazy', 'wait']"
+25,Ses02F_script01_2_M008 [053.2100-055.5600]: How do you know why she's waited?,5.6850000000000005,3.43,5.545,neutral,2 out of 2,"['know', 'wait']","['know', 'wait']"
+26,"Ses02F_script01_2_F009 [054.7100-063.7600]: She knows what I know, that's why.",6.82,3.24,5.78,positive,2 out of 2,"['know', 'know']","['know', 'know']"
+27,She's faithful as a rock.,6.835,3.8100000000000005,6.275,positive,2 out of 2,"['faithful', 'rock']","['faithful', 'rock']"
+28,In my worst moments I think of her waiting and I know again that I'm right.,6.73,4.01,6.36,positive,4 out of 6,"['moment', 'think', 'know', 'right']","['worst', 'moment', 'think', 'waiting', 'know', 'right']"
+29,"Ses02F_script01_2_M009 [063.9200-066.8200]: Look, it's a nice day.",6.42,3.6366666666666667,5.9799999999999995,positive,3 out of 3,"['look', 'nice', 'day']","['look', 'nice', 'day']"
+30,What are we arguing for?,3.15,6.67,4.77,negative,1 out of 1,['argue'],['argue']
+31,"Ses02F_script01_2_F010 [066.2400-074.5700]: Nobody in this house dares take her faith away, Joe?",5.78,4.3675,5.2275,neutral,4 out of 7,"['house', 'dare', 'take', 'faith']","['nobody', 'house', 'dare', 'take', 'faith', 'away', 'joe']"
+32,"Strangers might, but not his father, not his brother.",3.6766666666666667,5.88,4.7299999999999995,negative,3 out of 4,"['stranger', 'neg-father', 'neg-brother']","['stranger', 'might', 'father', 'brother']"
+33,"Ses02F_script01_2_M010 [074.4300-076.6800]: Well, what do you want me to do about it?",6.0,5.29,5.39,neutral,1 out of 2,['want'],"['well', 'want']"
+34,Ses02F_script01_2_F011 [075.5000-084.1200]: I want you to act like he's coming back.,5.896,4.008,5.788,neutral,5 out of 5,"['want', 'act', 'like', 'come', 'back']","['want', 'act', 'like', 'come', 'back']"
+35,Both of you.,N/A,N/A,N/A,N/A,0,N/A,[]
+36,Don't you think I haven't noticed since she got here.,4.49,5.513333333333334,4.68,neutral,3 out of 4,"['neg-think', 'neg-notice', 'get']","['think', 'notice', 'since', 'get']"
+37,I won't stand for any nonsense.,4.365,5.71,4.425000000000001,neutral,2 out of 3,"['neg-stand', 'nonsense']","['wo', 'stand', 'nonsense']"
+38,"Ses02F_script01_2_M011 [083.8000-085.0700]: But Kate--
+Ses02F_script01_2_F012 [084.7600-090.0000]: Because if he's not coming back, I'll kill myself.",3.8033333333333337,6.883333333333333,4.15,negative,3 out of 4,"['neg-come', 'neg-back', 'kill']","['kate', 'come', 'back', 'kill']"
+39,"I mean, laugh--laugh at me, but...
+Ses02F_script01_2_F013 [090.0300-097.2500]: But why did that happen the very night she came here?",5.895,4.77,5.9399999999999995,neutral,6 out of 6,"['mean', 'laugh', 'laugh', 'happen', 'night', 'come']","['mean', 'laugh', 'laugh', 'happen', 'night', 'come']"
+40,She sleeps in his room and his memorial breaks to pieces.,5.764,3.646,5.172,neutral,5 out of 5,"['sleep', 'room', 'memorial', 'break', 'piece']","['sleep', 'room', 'memorial', 'break', 'piece']"
+41,Just look.,5.95,3.76,5.88,neutral,1 out of 1,['look'],['look']
+42,Look at it.,5.95,3.76,5.88,neutral,1 out of 1,['look'],['look']
+43,Ses02F_script01_2_M012 [095.7600-097.4300]: Calm yourself.,6.89,1.67,7.44,positive,1 out of 1,['calm'],['calm']
+44,"Ses02F_script01_2_F014 [097.2700-100.9500]: Believe with me, Joe.",7.05,3.33,6.56,positive,1 out of 2,['believe'],"['believe', 'joe']"
+45,I can't stand all alone.,5.44,6.45,4.805,neutral,2 out of 3,"['neg-stand', 'neg-alone']","['ca', 'stand', 'alone']"
+46,Ses02F_script01_2_M013 [100.2100-102.1200]: Calm yourself.,6.89,1.67,7.44,positive,1 out of 1,['calm'],['calm']
+47,"Ses02F_script01_2_F015 [100.9600-106.1200]: Last week, a man turned up in Detroit missing longer than Larry.",5.06,3.7675,5.43,neutral,4 out of 8,"['week', 'man', 'turn', 'miss']","['last', 'week', 'man', 'turn', 'detroit', 'miss', 'longer', 'larry']"
+48,"I mean, you read it yourself.",4.58,4.255,5.140000000000001,neutral,2 out of 2,"['mean', 'read']","['mean', 'read']"
+49,Ses02F_script01_2_M014 [104.9000-107.8200]: All right.,7.32,5.0,7.16,positive,1 out of 1,['right'],['right']
+50,All right.,7.32,5.0,7.16,positive,1 out of 1,['right'],['right']
+51,Calm yourself.,6.89,1.67,7.44,positive,1 out of 1,['calm'],['calm']
+52,"Ses02F_script01_2_F016 [106.2700-109.4800]: You, above all, have to believe.",7.05,3.33,6.56,positive,1 out of 1,['believe'],['believe']
+53,Ses02F_script01_2_M015 [108.6900-111.7500]: What?- Why- Why me above all?,N/A,N/A,N/A,N/A,0,N/A,[]
+54,Ses02F_script01_2_F017 [111.1900-114.2492]: Just--just don't stop believing.,4.109999999999999,6.265000000000001,4.19,neutral,2 out of 2,"['neg-stop', 'neg-believe']","['stop', 'believe']"
+55,Ses02F_script01_2_M016 [114.0000-116.5000]: What does that mean?,2.43,4.81,4.17,negative,1 out of 1,['mean'],['mean']
+56,Me above all?,N/A,N/A,N/A,N/A,0,N/A,[]
+57,Ses02F_script01_2_M017 [116.6100-118.9300]: Look at you.,5.95,3.76,5.88,neutral,1 out of 1,['look'],['look']
+58,Look at you shaking.,5.27,4.48,6.125,neutral,2 out of 2,"['look', 'shake']","['look', 'shake']"
+59,Ses02F_script01_2_F018 [117.9700-119.8700]: I can't help it.,3.05,5.71,3.1100000000000003,negative,1 out of 2,['neg-help'],"['ca', 'help']"
+60,Ses02F_script01_2_M018 [119.4300-123.8900]: What have I got to hide?,5.495,3.5949999999999998,5.25,neutral,2 out of 2,"['get', 'hide']","['get', 'hide']"
+61,What the hell is the matter with you Kate?,4.1850000000000005,5.154999999999999,4.795,neutral,2 out of 3,"['hell', 'matter']","['hell', 'matter', 'kate']"

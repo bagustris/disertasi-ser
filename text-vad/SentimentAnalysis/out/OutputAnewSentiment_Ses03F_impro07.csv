@@ -1,0 +1,122 @@
+Sentence ID,Sentence,Valence,Arousal,Dominance,Sentiment Label,# Words Found,Found Words,All Words
+1,"Ses03F_impro07_M000 [005.1689-007.6856]: Hey, Isabella.",N/A,N/A,N/A,N/A,0,N/A,"['hey', 'isabella']"
+2,"Ses03F_impro07_F000 [007.2915-009.6563]: Hey, how's it going, Joe?",6.32,4.86,5.33,positive,1 out of 3,['go'],"['hey', 'go', 'joe']"
+3,Ses03F_impro07_M001 [009.2840-011.0248]: I'm all right.,7.32,5.0,7.16,positive,1 out of 1,['right'],['right']
+4,"Ses03F_impro07_F001 [010.4226-013.5866]: Uh-, So I got some good news.",6.3133333333333335,3.98,5.513333333333334,positive,3 out of 4,"['get', 'good', 'news']","['uh', 'get', 'good', 'news']"
+5,Ses03F_impro07_M002 [013.3020-014.8785]: Yeah?,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+6,Ses03F_impro07_F002 [014.3749-015.5682]: Yep.,N/A,N/A,N/A,N/A,0,N/A,['yep']
+7,Ses03F_impro07_M003 [015.0537-016.7835]: You're not pregnant or anything.,2.83,4.3,5.94,negative,1 out of 2,['neg-pregnant'],"['pregnant', 'anything']"
+8,Ses03F_impro07_F003 [016.3565-020.2650]: Pregnant?,7.17,5.7,4.06,positive,1 out of 1,['pregnant'],['pregnant']
+9,What are you talking about?,6.64,3.38,6.44,positive,1 out of 1,['talk'],['talk']
+10,No.,N/A,N/A,N/A,N/A,0,N/A,[]
+11,"Ses03F_impro07_M004 [019.8052-021.9510]: I know you've been trying to have a baby, right?",6.6125,4.3025,5.955,positive,4 out of 4,"['know', 'try', 'baby', 'right']","['know', 'try', 'baby', 'right']"
+12,Ses03F_impro07_F004 [024.6223-027.0419]: I have some better news than that.,4.96,4.61,4.48,neutral,1 out of 2,['news'],"['better', 'news']"
+13,"Ses03F_impro07_M005 [026.2317-027.6002]: Oh, really?",N/A,N/A,N/A,N/A,0,N/A,"['oh', 'really']"
+14,"Ses03F_impro07_F005 [027.1514-030.9950]: Yes, What would you want more than anything in this world?",6.123333333333333,4.55,5.483333333333333,positive,3 out of 5,"['would', 'want', 'world']","['yes', 'would', 'want', 'anything', 'world']"
+15,Ses03F_impro07_M006 [030.6767-032.7240]: A chocolate cake?,7.605,5.234999999999999,5.88,positive,2 out of 2,"['chocolate', 'cake']","['chocolate', 'cake']"
+16,Ses03F_impro07_F006 [032.4612-037.2017]: How about maybe for me to possibly stay in L.A.?,6.14,3.14,5.71,positive,1 out of 3,['stay'],"['maybe', 'possibly', 'stay']"
+17,"Ses03F_impro07_M007 [036.5449-039.8074]: Oh, wow.",N/A,N/A,N/A,N/A,0,N/A,"['oh', 'wow']"
+18,You got in?,6.09,3.67,5.65,positive,1 out of 1,['get'],['get']
+19,Ses03F_impro07_M008 [039.8402-041.3511]: Which one?,6.09,2.67,5.56,positive,1 out of 1,['one'],['one']
+20,Ses03F_impro07_F007 [040.4095-044.5589]: I got--U.S.C..,6.09,3.67,5.65,positive,1 out of 1,['get'],['get']
+21,"I got- Yeah, I got the acceptance letter.",6.175,3.7075,5.94,positive,4 out of 5,"['get', 'get', 'acceptance', 'letter']","['get', 'yeah', 'get', 'acceptance', 'letter']"
+22,Ses03F_impro07_M009 [041.7343-043.3984]: oh really?,N/A,N/A,N/A,N/A,0,N/A,"['oh', 'really']"
+23,Ses03F_impro07_M010 [043.5407-046.3725]: You got in?,6.09,3.67,5.65,positive,1 out of 1,['get'],['get']
+24,Wow.,N/A,N/A,N/A,N/A,0,N/A,['wow']
+25,"Ses03F_impro07_F008 [045.8836-049.4527]: Yes, me, I got in.",6.09,3.67,5.65,positive,1 out of 2,['get'],"['yes', 'get']"
+26,Thank you very much.,7.77,3.33,6.89,positive,1 out of 2,['thank'],"['thank', 'much']"
+27,Ses03F_impro07_M011 [048.4564-050.2191]: Good for you.,7.89,3.66,6.41,positive,1 out of 1,['good'],['good']
+28,"Ses03F_impro07_F009 [049.4855-061.4190]: Yeah, I know, my mom called me.",6.88,3.716666666666667,5.8933333333333335,positive,3 out of 4,"['know', 'mom', 'call']","['yeah', 'know', 'mom', 'call']"
+29,"I was with my girlfriend in Boston, and uh- she got the letter and she called me, she said I don't know, do you want me to open it?",5.842499999999999,4.51375,5.61125,neutral,8 out of 10,"['girlfriend', 'get', 'letter', 'call', 'say', 'neg-know', 'want', 'open']","['girlfriend', 'boston', 'uh', 'get', 'letter', 'call', 'say', 'know', 'want', 'open']"
+30,"And I was like yes, open it.",6.79,4.415,6.225,positive,2 out of 3,"['like', 'open']","['like', 'yes', 'open']"
+31,"And she opened it and she goes oh, I'm sorry, Nat.",5.756666666666667,4.636666666666667,5.716666666666667,neutral,3 out of 5,"['open', 'go', 'sorry']","['open', 'go', 'oh', 'sorry', 'nat']"
+32,Ses03F_impro07_F010 [061.4409-067.6047]: And I was like what?,7.44,4.4,6.28,positive,1 out of 1,['like'],['like']
+33,"She's like, you know, you didn't get in.",6.056666666666667,4.656666666666667,5.47,positive,3 out of 3,"['like', 'know', 'neg-get']","['like', 'know', 'get']"
+34,Totally plays it off.,7.55,3.81,6.29,positive,1 out of 2,['play'],"['totally', 'play']"
+35,Like I didn't get in.,5.675000000000001,5.365,5.3149999999999995,neutral,2 out of 2,"['like', 'neg-get']","['like', 'get']"
+36,"And I'm like, I start almost crying.",5.69,4.886666666666667,4.78,neutral,3 out of 4,"['like', 'start', 'cry']","['like', 'start', 'almost', 'cry']"
+37,"Ses03F_impro07_MXX0 [065.2681-066.2038]: Uh-huh, uh-huh.",N/A,N/A,N/A,N/A,0,N/A,[]
+38,"Ses03F_impro07_F011 [067.6266-070.5826]: And my mom was like Natalie, Natalie, it's [GARBAGE], you know-
+Ses03F_impro07_M012 [067.3201-068.6995]: oh yeah.",6.195,4.025,5.875,positive,4 out of 8,"['mom', 'like', 'garbage', 'know']","['mom', 'like', 'natalie', 'natalie', 'garbage', 'know', 'oh', 'yeah']"
+39,"Ses03F_impro07_F012 [070.6125-072.7503]: and so, I mean, I got in.",4.26,4.24,4.91,neutral,2 out of 2,"['mean', 'get']","['mean', 'get']"
+40,"Ses03F_impro07_M013 [072.0606-076.4727]: Oh, Jesus.",N/A,N/A,N/A,N/A,0,N/A,"['oh', 'jesus']"
+41,That is so amazing.,7.72,6.05,6.83,positive,1 out of 1,['amazing'],['amazing']
+42,Ses03F_impro07_F013 [075.4764-080.6658]: So now I can stay here and now we can party.,6.66,4.61,5.8149999999999995,positive,2 out of 2,"['stay', 'party']","['stay', 'party']"
+43,I know.,6.82,3.24,5.78,positive,1 out of 1,['know'],['know']
+44,Ses03F_impro07_M014 [079.0345-081.3884]: Party.,7.18,6.08,5.92,positive,1 out of 1,['party'],['party']
+45,You want to get drunk tonight?,5.383333333333333,4.67,4.66,neutral,3 out of 4,"['want', 'get', 'drunk']","['want', 'get', 'drunk', 'tonight']"
+46,"Ses03F_impro07_F014 [081.1366-083.7094]: Yeah, why not.",N/A,N/A,N/A,N/A,0,N/A,['yeah']
+47,"Ses03F_impro07_M015 [081.8154-084.4101]: Yeah, we're going to celebrate.",7.08,5.795,5.725,positive,2 out of 3,"['go', 'celebrate']","['yeah', 'go', 'celebrate']"
+48,"Ses03F_impro07_F015 [084.0050-086.5888]: We're not twenty one yet, but whatever.",3.83,6.83,4.65,negative,2 out of 4,"['neg-twenty', 'neg-one']","['twenty', 'one', 'yet', 'whatever']"
+49,"Ses03F_impro07_M016 [085.4830-088.9645]: Yeah, I'm only eighteen so it's--go get drunk.",5.547499999999999,4.3525,4.9075,neutral,4 out of 5,"['eighteen', 'go', 'get', 'drunk']","['yeah', 'eighteen', 'go', 'get', 'drunk']"
+50,Ses03F_impro07_F016 [089.9498-097.2632]: [LAUGHTER].,8.05,5.39,7.02,positive,1 out of 1,['laughter'],['laughter']
+51,"I'm so excited, Joe.",8.11,6.43,7.33,positive,1 out of 2,['excited'],"['excited', 'joe']"
+52,"Oh, man, I-- And I got in--I got into the school of theatre, so it's like-
+Ses03F_impro07_M017 [092.1833-094.5481]: Shit.",5.726666666666667,4.390000000000001,5.581666666666667,neutral,6 out of 8,"['man', 'get', 'get', 'school', 'like', 'shit']","['oh', 'man', 'get', 'get', 'school', 'theatre', 'like', 'shit']"
+53,"That's-
+Ses03F_impro07_M018 [096.1027-104.0948]: Oh, my God.",5.9,5.56,5.0,neutral,1 out of 2,['god'],"['oh', 'god']"
+54,That's--I heard it's top five-- --in the Grauman scale or something.,5.785,3.825,5.945,neutral,4 out of 6,"['hear', 'top', 'five', 'scale']","['hear', 'top', 'five', 'grauman', 'scale', 'something']"
+55,Ses03F_impro07_F017 [097.6125-099.7000]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+56,It's really cool.,6.82,3.43,6.44,positive,1 out of 2,['cool'],"['really', 'cool']"
+57,Ses03F_impro07_F018 [100.9400-101.9425]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+58,Ses03F_impro07_F019 [103.2409-105.8246]: Top five in the nation.,5.8,4.22,5.546666666666667,neutral,3 out of 3,"['top', 'five', 'nation']","['top', 'five', 'nation']"
+59,Ses03F_impro07_M019 [104.9378-109.3828]: Who-whooooo.,N/A,N/A,N/A,N/A,0,N/A,[]
+60,Miss Acti- Acting Pants.,5.023333333333333,3.9966666666666666,5.263333333333334,neutral,3 out of 4,"['miss', 'act', 'pant']","['miss', 'acti', 'act', 'pant']"
+61,Ses03F_impro07_F020 [108.9339-114.0576]: Acting Pants?,5.484999999999999,4.045,5.335,neutral,2 out of 2,"['act', 'pant']","['act', 'pant']"
+62,So what are you going to do?,6.32,4.86,5.33,positive,1 out of 1,['go'],['go']
+63,"Are you--you're be--you're going to stay here, right?",6.593333333333334,4.333333333333334,6.066666666666666,positive,3 out of 3,"['go', 'stay', 'right']","['go', 'stay', 'right']"
+64,Ses03F_impro07_M020 [110.0068-111.9775]: Acti- acting pants.,5.484999999999999,4.045,5.335,neutral,2 out of 3,"['act', 'pant']","['acti', 'act', 'pant']"
+65,Ses03F_impro07_M021 [113.5431-116.9675]: I got into film school at the Art Academy.,6.0,4.118,5.82,neutral,5 out of 5,"['get', 'film', 'school', 'art', 'academy']","['get', 'film', 'school', 'art', 'academy']"
+66,Ses03F_impro07_F021 [116.5538-120.1338]: Awesome.,7.86,6.05,7.11,positive,1 out of 1,['awesome'],['awesome']
+67,"We're both going to be in L.A.
+Ses03F_impro07_MXX1 [117.7317-118.3911]: Uh-huh.",6.32,4.86,5.33,positive,1 out of 1,['go'],['go']
+68,Ses03F_impro07_M022 [119.4441-123.1555]: So I'm going to be--yeah.,6.32,4.86,5.33,positive,1 out of 2,['go'],"['go', 'yeah']"
+69,I'm going to make films; you're going to be in them.,6.265000000000001,4.3725000000000005,5.7625,positive,4 out of 4,"['go', 'make', 'film', 'go']","['go', 'make', 'film', 'go']"
+70,Ses03F_impro07_F022 [122.5534-126.7125]: I'm so excited.,8.11,6.43,7.33,positive,1 out of 1,['excited'],['excited']
+71,"Yeah, I thought I was going to go to Boston, but then--
+Ses03F_impro07_M023 [126.2319-127.9070]: Fuck Boston.",6.1375,5.1525,5.6575,positive,4 out of 7,"['think', 'go', 'go', 'fuck']","['yeah', 'think', 'go', 'go', 'boston', 'fuck', 'boston']"
+72,"Ses03F_impro07_F023 [132.2534-135.5707]: Oh man, I'm so excited.",6.765,5.395,6.385,positive,2 out of 3,"['man', 'excited']","['oh', 'man', 'excited']"
+73,So much to do.,N/A,N/A,N/A,N/A,0,N/A,['much']
+74,Ses03F_impro07_M024 [128.4325-132.5819]: Boston smells bad.,4.8149999999999995,5.050000000000001,4.5,neutral,2 out of 3,"['smell', 'bad']","['boston', 'smell', 'bad']"
+75,L.A. is so much cooler.,6.1,3.83,5.92,positive,1 out of 2,['cooler'],"['much', 'cooler']"
+76,"Ses03F_impro07_F024 [135.6035-140.1689]: There's so much culture here, you know?",6.550000000000001,3.65,5.745,positive,2 out of 3,"['culture', 'know']","['much', 'culture', 'know']"
+77,"It's just like-- --all great restaurants and-
+Ses03F_impro07_MXX2 [138.0271-138.5263]: Yeah.",7.296666666666667,4.243333333333333,6.25,positive,3 out of 4,"['like', 'great', 'restaurant']","['like', 'great', 'restaurant', 'yeah']"
+78,Ses03F_impro07_F025 [140.2075-142.6103]: I'm just so excited to start my life.,7.066666666666666,5.609999999999999,6.24,positive,3 out of 3,"['excited', 'start', 'life']","['excited', 'start', 'life']"
+79,Ses03F_impro07_M025 [141.4389-144.6125]: We should uh- go to Little Ethiopia.,6.115,4.53,5.255,positive,2 out of 4,"['go', 'little']","['uh', 'go', 'little', 'ethiopia']"
+80,"Ses03F_impro07_F026 [144.3400-152.4965]: Oh, and you sit down and you have the sponge bread-- --and eat the--drink the beer.",6.205,4.193333333333333,6.095,positive,6 out of 7,"['sit', 'sponge', 'bread', 'eat', 'drink', 'beer']","['oh', 'sit', 'sponge', 'bread', 'eat', 'drink', 'beer']"
+81,"Ugh, I love that stuff.",6.93,4.44,5.375,positive,2 out of 3,"['love', 'stuff']","['ugh', 'love', 'stuff']"
+82,I'm so excited.,8.11,6.43,7.33,positive,1 out of 1,['excited'],['excited']
+83,Ses03F_impro07_MXX3 [147.9015-148.4327]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+84,Ses03F_impro07_F027 [152.5300-154.8175]: Are you going to come stay in my dorm with me sometime?,5.8149999999999995,3.965,5.5275,neutral,4 out of 5,"['go', 'come', 'stay', 'dorm']","['go', 'come', 'stay', 'dorm', 'sometime']"
+85,"Ses03F_impro07_M026 [154.3796-158.0034]: Hell, yeah.",2.55,6.26,3.47,negative,1 out of 2,['hell'],"['hell', 'yeah']"
+86,Pass out.,5.73,4.38,4.78,neutral,1 out of 1,['pass'],['pass']
+87,Ses03F_impro07_F028 [155.9342-157.6640]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+88,"I'll get like one of those little--
+Ses03F_impro07_F029 [157.7525-161.5600]: Yeah.",6.3825,3.7350000000000003,5.6675,positive,4 out of 5,"['get', 'like', 'one', 'little']","['get', 'like', 'one', 'little', 'yeah']"
+89,Those little-- --mattresses.,5.825,3.825,5.675,neutral,2 out of 2,"['little', 'mattress']","['little', 'mattress']"
+90,I'll put it by my bed.,6.125,3.4299999999999997,6.335000000000001,positive,2 out of 2,"['put', 'bed']","['put', 'bed']"
+91,Ses03F_impro07_M027 [158.3319-159.5033]: -drunk.,4.06,5.05,2.94,neutral,1 out of 1,['drunk'],['drunk']
+92,"Ses03F_impro07_M028 [161.0689-163.7621]: No, I'll sleep in your bed.",7.1899999999999995,3.3,6.015000000000001,positive,2 out of 2,"['sleep', 'bed']","['sleep', 'bed']"
+93,Cuddle up.,7.6,3.83,6.65,positive,1 out of 1,['cuddle'],['cuddle']
+94,"Ses03F_impro07_F030 [162.6892-168.1304]: Oh, I don't think so.",3.3200000000000003,6.25,3.5,negative,1 out of 2,['neg-think'],"['oh', 'think']"
+95,Hmm-mm.,N/A,N/A,N/A,N/A,0,N/A,[]
+96,No.,N/A,N/A,N/A,N/A,0,N/A,[]
+97,Ses03F_impro07_M029 [165.9846-167.3093]: Uh-oh.,N/A,N/A,N/A,N/A,0,N/A,[]
+98,Ses03F_impro07_F031 [168.3494-171.4587]: That's going to--that'll be reserved for somebody else.,6.23,4.51,5.445,positive,2 out of 4,"['go', 'reserve']","['go', 'reserve', 'somebody', 'else']"
+99,"Ses03F_impro07_M030 [171.1083-175.6950]: Oh, hey.",N/A,N/A,N/A,N/A,0,N/A,"['oh', 'hey']"
+100,Freshman slut.,3.8,4.89,3.84,negative,2 out of 2,"['freshman', 'slut']","['freshman', 'slut']"
+101,That's you gona need.,5.45,3.67,5.06,neutral,1 out of 2,['need'],"['gona', 'need']"
+102,Ses03F_impro07_F032 [171.6557-177.8524]: [LAUGHTER] Hello?,8.05,5.39,7.02,positive,1 out of 2,['laughter'],"['laughter', 'hello']"
+103,I am not.,N/A,N/A,N/A,N/A,0,N/A,[]
+104,"Ses03F_impro07_M031 [176.2977-179.0238]: That's what you got to be though, freshman year.",5.63,3.6066666666666665,5.08,neutral,3 out of 4,"['get', 'freshman', 'year']","['get', 'though', 'freshman', 'year']"
+105,"Ses03F_impro07_F033 [178.1699-180.8225]: No, I don't.",N/A,N/A,N/A,N/A,0,N/A,[]
+106,I'm not like that.,2.5599999999999996,5.6,3.7199999999999998,negative,1 out of 1,['neg-like'],['like']
+107,Ses03F_impro07_M032 [179.1661-180.2391]: Yeah.,N/A,N/A,N/A,N/A,0,N/A,['yeah']
+108,"Ses03F_impro07_M033 [180.5347-182.2754]: Well, get used to it.",5.635,3.93,5.325,neutral,2 out of 3,"['get', 'use']","['well', 'get', 'use']"
+109,Ses03F_impro07_F034 [181.6076-184.0490]: [LAUGHTER].,8.05,5.39,7.02,positive,1 out of 1,['laughter'],['laughter']
+110,"No, you'd get used to it.",5.635,3.93,5.325,neutral,2 out of 2,"['get', 'use']","['get', 'use']"
+111,"Ses03F_impro07_M034 [183.7534-185.6803]: Hey, I'm already getting used to it.",5.635,3.93,5.325,neutral,2 out of 4,"['get', 'use']","['hey', 'already', 'get', 'use']"
+112,Ses03F_impro07_F035 [190.1909-192.1616]: [LAUGHTER].,8.05,5.39,7.02,positive,1 out of 1,['laughter'],['laughter']
+113,"Oh, Joe, I'm so happy.",8.47,6.05,7.21,positive,1 out of 3,['happy'],"['oh', 'joe', 'happy']"
+114,"Ses03F_impro07_M035 [191.7127-194.0118]: Me too, Isabella.",N/A,N/A,N/A,N/A,0,N/A,['isabella']

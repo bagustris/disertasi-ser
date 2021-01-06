@@ -1,0 +1,97 @@
+Sentence ID,Sentence,Valence,Arousal,Dominance,Sentiment Label,# Words Found,Found Words,All Words
+1,"Ses02M_impro03_M000 [003.1431-005.5530]: Oh, you're never going to believe it.",6.6850000000000005,4.095000000000001,5.945,positive,2 out of 4,"['go', 'believe']","['oh', 'never', 'go', 'believe']"
+2,Ses02M_impro03_F000 [005.2402-009.0515]: What?,N/A,N/A,N/A,N/A,0,N/A,[]
+3,What?,N/A,N/A,N/A,N/A,0,N/A,[]
+4,You look really happy what's going on?,6.913333333333334,4.89,6.14,positive,3 out of 4,"['look', 'happy', 'go']","['look', 'really', 'happy', 'go']"
+5,"Ses02M_impro03_M001 [009.1156-012.3065]: Well, I finally did it
+Ses02M_impro03_F001 [012.1230-014.0146]: Finally did what?",N/A,N/A,N/A,N/A,0,N/A,"['well', 'finally', 'finally']"
+6,Ses02M_impro03_M002 [014.1737-017.6149]: I-I asked her to marry me.,6.52,4.5,5.98,positive,2 out of 2,"['ask', 'marry']","['ask', 'marry']"
+7,Ses02M_impro03_F002 [017.3302-021.2960]: You did?,N/A,N/A,N/A,N/A,0,N/A,[]
+8,"Oh, my Gosh, I'm so proud of you.",7.0,5.55,7.09,positive,1 out of 3,['proud'],"['oh', 'gosh', 'proud']"
+9,"Ses02M_impro03_M003 [021.2152-023.3916]: Yes, I know.",6.82,3.24,5.78,positive,1 out of 2,['know'],"['yes', 'know']"
+10,"[LAUGHTER]
+Ses02M_impro03_F003 [023.2289-025.5477]: Oh, my Gosh.",8.05,5.39,7.02,positive,1 out of 3,['laughter'],"['laughter', 'oh', 'gosh']"
+11,"Well, and did
+M: God.",5.9,5.56,5.0,neutral,1 out of 2,['god'],"['well', 'god']"
+12,"Ses02M_impro03_M004 [024.8000-027.6835]: I'm so nervous you know, I'm-
+Ses02M_impro03_F004 [026.9512-028.2937]: Did she say yes?",5.43,4.3933333333333335,5.56,neutral,3 out of 4,"['nervous', 'know', 'say']","['nervous', 'know', 'say', 'yes']"
+13,"Ses02M_impro03_M005 [028.2293-031.5075]: Yes, she said yes.",5.91,4.43,6.88,neutral,1 out of 3,['say'],"['yes', 'say', 'yes']"
+14,"[LAUGHTER] I know
+Ses02M_impro03_F005 [031.1617-032.9110]: That's like the most definitive.",6.970000000000001,4.215,6.08,positive,4 out of 4,"['laughter', 'know', 'like', 'definitive']","['laughter', 'know', 'like', 'definitive']"
+15,Ses02M_impro03_M006 [032.6098-036.6537]: I know Uhm- I can't believe it.,4.885,4.955,4.61,neutral,2 out of 4,"['know', 'neg-believe']","['know', 'uhm', 'ca', 'believe']"
+16,"It's like-
+Ses02M_impro03_F006 [036.4389-040.3353]: Oh, my gosh, wait so when did you decide to do this, I mean,
+Ses02M_impro03_F007 [040.5591-044.4238]: I would have thought you would have told me that you were planning on doing this.",5.623333333333333,3.891111111111111,5.737777777777778,neutral,9 out of 11,"['like', 'wait', 'decide', 'mean', 'would', 'think', 'would', 'tell', 'plan']","['like', 'oh', 'gosh', 'wait', 'decide', 'mean', 'would', 'think', 'would', 'tell', 'plan']"
+17,"Ses02M_impro03_M007 [043.7500-049.8600]: Well, yes, I wanted it you know I guess sort of as a surprise for everyone so
+Ses02M_impro03_F008 [048.8635-053.0889]: Yea, I guess so.",6.124,4.564,5.224,positive,5 out of 10,"['want', 'know', 'guess', 'surprise', 'guess']","['well', 'yes', 'want', 'know', 'guess', 'sort', 'surprise', 'everyone', 'yea', 'guess']"
+18,"Oh, my Gosh.",N/A,N/A,N/A,N/A,0,N/A,"['oh', 'gosh']"
+19,Was she surprised?,7.44,6.57,5.17,positive,1 out of 1,['surprise'],['surprise']
+20,"Ses02M_impro03_M008 [053.0400-058.3300]: Yes, yes.",N/A,N/A,N/A,N/A,0,N/A,"['yes', 'yes']"
+21,"You know, she - she was like - I mean, she was happy, you know
+Ses02M_impro03_F009 [057.8600-058.8100]: Yeah.",6.396000000000001,4.348,5.844,positive,5 out of 6,"['know', 'like', 'mean', 'happy', 'know']","['know', 'like', 'mean', 'happy', 'know', 'yeah']"
+22,"Ses02M_impro03_M009 [058.3367-064.1134]: I - I think it was about time, I don't know, maybe.",5.153333333333333,4.64,5.026666666666666,neutral,3 out of 4,"['think', 'time', 'neg-know']","['think', 'time', 'know', 'maybe']"
+23,"You know what, it's been it's been long enough now.",6.82,3.24,5.78,positive,1 out of 3,['know'],"['know', 'long', 'enough']"
+24,Ses02M_impro03_F010 [063.3405-065.1508]: So what did you do?,N/A,N/A,N/A,N/A,0,N/A,[]
+25,"Ses02M_impro03_M010 [065.1724-072.7300]: Oh, well, it was -- you know, we were at this- at this concert and yeah
+Ses02M_impro03_M011 [072.7400-076.1400]: so I-I talked to some of the crew before hand and-
+Ses02M_impro03_F011 [074.9550-077.0704]: Oh, You did not.",6.438,3.83,5.7,positive,5 out of 9,"['know', 'concert', 'talk', 'crew', 'hand']","['oh', 'well', 'know', 'concert', 'yeah', 'talk', 'crew', 'hand', 'oh']"
+26,Ses02M_impro03_M012 [076.8059-077.7009]: I-I did.,N/A,N/A,N/A,N/A,0,N/A,[]
+27,"Ses02M_impro03_F012 [077.0907-080.5700]: Oh, my Gosh.",N/A,N/A,N/A,N/A,0,N/A,"['oh', 'gosh']"
+28,"that's so cute
+Ses02M_impro03_M013 [079.2909-085.5320]: So I got the band to do something, you know, like towards the end of the song I got to go up on stage and, uh
+Ses02M_impro03_F013 [085.3339-094.6853]: That's so romantic.",6.578181818181818,4.258181818181818,5.689090909090909,positive,11 out of 14,"['cute', 'get', 'band', 'know', 'like', 'end', 'song', 'get', 'go', 'stage', 'romantic']","['cute', 'get', 'band', 'something', 'know', 'like', 'towards', 'end', 'song', 'get', 'go', 'stage', 'uh', 'romantic']"
+29,"Oh, my Gosh.",N/A,N/A,N/A,N/A,0,N/A,"['oh', 'gosh']"
+30,She must have died.,3.56,5.5,4.17,negative,2 out of 2,"['must', 'die']","['must', 'die']"
+31,That's like one of those things you write into a magazine about like my boyfriend did this.,6.61,3.972857142857143,5.861428571428571,positive,7 out of 7,"['like', 'one', 'thing', 'write', 'magazine', 'like', 'boyfriend']","['like', 'one', 'thing', 'write', 'magazine', 'like', 'boyfriend']"
+32,Oh my God.,5.9,5.56,5.0,neutral,1 out of 2,['god'],"['oh', 'god']"
+33,"Ses02M_impro03_M014 [086.8300-088.3000]: I know, so
+Ses02M_impro03_M015 [088.4600-090.1494]: I got to freak her out.",5.546666666666667,4.403333333333333,5.513333333333334,neutral,3 out of 3,"['know', 'get', 'freak']","['know', 'get', 'freak']"
+34,"Ses02M_impro03_M016 [094.4412-095.8040]: No, yes -- so
+Ses02M_impro03_F014 [095.4379-096.8617]: She must have flipped out.",5.525,4.359999999999999,5.1899999999999995,neutral,2 out of 3,"['must', 'flip']","['yes', 'must', 'flip']"
+35,"Ses02M_impro03_M017 [096.6583-100.2790]: Yea, that way she was guaranteed that she could not say no.",5.39,4.046666666666667,4.65,neutral,3 out of 5,"['way', 'guarantee', 'neg-say']","['yea', 'way', 'guarantee', 'could', 'say']"
+36,Ses02M_impro03_F015 [099.6891-103.4785]: Right exactly because you can't say no in front of thousands of people.,5.8875,4.46,5.42,neutral,4 out of 7,"['right', 'neg-say', 'thousand', 'people']","['right', 'exactly', 'ca', 'say', 'front', 'thousand', 'people']"
+37,"[LAUGHTER]
+Ses02M_impro03_M018 [103.3300-104.9776]: No, but it was good.",7.970000000000001,4.525,6.715,positive,2 out of 2,"['laughter', 'good']","['laughter', 'good']"
+38,Ses02M_impro03_F016 [104.4488-106.5845]: Did you bring her up on stage too?,5.675,4.025,5.109999999999999,neutral,2 out of 2,"['bring', 'stage']","['bring', 'stage']"
+39,"Ses02M_impro03_M019 [105.9947-107.4795]: Yes, yes.",N/A,N/A,N/A,N/A,0,N/A,"['yes', 'yes']"
+40,"[LAUGHTER]
+Ses02M_impro03_F017 [107.2558-109.6966]: Oh, my Gosh, that's so cute.",7.805,5.22,6.52,positive,2 out of 4,"['laughter', 'cute']","['laughter', 'oh', 'gosh', 'cute']"
+41,"Ses02M_impro03_M020 [109.5372-114.5874]: I know it was, I don't know I was really nervous but I'm really - I'm really glad.",5.2775,4.805,5.255,neutral,4 out of 7,"['know', 'neg-know', 'nervous', 'glad']","['know', 'know', 'really', 'nervous', 'really', 'really', 'glad']"
+42,Ses02M_impro03_F018 [113.3783-115.3716]: Are your parents excited or...?,7.26,5.375,5.395,positive,2 out of 2,"['parent', 'excite']","['parent', 'excite']"
+43,"Ses02M_impro03_M021 [115.1625-119.6025]: Oh yes, they - they you know they love her and so I mean...
+Ses02M_impro03_F019 [119.1334-121.5600]: Yea, totally.",5.75,4.47,5.29,neutral,3 out of 7,"['know', 'love', 'mean']","['oh', 'yes', 'know', 'love', 'mean', 'yea', 'totally']"
+44,So when is it going to happen?,5.91,4.1450000000000005,5.43,neutral,2 out of 2,"['go', 'happen']","['go', 'happen']"
+45,"Ses02M_impro03_M022 [121.6073-129.4938]: Well, we're thinking uh - we're thinking winter time, you know, we're going to do it in the winter and then maybe, you know, maybe
+Ses02M_impro03_M023 [129.9508-139.6990]: I don't know either do a honeymoon like in the snow or fly down to like Australia, Southern Hemisphere, [GARBAGE] so we'll decide with that.",6.028333333333333,4.004444444444444,5.570555555555556,positive,18 out of 24,"['think', 'think', 'winter', 'time', 'know', 'go', 'winter', 'know', 'neg-know', 'honeymoon', 'like', 'snow', 'fly', 'like', 'southern', 'hemisphere', 'garbage', 'decide']","['well', 'think', 'uh', 'think', 'winter', 'time', 'know', 'go', 'winter', 'maybe', 'know', 'maybe', 'know', 'either', 'honeymoon', 'like', 'snow', 'fly', 'like', 'australia', 'southern', 'hemisphere', 'garbage', 'decide']"
+46,"Ses02M_impro03_F020 [135.3700-137.9500]: Ooh, that would be fun.",7.14,5.065,6.49,positive,2 out of 3,"['would', 'fun']","['ooh', 'would', 'fun']"
+47,"Ses02M_impro03_F021 [139.3125-143.6450]: Do you think you'll get a house or something, like you guys are looking to buy some place or
+Ses02M_impro03_M024 [143.6282-150.2993]: Yea, yea, I'm not too sure where yet I guess you know, I kind of got to figure some stuff out here first
+Ses02M_impro03_F022 [149.5800-150.6600]: Yeah.",6.255625,4.03875,5.804375,positive,16 out of 21,"['think', 'get', 'house', 'like', 'guy', 'look', 'buy', 'place', 'neg-sure', 'guess', 'know', 'kind', 'get', 'figure', 'stuff', 'first']","['think', 'get', 'house', 'something', 'like', 'guy', 'look', 'buy', 'place', 'yea', 'yea', 'sure', 'yet', 'guess', 'know', 'kind', 'get', 'figure', 'stuff', 'first', 'yeah']"
+48,"[LAUGHTER]
+Ses02M_impro03_M025 [150.3093-156.8328]: but like you know it's just - I guess we're just excited right now that we'll get to continue it together.",6.7875000000000005,4.38375,6.0925,positive,8 out of 9,"['laughter', 'like', 'know', 'guess', 'excite', 'right', 'get', 'continue']","['laughter', 'like', 'know', 'guess', 'excite', 'right', 'get', 'continue', 'together']"
+49,Ses02M_impro03_F023 [152.6886-157.9201]: Oh my Gosh.,N/A,N/A,N/A,N/A,0,N/A,"['oh', 'gosh']"
+50,"I cannot believe you're getting married, that is so cool.",5.7375,4.8225,5.300000000000001,neutral,4 out of 4,"['neg-believe', 'get', 'marry', 'cool']","['believe', 'get', 'marry', 'cool']"
+51,Ses02M_impro03_M026 [157.6190-158.9208]: I know.,6.82,3.24,5.78,positive,1 out of 1,['know'],['know']
+52,"Ses02M_impro03_F024 [158.8655-164.7588]: Golly, it just makes me all like romantic inside, like I really want that to happen to me.",6.68,4.385,6.025,positive,6 out of 9,"['make', 'like', 'romantic', 'like', 'want', 'happen']","['golly', 'make', 'like', 'romantic', 'inside', 'like', 'really', 'want', 'happen']"
+53,"[LAUGHTER]
+Ses02M_impro03_M027 [164.7903-172.9558]: Oh, it will, obviously you know.",7.4350000000000005,4.3149999999999995,6.4,positive,2 out of 4,"['laughter', 'know']","['laughter', 'oh', 'obviously', 'know']"
+54,"But I know it's something - I don't know, you never really think about it happening, like before hand.",5.92,4.26,5.698333333333333,neutral,6 out of 9,"['know', 'neg-know', 'think', 'happen', 'like', 'hand']","['know', 'something', 'know', 'never', 'really', 'think', 'happen', 'like', 'hand']"
+55,F: That's so fun.,8.37,6.32,7.04,positive,1 out of 2,['fun'],"['f', 'fun']"
+56,Oh my gosh.,N/A,N/A,N/A,N/A,0,N/A,"['oh', 'gosh']"
+57,Ses02M_impro03_F025 [171.6540-174.8068]: Did you have a good ring?,7.49,4.045,5.925000000000001,positive,2 out of 2,"['good', 'ring']","['good', 'ring']"
+58,You better have had a good ring.,7.49,4.045,5.925000000000001,positive,2 out of 3,"['good', 'ring']","['better', 'good', 'ring']"
+59,Ses02M_impro03_M028 [174.7051-176.4340]: Sure.,6.64,3.48,6.82,positive,1 out of 1,['sure'],['sure']
+60,"Oh, yes.",N/A,N/A,N/A,N/A,0,N/A,"['oh', 'yes']"
+61,F: Good.,7.89,3.66,6.41,positive,1 out of 2,['good'],"['f', 'good']"
+62,Ses02M_impro03_F026 [176.1086-178.9562]: Good.,7.89,3.66,6.41,positive,1 out of 1,['good'],['good']
+63,The ring makes all the difference.,6.023333333333333,3.75,5.7,positive,3 out of 3,"['ring', 'make', 'difference']","['ring', 'make', 'difference']"
+64,Ses02M_impro03_M029 [178.5291-183.8500]: You know I had my mom come along maybe help me out a little bit because she's got good taste.,6.513333333333334,3.9633333333333334,6.111111111111112,positive,9 out of 11,"['know', 'mom', 'come', 'help', 'little', 'bit', 'get', 'good', 'taste']","['know', 'mom', 'come', 'along', 'maybe', 'help', 'little', 'bit', 'get', 'good', 'taste']"
+65,"but
+F: Good, good, good, good.",7.89,3.66,6.41,positive,4 out of 5,"['good', 'good', 'good', 'good']","['f', 'good', 'good', 'good', 'good']"
+66,"Ses02M_impro03_F027 [183.5700-185.3300]: Oh, that's awesome.",7.86,6.05,7.11,positive,1 out of 2,['awesome'],"['oh', 'awesome']"
+67,"Ses02M_impro03_M030 [185.2618-189.2079]: Yes, well, Thanks, thanks.",7.73,4.05,6.72,positive,2 out of 4,"['thanks', 'thanks']","['yes', 'well', 'thanks', 'thanks']"
+68,Thank you.,7.77,3.33,6.89,positive,1 out of 1,['thank'],['thank']
+69,"yeah
+Ses02M_impro03_F028 [186.1365-191.4453]: Yay, well congratulations, that's so cool.",7.0600000000000005,4.74,6.5600000000000005,positive,2 out of 5,"['congratulation', 'cool']","['yeah', 'yay', 'well', 'congratulation', 'cool']"
+70,[BREATHING] I can't wait.,5.45,6.38,4.69,neutral,1 out of 3,['neg-wait'],"['breathing', 'ca', 'wait']"
+71,Ses02M_impro03_M031 [190.9368-191.8928]: Hah.,N/A,N/A,N/A,N/A,0,N/A,['hah']
