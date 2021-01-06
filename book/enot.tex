@@ -1,8 +1,27 @@
 \strut
 \vspace{20pt}
 
-\begin{center}
-{\LARGE\bf Abstract}
-\end{center}
+
+\renewcommand{\nomname}{List of Symbols}
+\markboth{\nomname}{\nomname}
+\noindent{\LARGE\bf List of Symbols}
+
 \vspace{20pt}
-\addcontentsline{toc}{chapter}{Abstract}
+\addcontentsline{toc}{chapter}{List of Symbols}
+
+% \newcommand{\abbrlabel}[1]{\makebox[3cm][l]{\textbf{#1}\ \dotfill }}
+% \newenvironment{abbreviations}{\begin{list}{}{\renewcommand{\makelabel}{\abbrlabel}}}{\end{list}}
+
+\begin{abbreviations}
+\item[$x$] An input (acoustic) signal
+\item[$af$] Acoustic features 
+\item[$tf$] Textual (linguistic) features 
+\item[$w$]  Window function 
+\item[$S$] Spectrogram 
+\item[$y$] Output (label)
+% \item[Gvmt] Government
+\end{abbreviations}
+
+\newpage
+\thispagestyle{empty}
+\mbox{}

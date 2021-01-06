@@ -1,0 +1,96 @@
+\contentsline {chapter}{Abstract}{ii}{Doc-Start}
+\contentsline {chapter}{Acknowledgments}{iii}{Doc-Start}
+\contentsline {chapter}{List of Abbreviations}{xi}{chapter*.3}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Research aims and problems}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Research concept}{3}{section.1.3}
+\contentsline {section}{\numberline {1.4}Contributions}{4}{section.1.4}
+\contentsline {section}{\numberline {1.5}Dissertation structure}{5}{section.1.5}
+\contentsline {chapter}{\numberline {2}Literature Review}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Emotion models}{8}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Categorical emotion}{8}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Dimensional emotion}{9}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Features}{11}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Acoustic features}{11}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Linguistic features}{12}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Classifiers}{13}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}SVM}{13}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}MLP}{15}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}CNN}{15}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}LSTM}{16}{subsection.2.4.4}
+\contentsline {section}{\numberline {2.5}Fusion Methods}{17}{section.2.5}
+\contentsline {section}{\numberline {2.6}Summary}{20}{section.2.6}
+\contentsline {chapter}{\numberline {3}Research Methodology}{21}{chapter.3}
+\contentsline {section}{\numberline {3.1}Research motivation}{21}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Why is SER difficult?}{21}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Why study dimensional SER?}{22}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Why fuse acoustic with linguistic information?}{22}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Research issues}{22}{section.3.2}
+\contentsline {section}{\numberline {3.3}Research philosophy}{24}{section.3.3}
+\contentsline {subsubsection}{Data: speech}{24}{section*.4}
+\contentsline {subsubsection}{Information: acoustic and linguistic}{24}{section*.5}
+\contentsline {subsubsection}{Knowledge: dimensional emotion degrees}{25}{section*.6}
+\contentsline {section}{\numberline {3.4}Research strategy}{25}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Dimensional SER by acoustic information}{25}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Fusing acoustic and linguistic information at feature level}{25}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Fusing acoustic and linguistic information at decision level}{26}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Datasets}{26}{section.3.5}
+\contentsline {section}{\numberline {3.6}Evaluation metric}{28}{section.3.6}
+\contentsline {section}{\numberline {3.7}Summary}{28}{section.3.7}
+\contentsline {chapter}{\numberline {4}Speech Emotion Recognition Using Acoustic Features}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}Which region of analysis to extract acoustic features in SER}{29}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}SER using low-level acoustic features}{29}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}SER using high-level acoustic features}{34}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Optimizing dimensional SER using different classifiers}{36}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Effect of silent pause features in dimensional SER}{38}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Dimensional SER on silence-removed region}{38}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Dimensional SER with silent pause features}{41}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Acoustic feature aggregation}{43}{section.4.3}
+\contentsline {section}{\numberline {4.4}Summary}{46}{section.4.4}
+\contentsline {chapter}{\numberline {5}Fusing Acoustic and Linguistic Information at Feature Level}{48}{chapter.5}
+\contentsline {section}{\numberline {5.1}Extracting linguistic information}{48}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Word embeddings}{48}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Pre-trained word embeddings}{49}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}CCC loss function}{51}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Early fusion by networks concatenation}{52}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Results on bimodal feature fusion}{54}{subsection.5.2.1}
+\contentsline {subsubsection}{Performance of bimodal networks}{54}{section*.7}
+\contentsline {subsubsection}{Evaluation of MTL with weighting factors}{55}{section*.8}
+\contentsline {subsubsection}{Evaluation of dropout for different modalities}{57}{section*.9}
+\contentsline {subsection}{\numberline {5.2.2}Discussion in terms of categorical emotions}{57}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Dimensional SER with ASR outputs}{59}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Effect of word embeddings' dimension}{60}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}Early fusion by network concatenation}{61}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Bimodal acoustic-linguistic feature fusion}{61}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Feature concatenation results}{62}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.5}Summary}{62}{section.5.5}
+\contentsline {chapter}{\numberline {6}Fusing Acoustic and Linguistic Information at Decision Level}{64}{chapter.6}
+\contentsline {section}{\numberline {6.1}Datasets partition}{64}{section.6.1}
+\contentsline {section}{\numberline {6.2}Two-stage dimensional SER}{66}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}LSTM network for unimodal prediction}{66}{subsection.6.2.1}
+\contentsline {subsubsection}{Acoustic emotion recognition}{66}{section*.10}
+\contentsline {subsubsection}{Linguistic emotion recognition}{68}{section*.11}
+\contentsline {subsection}{\numberline {6.2.2}SVM for results fusion}{69}{subsection.6.2.2}
+\contentsline {section}{\numberline {6.3}Results and discussion}{70}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Results from single modality}{70}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Results from SVM-based fusion}{72}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Speaker-dependent vs. speaker-independent linguistic emotion recognition}{76}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.4}Effect of removing target sentence from MSP-IMPROV dataset}{77}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.3.5}Final remarks}{77}{subsection.6.3.5}
+\contentsline {section}{\numberline {6.4}Summary}{78}{section.6.4}
+\contentsline {chapter}{\numberline {7}Comparative Analysis}{79}{chapter.7}
+\contentsline {section}{\numberline {7.1}Comparison within this study}{79}{section.7.1}
+\contentsline {section}{\numberline {7.2}Comparison with other studies}{80}{section.7.2}
+\contentsline {chapter}{\numberline {8}Conclusions}{83}{chapter.8}
+\contentsline {section}{\numberline {8.1}General summary}{83}{section.8.1}
+\contentsline {section}{\numberline {8.2}Future research directions}{84}{section.8.2}
+\contentsline {subsubsection}{Accelerating high-level feature extraction for speech emotion recognition}{84}{section*.12}
+\contentsline {subsubsection}{Bimodal late-fusion approach by output aggregation}{85}{section*.13}
+\contentsline {subsubsection}{Bimodal acoustic-linguistic fusion by two spaces resultant}{85}{section*.14}
+\contentsline {subsubsection}{Lexical controlled vs. lexical uncontrolled emotion recognition}{85}{section*.15}
+\contentsline {subsubsection}{Bottleneck between acoustic and linguistic processing}{85}{section*.16}
+\contentsline {subsubsection}{Model generalization}{86}{section*.17}
+\contentsline {chapter}{References}{97}{chapter*.18}
+\contentsline {chapter}{Publications}{98}{chapter*.18}

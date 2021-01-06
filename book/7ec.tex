@@ -1,11 +1,246 @@
-\chapter{Conclusions}
-This paper evaluates the error 
-correcting capabilities of concatenated codes 
-employing MDS codes as outer codes and
-time-varying randomly selected inner codes,
-used on discrete memoryless channels with modified MMI
-decoding. It is proved that 
-Gallager's random coding error exponent
-can be obtained for all rates by such codes.
-\section{Summary}
-\section{Future Research Directions}
+\chapter{Comparative Analysis}
+This chapter aims at summarizing the results obtained in this research and
+comparing with others.
+
+
+\section{Comparison within this study}
+To this end, several methods have been proposed, and several results have been
+obtained. The summary of the results could be used to evaluate the research and
+its trend. Comparing one method to another, either from the feature side or
+classifier/model side, could be used to judge the effectiveness of the method.
+The use of a single metric CCC permits to track the performance of
+different methods precisely.
+
+Improvements in CCC scores were obtained using different methods described from
+Chapter 4 to Chapter 6. Table \ref{tab:sum_ch7} shows the averaged CCC scores
+among valence, arousal, and dominance using different acoustic features,
+linguistic features, and classifiers on the IEMOCAP dataset. Clearly, it shows
+the gradation of the performance scores (average CCC [$CCC_{ave}$]) from
+unimodal acoustic SER to bimodal acoustic-linguistic SER.
+
+\begin{table}[htbp]
+    \begin{center}
+\caption{Reported results on the IEMOCAP dataset test set (Session 5); the
+number inside bracket represents the number of layers; sil: silence}
+    \begin{tabular}{c c c c}
+    \hline   
+Acoustic & Linguistic & Classifier & $CCC_{avg}$ \\
+\hline \hline   
+GeMAPS LLD & - & LSTM (3) &  0.382 \\
+pAA LLD    & - & LSTM (3) &  0.354 \\
+pAA\_D LLD  & - & LSTM (3) &  0.370 \\
+GeMAPS HSF & - & LSTM (3) &  0.389 \\
+pAA HSF    & - & LSTM (3) &  0.384 \\
+pAA\_D HSF  & - & LSTM (3) &  0.413 \\
+pAA\_D HSF  & - & MLP (6) & 0.452 \\
+pAA\_D HSF sil-removed & -  & MLP (6) & 0.459 \\
+pAA\_D HSF + sil & - & MLP (6) & 0.466 \\
+- & WE &  LSTM (3) &    0.361 \\
+- & word2vec    &   LSTM (3)   &   0.386  \\
+- & GloVe &   LSTM  (3)  &   0.392 \\
+- & FastText &    LSTM  (3)  &   0.384 \\
+- & BERT    &  LSTM (3)    &   0.375 \\
+pAA HSF & GloVe &   LSTM (3) -- LSTM (3) [early fusion]    &   0.508 \\
+pAA\ HSF + sil (HSF2) & Glove & LSTM (3) -- SVM [late fusion]      
+&   0.532 \\
+    \hline
+    \end{tabular}
+    \label{tab:sum_ch7}
+    \end{center}
+\end{table}
+
+The first eight rows in Table \ref{tab:sum_ch7} shows dimensional SER from
+acoustic features only. HSF consistently obtained higher CCC scores than LLD.
+An optimization of this feature set can be achieved using MLP architecture with
+a deeper layer (a maximum score was obtained using five layers). A comparison
+of ignoring (keeping) silence, removing silence, and utilizing silence as an
+additional feature showed that the latter two methods are better than the
+first. Since linguistic-only dimensional SER is not the focus of this study,
+the discussion of linguistic-only dimensional SER is not discussed thoroughly.
+
+
+Instead, the use of linguistic information, in addition to acoustic
+information, improved the performance scores. Using pAA feature set with LSTM
+as the baseline, the early fusion method improved the average CCC score from
+0.400 to 0.508.  Furthermore, the late fusion method improved the early fusion
+method from 0.508 to 0.532. As suggested in the next chapter, there is a
+bottleneck between acoustic and linguistic processing in bimodal SER fusion;
+the process needs to wait for ASR outputs in real application for information
+fusion. However, bimodal fusion consistently gains higher scores than
+acoustic-only SER. Although there is a room for improvement, this study limits
+the discussion to this point since the goal is studying the fuse of acoustic
+and linguistic information for dimensional emotion recognition.  Further
+investigations are recommended in the next chapter's Future research direction
+section. 
+
+
+\section{Comparison with other studies}
+One of the motivations to use the dimensional model over the categorical model
+is that only a little research has been conducted using this emotion model.
+This small number of research leads to the difficulties of comparing this
+research to similar studies. In INTERSPEECH 2020, 11 papers proposed bimodal
+acoustic-linguistic fusion for SER. Among these papers, only four papers
+evaluated dimensional SER.  However, no paper reported the results in CCC
+score.  
+
+Table \ref{tab:compare} compares this research with others. Although the exact
+condition cannot be performed for ideal comparison, the performance of valence
+(V), arousal (A), and dominance (D) in CCC scores can be used to judge the
+rough performance among several methods. The first four rows are the results
+obtained in this study. The rest are from other research with different
+datasets and methods.
+
+The closest comparison can be made between this research and the ones proposed
+by Zhao et al. \cite{Zhao2018a,Zhang2019}. In both papers, the authors proposed
+to fuse acoustic features with gender and age information. Using the other
+non-linguistic information, they improved the CCC scores of dimensional SER
+except for valence prediction. The fusion of acoustic, age, and gender
+information is performed in a hierarchical manner. Since the scenario of the
+IEMOCAP is not explained; it is assumed the results obtained by Zhao et al.
+(rows fifth and sixth) are in speaker-independent (SI) scenarios. In
+\cite{Zhao2019}, the authors copied the parts of the dataset for augmentation or
+balancing, since they also evaluated categorical emotion. The addition of these
+data improved the CCC scores; however, this technique should be avoided since
+the model learns the same data twice.
+
+\begin{table}[htbp]
+    \caption{Comparison of this study with others; SD: speaker-dependent; SI: speaker-independent; Ac: acoustic, Li: linguistic, Vi: visual}
+    \begin{center}
+    \begin{tabular}{p{.3cm} l l c c c c c}
+    \hline
+    No. & Dataset & Authors   &   Modalities    & V     &   A   &   D \\
+    \hline
+    \hline
+    1 & IEMOCAP SD  & Atmaja &  Ac+Li & 0.596 & 0.601 & 0.499 \\
+    2 & IEMOCAP SI  & Atmaja &  Ac+Li & 0.553 & 0.579 & 0.465 \\
+    3 & MSPIN SD    & Atmaja &  Ac+Li & 0.486 & 0.641 & 0.524 \\
+    4 & MSPIN SI    & Atmaja &  Ac+Li & 0.291 & 0.570 & 0.405 \\
+    5 & IEMOCAP     & Zhao et al. \cite{Zhao2018a}  & Ac  & 0.715 & 0.392 & 0.539 \\
+6 & IEMOCAP     & Zhao et al. \cite{Zhao2019}   & Ac & 0.590 & 0.689
+& 0.591 \\
+7 & IEMOCAP (train) \&  & AbdelWahab \&  & Ac  & 0.140	
+& 0.305	& 0.181 \\
+ & MSP-Podcast (test) & Busso \cite{Abdelwahab2018}\\
+8 & MSP-Podcast (train) \&  & Parthasarathy \& & Ac & 0.235	& 0.623	& 0.441 \\
+ & IEMOCAP (test)  & Busso \cite{Parthasarathy2019} \\
+9 & MSP-Podcast SI & Sridhar et al. \cite{Sridhar2018} & Ac  & 
+0.291	& 0.711    & 0.690 \\
+10 & SEMAINE	& Yang \&	& Ac	& 0.506	& 0.680	& - \\
+& & Hirschberg \cite{Yang2018} \\
+11 & RECOLA & Bakhshi et al. \cite{Bakhshi2020} & Ac & 0.314	& 0.660	& - \\
+12 & SEWA (DE)	& Schmitt et al. \cite{Schmitt2018}	& Ac & 0.489 & 0.499 & - \\
+13 & SEWA (DE+HU) & Atmaja \& Akagi \cite{Atmaja2020}	& Ac+Vi	& 0.656	& 
+0.680 & - \\
+14 & SEWA (DE+HU)    & Chen et al. \cite{chen2017multimodal}	& Ac+Vi+Li & 
+0.755 & 0.672 & - \\
+    \hline
+    \end{tabular}
+    \end{center}
+    \label{tab:compare}
+\end{table}
+
+To overcome the problem of mismatch among datasets, AbdelWahab and Busso
+\cite{Abdelwahab2018} proposed domain adversarial neural network (DANN) for
+acoustic emotion recognition. They obtained low CCC scores by using different
+datasets for training and test, as shown in Table (row No.7). These results
+were achieved using three layers of DANN. Parthasarathy
+and Busso \cite{Parthasarathy2019} also took into account the problem of
+generalization across datasets by proposing a semi-supervised method with
+the reconstruction of intermediate feature representation that does not require
+labels. One of the results, using opposite datasets for testing and test as used
+by AbdelWahab and Busso, shows significant improvement on CCC scores. However,
+both research \cite{Abdelwahab2018,Parthasarathy2019} showed low valence
+prediction performance, which is tackled in this study.
+
+Another way to improve valence prediction is by utilizing different
+regularization for different emotion attributes, as proposed by Sridhar et al.
+\cite{Sridhar2018}. However, as shown in row No. 9, the improved valence
+prediction for valence is not comparable to arousal and dominance. In this
+study, we achieve comparable performances among valence, arousal, and
+dominance.  
+
+Using other datasets, SEMAINE and RECOLA, comparable CCC scores were observed
+between the results in these datasets and this study. Yang and Hirschberg
+\cite{Yang2018} combined waveform and spectrogram for predicting valence and
+arousal from speech. Although the results are shown for SEMAINE (row No. 10),
+similar scores were observed for RECOLA. Using similar methods, Bakhshi
+et al. \cite{Bakhshi2020} combined time and frequency information using
+different networks for predicting valence and arousal. In this case, the score
+of valence is about half from that of arousal.
+
+SEWA is another dataset designed for emotion and sentiment research. Using this
+dataset Schmitt et al. \cite{Schmitt2018} revealed the importance of mean and
+standard deviation from GeMAPS feature set for dimensional SER. Significant
+improvements were observed in the German (DE, Deutsch) sub-corpus. Atmaja and
+Akagi \cite{Atmaja2020} added visual features in addition to acoustic features
+to improve CCC scores. Finally, the last row in Table \ref{tab:compare} shows
+that the fusion of acoustic, linguistic, and visual information attained the
+highest average CCC score for dimensional SER.
+
+The proposed methods in this study showed advantages among those other methods.
+First, the bimodal acoustic-linguistic fusion doubles the amount of information
+from the unimodal acoustic analysis. More data improves the effectiveness of
+the SER system since the system can learn from more resources. The results
+proved this hypothesis. Second, there is no need to add other modalities. Since
+linguistic information could also be obtained from speech, the proposed method
+only relies on speech data. Unlike audiovisual emotion recognition and addition
+of age and gender information, additional modalities are needed for the fusion
+method. Third, the fusion approach is performed automatically based on the data
+(bottom-up approach). Although this approach has several disadvantages, the
+implementation is less complicated than model-driven approach and the results
+show modest improvement from other methods. 
+
+Several drawbacks of the evaluated methods have been found during this study. A
+bottleneck between acoustic and linguistic processing is the major shortcoming
+of this study. This drawback triggers a future study to predict linguistic
+information from acoustic information only without the need for the
+transcription.  Another challenge is to reduce the complexity of the proposed
+two-stage processing. In practice, the SER system should be able to recognize
+emotion within a speech in almost real-time. This requirement is difficult to
+be accomplished within the current late fusion approach.
+
+Aside from the comparison among different methods, Table \ref{tab:compare}
+shows other trends in dimensional SER. First, the addition of other
+non-linguistic information significantly improved the performance. This
+significant improvement is the evidence for the existence of the relations
+among non-linguistic information. Second, there is a mismatch among SER
+datasets, which are currently being tackled by SER researchers. This problem is
+a challenging opportunity for testing the proposed SER method for future
+research. Finally, more modalities tend to improve SER performance. However,
+per the stated objective of this study, some cases cannot provide the
+measurement of other modalities. This study is intended to maximize the
+performance of emotion recognition by fusing acoustic and linguistic
+information. The result shows a substantial improvement for dimensional emotion
+recognition from speech.
+
+
+% \begin{table}[htbp]
+%     \caption{Papers presented bimodal speech emotion recognition from acoustic and linguistic information fusion at INTERSPEECH 2020; WA: weighted accuracy, UA: unweighted accuracy; val: valence; aro: arousal}
+%     \centering\begin{tabular}{l c c c c}
+%         \hline
+%         Authors &   Dataset & Emotion model & Fusion type & Results \\
+% \hline 
+% Chen and Zhao \cite{Chen2020}   &   IEMOCAP &  categorical & model &  WA: 71.6\%, UA: 72.6\% \\
+% Liu et al. \cite{Liu2020}   &   IEMOCAP &   categorical & model     &  WA: 72.39\%, UA:
+% 70.08\%\\
+% Khare et al. \cite{Khare2020} & CMU-MOSEI   & categorical & model    &  WA: 66.2\%, F1:
+% 78.4\% \\
+% Lian et al. \cite{Lian2020} & IEMOCAP   &   categorical & feature &   WA: 82:68\% \\
+% Juli\~{a}o et al. \cite{Juli2020}  & USOMS-e  & dimensional & feature &   Val: 61.0\% (UA), Aro:
+% 48.8\% (UA)$^*$\\
+% Yang et al. \cite{Yang2020} & USOMS-e   & dimensional &  decision & Val: 59.0\% (UA), Aro:
+% 54.3\% (UA) \\
+% So\u{g}ancıo\u{g}lu et al. \cite{Sogancoglu2020} & USOMS-e & dimensional &
+% decision & Val: 63.7\% (UA), Aro: 57.5\% (UA)\\
+% Lee et al. \cite{Lee2020a} &  IEMOCAP & categorical & model & WA: 57.9\%, UA:
+% 48.7\% \\
+% Shi et al. \cite{Shi2020}   & IEMOCAP &  dimensional & hierarchical  & Va: 67.12\% (UA),
+% Aro: 46.13\% (UA) \\
+% Khishna and Patil \cite{Krishna2020}    &   IEMOCAP & categorical & model &
+% UA: 72.82\% \\
+% Feng et al. \cite{Feng2020} & IEMOCAP & categorical & model & WA: 68.8\%, UA:
+% 69.7\% \\
+%         \hline
+%     \end{tabular}
+%     \label{tab:interspeech_result}
+% \end{table}

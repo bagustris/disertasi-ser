@@ -3,6 +3,7 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: book.aux
 A level-1 auxiliary file: eabs.aux
 A level-1 auxiliary file: eack.aux
+A level-1 auxiliary file: eabbr.aux
 A level-1 auxiliary file: 1ec.aux
 A level-1 auxiliary file: 2ec.aux
 A level-1 auxiliary file: 3ec.aux
@@ -10,6 +11,7 @@ A level-1 auxiliary file: 4ec.aux
 A level-1 auxiliary file: 5ec.aux
 A level-1 auxiliary file: 6ec.aux
 A level-1 auxiliary file: 7ec.aux
+A level-1 auxiliary file: 8ec.aux
 A level-1 auxiliary file: eref.aux
 The style file: IEEEtran.bst
 A level-1 auxiliary file: epub.aux
@@ -18,52 +20,60 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated field_info (elt_size=4) to 11440 items from 5000.
 Database file #1: ref_s3.bib
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Warning--empty journal in Mohamed2014
+Warning--missing publisher in Zhang2020
+Warning--missing institution in Picard
+Warning--missing institution in Calvo2013
+Warning--missing publisher in Choo2007
+Warning--missing school in Tomas2019
+Warning--missing publisher in IanGoodfellowYoshuaBengio2015
+Warning--empty journal in Tripathi2018a
+Warning--empty journal in Hannun2014
 
 Done.
-You've used 5 entries,
+You've used 140 entries,
             4087 wiz_defined-function locations,
-            866 strings with 8632 characters,
-and the built_in function-call counts, 3851 in all, are:
-= -- 310
-> -- 91
-< -- 29
-+ -- 49
-- -- 17
-* -- 202
-:= -- 619
-add.period$ -- 10
-call.type$ -- 5
-change.case$ -- 5
-chr.to.int$ -- 63
-cite$ -- 6
-duplicate$ -- 265
-empty$ -- 287
-format.name$ -- 19
-if$ -- 865
+            1714 strings with 35406 characters,
+and the built_in function-call counts, 111298 in all, are:
+= -- 8965
+> -- 2725
+< -- 969
++ -- 1485
+- -- 464
+* -- 5370
+:= -- 16450
+add.period$ -- 296
+call.type$ -- 140
+change.case$ -- 134
+chr.to.int$ -- 2277
+cite$ -- 148
+duplicate$ -- 7861
+empty$ -- 8928
+format.name$ -- 574
+if$ -- 26020
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 49
-newline$ -- 46
-num.names$ -- 5
-pop$ -- 113
+int.to.str$ -- 140
+missing$ -- 1397
+newline$ -- 517
+num.names$ -- 140
+pop$ -- 3245
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 290
+skip$ -- 8577
 stack$ -- 0
-substring$ -- 157
-swap$ -- 218
-text.length$ -- 8
+substring$ -- 5444
+swap$ -- 6539
+text.length$ -- 210
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 5
-warning$ -- 1
-while$ -- 18
-width$ -- 6
-write$ -- 80
-(There was 1 warning)
+type$ -- 140
+warning$ -- 8
+while$ -- 532
+width$ -- 143
+write$ -- 1452
+(There were 8 warnings)

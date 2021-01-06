@@ -1,0 +1,160 @@
+\chapter{Conclusions}
+This closing chapter is divided into two sections, General summary and Future
+research directions. Both sections are described below.
+
+\section{General summary}
+This dissertation demonstrates the necessity of fusing acoustic with linguistic
+information for dimensional speech emotion recognition (SER). The results of
+acoustic-only SER showed the necessity to go beyond unimodal acoustic analysis
+only. The two evaluated fusion methods, early and late fusions, confirm the
+effectiveness of fusing acoustic with linguistic information for dimensional
+SER.
+
+Aside from that main goal, three sub-goals were transformed into three
+strategies to investigate the potential solutions of partial
+problems in dimensional SER. These strategies were dimensional SER using
+acoustic information only, fusing acoustic with linguistic at the feature level,
+and fusing acoustic with linguistic information at the decision level. These
+strategies yield answers to the following five issues:
+\begin{enumerate}
+\item region of analysis for feature extractions: high-level statistics (HSFs)
+using mean and standard deviation consistently show more meaningful
+representations for emotion in speech than low-level descriptors (LLD);
+\item effect of silent pause regions: silence regions are predicted to
+contribute in dimensional speech emotion recognition; either removing silence or
+using silence feature as an additional feature slightly improves the
+performance score of the baseline whole speech regions;
+\item low valence prediction score on dimensional SER: fusing linguistic
+information with  acoustic information could improve the performance of valence
+prediction;
+\item the necessity of fusing acoustic with linguistic information: consistent
+and significant performance improvements by fusing both acoustic and linguistic
+information shows the necessity of fusing both pieces of information;
+\item framework for fusing acoustic with linguistic information: the late-fusion
+(decision-level) approach  obtained slightly better performance than an
+early-fusion (feature-level) approach. 
+\end{enumerate}
+
+Furthermore, this research not only contributes to solve these issues. Several
+new insights are also gained including the following findings.
+
+% Acoustic feature aggregation.
+In the first strategy, the research is extended to evaluate the aggregation
+methods for chunks to a story, the many-to-one problem. It is found that input
+feature aggregation, either by mean or maximum values, consistently obtained
+better performance than output aggregation by majority voting. This result
+reveals the importance of statistical functions as feature representation.
+Similarly, the analysis of region for feature extraction showed that
+statistical function on fixed length or utterance could represent emotional
+contents in speech better than frame-based acoustic features.
+
+The second important insight is the importance of correlation-based loss
+function. Since the goal is concordance correlation coefficient (CCC), this
+research is developed by inverting CCC as loss function and then accommodating
+three dimensional emotions by summing up them. This straightforward flow, as
+expected, improved the performance of dimensional SER.
+
+Speaker independent scenario is different from speaker dependent scenario. The
+results in Chapter 6 reveal this finding. The significant different between
+speaker dependent and speaker independent should guide the future research on
+SER to choose speaker independent scenario for evaluating the model. Speaker
+independent scenario may be not enough. The repetition of linguistic information
+(word or phrase) may make the model shows the higher performance than its
+original performance. A SER model should be able to recognize emotion from
+speech regardless the speaker information.
+
+The previous research showed the strong correlation between linguistic
+information and valence, acoustic information and arousal. This research adds
+the finding of strong correlation between acoustic and dominance. However,
+adding more information, i.e., linguistic information, not only improves the
+prediction of valence, but also arousal and dominance. The contribution from
+each modality to each dimensional emotion is worth to study for future,
+particularly on psychological side. The cross relation between different
+modalities and dimensional emotions should also be studied from neuroscience
+side.
+
+Although several solutions have been proposed and several insights have been
+gained, it is known that current understanding on dimensional emotion is
+limited. Fusing acoustic with linguistic information may reflect how humans'
+multimodal perception works. However, extracting the ``real'' emotion from
+speech measurement is a long journey research. As stated in the philosophy of
+this research, it is impossible to reach perfect accuracy to recognize human
+emotion. The possibility is to maximize the recognition rate from the given
+information, acoustic and linguistic.
+
+\section{Future research directions}
+While this research contributes to several areas, the following issues are
+suggested for future research on automatic speech emotion recognition based on
+this study.
+
+\subsubsection{Accelerating high-level feature extraction for  
+speech emotion recognition} In this research, it was found that HSF
+consistently obtained higher performance score than LLD. However, to obtain
+HSF, LLD must be extracted first. In practice, this is not an efficient method.
+A strategy to avoid this time lag should be proposed. For instance, dividing
+frames into chunks and aggregating these HSF (as evaluated in Chapter 4). The
+computation time must be considered apart from the performance score.
+
+\subsubsection{Bimodal late-fusion approach by output aggregation}
+In chapter four, it was found that input aggregation is better than output
+aggregation by majority voting. The goal of the input aggregation for the
+acoustic features is to be able to concatenate with linguistic features. The
+acoustic and linguistic information can be processed separately through
+different classifiers. The output prediction by both modalities can be fused by
+output aggregation methods such as majority voting. Since a late fusion showed
+a better performance than an early fusion, the obtained score may improve the
+previously reported score in bimodal feature concatenation (Chapter 4).
+
+\subsubsection{Bimodal acoustic-linguistic fusion by two spaces resultant}
+In this research, the best results were obtained by late fusion with SVM. It
+means that the decision function is taken automatically by measuring the
+distance of the prediction from support vector line. In Chapter 5, the
+optimization has been performed to find the optimum parameters for $\alpha,
+~\beta$, and $\gamma$. Instead of concatenating models for finding optimum
+parameters, two spaces (acoustic and linguistic) can be modeled
+statistically/mathematically. Another approach is by a late fusion. Each
+acoustic and linguistic model will predict vector of valence, arousal, and
+dominance.  The fusion decision can be taken by adding both vectors from the
+same space (e.g., dominance space from acoustic and linguistic) by some
+weightings or modifications, if necessary. 
+
+
+\subsubsection{Lexical controlled vs. lexical uncontrolled emotion recognition}
+While this study performed an evaluation on parts of MSP-IMPROV datasets, it
+was found that these parts of the dataset (lexical uncontrolled) has been
+influenced by other parts (lexical controlled). This proposal will evaluate the
+necessity of linguistic information for SER: does linguistic information always
+be needed for SER? In some cases, linguistic information may not be needed
+(e.g., in the condition in which the intonation to express the emotion is clear
+in short utterance). The trade-off between the performance improvement and
+model complexities should be carried out to judge ``when is linguistic
+information needed?," ``in what condition?," and ``what is the cues to use
+linguistic information?.''
+
+\subsubsection{Bottleneck between acoustic and linguistic processing}
+The goal of engineering research is to advance technology for humanity in
+practice. While this study focuses on a proof-of-concept of fusing acoustic
+and linguistic information for emotion recognition, the real problem may appear
+on its implementation. One of the spotted problems is the bottleneck between
+acoustic and linguistic processing.  Acoustic features can be extracted
+directly from speech, while linguistic information must wait for ASR output in
+practice. This processing  time difference will make the (emotion recognition)
+system occupies a longer time if no strategies are proposed to minimize this
+bottleneck.
+
+\subsubsection{Model generalization}
+A common view in emotion recognition has been challenged, particularly based on
+facial expression. The weak evidence and model-specific results have raised the
+need for a generalization for automatic emotion recognition. The models and
+their results reported here can be applied to other datasets. For instance, to
+check the consistency of efficient high-level features, removing silence for
+feature extraction, and comparing early fusion to late fusion approaches. While
+this research evaluated English, an extension to other languages should be made
+within the minimum effort since many linguistic models for these languages are
+available. The solution to the problem appeared in these multilingual
+approaches, for instance, ``when is the linguistic information needed?,''
+should be evaluated in future research.
+
+% \newpage
+% \thispagestyle{empty}
+% \mbox{}

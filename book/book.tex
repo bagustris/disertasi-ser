@@ -1,36 +1,84 @@
-\documentclass[12pt, a4paper]{report}
+\documentclass[12pt,openright,a4paper]{report}
+% \makeatletter\@twosidetrue\makeatother
 
 \usepackage{jaist-e-doctor}
 \usepackage[dvipdfmx]{graphicx}
 \usepackage{url}
 \usepackage{pdfpages}   % for using pdf as image
-
-\usepackage[hidelinks]{hyperref}
+\usepackage{nomencl}
+% \usepackage{fontspec}
+% \usepackage[utf8]{inputenc} % for breve accent?
+% \usepackage[T1]{fontenc}
 % \usepackage{biblatex}
+% \usepackage{caption} 
+% \captionsetup[table]{skip=10pt} % to make space between caption and Table
+
+\usepackage{fancyhdr} % to show header (chapter, section)
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[LO,LE]{\leftmark}
+\fancyfoot{}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,CE]{\small{\emph{\rightmark}}}
+
+% make single image/table in the top page
+% \makeatletter% Set distance from top of page to first float
+% \setlength{\@fptop}{5pt}
+% \makeatother
+
+% to make transparent font color using \mybox
+\usepackage[most]{tcolorbox}
+\newtcbox{\mybox}{blank, on line, opacitytext=0.5}
+
+% must be in the last
+\usepackage[hidelinks]{hyperref}
 
 \title{% Write title of your thesis 
 Dimensional Speech Emotion Recognition by Fusing Acoustic and Linguistic Information}
 \author{Bagus Tris Atmaja}
 \school{Graduate School of Advanced Science and Technology}
 \adviser{Professor Masato Akagi}
-\date{\textit{Information Science} \\ \today}
+\date{\textit{Information Science} \\ March 2021}
 
 \begin{document}
 \maketitle
 
+% \newpage
+% \thispagestyle{empty}
+% \mbox{}
+
 \pagenumbering{roman}  % Show page number in ROMAN 
-\setcounter{page}{1}
+\setcounter{page}{2}
 
 \include{eabs}
+% \newpage
+% \thispagestyle{empty}
+% \mbox{}
+
 \include{eack}
+% \newpage
+% \thispagestyle{empty}
+% \mbox{}
 
 \tableofcontents
-\listoffigures
-\listoftables
-\newpage
-\pagenumbering{arabic}
-\setcounter{page}{1}
+% \newpage
+% \thispagestyle{empty}
+\mbox{}
 
+\listoffigures
+% \newpage
+% \thispagestyle{empty}
+% \mbox{}
+
+\listoftables
+
+\include{eabbr}
+% \newpage
+% \include{enot}
+
+\newpage
+\pagenumbering{arabic}  % Show page number in Arabic
+\setcounter{page}{1}
 \include{1ec}
 \include{2ec}
 \include{3ec}
@@ -38,7 +86,13 @@ Dimensional Speech Emotion Recognition by Fusing Acoustic and Linguistic Informa
 \include{5ec}
 \include{6ec}
 \include{7ec}
+\include{8ec}
 \include{eref}
+
+% \newpage
+% \thispagestyle{empty}
+% \mbox{}
+
 \include{epub}
 
 \end{document}

@@ -1,0 +1,43 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Number of instances and chunks in each partition USOMS-e dataset}}{28}{table.3.1}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Acoustic feature sets: GeMAPS \cite {Eyben} and pyAudioAnalysis \cite {Giannakopoulos2015}. The numbers in parentheses indicate the total numbers of features (LLDs).}}{34}{table.4.1}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Results of frame-based LLDs for dimensional SER in IEMOCAP dataset}}{35}{table.4.2}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Results of utterance-based HSF for dimensional SER in IEMOCAP dataset}}{36}{table.4.3}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Number of layer and corresponding units on each layer}}{37}{table.4.4}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Average CCC score on IEMOCAP dataset using different classifiers and number of layers (features: pAA\_D)}}{37}{table.4.5}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Average CCC score on MSP-IMPROV dataset using different classifiers and number of layers (features: pAA\_D)}}{37}{table.4.6}
+\contentsline {table}{\numberline {4.7}{\ignorespaces Result of using different duration and threshold factor for removing silence on IEMOCAP dataset; bold-typed scores indicate a higher value than baseline.}}{40}{table.4.7}
+\contentsline {table}{\numberline {4.8}{\ignorespaces Result of using different duration and threshold factor for removing silence on MSP-IMPROV dataset; bold-typed scores indicate a higher value than baseline.}}{40}{table.4.8}
+\contentsline {table}{\numberline {4.9}{\ignorespaces Result of using silence as an additional feature on pAA feature set on IEMOCAP dataset; bold-typed scores indicate a higher mean value than baseline.}}{43}{table.4.9}
+\contentsline {table}{\numberline {4.10}{\ignorespaces Result of using silence as an additional feature on pAA feature set on MSP-IMPROV dataset; bold-typed scores indicate a higher mean value than baseline.}}{43}{table.4.10}
+\contentsline {table}{\numberline {4.11}{\ignorespaces Comparison of three conditions for investigating the effect of silence in dimensional SER}}{44}{table.4.11}
+\contentsline {table}{\numberline {4.12}{\ignorespaces UAR results on development set: unimodal acoustic feature aggregation vs. baseline \cite {Schuller} (INTERSPEECH 2020 ComParE Elderly Emotion Sub-Challenge dataset)}}{46}{table.4.12}
+\contentsline {table}{\numberline {4.13}{\ignorespaces Summary of study on dimensional SER using acoustic features}}{47}{table.4.13}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces CCC score results on the acoustic networks}}{53}{table.5.1}
+\contentsline {table}{\numberline {5.2}{\ignorespaces CCC score results on the linguistic networks}}{54}{table.5.2}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Results of bimodal feature fusion (without parameters) by concatenating the acoustic and linguistic networks; each modality used either an LSTM, CNN, or dense network; batch size = 8}}{55}{table.5.3}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Results of MTL with and without parameters for bimodal feature fusion (LSTM+LSTM); batch size = 256}}{56}{table.5.4}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Evaluation results on emotion recognition using linguistic information from ASR outputs}}{60}{table.5.5}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Evaluation results on emotion recognition using acoustic and linguistic information from ASR outputs}}{60}{table.5.6}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Evaluation of different word embeddings' dimensions}}{61}{table.5.7}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Result of bimodal valence and arousal prediction on development and test partition: official baselines vs. proposed method}}{62}{table.5.8}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Acoustic feature sets derived from the GeMAPS features by \cite {Eyben} and the statistical functions used for dimensional SER in this research}}{66}{table.6.1}
+\contentsline {table}{\numberline {6.2}{\ignorespaces The hyper-parameter used in experiments}}{68}{table.6.2}
+\contentsline {table}{\numberline {6.3}{\ignorespaces CCC score results of dimensional emotion recognition using an acoustic network. The best results on the test set are in bold. LLDs: low-level descriptors from GeMAPS \cite {Eyben}; HSF1: Mean+Std of LLDs; HSF2: Mean+Std+Silence}}{71}{table.6.3}
+\contentsline {table}{\numberline {6.4}{\ignorespaces CCC score results of dimensional emotion recognition using linguistic network; each score is an averaged score of 20 runs with its standard deviation. WE: word embeddings; word2vec: WE weighted by pre-trained word vectors \cite {Mikolov}; GloVe: WE weighted by pre-trained global vectors \cite {Pennington2014}}}{71}{table.6.4}
+\contentsline {table}{\numberline {6.5}{\ignorespaces Optimal parameters for multitask learning}}{72}{table.6.5}
+\contentsline {table}{\numberline {6.6}{\ignorespaces CCC score results of the late-fusion SVM on the IEMOCAP-SD test set}}{73}{table.6.6}
+\contentsline {table}{\numberline {6.7}{\ignorespaces CCC score results of the late-fusion SVM on the MSPIN-SD dataset}}{73}{table.6.7}
+\contentsline {table}{\numberline {6.8}{\ignorespaces CCC score results of the late-fusion SVM on the IEMOCAP-LOSO test set}}{73}{table.6.8}
+\contentsline {table}{\numberline {6.9}{\ignorespaces CCC score results of the late-fusion SVM on the MSPIN-LOSO test set}}{74}{table.6.9}
+\contentsline {table}{\numberline {6.10}{\ignorespaces Statistics of relative improvement by late fusion using an SVM as compared to the highest scores for a single modality across datasets; the scores were extracted from the data shown in Figure \ref {fig:relative-improvement}.}}{76}{table.6.10}
+\contentsline {table}{\numberline {6.11}{\ignorespaces Significant difference between speaker-dependent and speaker-independent scenarios on the same linguistic feature set; statistical tests were performed using two-tail paired $t-$test with $p-$value = 0.05.}}{76}{table.6.11}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Reported results on the IEMOCAP dataset test set (Session 5); the number inside bracket represents the number of layers; sil: silence}}{80}{table.7.1}
+\contentsline {table}{\numberline {7.2}{\ignorespaces Comparison of this study with others; SD: speaker-dependent; SI: speaker-independent; Ac: acoustic, Li: linguistic, Vi: visual}}{81}{table.7.2}
+\addvspace {10\p@ }

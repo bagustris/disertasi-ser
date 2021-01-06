@@ -1,16 +1,96 @@
 \relax 
 \providecommand\hyper@newdestlabel[2]{}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Fusing Acoustic and Linguistic Information at Feature Level}{10}{chapter.5}}
+\citation{IanGoodfellowYoshuaBengio2015}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Fusing Acoustic and Linguistic Information at Feature Level}{49}{chapter.5}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Early fusion by features concatenation}{10}{section.5.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Early fusion by network concatenation}{10}{section.5.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Comparing ASR Outputs with Manual Transcription}{10}{section.5.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.4}Summary}{10}{section.5.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Extracting linguistic information}{49}{section.5.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}Word embeddings}{49}{subsection.5.1.1}}
+\citation{Mikolov}
+\citation{Pennington2014}
+\citation{Mikolov2019}
+\citation{Mikolov}
+\citation{Mikolov}
+\citation{Mikolov}
+\citation{Mikolov}
+\citation{Mikolov}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Two architectures of word2vec: (a) CBOW and (b) skip-gram \cite  {Mikolov}}}{50}{figure.5.1}}
+\newlabel{fig:word2vec}{{5.1}{50}{Two architectures of word2vec: (a) CBOW and (b) skip-gram \cite {Mikolov}}{figure.5.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}Pre-trained word embeddings}{50}{subsection.5.1.2}}
+\newlabel{eq:skipgram}{{5.1}{50}{Pre-trained word embeddings}{equation.5.1.1}{}}
+\citation{Pennington2014}
+\citation{Mikolov2019}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces Illustration of GloVe representation}}{51}{figure.5.2}}
+\newlabel{fig:glove}{{5.2}{51}{Illustration of GloVe representation}{figure.5.2}{}}
+\newlabel{eq:glove}{{5.2}{51}{Pre-trained word embeddings}{equation.5.1.2}{}}
+\citation{Devlin2018}
+\newlabel{eq:fastext}{{5.3}{52}{Pre-trained word embeddings}{equation.5.1.3}{}}
+\newlabel{eq:subword}{{5.4}{52}{Pre-trained word embeddings}{equation.5.1.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.3}CCC loss function}{52}{subsection.5.1.3}}
+\citation{Gunes2010}
+\citation{parthasarathy2017jointly}
+\newlabel{eq:mtl}{{5.6}{53}{CCC loss function}{equation.5.1.6}{}}
+\newlabel{eq:mtl-2}{{5.7}{53}{CCC loss function}{equation.5.1.7}{}}
+\newlabel{eq:mtl-3}{{5.8}{53}{CCC loss function}{equation.5.1.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Early fusion by networks concatenation}{53}{section.5.2}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces CCC score results on the acoustic networks}}{54}{table.5.1}}
+\newlabel{tab:acoustic-result}{{5.1}{54}{CCC score results on the acoustic networks}{table.5.1}{}}
+\citation{Schmitt2019}
+\@writefile{lot}{\contentsline {table}{\numberline {5.2}{\ignorespaces CCC score results on the linguistic networks}}{55}{table.5.2}}
+\newlabel{tab:text-result}{{5.2}{55}{CCC score results on the linguistic networks}{table.5.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.1}Results on bimodal feature fusion}{55}{subsection.5.2.1}}
+\@writefile{toc}{\contentsline {subsubsection}{Performance of bimodal networks}{55}{section*.7}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.3}{\ignorespaces Results of bimodal feature fusion (without parameters) by concatenating the acoustic and linguistic networks; each modality used either an LSTM, CNN, or dense network; batch size = 8}}{56}{table.5.3}}
+\newlabel{tab:bimodal-result}{{5.3}{56}{Results of bimodal feature fusion (without parameters) by concatenating the acoustic and linguistic networks; each modality used either an LSTM, CNN, or dense network; batch size = 8}{table.5.3}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Evaluation of MTL with weighting factors}{56}{section*.8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces Surface plot of different $\alpha $ and $\beta $ factors for MTL with two parameters; the best mean CCC score of 0.51 was obtained using $\alpha =0.7$ and $\beta =0.2$; both factors were searched simultaneously/dependently.}}{57}{figure.5.3}}
+\newlabel{fig:ccc_2-params}{{5.3}{57}{Surface plot of different $\alpha $ and $\beta $ factors for MTL with two parameters; the best mean CCC score of 0.51 was obtained using $\alpha =0.7$ and $\beta =0.2$; both factors were searched simultaneously/dependently}{figure.5.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.4}{\ignorespaces Results of MTL with and without parameters for bimodal feature fusion (LSTM+LSTM); batch size = 256}}{57}{table.5.4}}
+\newlabel{tab:mtl-result}{{5.4}{57}{Results of MTL with and without parameters for bimodal feature fusion (LSTM+LSTM); batch size = 256}{table.5.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.4}{\ignorespaces CCC scores for MTL with three parameters, obtained to find the optimal weighting factors; a linear search was performed independently on each parameter; the best weighting factors for the three parameters were $\alpha =0.9$, $\beta =0.9$ and $\gamma =0.2$.}}{58}{figure.5.4}}
+\newlabel{fig:ccc_3-params}{{5.4}{58}{CCC scores for MTL with three parameters, obtained to find the optimal weighting factors; a linear search was performed independently on each parameter; the best weighting factors for the three parameters were $\alpha =0.9$, $\beta =0.9$ and $\gamma =0.2$}{figure.5.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{Evaluation of dropout for different modalities}{58}{section*.9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2.2}Discussion in terms of categorical emotions}{58}{subsection.5.2.2}}
+\citation{Atmaja2019b}
+\citation{Tripathi2018a}
+\citation{Yoon2019}
+\citation{Sahu2019}
+\citation{Aldeneh2017}
+\citation{chen2017multimodal}
+\citation{Eyben2010}
+\citation{Karadogan2012}
+\citation{Russell1980a}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.5}{\ignorespaces Analysis of dropout rates applied to the acoustic and linguistic networks before concatenating them; the dropout rates were applied independently to either network while keeping a fixed rate for the other network.}}{59}{figure.5.5}}
+\newlabel{fig:dropout}{{5.5}{59}{Analysis of dropout rates applied to the acoustic and linguistic networks before concatenating them; the dropout rates were applied independently to either network while keeping a fixed rate for the other network}{figure.5.5}{}}
+\citation{DeepSpeech2019}
+\citation{Hannun2014}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Dimensional SER with ASR outputs}{60}{section.5.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.6}{\ignorespaces SER architecture by fusing acoustic and linguistic features from ASR outputs}}{60}{figure.5.6}}
+\newlabel{fig:ser_asr}{{5.6}{60}{SER architecture by fusing acoustic and linguistic features from ASR outputs}{figure.5.6}{}}
+\citation{Schuller}
+\@writefile{lot}{\contentsline {table}{\numberline {5.5}{\ignorespaces Evaluation results on emotion recognition using linguistic information from ASR outputs}}{61}{table.5.5}}
+\newlabel{tab:ter_asr}{{5.5}{61}{Evaluation results on emotion recognition using linguistic information from ASR outputs}{table.5.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.6}{\ignorespaces Evaluation results on emotion recognition using acoustic and linguistic information from ASR outputs}}{61}{table.5.6}}
+\newlabel{tab:serter_asr}{{5.6}{61}{Evaluation results on emotion recognition using acoustic and linguistic information from ASR outputs}{table.5.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Effect of word embeddings' dimension}{61}{subsection.5.3.1}}
+\citation{scikit-learn}
+\citation{Lemaitre2017}
+\@writefile{lot}{\contentsline {table}{\numberline {5.7}{\ignorespaces Evaluation of different word embeddings' dimensions}}{62}{table.5.7}}
+\newlabel{tab:ter_we_dim}{{5.7}{62}{Evaluation of different word embeddings' dimensions}{table.5.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.7}{\ignorespaces Acoustic-linguistic feature concatenation with SVM}}{62}{figure.5.7}}
+\newlabel{fig:feature_fusion}{{5.7}{62}{Acoustic-linguistic feature concatenation with SVM}{figure.5.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Early fusion by network concatenation}{62}{section.5.4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.1}Bimodal acoustic-linguistic feature fusion}{62}{subsection.5.4.1}}
+\citation{Schuller}
+\citation{Schuller}
+\@writefile{lot}{\contentsline {table}{\numberline {5.8}{\ignorespaces Result of bimodal valence and arousal prediction on development and test partition: official baselines vs. proposed method}}{63}{table.5.8}}
+\newlabel{tab:bimodal_result}{{5.8}{63}{Result of bimodal valence and arousal prediction on development and test partition: official baselines vs. proposed method}{table.5.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4.2}Feature concatenation results}{63}{subsection.5.4.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.5}Summary}{63}{section.5.5}}
 \@setckpt{5ec}{
-\setcounter{page}{11}
-\setcounter{equation}{0}
-\setcounter{enumi}{0}
+\setcounter{page}{65}
+\setcounter{equation}{8}
+\setcounter{enumi}{3}
 \setcounter{enumii}{0}
 \setcounter{enumiii}{0}
 \setcounter{enumiv}{0}
@@ -18,17 +98,26 @@
 \setcounter{mpfootnote}{0}
 \setcounter{part}{0}
 \setcounter{chapter}{5}
-\setcounter{section}{4}
+\setcounter{section}{5}
 \setcounter{subsection}{0}
 \setcounter{subsubsection}{0}
 \setcounter{paragraph}{0}
 \setcounter{subparagraph}{0}
-\setcounter{figure}{0}
-\setcounter{table}{0}
+\setcounter{figure}{7}
+\setcounter{table}{8}
 \setcounter{AM@survey}{0}
-\setcounter{Item}{0}
+\setcounter{tcbbreakpart}{1}
+\setcounter{tcblayer}{0}
+\setcounter{tcbrastercolumn}{0}
+\setcounter{tcbrasterrow}{0}
+\setcounter{tcbraster}{0}
+\setcounter{parentequation}{0}
+\setcounter{lstnumber}{1}
+\setcounter{tcblisting}{0}
+\setcounter{Item}{6}
 \setcounter{Hfootnote}{0}
-\setcounter{bookmark@seq@number}{33}
+\setcounter{bookmark@seq@number}{62}
+\setcounter{lstlisting}{0}
 \setcounter{section@level}{1}
 \setcounter{theo}{0}
 \setcounter{lemma}{0}
