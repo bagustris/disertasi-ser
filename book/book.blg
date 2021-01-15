@@ -31,49 +31,47 @@ Warning--missing institution in Calvo2013
 Warning--missing publisher in Choo2007
 Warning--missing school in Tomas2019
 Warning--missing publisher in IanGoodfellowYoshuaBengio2015
-Warning--empty journal in Tripathi2018a
-Warning--empty journal in Hannun2014
 
 Done.
 You've used 140 entries,
             4087 wiz_defined-function locations,
-            1714 strings with 35406 characters,
-and the built_in function-call counts, 111298 in all, are:
-= -- 8965
-> -- 2725
-< -- 969
-+ -- 1485
+            1735 strings with 35906 characters,
+and the built_in function-call counts, 115775 in all, are:
+= -- 9311
+> -- 2778
+< -- 1031
++ -- 1528
 - -- 464
-* -- 5370
-:= -- 16450
-add.period$ -- 296
+* -- 5646
+:= -- 16984
+add.period$ -- 308
 call.type$ -- 140
 change.case$ -- 134
-chr.to.int$ -- 2277
-cite$ -- 148
-duplicate$ -- 7861
-empty$ -- 8928
+chr.to.int$ -- 2436
+cite$ -- 146
+duplicate$ -- 8122
+empty$ -- 9334
 format.name$ -- 574
-if$ -- 26020
+if$ -- 27111
 int.to.chr$ -- 0
 int.to.str$ -- 140
-missing$ -- 1397
-newline$ -- 517
+missing$ -- 1449
+newline$ -- 543
 num.names$ -- 140
-pop$ -- 3245
+pop$ -- 3355
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 8577
+skip$ -- 8869
 stack$ -- 0
-substring$ -- 5444
-swap$ -- 6539
-text.length$ -- 210
+substring$ -- 5820
+swap$ -- 6839
+text.length$ -- 219
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 140
-warning$ -- 8
-while$ -- 532
+warning$ -- 6
+while$ -- 556
 width$ -- 143
-write$ -- 1452
-(There were 8 warnings)
+write$ -- 1501
+(There were 6 warnings)

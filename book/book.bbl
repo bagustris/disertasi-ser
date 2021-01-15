@@ -22,10 +22,10 @@
 \BIBdecl
 
 \bibitem{Posner2005}
-J.~Posner, J.~A. Russell, and B.~S. Peterson, ``{The circumplex model of
-  affect: An integrative approach to affective neuroscience, cognitive
-  development, and psychopathology},'' \emph{Dev. Psychopathol.}, vol.~17,
-  no.~3, pp. 715--734, 2005.
+J.~Posner, J.~A. Russel, and B.~S. Peterson, ``{The circumplex model of affect:
+  An integrative approach to affective neuroscience, cognitive development, and
+  psychopathology},'' \emph{Dev. Psychopathol.}, vol.~17, no.~03, pp. 715--734,
+  sep 2005.
 
 \bibitem{Zhang2020}
 A.~Zhang, Z.~C. Lipton, M.~Li, and A.~J. Smola, \emph{{Dive into Deep
@@ -53,9 +53,10 @@ T.~Giannakopoulos, ``{pyAudioAnalysis: An open-source python library for audio
 \bibitem{Schuller}
 B.~W. Schuller, A.~Batliner, C.~Bergler, E.-M. Messner, A.~Hamilton,
   S.~Amiriparian, A.~Baird, G.~Rizos, M.~Schmitt, L.~Stappen, H.~Baumeister,
-  A.~D. Macintyre, and S.~Hantke, ``{The INTERSPEECH 2020 Computational
+  A.~D. MacIntyre, and S.~Hantke, ``{The INTERSPEECH 2020 Computational
   Paralinguistics Challenge: Elderly Emotion, Breathing {\&} Masks},'' in
-  \emph{INTERSPEECH}, 2020, pp. 2042--2046.
+  \emph{Interspeech 2020}.\hskip 1em plus 0.5em minus 0.4em\relax ISCA: ISCA,
+  oct 2020, pp. 2042--2046.
 
 \bibitem{Pennington2014}
 J.~Pennington, R.~Socher, and C.~D. Manning, ``{GloVe: Global Vectors for Word
@@ -63,10 +64,7 @@ J.~Pennington, R.~Socher, and C.~D. Manning, ``{GloVe: Global Vectors for Word
   pp. 1532--1543.
 
 \bibitem{Picard}
-\BIBentryALTinterwordspacing
-R.~W. Picard, ``{Affective Computing},'' Tech. Rep., 1995. [Online]. Available:
-  \url{http://www.media.mit.edu/˜picard/}
-\BIBentrySTDinterwordspacing
+R.~W. Picard, ``{Affective Computing},'' Tech. Rep., 1995.
 
 \bibitem{Kotz2011}
 \BIBentryALTinterwordspacing
@@ -98,7 +96,7 @@ B.~T. Atmaja and M.~Akagi, ``{Speech Emotion Recognition Based on Speech
 \bibitem{Atmaja2020f}
 ------, ``{The Effect of Silence Feature in Dimensional Speech Emotion
   Recognition},'' in \emph{10th Int. Conf. Speech Prosody 2020}, no. May.\hskip
-  1em plus 0.5em minus 0.4em\relax ISCA: ISCA, may 2020, pp. 26--30.
+  1em plus 0.5em minus 0.4em\relax ISCA, may 2020, pp. 26--30.
 
 \bibitem{Atmaja2020d}
 ------, ``{Dimensional speech emotion recognition from speech features and word
@@ -106,25 +104,40 @@ B.~T. Atmaja and M.~Akagi, ``{Speech Emotion Recognition Based on Speech
   Process.}, vol.~9, no. May, p. e17, may 2020.
 
 \bibitem{Atmaja2020h}
+\BIBentryALTinterwordspacing
 B.~T. Atmaja, Y.~Hamada, and M.~Akagi, ``{Predicting Valence and Arousal by
   Aggregating Acoustic Features for Acoustic-Linguistic Information Fusion},''
-  in \emph{TENCON}, 2020.
+  in \emph{2020 IEEE Reg. 10 Conf.}\hskip 1em plus 0.5em minus 0.4em\relax
+  IEEE, nov 2020, pp. 1081--1085. [Online]. Available:
+  \url{https://ieeexplore.ieee.org/document/9293899/}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Atmaja2020j}
+\BIBentryALTinterwordspacing
 B.~T. Atmaja and M.~Akagi, ``{On The Differences Between Song and Speech
   Emotion Recognition: Effect of Feature Sets, Feature Types, and
-  Classifiers},'' \emph{TENCON}, 2020.
+  Classifiers},'' in \emph{2020 IEEE Reg. 10 Conf.}\hskip 1em plus 0.5em minus
+  0.4em\relax IEEE, nov 2020, pp. 968--972. [Online]. Available:
+  \url{https://ieeexplore.ieee.org/document/9293852/}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Atmaja2019b}
+\BIBentryALTinterwordspacing
 B.~T. Atmaja, K.~Shirai, and M.~Akagi, ``{Speech Emotion Recognition Using
   Speech Feature and Word Embedding},'' in \emph{2019 Asia-Pacific Signal Inf.
-  Process. Assoc. Annu. Summit Conf. (APSIPA ASC)}, Lanzhou, 2019, pp.
-  519----523.
+  Process. Assoc. Annu. Summit Conf. (APSIPA ASC)}.\hskip 1em plus 0.5em minus
+  0.4em\relax Lanzhou: IEEE, nov 2019, pp. 519--523. [Online]. Available:
+  \url{https://ieeexplore.ieee.org/document/9023098/}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Atmaja2020e}
+\BIBentryALTinterwordspacing
 B.~T. Atmaja and M.~Akagi, ``{Improving Valence Prediction in Dimensional
-  Speech Emotion Recognition Using Linguistic Information},'' in \emph{Orient.
-  COCOSDA}, 2020, pp. 166--171.
+  Speech Emotion Recognition Using Linguistic Information},'' in \emph{2020
+  23rd Conf. Orient. COCOSDA Int. Comm. Co-ord. Stand. Speech Databases Assess.
+  Tech.}\hskip 1em plus 0.5em minus 0.4em\relax IEEE, nov 2020, pp. 166--171.
+  [Online]. Available: \url{https://ieeexplore.ieee.org/document/9295032/}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Atmaja2020}
 \BIBentryALTinterwordspacing
@@ -138,7 +151,7 @@ B.~T. Atmaja and M.~Akagi, ``{Improving Valence Prediction in Dimensional
 \bibitem{Elbarougy2020}
 R.~Elbarougy, B.~T. Atmaja, and M.~Akagi, ``{Continuous Audiovisual Emotion
   Recognition Using Feature Selection and LSTM},'' \emph{J. Signal Process.},
-  vol.~24, no.~6, 2020.
+  vol.~24, no.~6, pp. 229--235, nov 2020.
 
 \bibitem{Atmaja2020k}
 B.~T. Atmaja and M.~Akagi, ``{Deep Multilayer Perceptrons for Dimensional
@@ -146,14 +159,14 @@ B.~T. Atmaja and M.~Akagi, ``{Deep Multilayer Perceptrons for Dimensional
 
 \bibitem{Atmaja2019c}
 B.~T. Atmaja, K.~Shirai, and M.~Akagi, ``{Deep Learning-based Categorical and
-  Dimensional Emotion Recognition for Written and Spoken Text},'' \emph{IPTEK
-  J. Proc. Ser.}, 2019.
+  Dimensional Emotion Recognition for Written and Spoken Text},'' in
+  \emph{IPTEK J. Proc. Ser.}, 2019.
 
 \bibitem{Atmaja2020b}
 \BIBentryALTinterwordspacing
 B.~T. Atmaja and M.~Akagi, ``{Evaluation of Error and Correlation-Based Loss
   Functions For Multitask Learning Dimensional Speech Emotion Recognition},''
-  \emph{Annu. Conf. Acoust. Vib.}, mar 2020. [Online]. Available:
+  in \emph{Annu. Conf. Acoust. Vib.}, mar 2020. [Online]. Available:
   \url{http://arxiv.org/abs/2003.10724}
 \BIBentrySTDinterwordspacing
 
@@ -180,7 +193,7 @@ V.~A. Petrushin, ``{Emotion In Speech: Recognition And Application To Call
 \bibitem{Burkhardt2005}
 \BIBentryALTinterwordspacing
 F.~Burkhardt, A.~Paeschke, M.~Rolfes, W.~Sendlmeier, and B.~Weiss, ``{A
-  database of German emotional speech},'' in \emph{INTERSPEECH}, 2005, pp.
+  database of German emotional speech},'' in \emph{Interspeech 2005}, 2005, pp.
   1517--1520. [Online]. Available:
   \url{http://www.expressive-speech.net/emodb/}
 \BIBentrySTDinterwordspacing
@@ -200,13 +213,6 @@ C.~Busso, S.~Parthasarathy, A.~Burmania, M.~AbdelWahab, N.~Sadoughi, and E.~M.
 \bibitem{Livingstone2018}
 S.~Livingstone and F.~Russo, ``{The Ryerson Audio-Visual Database of Emotional
   Speech and Song (RAVDESS)},'' \emph{PLoS One}, pp. 1--35, 2018.
-
-\bibitem{Vincent2019}
-\BIBentryALTinterwordspacing
-J.~Vincent, ``{AI ‘EMOTION RECOGNITION' CAN'T BE TRUSTED},'' 2019. [Online].
-  Available:
-  \url{https://www.theverge.com/2019/7/25/8929793/emotion-recognition-analysis-ai-machine-learning-facial-expression-review}
-\BIBentrySTDinterwordspacing
 
 \bibitem{Barrett2019}
 L.~F. Barrett, R.~Adolphs, S.~Marsella, A.~M. Martinez, and S.~D. Pollak,
@@ -251,8 +257,7 @@ B.~Schuller, G.~Rigoll, and M.~Lang, ``{Speech emotion recognition combining
 \bibitem{Schullera}
 B.~Schuller, R.~M{\"{u}}ller, M.~Lang, and G.~Rigoll, ``{Speaker Independent
   Emotion Recognition by Early Fusion of Acoustic and Linguistic Features
-  within Ensembles},'' in \emph{Ninth Eur. Conf. Speech Commun. Technol.},
-  2005.
+  within Ensembles},'' in \emph{Interspeech 2005}, 2005, pp. 805--808.
 
 \bibitem{Eyben2010}
 F.~Eyben, M.~W{\"{o}}llmer, A.~Graves, B.~Schuller, E.~Douglas-Cowie, and
@@ -265,10 +270,13 @@ W.~Ye and X.~Fan, ``{Bimodal Emotion Recognition from Speech and Text},''
   \emph{Int. J. Adv. Comput. Sci. Appl.}, vol.~5, no.~2, 2014.
 
 \bibitem{Tian2019}
+\BIBentryALTinterwordspacing
 L.~Tian, J.~Moore, and C.~Lai, ``{Recognizing emotions in spoken dialogue with
   hierarchically fused acoustic and lexical features},'' in \emph{2016 IEEE
   Spok. Lang. Technol. Work.}\hskip 1em plus 0.5em minus 0.4em\relax IEEE, dec
-  2016, pp. 565--572.
+  2016, pp. 565--572. [Online]. Available:
+  \url{http://ieeexplore.ieee.org/document/7846319/}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Grandjean2008}
 D.~Grandjean, D.~Sander, and K.~R. Scherer, ``{Conscious emotional experience
@@ -340,8 +348,8 @@ R.~W. Frick, ``{Communicating Emotion: The Role of Prosodic Features},''
   \emph{Psychol. Bull.}, vol.~97, no.~3, pp. 412--429, 1985.
 
 \bibitem{Mozziconacci2002}
-S.~Mozziconacci, ``{Prosody and Emotions},'' \emph{Speech Prosody 2002}, pp.
-  1--9, 2002.
+S.~Mozziconacci, ``{Prosody and Emotions},'' in \emph{Speech Prosody 2002},
+  2002, pp. 1--9.
 
 \bibitem{Fritz2016}
 E.~Liebenthal, D.~A. Silbersweig, E.~Stern, J.~B. Fritz, D.~Zhang,
@@ -352,8 +360,8 @@ E.~Liebenthal, D.~A. Silbersweig, E.~Stern, J.~B. Fritz, D.~Zhang,
 
 \bibitem{Lee2002}
 C.~M. Lee, S.~S. Narayanan, L.~Angeles, and R.~Pieraccini, ``{Combining
-  Acoustic and Language Information for Emotion Recognition},'' \emph{Icslp
-  2002}, vol. 2002, pp. 6--9, 2002.
+  Acoustic and Language Information for Emotion Recognition},'' in \emph{ICSLP
+  2002}, 2002, pp. 873--87.
 
 \bibitem{Metze2009}
 F.~Metze, T.~Polzehl, and M.~Wagner, ``{Fusion of Acoustic and Linguistic
@@ -372,11 +380,14 @@ Z.~Aldeneh, S.~Khorram, D.~Dimitriadis, and E.~M. Provost, ``{Pooling acoustic
   0.4em\relax ACM, 2017, pp. 68--72.
 
 \bibitem{Zhang2019}
+\BIBentryALTinterwordspacing
 B.~Zhang, S.~Khorram, and E.~M. Provost, ``{Exploiting Acoustic and Lexical
-  Properties of Phonemes to Recognize Valence from Speech},'' in \emph{ICASSP,
-  IEEE Int. Conf. Acoust. Speech Signal Process. - Proc.}, vol. 2019-May.\hskip
-  1em plus 0.5em minus 0.4em\relax Institute of Electrical and Electronics
-  Engineers Inc., may 2019, pp. 5871--5875.
+  Properties of Phonemes to Recognize Valence from Speech},'' in \emph{ICASSP
+  2019 - 2019 IEEE Int. Conf. Acoust. Speech Signal Process.}, vol.
+  2019-May.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, may 2019, pp.
+  5871--5875. [Online]. Available:
+  \url{https://ieeexplore.ieee.org/document/8683190/}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Yenigalla2018}
 P.~Yenigalla, A.~Kumar, S.~Tripathi, C.~Singh, S.~Kar, and J.~Vepa, ``{Speech
@@ -456,15 +467,17 @@ K.-Y. Huang, C.-H. Wu, Q.-B. Hong, M.-H. Su, and Y.-R. Zeng, ``{Speech Emotion
 
 \bibitem{Cho2018}
 J.~Cho, R.~Pappagari, P.~Kulkarni, J.~Villalba, Y.~Carmiel, and N.~Dehak,
-  ``{Deep neural networks for emotion recognition combining audio and
-  transcripts},'' \emph{Proc. Annu. Conf. Int. Speech Commun. Assoc.
-  INTERSPEECH}, vol. 2018-Septe, no. September, pp. 247--251, 2018.
+  ``{Deep Neural Networks for Emotion Recognition Combining Audio and
+  Transcripts},'' in \emph{Interspeech 2018}, vol. 2018-Septe, no.
+  September.\hskip 1em plus 0.5em minus 0.4em\relax ISCA, sep 2018, pp.
+  247--251.
 
 \bibitem{Sebastian2019}
 \BIBentryALTinterwordspacing
 J.~Sebastian and P.~Pierucci, ``{Fusion Techniques for Utterance-Level Emotion
-  Recognition Combining Speech and Transcripts},'' \emph{Interspeech}, pp.
-  51--55, 2019. [Online]. Available:
+  Recognition Combining Speech and Transcripts},'' in \emph{Interspeech
+  2019}.\hskip 1em plus 0.5em minus 0.4em\relax ISCA: ISCA, sep 2019, pp.
+  51--55. [Online]. Available:
   \url{http://dx.doi.org/10.21437/Interspeech.2019-3201}
 \BIBentrySTDinterwordspacing
 
@@ -484,22 +497,25 @@ L.~Tian, J.~D. Moore, and C.~Lai, ``{Recognizing emotions in dialogues with
 \bibitem{Khaleghi2013}
 B.~Khaleghi, A.~Khamis, F.~O. Karray, and S.~N. Razavi, ``{Multisensor data
   fusion: A review of the state-of-the-art},'' \emph{Inf. Fusion}, vol.~14,
-  no.~1, pp. 28--44, 2013.
+  no.~1, pp. 28--44, jan 2013.
 
 \bibitem{Majumder2018}
 \BIBentryALTinterwordspacing
 N.~Majumder, D.~Hazarika, A.~Gelbukh, E.~Cambria, and S.~Poria, ``{Multimodal
   sentiment analysis using hierarchical fusion with context modeling},''
   \emph{Knowledge-Based Syst.}, vol. 161, pp. 124--133, dec 2018. [Online].
-  Available: \url{https://doi.org/10.1016/j.knosys.2018.07.041
-  https://linkinghub.elsevier.com/retrieve/pii/S0950705118303897}
+  Available:
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0950705118303897}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Karadogan2012}
+\BIBentryALTinterwordspacing
 S.~G. Karadogan and J.~Larsen, ``{Combining semantic and acoustic features for
   valence and arousal recognition in speech},'' in \emph{2012 3rd Int. Work.
   Cogn. Inf. Process.}\hskip 1em plus 0.5em minus 0.4em\relax IEEE, may 2012,
-  pp. 1--6.
+  pp. 1--6. [Online]. Available:
+  \url{http://ieeexplore.ieee.org/document/6232924/}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Jin2015}
 Q.~Jin, C.~Li, S.~Chen, and H.~Wu, ``{Speech emotion recognition with acoustic
@@ -522,8 +538,8 @@ A.~Batliner, S.~Steidl, B.~Schuller, D.~Seppi, T.~Vogt, J.~Wagner,
   vol.~25, no.~1, pp. 4--28, 2011.
 
 \bibitem{charles1872expression}
-D.~Charles, E.~Paul, and P.~Phillip, ``{The expression of the emotions in man
-  and animals},'' \emph{Electron. Text Center, Univ. Virginia Libr.}, 1872.
+D.~Charles, \emph{{The expression of the emotions in man and animals}}.\hskip
+  1em plus 0.5em minus 0.4em\relax John Murray, 1872.
 
 \bibitem{Russel1980}
 \BIBentryALTinterwordspacing
@@ -537,18 +553,26 @@ P.~B. Denes and E.~Pinson, \emph{{The speech chain}}.\hskip 1em plus 0.5em
   minus 0.4em\relax Macmillan, 1993.
 
 \bibitem{Elbarougy2019}
+\BIBentryALTinterwordspacing
 R.~Elbarougy, ``{Speech Emotion Recognition based on Voiced Emotion Unit},''
-  \emph{Int. J. Comput. Appl.}, vol. 178, no.~47, pp. 22--28, 2019.
+  \emph{Int. J. Comput. Appl.}, vol. 178, no.~47, pp. 22--28, sep 2019.
+  [Online]. Available:
+  \url{http://www.ijcaonline.org/archives/volume178/number47/elbarougy-2019-ijca-919355.pdf}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Aguilar2020}
-G.~Aguilar, V.~Rozgic, W.~Wang, and C.~Wang, ``{Multimodal and multi-view
-  models for emotion recognition},'' \emph{ACL 2019 - 57th Annu. Meet. Assoc.
-  Comput. Linguist. Proc. Conf.}, pp. 991--1002, 2020.
+\BIBentryALTinterwordspacing
+G.~Aguilar, V.~Rozgic, W.~Wang, and C.~Wang, ``{Multimodal and Multi-view
+  Models for Emotion Recognition},'' in \emph{Proc. 57th Annu. Meet. Assoc.
+  Comput. Linguist.}\hskip 1em plus 0.5em minus 0.4em\relax Stroudsburg, PA,
+  USA: Association for Computational Linguistics, 2019, pp. 991--1002.
+  [Online]. Available: \url{https://www.aclweb.org/anthology/P19-1095}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Tian2015a}
 L.~Tian, C.~Lai, and J.~Moore, ``{Recognizing emotions in dialogues with
   disfluencies and non-verbal vocalisations},'' in \emph{Proc. ofthe 4th
-  Interdiscip. Work. Laugh. Other Non-verbal Vocalisations Speech,}, 2015, pp.
+  Interdiscip. Work. Laugh. Other Non-verbal Vocalisations Speech}, 2015, pp.
   39--41.
 
 \bibitem{Fayek2017}
@@ -615,8 +639,12 @@ L.~C. Nygaard and J.~S. Queen, ``{Communicating emotion: Linking affective
   vol.~34, no.~4, pp. 1017--1030, 2008.
 
 \bibitem{Berckmoes2004}
-C.~Berckmoes and G.~Vingerhoets, ``{Neural foundations of emotional speech
-  processing},'' pp. 182--185, 2004.
+\BIBentryALTinterwordspacing
+C.~Berckmoes and G.~Vingerhoets, ``{Neural Foundations of Emotional Speech
+  Processing},'' \emph{Curr. Dir. Psychol. Sci.}, vol.~13, no.~5, pp. 182--185,
+  oct 2004. [Online]. Available:
+  \url{http://journals.sagepub.com/doi/10.1111/j.0963-7214.2004.00303.x}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Matsumoto2009}
 D.~Matsumoto and B.~Willingham, ``{Spontaneous Facial Expressions of Emotion of
@@ -624,10 +652,14 @@ D.~Matsumoto and B.~Willingham, ``{Spontaneous Facial Expressions of Emotion of
   Psychol.}, 2009.
 
 \bibitem{Pepino2020}
+\BIBentryALTinterwordspacing
 L.~Pepino, P.~Riera, L.~Ferrer, and A.~Gravano, ``{Fusion Approaches for
   Emotion Recognition from Speech Using Acoustic and Text-Based Features},'' in
-  \emph{ICASSP 2020 - 2020 IEEE Int. Conf. Acoust. Speech Signal Process.},
-  2020, pp. 6484--6488.
+  \emph{ICASSP 2020 - 2020 IEEE Int. Conf. Acoust. Speech Signal
+  Process.}\hskip 1em plus 0.5em minus 0.4em\relax IEEE, may 2020, pp.
+  6484--6488. [Online]. Available:
+  \url{https://ieeexplore.ieee.org/document/9054709/}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Planet2012}
 S.~Planet and I.~Iriondo, ``{Comparative Study on Feature Selection and Fusion
@@ -635,12 +667,13 @@ S.~Planet and I.~Iriondo, ``{Comparative Study on Feature Selection and Fusion
   Multimed. Artif. Intell.}, vol.~1, no.~6, p.~44, 2012.
 
 \bibitem{Ringeval2015a}
+\BIBentryALTinterwordspacing
 F.~Ringeval, B.~Schuller, M.~Valstar, S.~Jaiswal, E.~Marchi, D.~Lalanne,
-  R.~Cowie, and M.~Pantic, ``{AV+EC 2015 - The first affect recognition
-  challenge bridging across audio, video, and physiological data},'' in
-  \emph{AVEC 2015 - Proc. 5th Int. Work. Audio/Visual Emot. Challenge,
-  co-Located with MM 2015}.\hskip 1em plus 0.5em minus 0.4em\relax Association
-  for Computing Machinery, Inc, oct 2015, pp. 3--8.
+  R.~Cowie, and M.~Pantic, ``{AV+EC 2015},'' in \emph{Proc. 5th Int. Work.
+  Audio/Visual Emot. Chall.}\hskip 1em plus 0.5em minus 0.4em\relax New York,
+  NY, USA: ACM, oct 2015, pp. 3--8. [Online]. Available:
+  \url{https://dl.acm.org/doi/10.1145/2808196.2811642}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Herrera1999}
 \BIBentryALTinterwordspacing
@@ -680,8 +713,7 @@ F.~Chollet and Others, ``{Keras},'' https://keras.io, 2015.
 
 \bibitem{Campione2002}
 E.~Campione and J.~V{\'{e}}ronis, ``{A large-scale multilingual study of pause
-  duration},'' in \emph{Speech Prosody 2002. Proc. the1st Int. Conf. Speech
-  Prosody}, 2002, pp. 199--202.
+  duration},'' in \emph{Speech Prosody 2002.}, 2002, pp. 199--202.
 
 \bibitem{moore2014word}
 J.~D. Moore, L.~Tian, and C.~Lai, ``{Word-level emotion recognition using
@@ -707,6 +739,11 @@ M.~C. Sezgin, B.~Gunsel, and G.~K. Kurt, ``{Perceptual audio features for
   \url{https://asmp-eurasipjournals.springeropen.com/articles/10.1186/1687-4722-2012-16}
 \BIBentrySTDinterwordspacing
 
+\bibitem{Griol2017}
+D.~Griol, J.~M. Molina, and Z.~Callejas, ``{Combining speech-based and
+  linguistic classifiers to recognize emotion in user spoken utterances},''
+  \emph{Neurocomputing}, vol. 326-327, pp. 132--140, jan 2019.
+
 \bibitem{IanGoodfellowYoshuaBengio2015}
 A.~C. {Ian Goodfellow, Yoshua Bengio}, \emph{{Deep Learning Book}}, 2015.
 
@@ -718,18 +755,22 @@ T.~Mikolov, E.~Grave, P.~Bojanowski, C.~Puhrsch, and A.~Joulin, ``{Advances in
 \bibitem{Devlin2018}
 \BIBentryALTinterwordspacing
 J.~Devlin, M.-W. Chang, K.~Lee, and K.~Toutanova, ``{BERT: Pre-training of Deep
-  Bidirectional Transformers for Language Understanding},'' \emph{arXiv Prepr.
-  arXiv}, oct 2018. [Online]. Available: \url{http://arxiv.org/abs/1810.04805}
+  Bidirectional Transformers for Language Understanding},'' oct 2018. [Online].
+  Available: \url{http://arxiv.org/abs/1810.04805}
 \BIBentrySTDinterwordspacing
 
 \bibitem{parthasarathy2017jointly}
+\BIBentryALTinterwordspacing
 S.~Parthasarathy and C.~Busso, ``{Jointly Predicting Arousal, Valence and
-  Dominance with Multi-Task Learning},'' in \emph{Interspeech}, 2017, pp.
-  1103--1107.
+  Dominance with Multi-Task Learning},'' in \emph{Interspeech 2017}.\hskip 1em
+  plus 0.5em minus 0.4em\relax ISCA: ISCA, aug 2017, pp. 1103--1107. [Online].
+  Available:
+  \url{http://www.isca-speech.org/archive/Interspeech{\_}2017/abstracts/1494.html}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Schmitt2019}
 M.~Schmitt, N.~Cummins, and B.~W. Schuller, ``{Continuous Emotion Recognition
-  in Speech - Do We Need Recurrence?}'' in \emph{Interspeech 2019}.\hskip 1em
+  in Speech — Do We Need Recurrence?}'' in \emph{Interspeech 2019}.\hskip 1em
   plus 0.5em minus 0.4em\relax ISCA: ISCA, sep 2019, pp. 2808--2812.
 
 \bibitem{Tripathi2018a}
@@ -747,10 +788,14 @@ S.~Yoon, S.~Byun, S.~Dey, and K.~Jung, ``{Speech Emotion Recognition Using
   may 2019, pp. 2822--2826.
 
 \bibitem{Sahu2019}
-S.~Sahu, V.~Mitra, N.~Seneviratne, and C.~Espy-Wilson, ``{Multi-modal learning
-  for speech emotion recognition: An analysis and comparison of ASR outputs
-  with ground truth transcription},'' in \emph{Proc. Annu. Conf. Int. Speech
-  Commun. Assoc. INTERSPEECH}, 2019, pp. 3302--3306.
+\BIBentryALTinterwordspacing
+S.~Sahu, V.~Mitra, N.~Seneviratne, and C.~Espy-Wilson, ``{Multi-Modal Learning
+  for Speech Emotion Recognition: An Analysis and Comparison of ASR Outputs
+  with Ground Truth Transcription},'' in \emph{Interspeech 2019}.\hskip 1em
+  plus 0.5em minus 0.4em\relax ISCA: ISCA, sep 2019, pp. 3302--3306. [Online].
+  Available:
+  \url{http://www.isca-speech.org/archive/Interspeech{\_}2019/abstracts/1149.html}
+\BIBentrySTDinterwordspacing
 
 \bibitem{chen2017multimodal}
 S.~Chen, Q.~Jin, J.~Zhao, and S.~Wang, ``{Multimodal multi-task learning for
@@ -760,7 +805,7 @@ S.~Chen, Q.~Jin, J.~Zhao, and S.~Wang, ``{Multimodal multi-task learning for
 
 \bibitem{DeepSpeech2019}
 \BIBentryALTinterwordspacing
-Mozilla, ``{Project DeepSpeech: A TensorFlow implementation of Baidu's
+{Mozilla Team}, ``{Project DeepSpeech: A TensorFlow implementation of Baidu's
   DeepSpeech architecture, https://github.com/mozilla/DeepSpeech},'' 2019.
   [Online]. Available: \url{https://github.com/mozilla/DeepSpeech}
 \BIBentrySTDinterwordspacing
@@ -774,14 +819,21 @@ A.~Hannun, C.~Case, J.~Casper, B.~Catanzaro, G.~Diamos, E.~Elsen, R.~Prenger,
 \BIBentrySTDinterwordspacing
 
 \bibitem{Lemaitre2017}
+\BIBentryALTinterwordspacing
 G.~Lemaitre, F.~Nogueira, and C.~K. Aridas, ``{Imbalanced-learn: A Python
   Toolbox to Tackle the Curse of Imbalanced Datasets in Machine Learning},''
-  \emph{J. Mach. Learn. Res.}, vol.~18, pp. 1--5, sep 2016.
+  \emph{J. Mach. Learn. Res.}, vol.~18, no.~17, pp. 1--5, sep 2016. [Online].
+  Available: \url{http://jmlr.org/papers/v18/16-365.html}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Eyben2016open}
-F.~Eyben, M.~W{\"{o}}llmer, and B.~Schuller, \emph{{Opensmile}}.\hskip 1em plus
-  0.5em minus 0.4em\relax New York, New York, USA: ACM Press, 2016, no.
-  November.
+\BIBentryALTinterwordspacing
+F.~Eyben, M.~W{\"{o}}llmer, and B.~Schuller, ``{Opensmile: the munich versatile
+  and fast open-source audio feature extractor},'' in \emph{Proc. Int. Conf.
+  Multimed. - MM '10}, no. November.\hskip 1em plus 0.5em minus 0.4em\relax New
+  York, New York, USA: ACM Press, 2010, pp. 1459--1462. [Online]. Available:
+  \url{http://dl.acm.org/citation.cfm?doid=1873951.1874246}
+\BIBentrySTDinterwordspacing
 
 \bibitem{Abdelwahab2018}
 M.~AbdelWahab and C.~Busso, ``{Domain Adversarial for Acoustic Emotion
@@ -826,13 +878,9 @@ S.~Parthasarathy and C.~Busso, ``{Semi-Supervised Speech Emotion Recognition
 \BIBentrySTDinterwordspacing
 
 \bibitem{Yang2018}
-\BIBentryALTinterwordspacing
 Z.~Yang and J.~Hirschberg, ``{Predicting Arousal and Valence from Waveforms and
   Spectrograms Using Deep Neural Networks},'' in \emph{Interspeech 2018}.\hskip
   1em plus 0.5em minus 0.4em\relax ISCA: ISCA, sep 2018, pp. 3092--3096.
-  [Online]. Available:
-  \url{http://www.isca-speech.org/archive/Interspeech{\_}2018/abstracts/2397.html}
-\BIBentrySTDinterwordspacing
 
 \bibitem{Bakhshi2020}
 A.~Bakhshi, A.~S.~W. Wong, and S.~Chalup, ``{End-To-End Speech Emotion
