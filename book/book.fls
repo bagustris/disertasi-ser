@@ -286,7 +286,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmss17.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssi12.tfm
-INPUT /home/bagustris/.texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 OUTPUT /media/bagustris/atmaja/s3/disertasi-ser/book/eabs.aux
 INPUT /media/bagustris/atmaja/s3/disertasi-ser/book/eabs.tex
 INPUT /media/bagustris/atmaja/s3/disertasi-ser/book/eabs.tex
