@@ -7,7 +7,7 @@ Repository for PhD activity, JAIST 2017~2021
 
 # PhD Resources
 I pursue my PhD in theme of speech emotion recognition. I used two information/features: acoustic and text feature. 
-Here are list of resources I used in my research. I keep to make this list as simple as I can to focus on tbe most important materials only.
+Here are list of resources I used in my research. I keep to make this list as simple as I can to focus on the most important materials only.
 
 ## Deep Learning
 - [How to build NN from scratch in python](https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6)
@@ -32,11 +32,11 @@ Here are list of resources I used in my research. I keep to make this list as si
 - [Windowing in Signal Processing](https://flothesof.github.io/FFT-window-properties-frequency-analysis.html)
 
 ## NLP/Text processing
-- [NLTK Book - My translation to Bahasa](https://bagustris.github.io/nlp-python/)
+- [NLP with Python (NLTK Book)](https://bagustris.github.io/nlp-python/)
 
 ## Writing
 - [Writing academic papers for beginner](https://academic.oup.com/intqhc/article/16/3/191/1814554)
 - [Tenses in scientific writing](http://insights.cactusglobal.com/sites/default/files/The%20secret%20to%20using%20tenses%20in%20scientific%20writing.png)
 - [Tenses](http://grammar.ccc.commnet.edu/grammar/tenses/simple_present.htm)
-- [How To Write A Dissertation](https://www.cs.purdue.edu/homes/dec/essay.dissertation.html)
+- [How To Write A Dissertation](https://www.cs.purdue.edu/homes/dec/essay.dissertation.html) - [in Bahasa](https://bagustris.blogspot.com/2020/08/menulis-disertasi-bacaan-sebelum-tidur.html)
 - [MOOC: Academic Writing Made Easy](https://courses.edx.org/courses/course-v1:TUMx+AWMEx+1T2020/course/)
