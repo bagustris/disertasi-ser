@@ -102,8 +102,9 @@ MFCC features will be (40, 13). The number of frames corresponds to the number
 of samples divided by hop length (in samples).  If an utterance comprises 1
 second (s) with a 16 kHz sampling rate, the number of samples is 16000. Using
 25 ms (400 samples) window/frame length and 10 ms (160 samples) hop length, the
-number of frames is $16000/160$, i.e., 100 frames. Figure \ref{fig:mfcc-mel}
-top shows an MFCC spectrogram of an IEMOCAP utterance with 13 coefficients.
+number of frames is $\frac{16000}{160}$, i.e., 100 frames. Figure
+\ref{fig:mfcc-mel} top shows an MFCC spectrogram of an IEMOCAP utterance with
+13 coefficients.
 
 % mel-spectrogram and log mel-spectrogram
 Recently, researchers found that mel-spectrogram, also called as (mel)
@@ -209,7 +210,7 @@ on utterance-based feature extraction.
     \begin{center}
     \begin{tabular}{l | c | c c c c}
       \hline 
-Feature & Dim & Val & Aro & Dom & Mean \\
+Feature & Dim & V & A & D & Mean \\
 \hline \hline
 MFCC      & (3414, 40)    &0.148    & 0.488   & 0.419   & 0.352 \\
 Log mel   & (3414, 128)   &0.103    & 0.543   & 0.438   & 0.362 \\
@@ -301,7 +302,7 @@ Mean+Std features after transposing both statistical features.
     \begin{tabular}{l | c | c c c c}
       % \hline
       \hline
-Feature & Dim & Val & Aro & Dom & Mean \\
+Feature & Dim & V & A & D & Mean \\
 \hline \hline
 MFCC      &   80  & 0.155 & 0.580   & 0.456 & 0.397 \\
 Log Mel   &   256 & 0.151 & 0.549   & 0.455 & 0.385 \\

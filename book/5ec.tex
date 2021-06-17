@@ -25,8 +25,8 @@ value of 1 will be converted into a point in the range of vocabulary size.
 To obtain a vector of each word in an utterance, first, this utterance in the
 dataset must be tokenized. Tokenization is a process to divide an utterance by
 the number of constituent words. For example, the text ``That's out of control."
-from IEMOCAP dataset will be tokenized as [``That's," ``out," ``of,"
-``control"].  Suppose the number of vocabulary is 2182 (number of words in
+from IEMOCAP dataset will be tokenized as [``That's,'' ``out,'' ``of,''
+``control''].  Suppose the number of vocabulary is 2182 (number of words in
 IEMOCAP dataset with six emotion categories), then the obtained word vector is
 something similar to
 
@@ -302,7 +302,7 @@ highest performance. As with the acoustic networks, two networks were chosen,
 GloVe with LSTM and GloVe with CNN, to combine in the bimodal network fusion. 
 
 \begin{table}[htpb]
-  \caption{CCC score results on the acoustic networks}
+  \caption{CCC scores on the acoustic networks}
   \begin{center}
  \label{tab:acoustic-result}
  \begin{tabular}{l c c c c}
@@ -327,7 +327,7 @@ GeMAPS HSF & 0.0975 & 0.4658 & 0.4170 & 0.3268 \\
 \end{table} 
 
 \begin{table}[htpb]
-  \caption{CCC score results on the linguistic networks}
+  \caption{CCC scores on the linguistic networks}
   \begin{center}
  \label{tab:text-result}
  \begin{tabular}{l c c c c}
@@ -537,6 +537,18 @@ depend on the input size rather than its modality.
 \label{fig:dropout}
 \end{figure}
 
+\subsubsection{Significant difference between acoustic and bimodal fusion}
+The significant difference between acoustic analysis and bimodal
+acoustic-linguistic fusion is measured using paired t-tests to confirm the
+effectiveness of the early fusion method. The measure compares the highest CCC
+scores from acoustic (pAA HSF) with the highest CCC score from bimodal fusion
+(LSTM-LSTM with 2 parameters). For each method, the number of samples is 20
+average CCC scores. For this purpose, the initial random generators were
+removed from the computer program. Asserting $p = 0.05$, the obtained p-values
+for two-tail is $4.2\times 10^{-22}$. This small value confirms the significant
+difference between unimodal acoustic analysis and bimodal acoustic-linguistic
+information fusion for dimensional SER.
+
 \subsection{Discussion in terms of categorical emotions}
 This study on dimensional speech emotion recognition using bimodal features is
 an extension of a similar categorical method. Similarities and differences as
@@ -568,7 +580,7 @@ dimensional emotion recognition from the feature/modality perspective. Feature
 set/modality, which attained the highest performance in the categorical
 approach, is different from the dimensional approach. In the categorical
 approach with the IEMOCAP dataset, word embeddings gave the highest performance
-in the unimodal model, as reported in \cite{Atmaja2019b, Tripathi2018a,
+in the unimodal model, as reported in \cite{Atmaja2019b, Tripathi2018,
 Yoon2019, Sahu2019}. In contrast, in the dimensional approach, acoustic
 features' average performance gave better performance over linguistic features.
 This phenomenon can be explained by the fact that linguistic features (word
@@ -581,8 +593,8 @@ extend the evidence that linguistic features contribute more in valence
 prediction, while acoustic features give more accuracy in arousal and dominance
 prediction.  Given this evidence, it is more likely that acoustic features will
 obtain higher performance than linguistic features in the unimodal case since
-they provide better performance for two of the three emotional dimensions. As
-suggested by Russell \cite{Russell1980a}, however, a categorical emotion can be
+they provide better performances for two of the three emotional dimensions. As
+suggested by Russell \cite{Russell1980}, a categorical emotion can be
 characterized by its valence and arousal only. This relation shows why
 linguistic features achieve better performances than acoustic features do on
 categorical emotion.

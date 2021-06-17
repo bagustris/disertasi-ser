@@ -80,14 +80,16 @@ the prediction of test data.}
 \subsection{LSTM network for unimodal prediction}
 \subsubsection{Acoustic emotion recognition}
 
-Most SER research uses acoustic features only. The approach to acoustic SER in
-the study reported in the previous chapter is similar to that research. The
-acoustic networks input Mean+Std features at the utterance level and then use
-a silence feature with these statistical functions to investigate any
-improvement.  This evaluation is a continuation of \cite{Atmaja2020f} with an
-extension on different feature sets and datasets.  Apart from acoustic features
-used in the previous chapter, this study evaluates three acoustic different
-feature sets: LLDs of GeMAPS, HSF1, and HSF2.
+Based on the results on the previous early fusion method, it was found that
+LSTM is more beneficial than CNN to model both acoustic- and
+linguistic-based emotion recognition. The DNN at the first stage of the late
+fusion approach adopts this LSTM network. The acoustic network receives input
+in different acoustic features for evaluation. Not only differs in feature
+sets, this evaluation continues the previous work \cite{Atmaja2020f} in the use
+of different datasets.  Apart from the acoustic features used in the previous
+chapter, this study evaluates three acoustic different feature sets: LLDs of
+GeMAPS, Mean+Std features at the utterance level from these LLDs (HSF1), and an
+additional silence feature with these statistical functions (HSF2).
 
 The LLD features are the 23 acoustic features listed in Table
 \ref{tab:aco_feature}. For each frame (25 ms), these 23 acoustic features are
@@ -116,13 +118,13 @@ deviation (of LLDs), silence \\
     \label{tab:aco_feature}
    \end{table}
 
-Figure \ref{fig:acoustic_model} shows an overview of the acoustic network.
-LSTM is chosen because the number of training samples is adequate ($> 5000$
-samples). Furthermore, it shows promising results in the previous research
-\cite{Schmitt2018}.  Before entering the LSTM layers, the LLD features at the
-input layer are fed into a batch normalization layer to speed up the
-computation process. The three subsequent LSTM layers are stacked with 256
-nodes in each layer, following one of the configurations in
+Figure \ref{fig:acoustic_model} shows an overview of the acoustic network. DNN
+with LSTM architecture is chosen because the number of training samples is
+adequate ($> 5000$ samples). Furthermore, it shows promising results in the
+previous research \cite{Schmitt2018}.  Before entering the LSTM layers, the LLD
+features at the input layer are fed into a batch normalization layer to speed
+up the computation process. The three subsequent LSTM layers are stacked with
+256 nodes in each layer, following one of the configurations in
 \cite{Abdelwahab2018}. Instead of returning the last LSTM layer's final output,
 the networks were designed to return the full sequence and flatten it before
 inputting it to three dense layers representing valence, arousal, and
@@ -275,7 +277,7 @@ compared to the obtained scores of (0.404, 0.605, 0.517) for valence, arousal,
 and dominance, respectively.
 
 \begin{table}[htpb]
-\caption{CCC score results of dimensional emotion recognition using an acoustic
+\caption{CCC scores of dimensional emotion recognition using an acoustic
 network. The best results on the test set are in bold. LLDs: low-level
 descriptors from GeMAPS \cite{Eyben}; HSF1: Mean+Std of LLDs; HSF2: Mean+Std+Silence}
  \begin{center}
@@ -309,7 +311,7 @@ HSF2    & 0.206 & 0.503 & 0.346 & 0.352 \\
 \end{table} 
 
 \begin{table}[htpb]
-\caption{CCC score results of dimensional emotion recognition using linguistic
+\caption{CCC scores of dimensional emotion recognition using linguistic
 network; each score is an averaged score of 20 runs with its standard
 deviation. WE: word embeddings; word2vec: WE weighted by pre-trained word
 vectors \cite{Mikolov}; GloVe: WE weighted by pre-trained global vectors
@@ -427,7 +429,7 @@ highest result from another modality, will achieve the highest performance
 among possible pairs.
 
 \begin{table}[htpb]
-\caption{CCC score results of the late-fusion SVM on the IEMOCAP-SD test set}
+\caption{CCC scores of the late-fusion SVM on the IEMOCAP-SD test set}
 \begin{center}
  \label{tab:svm-iemocap-sd}
  \begin{tabular}{l c c c c}
@@ -449,7 +451,7 @@ HSF2   + GloVe     & 0.598 & 0.591 & 0.502 & 0.564 \\
 \end{table} 
 
 \begin{table}
-\caption{CCC score results of the late-fusion SVM on the MSPIN-SD dataset}    
+\caption{CCC scores of the late-fusion SVM on the MSPIN-SD dataset}    
 \begin{center}
  \label{tab:svm-mspin-sd}
  \begin{tabular}{l c c c c}
@@ -471,7 +473,7 @@ HSF2    + GloVe     & 0.485 & 0.638 & 0.523 & 0.549 \\
 \end{table} 
 
 \begin{table}[!htpb]
-\caption{CCC score results of the late-fusion SVM on the IEMOCAP-LOSO test set}
+\caption{CCC scores of the late-fusion SVM on the IEMOCAP-LOSO test set}
 \begin{center}
  \label{tab:svm-iemocap-loso}
  \begin{tabular}{l c c c c}
@@ -493,7 +495,7 @@ HSF2    + GloVe     & 0.553 & 0.579 & 0.465 & \textbf{0.532} \\
 \end{table} 
 
 \begin{table}[htbp]
-\caption{CCC score results of the late-fusion SVM on the MSPIN-LOSO test set}
+\caption{CCC scores of the late-fusion SVM on the MSPIN-LOSO test set}
 \begin{center}
  \label{tab:svm-mspin-loso}
  \begin{tabular}{l c c c c}
@@ -687,8 +689,8 @@ with current speech technology, i.e., ASR, in which the text output can be
 processed to weigh emotion prediction from acoustic features.
 
 AbdelWahab and Busso \cite{Abdelwahab2018} used MSP-Podcast \cite{Lotfian2019},
-collection of natural speech from audio-sharing website, as a target corpora
-and IEMOCAP with MSP-IMPROV source corpus to implement their DANN for
+collection of natural speech from audio-sharing website, as a target corpus
+and IEMOCAP with MSP-IMPROV as source corpora to implement their DANN for
 cross-corpus speech emotion recognition.  Although the goal is different, it
 was observed similar patterns between theirs and the acoustic-only speech
 emotion recognition int this study.  First, it was observed that the order of

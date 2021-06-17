@@ -4,11 +4,11 @@ research directions. Both sections are described below.
 
 \section{General summary}
 This dissertation demonstrates the necessity of fusing acoustic with linguistic
-information for dimensional speech emotion recognition (SER). The results of
-acoustic-only SER showed the necessity to go beyond unimodal acoustic analysis
-only. The two evaluated fusion methods, early and late fusions, confirm the
-effectiveness of fusing acoustic with linguistic information for dimensional
-SER.
+information for dimensional speech emotion recognition (SER), particularly for
+valence prediction improvement purpose. The results of acoustic-only SER showed
+the necessity to go beyond unimodal acoustic analysis. The two evaluated
+fusion methods, early and late fusions, confirm the effectiveness of fusing
+acoustic with linguistic information over acoustic-only dimensional SER.
 
 Aside from that main goal, three sub-goals were transformed into three
 strategies to investigate the potential solutions of partial
@@ -17,9 +17,10 @@ acoustic information only, fusing acoustic with linguistic at the feature level,
 and fusing acoustic with linguistic information at the decision level. These
 strategies yield answers to the following five issues:
 \begin{enumerate}
-\item region of analysis for feature extractions: high-level statistics (HSFs)
-using mean and standard deviation consistently show more meaningful
-representations for emotion in speech than low-level descriptors (LLD);
+\item region of analysis for feature extractions: high-level statistical
+function (HSF) using mean and standard deviation consistently show more
+meaningful representations for emotion in speech than low-level descriptors
+(LLD);
 \item effect of silent pause regions: silence regions are predicted to
 contribute in dimensional speech emotion recognition; either removing silence or
 using silence feature as an additional feature slightly improves the
@@ -130,6 +131,12 @@ in short utterance). The trade-off between the performance improvement and
 model complexities should be carried out to judge ``when is linguistic
 information needed?," ``in what condition?," and ``what is the cues to use
 linguistic information?.''
+
+In addition to the lexical-controlled sentence, it is necessary to consider the
+polarity of sentence. If a polarity of a sentence, which is positive; neutral;
+or negative, the weight of linguistic information contribution should be
+adjusted. This additional information arguably could improve the performance of
+the current fusion method.
 
 \subsubsection{Bottleneck between acoustic and linguistic processing}
 The goal of engineering research is to advance technology for humanity in
