@@ -1,6 +1,6 @@
 ### S3 Note: Journal of PhD Life
 ~~day.month.year~~  
-year-month-day (ISO 8601)  
+year-month-day (ISO 8601)  <-- Format Date  
 Content:  
 - What is the question (Q), and what is the answer (A)
 - what is your idea, how to implement  
@@ -8,7 +8,7 @@ Content:
 - what is X, what is Y
 - what did you have done today, what is your plan for tomorrow
 
-
+---  
 2020-12-11:  
 - Shirai-sensei:  
   - previous works
@@ -19,21 +19,21 @@ Content:
 - Dhany-sensei:
   - CCC can be measured in other DB?
   - Spontaneous vs Acted?
-  - 
+
 
 2020-11-18:  
 - Recalculate CCC scores for baseline MLP pAA_D (already there)
-
+---  
 2020-11-17:  
 - todo: redraw word2vec diagram (done)
-
+---  
 2020-10-28:  
 - Revise Figure 4.8: Trim start-end signal, add information about it.
-
+---  
 2020-10-23:
 - suggest in summary in Ch. 5 a research of using BERT with fine-tuned model
   (done).  
-
+---  
 2020-10-22:  
 - todo: email akagi sensei about payment of APSIPA paper.
 - Continue Publons review academy.
@@ -41,17 +41,17 @@ Content:
   envelope [TAE]) to measure the correlation
   between silence and dimensional emotions. TFS and TAE are known as important 
   cues for human perception (Moon and Hong, 2014).
-
+---  
 2020-10-20:
 - check silence removal algorithm (Ch. 4), make sure start-end trimming has
   been mentioned/explained.
-  
+---  
 2020-10-20:  
 - todo: edit sound for ococosda conference --> done.
-
+---  
 2020-10-16:
  - todo: redraw word2vec architecture ??
- 
+ ---  
 2020-10-05:
 - todo: sign MEXT scholarship attendance
 - from https://twitter.com/nlpaxia/status/1312917389235957760:
@@ -62,7 +62,7 @@ Content:
   - Do good science by building off other, released models when possible.
 - Shows WER and how to calculate it in Ch. 5 (SER with ASR outputs) --> done.
 
-  
+---  
 2020-10-02:
 - code ser+ter from ASR transcription
 - email akagi-sensei cocosda
@@ -74,14 +74,17 @@ Content:
   - Discuss results: SER+TER from ASR outputs
   - Effect of embedding dimensions?
 
+---  
 2020-10-30:  
 - re-read minor research report, upload it on arxiv.
 
+---  
 2020-09-29:  
 - todo: 
   - ask Akagi-seal (done)
   - email ococosda registration to Akagi-sensei (done)
 
+---  
 2020-09-28:
 - todo: Make/Add word2vec model for dissertation
 - find accounts for masjid donation in Japan
@@ -90,6 +93,7 @@ Content:
 - email ococosda committee about no registration link received
 - to buy: ssd 2 tb (really?), hdd 4tb (yes, I need this) 
 
+---  
 2020-09-25:
 - Time management is key, Gus!
 - Make a to-do/journal, before starting your day.
@@ -106,13 +110,16 @@ Content:
 - CCC_ave ter BERT:  0.36516475677490234
 - CCC_ave ter2 BER: 0.36278611421585083
 
+---  
 2020-08-28:
 - Justification: argument + evidences
 
+---  
 2020-07-30:  
 - It’s not what you say, but how you say it.
 - It’s not ONLY what you say, but ALSO how you say it.
 
+---  
 2020-08-03:  
 - New Idea! Contribution of Temporal Envelope on Speech Emotion Recognition
 - Calculate Temporal Envelope of Speech with and without noise
@@ -120,6 +127,8 @@ Content:
 - Idea: if noise were removed, temporal envelope will change.
 - Calculate performance on with and without noise on SER performance.
 
+
+---  
 2020-07-23:  
 Emotion, feeling, and mood (APA: https://dictionary.apa.org/emotion):  
 - Emotions are often confused with feelings and moods, but the three terms are
@@ -140,6 +149,7 @@ Emotion, feeling, and mood (APA: https://dictionary.apa.org/emotion):
   have no clear starting point. For example, insults can trigger the emotion of
   anger while an angry mood may arise without apparent cause.
 
+--- 
 2020-07-17:  
 - Which region of analysis to extract acoustic features in SER
 - Understanding why HSFs are better than LLDs
@@ -149,20 +159,25 @@ Emotion, feeling, and mood (APA: https://dictionary.apa.org/emotion):
 - Summary of Chapter
 - counting computation time: sudo chrt -f 99 /usr/bin/time --verbose #code
 
+---  
 2020-07-15:  
 - Extracting information from data
 - Extracting Knowledge from Information
 
+--- 
 2020-07-14:  
 - Argument for mean and std features:
   - While one argued that the small number of hsf features may not sufficient,
     we prove the opposite. Using mean and std of LLD are better than using
     large-size LLD. Instead of increasing size of the feature, adding more
     train (utterances) data might improve the performance since it generalize
-    the model.
+    the model.  
 
-About mfcc
-(source:https://www.researchgate.net/post/Why_we_take_only_12-13_MFCC_coefficients_in_feature_extraction)
+About MFCC   
+source:
+https://www.researchgate.net/post/Why_we_take_only_12-13_MFCC_coefficients_in_feature_extraction
+
+
 An intuition about the cepstral features can help to figure out what we should
 look for when we use them in a speech-based system.
 - As cepstral features are computed by taking the Fourier transform of the
@@ -192,7 +207,7 @@ look for when we use them in a speech-based system.
   mixture model (GMM), if a large number of cepstral coefficients is used, we
   typically need more data in order to accurately estimate the parameters of
   the GMM.
-
+---  
 2020-07-13:  
 Keuntungan hsf (mean+std):  
 - Ukuran lebih kecil (46, 68, dst)
@@ -205,23 +220,24 @@ Keuntungan hsf (mean+std):
 - Make figure for frame-based processing
 - Why you choose specific window size (25 ms) --> short context --> Add
   reference.
-
+---  
 2020-06-12:  
 - Beberapa keberhasilan itu terjadi karena kebetulan, kebetulan setelah kerja
   keras.
-
+---  
 2020-96-09:  
 Some synonyms:
 - valence: pleasantness, evaluation, sentiment, polarity
 - arousal: activation, intensity
 - dominance: power, potency, control
-
+---  
 2020-06-06:  
 - hearing is the process of discovering from sounds what is present in the
   world and where it is (David Marr, 1982, in HMH).
 - whither speech: hearing is the process of discovering from sounds what is
   present in the world and where it is
 
+---  
 2020-05-14:  
 - Information science is defined in the Online Dictionary for Library and
   Information Science (ODLIS) (Reitz, s.a.) as “The systematic study and
@@ -236,29 +252,64 @@ Some synonyms:
 - Language is the expression of human communication through which knowledge,
   belief, and behaviour can be experienced, explained, and shared.
 
+---  
 2020-05-02:  
 - Back to markdown note in github
 - Use VScode since 2020
 
-2019-12-18:   
-This is the first journal which purely in text format.  
-Some conventions:  
-- on the top is YYYY-MM-DD  
-- Use vim or gedit, either of both, no other editorexcept in public PC.  
-- max lengh:80 lines  
-- file name YYYY-MM-DD  
-- save on journal dir: ~/Dropbox/journal  
-- turn on spell check,  
-- make the last line blank  
+---
+2019-12-26:
+- I have two sets a = [a, b, c] and b = ['1', '2', '3']. I want to find how
+  many pairs I can choose from a and b, i.e., 9 (a1, a2, a3, b1, ..., c3).  The
+  number of 9 I got from by multiplying 3 by 3.  So if I have three sets (say C
+  = [x, y, z]), I will have 27 pairs (3 x 3 x 3). 
 
-2019-12-20  
-Fri Dec 20 14:38:17 JST 2019  
-- relearn VIM  
-- relearn numpy and matplotlib
-- basic numpy= array, arange, linspace, zeros, ones, full, empty, identity
+- Answer: 3C2 x 3C2 = 9  
+- add bahasa to this https://github.com/cptangry/wahy
 
+---
+2019-12-25:  
+- Finish initial experiment on IEMOCAP and MSP-I+N for CSL Journal
+- Result shows good!
+- CSL use HARVARD references/citation styles!
+- Lessons learned from who wants to be millionaire:
+  - Ask the Audience: the audience takes voting pads attached to their seats
+    and votes for the answer that they believe is correct. The computer tallies
+    the results and displays them as percentages to the contestant.
+  - 50:50: the game's computer eliminates two wrong answers from the current
+    question, leaving behind the correct answer and one incorrect answer.  From
+    2000, the selection of two incorrect answers were random.
+  - Phone a Friend: the contestant is connected with a friend over a phone line
+    and is given 30 seconds to read the question and answers and solicit
+    assistance. The time begins as soon as the contestant starts reading the
+    question.
+
+---
+2019-12-24:  
+- The current architecture (data processing) of two-stage SER make it
+  impossible to perform multi-stage, todo (next): adapt avec approach to make
+  it able to process on multi-stages technique.
+- Got initial result on two-stage SER:
+  1. Generally good performance
+  2. TER on MSP-I+N, shows low result. This can be caused by: a. The
+     transcription is made by ASR (suffer from error) b. MSP is designed by
+     controlling lexical content. Although improvisation and natural
+     interaction recording is chosen, there is possibility that those actors
+     are still influenced by target sentences.
+--- 
+2019-12-23:  
+- contribution of CSL paper: 
+  - A multi-stage approach to exploit the advantage of each emotion recognition
+    modality, i.e., acoustic and text, by combining each result from DNN to SVM.
+- Proposed CSL title: "Dimensional speech emotion recognition based on late
+  fusion of acoustic and text information: A two-stage process by using DNN and
+  SVM" 
+- idea: "Recognizing Emotion and Naturalness in Speech using DNN with Multitask
+  Learning"
+  
+---
 2019-12-21  
-- There is a different between the convey of logic and emotion.
+- There is a difference between the convey of logic and emotion.
 - Grice argued that logic in conversation is based only what it said, not other
   factors (intention, etc). For example, if someone said, "I am angry", hence
   he is transmitting (or expressing) an angry, although, he looks happy.
@@ -276,53 +327,24 @@ Fri Dec 20 14:38:17 JST 2019
 - Never use dashes for (python) file naming (only for date?). Underscore is OK.
 - The current result using SVM (RBF Kernel) shows promising result.
 
-2019-12-23:  
-- contribution of CSL paper: 
-  - A multi-stage approach to exploit the advantage of each emotion recognition
-    modality, i.e., acoustic and text, by combining each result from DNN to
-    SVM.
-- Proposed CSL title: "Dimensional speech emotion recognition based on late
-  fusion of acoustic and text information: A two-stage process by using DNN and
-  SVM" 
-- idea: "Recognizing Emotion and Naturalness in Speech using DNN with Multitask
-  Learning"
+---
+2019-12-20  
+Fri Dec 20 14:38:17 JST 2019  
+- relearn VIM  
+- relearn numpy and matplotlib
+- basic numpy= array, arange, linspace, zeros, ones, full, empty, identity
 
-2019-12-24:  
-- The current architecture (data processing) of two-stage SER make it
-  impossible to perform multi-stage, todo (next): adapt avec approach to make
-  it able to process on multi-stages technique.
-- Got initial result on two-stage SER:
-  1. Generally good performance
-  2. TER on MSP-I+N, shows low result. This can be caused by: a. The
-     transcription is made by ASR (suffer from error) b. MSP is designed by
-     controlling lexical content. Although improvisation and natural
-     interaction recording is chosen, there is possibility that those actors
-     are still influenced by target sentences.
-
-2012-12-25:  
-- Finish initial experiment on IEMOCAP and MSP-I+N for CSL Journal
-- Result shows good!
-- CSL use HARVARD references/citation styles!
-- Lessons learned from who wants to be millionaire:
-  - Ask the Audience: the audience takes voting pads attached to their seats
-    and votes for the answer that they believe is correct. The computer tallies
-    the results and displays them as percentages to the contestant.
-  - 50:50: the game's computer eliminates two wrong answers from the current
-    question, leaving behind the correct answer and one incorrect answer.  From
-    2000, the selection of two incorrect answers were random.
-  - Phone a Friend: the contestant is connected with a friend over a phone line
-    and is given 30 seconds to read the question and answers and solicit
-    assistance. The time begins as soon as the contestant starts reading the
-    question.
-
-2012-12-26:
-- I have two sets a = [a, b, c] and b = ['1', '2', '3']. I want to find how
-  many pairs I can choose from a and b, i.e., 9 (a1, a2, a3, b1, ..., c3).  The
-  number of 9 I got from by multiplying 3 by 3.  So if I have three sets (say C
-  = [x, y, z]), I will have 27 pairs (3 x 3 x 3). 
-
-- Answer: 3C2 x 3C2 = 9  
-- add bahasa to this https://github.com/cptangry/wahy
+--- 
+2019-12-18   
+This is the first journal which purely in text format (txt).
+Some convention:  
+  - on the top is YYYY-MM-DD
+  - Use vim or gedit, either of both, no other editor, except in public PC.
+  - max lengh:80 lines
+  - file name YYYY-MM-DD
+  - save on journal dir: ~/Dropbox/journal
+  - turn on spell check,
+  - make the last line blank  
 
 ---
 2019-12-18:  
@@ -339,7 +361,7 @@ Fri Dec 20 14:38:17 JST 2019
   question, go with the flow, if you don't know say you don't know, don't
   equate your experience with theirs, try not to repeat, stay out the weeds
   (focus), listen, be brief.
-
+---
 2019-11-27:  
 - Run speech + text for ASJ spring 2020 based on ococosda (failed) code
 - Non MTL run, but MTL with different weight gives 0 CCC
@@ -387,8 +409,8 @@ Fri Dec 20 14:38:17 JST 2019
   Valence). It is interesting that text give better score on valence while
   speech resulting worst score on valence compared to (CCC) score on arousal
   and dominance.
-  ---
-
+  
+---
 2019-08-06:  
 - weekly meeting report: as presented (see in progress dir)
 - weekly meeting note: what do you want to write for journal?
@@ -443,520 +465,63 @@ Fri Dec 20 14:38:17 JST 2019
   weight, AKA weighted accuracy. In implementation this is the default accuracy
   in Keras metrics.
 - Class accuracy – the accuracy is first evaluated for each emotion and then
-  averaged, AKA unweighted accuracy. In implementaion, this class accuracy can
+  averaged, AKA unweighted accuracy. In implementation, this class accuracy can
   be obtained by plotting normalized confustion matrix and get the average
   value along diagonal line.
 
----
-2017-10-09  
-to be answered:
-- what is semantic primitive?
-- what is prosodic feature?
-- what is lexicon?
-- spectral feature: features based on/extracted from spectrum
-- normalization: normalize the waveform (divided by biggest amplitude)
-- what is para and non-linguistic
-- SVM classifier (vs Fuzzy??)
-- idea: use DNN and DNN+Fuzzy for classification
-- resume: all method need to be confirmed with other datasets
-- Entering JAIST as research student.
 
 ---
-2017-10-10  
-to study:  
-- statistical significance test
-- idea: record emotional utterence freely from various speaker, find the
-  similar words
-- reverse the idea above: provided utterence, spoke with different emotion
+2019-06-17:  
+- Interspeech2019 --> rejected
+- Usually people use 16-25ms for window size, especially when modeled with
+  recursive structures.
+- to study (a must): WA vs UA, weighted accuracy vs unweighted accuracy; WAR vs
+  UAR (unweighted average recall)
+- Accuracies by themselves are useless measure of goodness unless combined with
+  precision values or averaged over Type I and II errors. What is those?
+- Answer: see this:
+  [https://en.wikipedia.org/wiki/Type_I_and_type_II_errors]
+  (https://en.wikipedia.org/wiki/Type_I_and_type_II_errors)
+- it must never be concluded that, for example, 65.69% is "better" than 65.18%,
+  or even that 68.83% is "better" that 63.86%, without providing a measure of
+  significance for that statement
 
 ---
-todo:  
-- Blog about emotion recognition (indonesia:pengenalan emosi) by reading
-  related reference.
-- Investigate tdnn in iban
+2019-06-14  
+- Current result (train/val loss plot) shows that system is overfitting
+  regardles complexity of architecture (even with smalles number of
+  hyperparameter). Needs to re-design.
+- As obtained previously, the more data the better data. How if the data is
+  limited?
+- If can't increase the number/size of data, maybe the solution is to increase
+  the number of input features.
+- Let's implement it, and see if it works.
+- to do: implement CCC (concordance coeff.) on current sytem
+
 
 ---  
-2017-10-11  
-Semantik se.man.tik /sèmantik/ n Ling ilmu tentang makna kata dan kalimat;
-pengetahuan mengenai seluk-beluk dan pergeseran arti kata  
-n Ling bagian struktur bahasa yang berhubungan dengan makna ungkapan atau
-struktur makna suatu wicara  
-
-From wikipedia: Semantic primes or semantic primitives are semantic concepts
-that are innately understood, but cannot be expressed in simpler terms. They
-represent words or phrases that are learned through practice, but cannot be
-defined concretely. For example, although the meaning of "touching" is readily
-understood, a dictionary might define "touch" as "to make contact" and
-"contact" as "touching", providing no information if neither of these words are
-understood.
-
-alternative research theme:
-- **Multi-language emotion recognition based on acoustic and non-acoustic
-  feature**
-- A study to construct affective speech translation
-
-Fix: **Speech emotion recognition from acoustic and contextual feature**  
-to study: correlation study of emotion dimension from acoustic and text feature
+2019-06-12:  
+- Working on dimensional emotion recognition (for cocosda?), the result from
+  acoustic and text feature only shows a little improvement compared to
+  acoustic only for text only.
+- Current architecture:
+  - Acoustic: 2 stack BLSTM
+  - Text: 2 stack LSTM
+  - Combination: 2 Dense layers
+- Current (best result): 
+  - [mse: 0.4523394735235917, mape: 19.156075267531484, mae:
+    0.5276844193596124]
+- Need advance strategy for combination: hfusion, attention, tensor fusion???
 
 ---
-2017-11-7  
-- It is almost impossible to develop speech recognition using matlab/gnu octave
-  due to data size and computational load
-- Alternatives: KALDI and tensorflow, study and blog about it Gus!
-
----
-2017-11-10  
-- prosody (suprasegmental phonology): the patterns of stress and intonation in
-  a language.   
-- supresegmental: denoting a feature of an utterance other than the consonantal
-  and vocalic components, for example (in English) stress and intonation.  
-- Segment: is "any discrete unit that can be identified, either physically or
-  auditorily".  
-- low-rank matrix (e.g. rank-1: only one row independent): approximation is a
-  minimization problem, in which the cost function measures the fit between a
-  given matrix (the data) and an approximating matrix (the optimization
-  variable), subject to a constraint that the approximating matrix has reduced
-  rank.--> represent music  
-- sparse matrix or sparse array is a matrix in which most of the elements are
-  zero. By contrast, if most of the elements are nonzero, then the matrix is
-  considered dense. --> represent what? speech? Yes, speech. (2019/07/30).
-
----
-2017-11-24  
-Pre-processing --> remove low part energy
-
----
-2017-12-04  
-text processing:
-- input: sentence (from deep learning)
-- output: total VAD in sentence from each word
-
----  
-2018-04-08  
-- Idea for thesis book:  
-1. Introduction
-2. Speech emotion recognition: Dimensional Vs Categorical Approach
-2. Deep learning based Speech emotion Recognition
-3. Emotion recognition from Text
-4. Combining acoustic and text feature 
-5. Conclusion and future works
-- Starting PhD at JAIST, bismillah.
-
----  
-2018-04-26  
-Philosophy of Doctoral study: Acoustic and Text feature for SER
-1. Human recognize emotion from not only from acoustic of speech, but also
-   semantic of spoken word.
-2. Linguistic feature can be extracted from speech by using Speech
-   Recognition/STT
-3. Having more information tends to improve SER performance
-
----  
-2018-09-13  
-Research idea to be conducted:
-- Are semantics contributes to perceived emotion recognition?
-- A listening test to test the hyphothesis Listening test:  
-- Speech only --> emotion recognition
-- Speech + transcription --> emotion recognition
-
----  
-2018-09-20  
-Mid-term presentation:
-1. What kind of direction this study will be proceeded in the future,
-2. How important this study is in this direction, and
-3. How much contributions can be expected
-
-
----  
-2018-10-11  
-Course to be taken in term 2-1:
-1. Data Analytics
-2. Analysis of information science
-
----  
-2018-11-29  
-Zemi:   
-- Speaker dependent vs speaker independent   
-- Speaker dependent: The same speaker used for training and dev    
-- Speaker Independent: The different speaker used for training and dev  
-
----  
-2018-12-12  
-a cepstral gain c0 is the logarithm of the modeling filter gain  
-loggging kaldi output:  
-~/kaldi/egs/iban/s5 $ ./local/nnet3/run_tdnn.sh 2>&1 | tee run-tdnn.log some
-solution of kaldi errors: Error:  
-Iteration stops on run_tdnn.sh no memory  
-Solution:  
-You shouldn't really be running multiple jobs on a single GPU.  If you want to
-run that script on a machine that has just one GPU, one way to do it is to set
-exclusive mode via  
-`sudo nvidia-smi -c 3`
-
-and to the train.py script, change the option "--use-gpu=yes" to
-"--use-gpu=wait" which will cause it to run the GPU jobs sequentially, as each
-waits till it can get exclusive use of the GPU. 
-
-Error:  
-"Refusing to split data for number of speakers" Solution:  
-You didn't provide enough info, but in general, you cannot split the directory
-in more parts than the number of speakers is.  So if you called the decoding
-with -nj 30 and you have 25 speakers (you can count lines of the spk2utt file)
-this is the error you receive.  
-
-Show how many features extracted using mfcc: ~/kaldi-trunk/egs/start/s5/mfcc$
-../src/featbin/feat-to-dim
-ark:/home/k/kaldi-trunk/egs/start/s5/mfcc/raw_mfcc_train.1.ark ark,t:-
-
-GMM (gaussian mixture model): A mixture of some gaussian distribution.  
-
----  
-2018-12-14  
-- Speech is not only HOW it is being said but also what is being said.  
-- low-level feature (descriptor): extracted per frame.  
-- High level feature: extracted per utterance.
-
----  
-2018-12-17  
-- warning from python2:  
-  /home/bagustris/.local/lib/python2.7/site-packages/scipy/signal/_arraytools.py:45:
-  FutureWarning: Using a non-tuple sequence for multidimensional indexing is
-  deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this
-  will be interpreted as an array index, `arr[np.array(seq)]`, which will
-  result either in an error or a different result.  b = a[a_slice]
-
----
-2018-12-18  
-- Idea: concurrent speech and emotion recognition  
-- Desc: Currently speech recognition and emotion recognition is two separated
-  research areas. Researcher build and improve performance of speech
-  recognition and emotion recognition independently such as works done by
-  (\cite{}, \cite{}, and \cite{}). The idea is simple, both emotion and text
-  (output of speech recognition) can be extracted from speech by using the same
-  features. Given two labels, transcription and emotion, two tasks can be done
-  simultenously: speech recognition and emotion recognition by training
-  acoustic features to map both text and emotion label.
-
-Idea for speech emotion recognition from acoustic and text features:  
-1. train speech corpus with given transcription --> output: predicted VAD (3
-   values)
-2. obtain VAD score from speech transcription --> output: predicted VAD (3
-   values)
-3. Feed all 6 variables into DNN with actual VAD value
-
----  
-2018-12-20  
-- mora (モーラ): Unit in phonology that determine syllable weight  
-- Example: 日本、にほん、3 mora, but, にっぽん　is 4 mora  
-- Morpheme: the smallest unit of meaning of a word that can be devided to (it
-  is in linguistic, in acoustic the smallest unit is phoneme) .
-- Example: like --> 1 morpheme, but unlikely is 3 morpheme (un, like, ly)    
-- Find the different between dynamic feature and static feature and its 
-- relation to human perception.  
-- How about statistic feature?  
-- notch noise = v-shaped noise...?  
-
----  
-2018-12-27  
-- Loss function = objective functions  
-- How to define custom loss function?  
-- Here in Keras, https://github.com/keras-team/keras/issues/369  
-- But I think loss="mse" is OK  
-- note: in avec baseline, there is already ccc_loss  
-- Dense and dropout layer:    
-  The dense layer is fully connected layer, so all the neurons in a layer are
-  connected to those in a next layer. The dropout drops connections of neurons
-  from the dense layer to prevent overfitting. A dropout layer is similar
-  except that when the layer is used, the activations are set to zero for some
-  random nodes  
-  povey window: povey is a window I made to be similar to Hamming but to go to
-  zero at the edges, it's pow((0.5 - 0.5*cos(n/N*2*pi)), 0.85).
-
----
-2019-02-08    
-- Likelihood vs probability:  
-- Likelihood is the probability that an event that has already occurred would
-  yield a specific outcome. Probability refers to the occurrence of future
-  events, while a likelihood refers to past events with known outcomes.
-  Probability is used when describing a function of the outcome given a fixed
-  parameter value.
-
----  
-2019-02-15  
-- Idea: Provided dataset with speech and linguistic information, 
-- How human perceive emotion from emotional speech with and without linguistic
-  information?
-
----  
-2019-02-17
-- Idea for ICSygSis 2019: Voiced Spectrogram and CNN for SER
-- idea: remove silence from speech.  
-- Finding:  Many pieces of data only contains noisy or silence, but labeled as
-  neutral or other emotion.
-- Next idea: add silence category as it is important cue for speech emotion
-  recognition (??)
-
----  
-2019-03-06  
-- Idea for ASJ autumn 2019: Emotional speech recognition  
-- dataset: IEMOCAP  
-- tools: DeepSpeech
-
----  
-2019-04-04  
-- How to map emotion dimension to emotion category?
-- One solution is by inputting emotion dimension to machine learning tool, such
-  as GMM.
-- Reda et al. tried this method and obtain very big improvement from 54% to 94%
-  of accuracy.
-- Next, try deep learning methods.
-- Also, try to learn confusion matrix.
-
----  
-2019-04-08  
-- The research paper below shows the evidence that music didn't improve
-  creativity.  
-  https://onlinelibrary.wiley.com/doi/epdf/10.1002/acp.3532  
-- How about if we change the experiment set-up. Listening music first, 5-10
-  minutes, stop, give the question.  
-- Intuition: While music didnot contribute to improve creativity, but it may
-  contributes to mood and emotion. After being calm by listening, it may
-  improves creativity.
-
----  
-2019-04-09  
-Today, 
-- I implemented F0 based voiced segmentation for feature extraction using YAPT
-  method with `amfm_decompy` package (now running in my PC). 
-- Learned how to convert data from tuple to 1D array (using np.flatten()),
-  wrote blog post about it.
-- Obtained signature from Akagi-sensei for MSP-Impro database, and forward it
-  tu TU Dallas.
-- Plan for tomorrow: run BSLTM from obtained feature today --> write result on
-  WASPAA.
-
----  
-2019-04-10  
-- Attended workshop: deeplearning for supercomputer cray XC40 (xc40
-  /work/$USER/handson/)
-- Run obtained feature (from F0) to currenty BLSTM+attention model system, got
-  lower result. It may need to be processed per segment, not whole segment.
-  Train each voiced segment feature, use majority voting like to decide.
-- Prepare presentation for Lab meeting on Friday.
-- Replace owncloud with nextcloud, now up to 300 GB.
-
----
-2019-04-11  
-- made slide for tomorrow lab meeting presentation.
-- run obtained feature on BLSTM+attention model, the higher accuracy was 52%,
-  still lower than previous.
-- change window size from 20 ms to 0.1 s, 0.04, 0.08, etc. Find the best
-  result.
-- Email Prof. Busso, asking for the speech transcription.
-
----  
-2019-04-12  
-Today's lab meeting:
-- Compared voiced and voiced+unvoiced part --> done?
-- You study at the school of information science? What is science in your PhD?
-  Human perceive emotion from speech. The speech contains some information,
-  mainly : vocal tone information and lexical/linguistic information. Human can
-  perceive emotion from speech only. In some cases it is difficult, like in
-  noisy environment. Given another information, lexical information, it will be
-  useful for human to recognize emotion of speaker. Can computer do that?
-- Information science is a field primarily concerned with the analysis,
-  collection, classification, manipulation, storage, retrieval, movement,
-  dissemination, and protection of information.
-- Recognition of human emotion by computer is one area of information science,
-  right Sensei?
-- Text feature is feature from text data.
-
----  
-2019-04-13  
-- In linguistics, prosody is concerned with those elements of speech that are
-  not individual phonetic segments but are properties of syllables and larger
-  units of speech. These are linguistic functions such as intonation, tone,
-  stress, and rhythm.
-- Extract F0 from IEMOCAP, padded with other 34 features, run it on PC, still
-  got lower result.
-
---- 
-2019-04-15  
-- A voiced sound is category of consonant sounds made while the vocal cords
-  vibrate. All vowels in English are voiced, to feel this voicing, touch your
-  throat and say AAAAH. ... That is voicing. Consonants can be either
-  [voice/unvoice](/fig/460.png)
-- Perform start-end silence removal on 5331 IEMOCAP utterances
-
---- 
-2019-04-16 
-- Running experiment using feature from trimmed voice, still got lowe
-  performance, 47%
-- Extract egemamps feature set from IEMOCAP data, expecting improvement on SER
-  system as egemaps is tailored for speech emotion recognition
-- Running extracted egemaps feature on the system, 447,672,324 parameters, it
-  breaks the GPU capability
-- Next: extract egemaps feature from trimmed speeech: 10, 15, 20 dB  
-- GPU error (out of mems): ResourceExhaustedError (see above for traceback):
-  OOM when allocating tensor with shape[872704,512] and type float on
-  /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
-
----  
-2019-04-17
-- Computation crash on yesterday run using egemaps feature, need to reduce size
-  of feature
-- run trimmed data with start-end silence removal, got lower accuracry (???)
-- Pickle all data in iemocap dataset except for speech
-- New dataset: [meld](https://github.com/SenticNet/MELD) ??
-- __CONCEPT__: (acoustic) features are extracted from speech, i.e. wav file
-  when offline, it is not make sense to extract feature from .npy or .pickle,
-  that is just for simplification method. But, if we can avoid it (converting
-  wav to pickle/npy for to save feature), do it. Pickle and npy still haold big
-  memory (MB/GB).
-
- ---  
-2019-04-18  
-- Getting improvement of accuracy from baseline IEMOCAP with 5531 utterances
-  without start-end trim by adding more features (40 and 44), i.e pitch(1) and
-  formants (5). Reduce number of neuron on BLSTMwA (Bidirectional LSTM with
-  Attention) system.
-- Doing start-end silence removal with `[10, 20, 30, 40, 50]` dB. ~~For 10 dB,
-  need to change window size (due to shorten length of signal), compensate it
-  with extending max length of feature sequence to 150 (original: 100).~~
-- Finding that running on GPU for this sequence data **SLOWER** than in CPU.
-- Add dropout 0.2 and 0.5 to the system, get higher accuracy. One simple way to
-  detect overfitting is by checking val_loss vs loss, if it's higher, then
-  overvitting (should be close each other). The cause usually is the number of
-  trainable parameters is exceedingly greater than number of samples.
-- Found a paper about "tensor fusion", a method to unite multimodal data. Read
-  it!
-
----  
-2019-04-19  
-- Found the better number of features: 40 (+1 F0, +5 Formants)
-- With dropout of 0.5, feature with 50 dB start-end silence removal perform
-  better (55%)
-
----  
-2019-04-22
-- Start-end silence removal can't give significant improvement on SER accuracy,
-  move to add more features.
-- replace LSTM with CuDNNLSTM to take advante of using GPU
-- Use early stopping before model.fit to shortent computation
-- Now evaluating on 39, 40 and 44 features
-- __**concept**__: Overfitting occurs when number of trainable parameters
-  greatly larger than number of samples, it is indicated with score of
-  validation losss much higher than train loss.
-- When to to stop iteration/epoch? when validation loss didn't decrease any
-  more.
-
----  
-2019-04-23  
-- Need to model new feature that capture dynamics of speech sound if we want to
-  improve SER performance
-- Features to be tried: covarep, speechpy, with delta and delta-delta.
-
----  
-2019-04-26  
-- Building model for dimensional text emotion recognition. Currently using one
-  output only (valence) and the obtained performance is still low. In term of
-  MSE (mean squared error), the lowest mse was 0.522
-
----
-2019-05-01  
-- Multiple output VAD prediction workd on iemocap text, change the metric to
-  mape (mean absolute percentage error), the lowest score is about 19%.
-- Current result shows float number of VAD dimension, **need** to be cut only
-  for .0 or .5. <-- no need
-
---- 
-2019-05-09  
-Today's meeting with Shirai-sensei:  
-- Use input from affective dictionary for LSTM
-- Concatenate output from sentiment with current word vector
-- Try different affective dictionaries
-
----  
-2019-05-16  
-- Regression must use `linear` activation function
-- Dimensonal SER works wit all 10039 utterances data, current best mape: 21.86%
-- Prepare (presentation training) for lab meeting tomorrow
-- The output of an LSTM is:
-  - (Batch size, units) - with return_sequences=False
-  - (Batch size, time steps, units) - with return_sequences=True
-
----  
-2019-05-17  
-- in math, logit function is simply the logarithm of the odds: logit(x) = log(x
-  / (1 – x)).
-- in tensorflow, logits is a name that it is thought to imply that this Tensor
-  is the quantity that is being mapped to probabilities by the Softmax (input
-  to softmax).
-- end-to-end loss, minimize D1 (intra-personal) and maximize D2
-  (inter-personal), D1 and D2 is distant between (audio) embedding (in spekaker
-  verification, need to be confirmed)
-- Most MFCC uses 30 ms of window, this result spectral shape will the same for
-  smaller. This is maybe why removing silence gives better performance.
-- To capture the dynamics of emotion, maybe the use of delta and delta-delta
-  will be better.
-- Why removing will improve SER performance? Intuition. Silence is small noise,
-  it may come from hardware, electrical of ambient noise. If it is included in
-  speech emotion processing, the extracted feature may be not relevant because
-  it extracts feature from small noise, not the speech. By removing this part,
-  the extracted feature will only comes from speech not silence. Therefore,
-  this is why the result better.
-
----
-2019-05-19  
-- **GRU** perform better and faster than LSTM. 
-- Hence, CNN vs RNN --> RNN, LSTM vs GRU --> GRU. Global attention vs local
-  attention --> ...?
-- idea: Obtain local attention from waveform directly, only extract feature on
-  two or more highest attentions.
-- what's different between written text and spoken language (speech
-  transcription)...?
-- **Modern SNS and chat like twitter and facebook status is more similar to
-  spoken language (as the concept of "twit") rather than written text, so it
-  will be useful to analyze speech transcription than (formal) writtent text to
-  analyse affect within that context.**
-
----
-2019-05-25  
-- evaluate word embedding method on iemocap text emotion recognition (word2vec,
-  glove, fasstext), so far glove gives the best.
-- In phonetics, rhythm is the sense of movement in speech, marked by the
-  stress, timing, and quantity of syllables.   
-
----
-2019-06-03  
-- Progress research delivered (text emotion recognition, categorical &
-  dimensional, written & spoken text)
-- Text emotion recognition works well on dimensional, it is interpretable and
-  easiler to be understood. Continue works on it.
-- Combine acoustic and text feature for dimensional emotion recognition
-
----  
-2019-06-04  
-- re-run experiment on voice speech emotion recognition (ICSigsys 2019) for 0.1
-  threshold (using updated audiosegment)
-- idea: how human brain process multimodal signal, implement it on computation
-
----  
-2019-06-05  
-RNN best practice:  
-- Most important parameters: units and n layers
-- Units (size): depend on data:
-  - text data < 1 Mb --> < 300 units
-  - text data 2 - 6 Mb --> 300-600 units
-  - text data > 7 Mb --> > 700 units
-- Units: 2 or 3 (source: Karpathy)
-- Monitoring loss:  
-  - Overfitting if: training loss << validation loss  
-  - Underfitting if: training loss >> validation loss
-  - Just right if training loss ~ validation loss Problem with categorical
-    emotion:
-- Need balanced data
-- To make balanced data, some context between utterances will gone/disappear
+2019-06-08:  
+- As of 2016, a rough rule of thumb is that a supervised deep learning
+  algorithm will generally achieve acceptable performance with around 5,000
+  labeled examples per category, and will match or exceed human performance
+  when trained with a dataset containing at least 10 million labeled examples.
+  Working successfully with datasets smaller than this is an important research
+  area, focusing in particular on how we can take advantage of large quantities
+  of unlabeled examples, with unsupervised or semi-supervised learning.
 
 ---
 2019-06-04:  
@@ -983,55 +548,542 @@ RNN best practice:
   concatenate, we can use add() or multiply(). But, how to shape/reshape input
   feature?
 
----
-2019-06-08:  
-- As of 2016, a rough rule of thumb is that a supervised deep learning
-  algorithm will generally achieve acceptable performance with around 5,000
-  labeled examples per category, and will match or exceed human performance
-  when trained with a dataset containing at least 10 million labeled examples.
-  Working successfully with datasets smaller than this is an important research
-  area, focusing in particular on how we can take advantage of large quantities
-  of unlabeled examples, with unsupervised or semi-supervised learning.
+---  
+2019-06-05  
+RNN best practice:  
+- Most important parameters: units and n layers
+- Units (size): depend on data:
+  - text data < 1 Mb --> < 300 units
+  - text data 2 - 6 Mb --> 300-600 units
+  - text data > 7 Mb --> > 700 units
+- Units: 2 or 3 (source: Karpathy)
+- Monitoring loss:  
+  - Overfitting if: training loss << validation loss  
+  - Underfitting if: training loss >> validation loss
+  - Just right if training loss ~ validation loss Problem with categorical
+    emotion:
+- Need balanced data
+- To make balanced data, some context between utterances will gone/disappear
 
 ---  
-2019-06-12:  
-- Working on dimensional emotion recognition (for cocosda?), the result from
-  acoustic and text feature only shows a little improvement compared to
-  acoustic only for text only.
-- Current architecture:
-  - Acoustic: 2 stack BLSTM
-  - Text: 2 stack LSTM
-  - Combination: 2 Dense layers
-- Current (best result): 
-  - [mse: 0.4523394735235917, mape: 19.156075267531484, mae:
-    0.5276844193596124]
-- Need advance strategy for combination: hfusion, attention, tensor fusion???
+2019-06-04  
+- re-run experiment on voice speech emotion recognition (ICSigsys 2019) for 0.1
+  threshold (using updated audiosegment)
+- idea: how human brain process multimodal signal, implement it on computation
 
 ---
-2019-06-14  
-- Current result (train/val loss plot) shows that system is overfitting
-  regardles complexity of architecture (even with smalles number of
-  hyperparameter). Needs to re-design.
-- As obtained previously, the more data the better data. How if the data is
-  limited?
-- If can't increase the number/size of data, maybe the solution is to increase
-  the number of input features.
-- Let's implement it, and see if it works.
-- to do: implement CCC (concordance coeff.) on current sytem
+2019-06-03  
+- Progress research delivered (text emotion recognition, categorical &
+  dimensional, written & spoken text)
+- Text emotion recognition works well on dimensional, it is interpretable and
+  easiler to be understood. Continue works on it.
+- Combine acoustic and text feature for dimensional emotion recognition
 
 ---
-2019-06-17:  
-- Interspeech2019 --> rejected
-- Usually people use 16-25ms for window size, especially when modeled with
-  recursive structures.
-- to study (a must): WA vs UA, weighted accuracy vs unweighted accuracy; WAR vs
-  UAR (unweighted average recall)
-- Accuracies by themselves are useless measure of goodness unless combined with
-  precision values or averaged over Type I and II errors. What is those?
-- Answer: see this:
-  [https://en.wikipedia.org/wiki/Type_I_and_type_II_errors](https://en.wikipedia.org/wiki/Type_I_and_type_II_errors)
-- it must never be concluded that, for example, 65.69% is "better" than 65.18%,
-  or even that 68.83% is "better" that 63.86%, without providing a measure of
-  significance for that statement
+2019-05-25  
+- evaluate word embedding method on iemocap text emotion recognition (word2vec,
+  glove, fasstext), so far glove gives the best.
+- In phonetics, rhythm is the sense of movement in speech, marked by the
+  stress, timing, and quantity of syllables.   
 
+
+---
+2019-05-19  
+- **GRU** perform better and faster than LSTM. 
+- Hence, CNN vs RNN --> RNN, LSTM vs GRU --> GRU. Global attention vs local
+  attention --> ...?
+- idea: Obtain local attention from waveform directly, only extract feature on
+  two or more highest attentions.
+- what's different between written text and spoken language (speech
+  transcription)...?
+- **Modern SNS and chat like twitter and facebook status is more similar to
+  spoken language (as the concept of "twit") rather than written text, so it
+  will be useful to analyze speech transcription than (formal) writtent text to
+  analyse affect within that context.**
+
+---  
+2019-05-17  
+- in math, logit function is simply the logarithm of the odds: logit(x) = log(x
+  / (1 – x)).
+- in tensorflow, logits is a name that it is thought to imply that this Tensor
+  is the quantity that is being mapped to probabilities by the Softmax (input
+  to softmax).
+- end-to-end loss, minimize D1 (intra-personal) and maximize D2
+  (inter-personal), D1 and D2 is distant between (audio) embedding (in spekaker
+  verification, need to be confirmed)
+- Most MFCC uses 30 ms of window, this result spectral shape will the same for
+  smaller. This is maybe why removing silence gives better performance.
+- To capture the dynamics of emotion, maybe the use of delta and delta-delta
+  will be better.
+- Why removing will improve SER performance? Intuition. Silence is small noise,
+  it may come from hardware, electrical of ambient noise. If it is included in
+  speech emotion processing, the extracted feature may be not relevant because
+  it extracts feature from small noise, not the speech. By removing this part,
+  the extracted feature will only comes from speech not silence. Therefore,
+  this is why the result better.
+
+---  
+2019-05-16  
+- Regression must use `linear` activation function
+- Dimensonal SER works wit all 10039 utterances data, current best mape: 21.86%
+- Prepare (presentation training) for lab meeting tomorrow
+- The output of an LSTM is:
+  - (Batch size, units) - with return_sequences=False
+  - (Batch size, time steps, units) - with return_sequences=True
+
+--- 
+2019-05-09  
+Today's meeting with Shirai-sensei:  
+- Use input from affective dictionary for LSTM
+- Concatenate output from sentiment with current word vector
+- Try different affective dictionaries
+
+---
+2019-05-01  
+- Multiple output VAD prediction workd on iemocap text, change the metric to
+  mape (mean absolute percentage error), the lowest score is about 19%.
+- Current result shows float number of VAD dimension, **need** to be cut only
+  for .0 or .5. <-- no need
+
+---  
+2019-04-26  
+- Building model for dimensional text emotion recognition. Currently using one
+  output only (valence) and the obtained performance is still low. In term of
+  MSE (mean squared error), the lowest mse was 0.522
+
+
+---  
+2019-04-23  
+- Need to model new feature that capture dynamics of speech sound if we want to
+  improve SER performance
+- Features to be tried: covarep, speechpy, with delta and delta-delta.
+
+---  
+2019-04-22
+- Start-end silence removal can't give significant improvement on SER accuracy,
+  move to add more features.
+- replace LSTM with CuDNNLSTM to take advante of using GPU
+- Use early stopping before model.fit to shortent computation
+- Now evaluating on 39, 40 and 44 features
+- __**concept**__: Overfitting occurs when number of trainable parameters
+  greatly larger than number of samples, it is indicated with score of
+  validation losss much higher than train loss.
+- When to to stop iteration/epoch? when validation loss didn't decrease any
+  more.
+
+---  
+2019-04-19  
+- Found the better number of features: 40 (+1 F0, +5 Formants)
+- With dropout of 0.5, feature with 50 dB start-end silence removal perform
+  better (55%)
+
+ ---  
+2019-04-18  
+- Getting improvement of accuracy from baseline IEMOCAP with 5531 utterances
+  without start-end trim by adding more features (40 and 44), i.e pitch(1) and
+  formants (5). Reduce number of neuron on BLSTMwA (Bidirectional LSTM with
+  Attention) system.
+- Doing start-end silence removal with `[10, 20, 30, 40, 50]` dB. ~~For 10 dB,
+  need to change window size (due to shorten length of signal), compensate it
+  with extending max length of feature sequence to 150 (original: 100).~~
+- Finding that running on GPU for this sequence data **SLOWER** than in CPU.
+- Add dropout 0.2 and 0.5 to the system, get higher accuracy. One simple way to
+  detect overfitting is by checking val_loss vs loss, if it's higher, then
+  overvitting (should be close each other). The cause usually is the number of
+  trainable parameters is exceedingly greater than number of samples.
+- Found a paper about "tensor fusion", a method to unite multimodal data. Read
+  it!
+
+---  
+2019-04-17
+- Computation crash on yesterday run using egemaps feature, need to reduce size
+  of feature
+- run trimmed data with start-end silence removal, got lower accuracry (???)
+- Pickle all data in iemocap dataset except for speech
+- New dataset: [meld](https://github.com/SenticNet/MELD) ??
+- __CONCEPT__: (acoustic) features are extracted from speech, i.e. wav file
+  when offline, it is not make sense to extract feature from .npy or .pickle,
+  that is just for simplification method. But, if we can avoid it (converting
+  wav to pickle/npy for to save feature), do it. Pickle and npy still haold big
+  memory (MB/GB).
+
+
+
+--- 
+2019-04-16 
+- Running experiment using feature from trimmed voice, still got lowe
+  performance, 47%
+- Extract egemamps feature set from IEMOCAP data, expecting improvement on SER
+  system as egemaps is tailored for speech emotion recognition
+- Running extracted egemaps feature on the system, 447,672,324 parameters, it
+  breaks the GPU capability
+- Next: extract egemaps feature from trimmed speeech: 10, 15, 20 dB  
+- GPU error (out of mems): ResourceExhaustedError (see above for traceback):
+  OOM when allocating tensor with shape[872704,512] and type float on
+  /job:localhost/replica:0/task:0/device:GPU:0 by allocator GPU_0_bfc
+
+
+--- 
+2019-04-15  
+- A voiced sound is category of consonant sounds made while the vocal cords
+  vibrate. All vowels in English are voiced, to feel this voicing, touch your
+  throat and say AAAAH. ... That is voicing. Consonants can be either
+  [voice/unvoice](/fig/460.png)
+- Perform start-end silence removal on 5331 IEMOCAP utterances
+
+---  
+2019-04-13  
+- In linguistics, prosody is concerned with those elements of speech that are
+  not individual phonetic segments but are properties of syllables and larger
+  units of speech. These are linguistic functions such as intonation, tone,
+  stress, and rhythm.
+- Extract F0 from IEMOCAP, padded with other 34 features, run it on PC, still
+  got lower result.
+
+
+---  
+2019-04-12  
+Today's lab meeting:
+- Compared voiced and voiced+unvoiced part --> done?
+- You study at the school of information science? What is science in your PhD?
+  Human perceive emotion from speech. The speech contains some information,
+  mainly : vocal tone information and lexical/linguistic information. Human can
+  perceive emotion from speech only. In some cases it is difficult, like in
+  noisy environment. Given another information, lexical information, it will be
+  useful for human to recognize emotion of speaker. Can computer do that?
+- Information science is a field primarily concerned with the analysis,
+  collection, classification, manipulation, storage, retrieval, movement,
+  dissemination, and protection of information.
+- Recognition of human emotion by computer is one area of information science,
+  right Sensei?
+- Text feature is feature from text data.
+
+---
+2019-04-11  
+- made slide for tomorrow lab meeting presentation.
+- run obtained feature on BLSTM+attention model, the higher accuracy was 52%,
+  still lower than previous.
+- change window size from 20 ms to 0.1 s, 0.04, 0.08, etc. Find the best
+  result.
+- Email Prof. Busso, asking for the speech transcription.
+
+
+---  
+2019-04-10  
+- Attended workshop: deeplearning for supercomputer cray XC40 (xc40
+  /work/$USER/handson/)
+- Run obtained feature (from F0) to currenty BLSTM+attention model system, got
+  lower result. It may need to be processed per segment, not whole segment.
+  Train each voiced segment feature, use majority voting like to decide.
+- Prepare presentation for Lab meeting on Friday.
+- Replace owncloud with nextcloud, now up to 300 GB.
+
+---  
+2019-04-09  
+Today, 
+- I implemented F0 based voiced segmentation for feature extraction using YAPT
+  method with `amfm_decompy` package (now running in my PC). 
+- Learned how to convert data from tuple to 1D array (using np.flatten()),
+  wrote blog post about it.
+- Obtained signature from Akagi-sensei for MSP-Impro database, and forward it
+  tu TU Dallas.
+- Plan for tomorrow: run BSLTM from obtained feature today --> write result on
+  WASPAA.
+
+---  
+2019-04-08  
+- The research paper below shows the evidence that music didn't improve
+  creativity.  
+  https://onlinelibrary.wiley.com/doi/epdf/10.1002/acp.3532  
+- How about if we change the experiment set-up. Listening music first, 5-10
+  minutes, stop, give the question.  
+- Intuition: While music didnot contribute to improve creativity, but it may
+  contributes to mood and emotion. After being calm by listening, it may
+  improves creativity.
+
+---  
+2019-04-04  
+- How to map emotion dimension to emotion category?
+- One solution is by inputting emotion dimension to machine learning tool, such
+  as GMM.
+- Reda et al. tried this method and obtain very big improvement from 54% to 94%
+  of accuracy.
+- Next, try deep learning methods.
+- Also, try to learn confusion matrix.
+
+
+## FIRST YEAR
+---  
+2019-03-06  
+- Idea for ASJ autumn 2019: Emotional speech recognition  
+- dataset: IEMOCAP  
+- tools: DeepSpeech
+
+
+---  
+2019-02-17
+- Idea for ICSygSis 2019: Voiced Spectrogram and CNN for SER
+- idea: remove silence from speech.  
+- Finding:  Many pieces of data only contains noisy or silence, but labeled as
+  neutral or other emotion.
+- Next idea: add silence category as it is important cue for speech emotion
+  recognition (??)
+
+---  
+2019-02-15  
+- Idea: Provided dataset with speech and linguistic information, 
+- How human perceive emotion from emotional speech with and without linguistic
+  information?
+
+---
+2019-02-08    
+- Likelihood vs probability:  
+- Likelihood is the probability that an event that has already occurred would
+  yield a specific outcome. Probability refers to the occurrence of future
+  events, while a likelihood refers to past events with known outcomes.
+  Probability is used when describing a function of the outcome given a fixed
+  parameter value.
+
+
+---  
+2018-12-27  
+- Loss function = objective functions  
+- How to define custom loss function?  
+- Here in Keras, https://github.com/keras-team/keras/issues/369  
+- But I think loss="mse" is OK  
+- note: in avec baseline, there is already ccc_loss  
+- Dense and dropout layer:    
+  The dense layer is fully connected layer, so all the neurons in a layer are
+  connected to those in a next layer. The dropout drops connections of neurons
+  from the dense layer to prevent overfitting. A dropout layer is similar
+  except that when the layer is used, the activations are set to zero for some
+  random nodes  
+  povey window: povey is a window I made to be similar to Hamming but to go to
+  zero at the edges, it's pow((0.5 - 0.5*cos(n/N*2*pi)), 0.85).
+
+---  
+2018-12-20  
+- mora (モーラ): Unit in phonology that determine syllable weight  
+- Example: 日本、にほん、3 mora, but, にっぽん　is 4 mora  
+- Morpheme: the smallest unit of meaning of a word that can be devided to (it
+  is in linguistic, in acoustic the smallest unit is phoneme) .
+- Example: like --> 1 morpheme, but unlikely is 3 morpheme (un, like, ly)    
+- Find the different between dynamic feature and static feature and its 
+- relation to human perception.  
+- How about statistic feature?  
+- notch noise = v-shaped noise...? 
+
+---  
+2018-12-19:  
+
+Idea for speech emotion recognition from acoustic and text features:  
+1. train speech corpus with given transcription --> output: predicted VAD (3
+   values)
+2. obtain VAD score from speech transcription --> output: predicted VAD (3
+   values)
+3. Feed all 6 variables into DNN with actual VAD value
+
+---
+2018-12-18  
+- Idea: concurrent speech and emotion recognition  
+- Desc: Currently speech recognition and emotion recognition is two separated
+  research areas. Researcher build and improve performance of speech
+  recognition and emotion recognition independently such as works done by
+  (\cite{}, \cite{}, and \cite{}). The idea is simple, both emotion and text
+  (output of speech recognition) can be extracted from speech by using the same
+  features. Given two labels, transcription and emotion, two tasks can be done
+  simultenously: speech recognition and emotion recognition by training
+  acoustic features to map both text and emotion label.
+
+---  
+2018-12-17  
+- warning from python2:  
+  /home/bagustris/.local/lib/python2.7/site-packages/scipy/signal/_arraytools.py:45:
+  FutureWarning: Using a non-tuple sequence for multidimensional indexing is
+  deprecated; use `arr[tuple(seq)]` instead of `arr[seq]`. In the future this
+  will be interpreted as an array index, `arr[np.array(seq)]`, which will
+  result either in an error or a different result.  b = a[a_slice]
+
+
+---  
+2018-12-14  
+- Speech is not only HOW it is being said but also what is being said.  
+- low-level feature (descriptor): extracted per frame.  
+- High level feature: extracted per utterance.
+
+---  
+2018-12-12  
+a cepstral gain c0 is the logarithm of the modeling filter gain  
+loggging kaldi output:  
+`~/kaldi/egs/iban/s5 $ ./local/nnet3/run_tdnn.sh 2>&1 | tee run-tdnn.log`  
+some solution of kaldi errors:   
+Error:    
+Iteration stops on run_tdnn.sh no memory  
+Solution:    
+You shouldn't really be running multiple jobs on a single GPU.  If you want to
+run that script on a machine that has just one GPU, one way to do it is to set
+exclusive mode via  
+`sudo nvidia-smi -c 3`
+
+and to the train.py script, change the option `--use-gpu=yes` to
+`--use-gpu=wait` which will cause it to run the GPU jobs sequentially, as each
+waits till it can get exclusive use of the GPU. 
+
+Error:  
+~~~
+"Refusing to split data for number of speakers" 
+~~~
+Solution:  
+You didn't provide enough info, but in general, you cannot split the directory
+in more parts than the number of speakers is.  So if you called the decoding
+with -nj 30 and you have 25 speakers (you can count lines of the spk2utt file)
+this is the error you receive.  
+
+Show how many features extracted using mfcc:   
+
+`~/kaldi-trunk/egs/start/s5/mfcc$
+../src/featbin/feat-to-dim
+ark:/home/k/kaldi-trunk/egs/start/s5/mfcc/raw_mfcc_train.1.ark ark,t:-`
+
+GMM (gaussian mixture model): A mixture of some gaussian distribution.  
+
+---  
+2018-11-29  
+Zemi:   
+- Speaker dependent vs. speaker independent   
+- Speaker dependent: The same speaker used for training and dev    
+- Speaker Independent: The different speaker used for training and dev  
+
+
+---  
+2018-10-11  
+Course to be taken in term 2-1:
+1. Data Analytics
+2. Analysis of information science
+
+---  
+2018-09-20  
+Mid-term presentation:
+1. What kind of direction this study will be proceeded in the future,
+2. How important this study is in this direction, and
+3. How much contributions can be expected
+
+
+---  
+2018-09-13  
+Research idea to be conducted:
+- Are semantics contributes to perceived emotion recognition?
+- A listening test to test the hyphothesis Listening test:  
+- Speech only --> emotion recognition
+- Speech + transcription --> emotion recognition
+
+
+---  
+2018-04-26  
+Philosophy of Doctoral study: Acoustic and Text feature for SER
+1. Human recognize emotion from not only from acoustic of speech, but also
+   semantic of spoken word.
+2. Linguistic feature can be extracted from speech by using Speech
+   Recognition/STT
+3. Having more information tends to improve SER performance
+
+---  
+2018-04-08  
+- Idea for thesis book:  
+1. Introduction
+2. Speech emotion recognition: Dimensional Vs Categorical Approach
+2. Deep learning based Speech emotion Recognition
+3. Emotion recognition from Text
+4. Combining acoustic and text feature 
+5. Conclusion and future works
+- Starting PhD at JAIST, bismillah.
+
+
+
+## RESEARCH STUDENT
+---
+2017-12-04  
+text processing:
+- input: sentence (from deep learning)
+- output: total VAD in sentence from each word
+
+
+---
+2017-11-24  
+Pre-processing --> remove low part energy
+
+---
+2017-11-10  
+- prosody (suprasegmental phonology): the patterns of stress and intonation in
+  a language.   
+- supresegmental: denoting a feature of an utterance other than the consonantal
+  and vocalic components, for example (in English) stress and intonation.  
+- Segment: is "any discrete unit that can be identified, either physically or
+  auditorily".  
+- low-rank matrix (e.g. rank-1: only one row independent): approximation is a
+  minimization problem, in which the cost function measures the fit between a
+  given matrix (the data) and an approximating matrix (the optimization
+  variable), subject to a constraint that the approximating matrix has reduced
+  rank.--> represent music  
+- sparse matrix or sparse array is a matrix in which most of the elements are
+  zero. By contrast, if most of the elements are nonzero, then the matrix is
+  considered dense. --> represent what? speech? Yes, speech. (2019/07/30).
+
+---
+2017-11-7  
+- It is almost impossible to develop speech recognition using matlab/gnu octave
+  due to data size and computational load
+- Alternatives: KALDI and tensorflow, study and blog about it Gus!
+
+---  
+2017-10-11  
+Semantik se.man.tik /sèmantik/ n Ling ilmu tentang makna kata dan kalimat;
+pengetahuan mengenai seluk-beluk dan pergeseran arti kata  
+n Ling bagian struktur bahasa yang berhubungan dengan makna ungkapan atau
+struktur makna suatu wicara  
+
+From wikipedia:  
+Semantic primes or semantic primitives are semantic concepts that are innately
+understood, but cannot be expressed in simpler terms. They represent words or
+phrases that are learned through practice, but cannot be defined concretely. For
+example, although the meaning of "touching" is readily understood, a dictionary
+might define "touch" as "to make contact" and "contact" as "touching", providing
+no information if neither of these words are understood.
+
+alternative research theme:
+- **Multi-language emotion recognition based on acoustic and non-acoustic
+  feature**
+- A study to construct affective speech translation
+
+Fix:  
+**Speech emotion recognition from acoustic and contextual feature**  
+to study:  
+correlation study of emotion dimension from acoustic and text feature
+
+---
+2017-10-10  
+to study:  
+- statistical significance test
+- idea: record emotional utterence freely from various speaker, find the
+  similar words
+- reverse the idea above: provided utterence, spoke with different emotion
+
+todo:  
+- Blog about emotion recognition (indonesia:pengenalan emosi) by reading
+  related reference.
+- Investigate tdnn in iban
+
+---
+2017-10-09  
+to be answered:
+- what is semantic primitive?
+- what is prosodic feature?
+- what is lexicon?
+- spectral feature: features based on/extracted from spectrum
+- normalization: normalize the waveform (divided by biggest amplitude)
+- what is para and non-linguistic
+- SVM classifier (vs Fuzzy??)
+- idea: use DNN and DNN+Fuzzy for classification
+- resume: all method need to be confirmed with other datasets
+- Entering JAIST as a research student.
 
