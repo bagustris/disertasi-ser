@@ -6,9 +6,10 @@ Content:
 - what is your idea, how to implement  
 - what is the problem, what is your proposed solution
 - what is X, what is Y
-- what did you have done today, what is your plan for tomorrow
+- what did you have done today, what is your plan for tomorrow  
+
 Biggest lesson learned: Don't write your note/diary/journal in markdown, 
-Write it up on pure text (TXT) file!
+Write it up on pure text (TXT) file!  
 todo: reverse the order by date
 
 ## THIRD YEAR
