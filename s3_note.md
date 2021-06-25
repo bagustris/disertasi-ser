@@ -7,6 +7,11 @@ Content:
 - what is the problem, what is your proposed solution
 - what is X, what is Y
 - what did you have done today, what is your plan for tomorrow
+Biggest lesson learned: Don't write your note/diary/journal in markdown, 
+Write it up on pure text (TXT) file!
+todo: reverse the order by date
+
+## THIRD YEAR
 
 ---  
 2020-12-11:  
@@ -225,7 +230,7 @@ Keuntungan hsf (mean+std):
 - Beberapa keberhasilan itu terjadi karena kebetulan, kebetulan setelah kerja
   keras.
 ---  
-2020-96-09:  
+2020-06-09:  
 Some synonyms:
 - valence: pleasantness, evaluation, sentiment, polarity
 - arousal: activation, intensity
@@ -257,6 +262,7 @@ Some synonyms:
 - Back to markdown note in github
 - Use VScode since 2020
 
+## SECOND YEAR
 ---
 2019-12-26:
 - I have two sets a = [a, b, c] and b = ['1', '2', '3']. I want to find how
