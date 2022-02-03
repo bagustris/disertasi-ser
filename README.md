@@ -1,4 +1,5 @@
 # disertasi-ser
+Title: [Dimensional Speeh Emotion Recognition by Fusing Acoustic and Linguistic Information](https://dspace.jaist.ac.jp/dspace/bitstream/10119/17472/2/paper.pdf)  
 Repository for PhD activity, JAIST 2017~2021
 - `README.md`: PhD resources
 - `progress`: progress monthly, delivered to sensei
@@ -6,8 +7,8 @@ Repository for PhD activity, JAIST 2017~2021
 - `code` : (python) codes to obtain results and plots
 
 # PhD Resources
-I pursue my PhD in theme of speech emotion recognition. I used two information/features: acoustic and text feature. 
-Here are list of resources I used in my research. I keep to make this list as simple as I can to focus on the most important materials only.
+I pursued my PhD in theme of speech emotion recognition. I used two information/features: acoustic and text feature. 
+Here are list of resources I used in my research. I keep to make this list as simple as I can to focus on the most important materials only. For more complete materials, see references in [my dissertation](https://dspace.jaist.ac.jp/dspace/bitstream/10119/17472/2/paper.pdf).
 
 ## Deep Learning
 - [How to build NN from scratch in python](https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6)
