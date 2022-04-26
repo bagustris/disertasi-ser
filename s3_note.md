@@ -558,12 +558,12 @@ Some convention:
 ---  
 2019-06-05  
 RNN best practice:  
-- Most important parameters: units and n layers
+- Most important parameters: n units and n layers
 - Units (size): depend on data:
   - text data < 1 Mb --> < 300 units
   - text data 2 - 6 Mb --> 300-600 units
   - text data > 7 Mb --> > 700 units
-- Units: 2 or 3 (source: Karpathy)
+- Layers: 2 or 3 (source: Karpathy)
 - Monitoring loss:  
   - Overfitting if: training loss << validation loss  
   - Underfitting if: training loss >> validation loss
